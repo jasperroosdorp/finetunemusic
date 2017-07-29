@@ -1,5 +1,5 @@
 ---
-title: whitewolf
+title: Finetunemusic.nl/whitewolf
 categories:
 - peace
 tags:
