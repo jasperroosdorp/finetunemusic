@@ -2,11 +2,14 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  uploads:
-    title: Uploads
-    output: true
   audio:
     title: Audio
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
     output: true
   videos:
     title: Video
