@@ -5,7 +5,7 @@ collections:
   audio:
     title: Audio
     output: true
-  paginas:
+  pages:
     title: Pagina's
     output: true
   posts:
