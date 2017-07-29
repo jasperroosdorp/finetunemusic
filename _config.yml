@@ -5,6 +5,9 @@ collections:
   audio:
     title: Audio
     output: true
+  paginas:
+    title: Pagina's
+    output: true
   posts:
     title: Posts
     output: true
