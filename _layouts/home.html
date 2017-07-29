@@ -1,0 +1,76 @@
+---
+pageid: home
+permalink: "/pages/:pageid/"
+---
+
+<!DOCTYPE html>
+<HTML id="{{ layout.pageid }}" class="no-js" lang="nl">
+
+  <HEAD>
+    <title>{{ page.title }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" href="../assets/main.min.css">
+    <script src="../assets/upper.min.js"></script>
+  </HEAD>
+
+  <BODY>
+
+    {% include navigation.html %}
+
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="home">
+        <div class="barba-content">
+
+          <section class="home-intro">
+            <h1>Wij zijn de eerste zangvogel als je opstaat.
+              Het geluid van regen na droogte.
+              De echo in de bergen.
+            </h1>
+            <h1>Lorem ipsum dolor sit amet.
+              Consectetur adipiscing elit unde omnis.
+            </h1>
+          </section>
+
+          <section class="home-img">
+            <figure>
+              <div class='content'>
+                <img src="uploads/001.jpg" alt=""/>
+              </div>
+            </figure>
+            <figure>
+              <div class='content'>
+                <img src="uploads/001.jpg" alt=""/>
+              </div>
+            </figure>
+          </section>
+
+          <section class="home-description">
+            <h2>Titel over ons</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek, voice-overs en verzorgen audio branding.
+            </p>
+          </section>
+
+          <a class="full-width-button" onclick="openPortfolio('active-window')">
+            <div class="wrapper">
+              <span>
+                Beluister ons portfolio
+              </span>
+            </div>
+          </a>
+
+          <footer>
+          </footer>
+        </div>
+      </div>
+    </main>
+
+    {% include portfolio.html %}
+
+    {% include audio.html %}
+
+    <script type="text/javascript" src="../assets/lower.min.js"></script>
+
+  </BODY>
+
+</HTML>

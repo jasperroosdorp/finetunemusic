@@ -1,0 +1,37 @@
+// SUSY
+
+$susy: (
+columns: 12,
+gutters: 1/4,
+math: fluid,
+output: float,
+gutter-position: inside,
+debug: (
+image: hide,
+color: rgba(#66f, .25),
+output: background,
+toggle: top right,
+)
+);
+
+$container-style: fluid;
+
+// FONTS
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Hind:300,400,500,600,700|Shanti');
+
+$def-font: 'Hind', sans-serif;
+$alt-font: 'Shanti', sans-serif;
+
+// PORTFOLIO
+
+$portfolio-bg-color: #434355;
+$portfolio-overlay-color: rgba(0, 0, 0, 0.35);
+
+// PROJECT
+
+$project-bg-color: #4B4B4B;
+
+// FOOTER
+
+$footer-bg-color: #404040;

@@ -1,0 +1,49 @@
+section.home-intro {
+  @include container;
+  @include responsive-width;
+  @include gutters;
+  position: relative;
+  height: 18rem;
+  // overflow-y: hidden;
+  // top: 70px;
+  h1 {
+    white-space: pre-line;
+    position: absolute;
+    bottom: 0;
+    display: none;
+  }
+}
+
+section.home-img {
+  @include container;
+  @include responsive-width;
+  margin-top: 70px;
+  figure {
+    @include aspect-ratio(15, 3);
+    @include span(12 of 12);
+    // @include aspect-ratio(4, 3);
+    // @include span(5.875 of 12);
+    // &:nth-child(2) { @include push(0.25 of 12) }
+    .content {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    // &:nth-child(1) > .content { margin-left: 0; }
+    // &:nth-child(2) > .content { margin-right: 0; }
+    img {
+      display: none;
+    }
+  }
+}
+
+section.home-description {
+  @include container;
+  @include responsive-width;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  h2, p {
+    @include span(6 of 12);
+  }
+  p {
+    max-width: 55rem;
+  }
+}

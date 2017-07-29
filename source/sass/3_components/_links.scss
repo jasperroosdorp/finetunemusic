@@ -1,0 +1,67 @@
+// a, button {
+//     color: inherit;
+//     transition: .3s;
+// }
+//
+// a {
+//     text-decoration: none;
+// }
+//
+// button {
+//     overflow: visible;
+//     border: 0;
+//     font: inherit;
+//     -webkit-font-smoothing: inherit;
+//     letter-spacing: inherit;
+//     background: none;
+//     cursor: pointer;
+// }
+//
+// ::-moz-focus-inner {
+//     padding: 0;
+//     border: 0;
+// }
+//
+// :focus {
+//     outline: 0;
+// }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  &:visited {
+    color: inherit;
+  }
+}
+
+html#home .full-width-button {
+  width: 100%;
+  display: block;
+  margin-top: 70px;
+  // background: #ffe5d7;
+  // background: linear-gradient(135deg, #ffe5d7 0%,#ffe5e5 100%);
+  // background: #feac5e;
+  // background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8)
+  // background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  // background: linear-gradient(#DB0066, transparent),
+  // linear-gradient(90deg, #F04128, transparent),
+	// linear-gradient(-90deg, #FA8A00, transparent);
+  // background-blend-mode: screen;
+  // background-size: 150%;
+  // animation: background 5s infinite;
+  // @keyframes background {
+  //   0%{background-position:0% 0%}
+  //   50%{background-position: 100% 100%}
+  //   100%{background-position:0% 0%}
+  // }
+  background-color: rgba(128, 176, 218, 0.7);
+  .wrapper {
+    @include container;
+    @include responsive-width;
+  }
+  span {
+    line-height: inherit;
+    @include span(12 of 12);
+  }
+}

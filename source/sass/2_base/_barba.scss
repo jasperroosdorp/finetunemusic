@@ -1,0 +1,65 @@
+// .barba-container {
+//   position: relative;
+//   background: $project-bg-color;
+// }
+//
+// .barba-content {
+//   min-height: 1000px;
+//   background: #fff;
+// }
+//
+// .barba-container[data-page='about'] > .barba-content {
+//   background: $about-bg-color;
+// }
+//
+// .barba-container[data-page='contact'] > .barba-content {
+//   background: $contact-bg-color;
+// }
+//
+// .barba-container[data-page='portfolio'] > .barba-content {
+//   background: $portfolio-bg-color;
+// }
+//
+// .barba-container[data-page='project'] > .barba-content {
+//   background: $project-bg-color;
+// }
+//
+// .barba-shadow, .barba-overlay, .barba-overlap {
+//   position: fixed;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   display: none;
+//   pointer-events: none;
+//   content: '';
+//   z-index: 1000;
+// }
+//
+// .barba-overlay, .barba-overlap {
+//   // opacity: 0;
+//   background: #fff;
+// }
+//
+// .barba-shadow {
+//   background: rgba(0, 0, 0, 0.8);
+//   // background: #fff;
+//   // display: block;
+//   // @include animation(barba-shadow 0.7s ease forwards);
+//   // @include keyframes(barba-shadow) {
+//   //   0% { opacity: 0; }
+//   //   100% { opacity: 1; }
+//   // }
+// }
+//
+//
+// // body#project .barba-content {
+// //   z-index: 999;
+// // }
+
+html {
+  &.barba-active,
+  &.barba-active body {
+    transition: background-color 1.2s ease;
+  }
+}

@@ -1,3 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.atom-ignore
+node_modules
+local
+other

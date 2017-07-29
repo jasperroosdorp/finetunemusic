@@ -1,0 +1,106 @@
+header {
+  @include container;
+  @include responsive-width;
+  @include gutters;
+  margin-top: 7rem;
+  position: relative;
+}
+
+nav.upper {
+  // height: 40px;
+  user-select: none;
+  // background-color: yellow;
+  .nav-trigger {
+    // position: relative;
+    // width: 100px;
+    display: inline-block;
+    // overflow: hidden;
+    // margin-top: -50%;
+    // background-color: pink;
+    .trigger-name {
+      // position: absolute;
+      line-height: 40px; // nav-icon-wrapper height
+      transition: opacity 0.3s ease;
+      // &.fold-nav { display: none; }
+      display: block;
+      &.unfold-nav {
+        position: absolute;
+      }
+      &.fold-nav {
+        // position: absolute;
+        opacity: 0;
+        pointer-events: none;
+      }
+    }
+  }
+  .current-track {
+    transition: opacity 0.3s ease;
+    margin-left: 4rem;
+    // vertical-align: top;
+    // bottom: 0;
+    // top: 0;
+    // background-color: pink;
+    .audio-player-title {
+      display: none;
+      font-size: inherit;
+    }
+  }
+}
+
+nav.lower {
+  // display: none;
+  height: 0;
+  transition: height 0.3s ease;
+  overflow: hidden;
+  // opacity: 0;
+  // transition: opacity 0.3s ease;
+  ul {
+    display: inline-block;
+    vertical-align: top;
+    &:nth-child(n+2) {
+      @include push(1.25 of 12);
+    }
+  }
+  ul li a {
+    transition: opacity 0.3s ease;
+  }
+}
+
+html {
+  &.portfolio-open {
+    nav.upper .current-track {
+      // display: none;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  &.audio-playing  {
+    nav.upper .current-track {
+      > .placeholder { display: none; }
+      > .audio-player-title { display: inline-block; }
+    }
+  }
+  &.nav-unfolded {
+    nav.upper {
+      .current-track,
+      .unfold-nav {
+        // display: none !important;
+        opacity: 0 !important;
+        pointer-events: none;
+        // position: absolute;
+      }
+      .fold-nav {
+        // display: inline-block !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+      }
+    }
+    nav.lower {
+      // display: block;
+      height: 110px;
+      // transition: height 0.3s ease;
+      // opacity: 1;
+      // background-color: yellow;
+    }
+  }
+}

@@ -2,31 +2,32 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  audio:
-    title: Audio
-    output: true
   pages:
     title: Pages
     output: true
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
+  audio:
+    title: Audio
     output: true
   video:
     title: Video
     output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
 - scope:
     path: ''
     type: pages
   values:
     layout: page
-permalink: pretty
+    permalink: pretty
+destination: local
+keep_files: [assets]
+exclude:
+- node_modules
+- source
+- other
+- package.json
+- gulpfile.js
+- README.md
+- ".DS_Store"

@@ -1,0 +1,11 @@
+html#home,
+html#about,
+html#info {
+  background-color: #fff;
+  &.top-out-of-viewport { background-color: $footer-bg-color; }
+}
+
+html#project {
+  background-color: $project-bg-color;
+  body { background-color: $project-bg-color; }
+}

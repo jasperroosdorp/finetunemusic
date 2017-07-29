@@ -1,0 +1,25 @@
+section.project-video {
+  @include container;
+  @include responsive-width;
+  @include gutters;
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+  figure {
+    @include aspect-ratio(16, 9);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+section.project-info {
+  @include container;
+  @include responsive-width;
+  margin-bottom: 15rem;
+  h2, p { margin-top: 6rem; }
+  h2 { @include span(4 of 12); }
+  p { @include span(8 of 12); }
+}
+
+.fluidvids iframe {
+  // opacity: 1;
+  // visibility: hidden;
+}
