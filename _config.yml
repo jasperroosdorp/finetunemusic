@@ -5,9 +5,6 @@ collections:
   audio:
     title: Audio
     output: true
-  portfolio:
-    title: Portfolio
-    output: true
   posts:
     title: Posts
     output: true
