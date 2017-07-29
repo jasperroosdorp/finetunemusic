@@ -5,9 +5,6 @@ collections:
   audio:
     title: Audio
     output: true
-  _posts:
-    title: Posts
-    output: true
   posts:
     title: Posts
     output: true
