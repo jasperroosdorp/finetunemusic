@@ -2,28 +2,15 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  audio:
-    title: Audio
-    output: true
-  pages:
-    title: Pages
-    output: true
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
+    output: true
+  audio:
+    title: Audio
     output: true
   videos:
     title: Video
     output: true
-defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-    permalink: pretty
 destination: local
 keep_files:
 - assets
