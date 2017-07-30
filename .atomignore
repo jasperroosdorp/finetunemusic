@@ -11,3 +11,5 @@ _layouts/core/compress.html
 _uploads
 *backup*
 other/*
+CNAME
+.htaccess
