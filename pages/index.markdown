@@ -6,13 +6,6 @@ meta:
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
 introtekst:
   couplet:
-  - Wij zijn de eerste zangvogel als je opstaat.
-  - Het geluid van regen na droogte.
-  - De echo in de bergen.
-  couplet:
-  - Je vindt ons overal, maar toch zijn we altijd onzichtbaar.
-  - We verplaatsen ons met enorme snelheid.
-  couplet:
   - We kunnen je laten schrikken, laten lachen en laten huilen.
   - Wij zijn die melodie die maar niet uit je hoofd gaat,
   - maar ook dat ene liedje waar je de naam niet meer van weet.
@@ -24,3 +17,4 @@ informatie:
     en verzorgen audio branding.
 layout: index
 ---
+
