@@ -14,7 +14,7 @@ collections:
   videos:
     title: Video
     output: true
-  voice-overs:
+  audio:
     title: Voice-overs
     output: true
 destination: local
