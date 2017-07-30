@@ -4,23 +4,23 @@ timezone: Europe/Amsterdam
 collections:
   music:
     title: Music
-    position: 2
     output: true
+    position: 2
   posts:
     title: Posts
-    position: 4
     output: true
+    position: 4
   uploads:
     title: Uploads
     output: true
   videos:
     title: Video
-    position: 1
     output: true
+    position: 1
   voice-overs:
     title: Voice-overs
-    position: 3
     output: true
+    position: 3
 destination: local
 keep_files:
 - assets
