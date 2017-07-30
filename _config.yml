@@ -4,7 +4,7 @@ timezone: Europe/Amsterdam
 collections:
   audio:
     title: Audio
-    output: true
+    output: false
   posts:
     title: Guide
     output: true
