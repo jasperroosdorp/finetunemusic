@@ -9,7 +9,8 @@ opdrachtgevers:
 - Hanze Hogeschool
 - Rijksuniversiteit Groningen
 type: vimeo
-code:
-description:
+code: 
+description: 
 layout: project
 ---
+
