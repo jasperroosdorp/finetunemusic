@@ -2,9 +2,6 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  audio:
-    title: Audio
-    output: false
   posts:
     title: Guide
     output: true
