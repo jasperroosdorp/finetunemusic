@@ -5,22 +5,18 @@ collections:
   music:
     title: Music
     output: true
-    position: 2
   posts:
     title: Posts
     output: true
-    position: 4
   uploads:
     title: Uploads
     output: true
   videos:
     title: Video
     output: true
-    position: 1
   voice-overs:
     title: Voice-overs
     output: true
-    position: 3
 destination: local
 keep_files:
 - assets
