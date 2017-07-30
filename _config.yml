@@ -2,11 +2,11 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  posts:
-    title: Info
-    output: true
   music:
     title: Music
+    output: true
+  posts:
+    title: Siteleaf
     output: true
   uploads:
     title: Uploads
