@@ -2,6 +2,9 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
+  posts:
+    title: Info
+    output: true
   music:
     title: Music
     output: true
@@ -13,9 +16,6 @@ collections:
     output: true
   voice-overs:
     title: Voice-overs
-    output: true
-  posts:
-    title: Writing
     output: true
 destination: local
 keep_files:
