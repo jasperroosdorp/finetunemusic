@@ -14,6 +14,9 @@ collections:
   videos:
     title: Video
     output: true
+  voice-overs:
+    title: Voice-overs
+    output: true
 destination: local
 keep_files:
 - assets
