@@ -4,18 +4,22 @@ timezone: Europe/Amsterdam
 collections:
   music:
     title: Music
+    position: 2
     output: true
   posts:
     title: Posts
+    position: 4
     output: true
   uploads:
     title: Uploads
     output: true
   videos:
     title: Video
+    position: 1
     output: true
   voice-overs:
     title: Voice-overs
+    position: 3
     output: true
 destination: local
 keep_files:
