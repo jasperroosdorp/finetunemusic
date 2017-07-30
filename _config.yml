@@ -8,6 +8,9 @@ collections:
   posts:
     title: Guide
     output: true
+  music:
+    title: Music
+    output: true
   uploads:
     title: Uploads
     output: true
