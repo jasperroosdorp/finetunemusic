@@ -22,11 +22,11 @@ defaults:
     path: ''
     type: videos
   values:
-    title:
+    title: 
     is from vimeo: true
     number: 026292034
-    summary:
-    audio:
+    summary: 
+    audio: 
     layout: video
 destination: local
 keep_files:
