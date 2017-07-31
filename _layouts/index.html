@@ -21,8 +21,8 @@ pageid: home
         <div class="barba-content">
 
           <section class="home-intro">
-            {% for introtekst in page.introtekst %}
-            <h1>{{ introtekst }}</h1>
+            {% for introduction in page.introduction %}
+            <h1>{{ introduction }}</h1>
             {% endfor %}
           </section>
 
@@ -40,10 +40,8 @@ pageid: home
           </section>
 
           <section class="home-description">
-            <h2>Titel over ons</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek, voice-overs en verzorgen audio branding.
-            </p>
+            <h2>{{ page.information.title }}</h2>
+            <p>{{ page.information.paragraph }}</p>
           </section>
 
           <a class="full-width-button" onclick="openPortfolio('active-window')">

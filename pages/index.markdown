@@ -24,9 +24,8 @@ short introduction: Wij zijn de eerste zangvogel als je opstaat. Het geluid van 
 image:
   image: "/uploads/1008553_500474380022463_1348604698_o.jpg"
 information:
-  titel: Dit zijn wij
-  tekst: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek, voice-overs
+  title: Dit zijn wij
+  paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek, voice-overs
     en verzorgen audio branding.
 layout: index
 ---
-
