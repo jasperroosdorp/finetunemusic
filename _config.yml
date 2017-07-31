@@ -15,7 +15,7 @@ collections:
     title: Videos
     output: true
   voice-overs:
-    title: Voice-Overs
+    title: Voice-overs
     output: false
 defaults:
 - scope:
