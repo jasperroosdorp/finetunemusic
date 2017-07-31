@@ -24,19 +24,19 @@ defaults:
   values:
     is from vimeo: true
     number: 026292034
-    summary:
-    audio:
+    summary: 
+    audio: 
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file:
+    file: 
 - scope:
     path: ''
     type: voice-overs
   values:
-    file:
+    file: 
 destination: local
 exclude:
 - node_modules
