@@ -22,9 +22,6 @@ defaults:
     path: ''
     type: videos
   values:
-    content: 
-      ### Opmerkingen
-      De titel bovenaan verandert automatisch in een url. Gebruik daarom voor een foutloze en nette url alleen letters, cijfers en spaties.
     is from vimeo: true
     number: 026292034
     summary:
