@@ -16,7 +16,7 @@ collections:
     output: true
   voice-overs:
     title: Voice-Overs
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
