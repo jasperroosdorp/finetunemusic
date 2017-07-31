@@ -21,13 +21,9 @@ pageid: home
         <div class="barba-content">
 
           <section class="home-intro">
-            <h1>Wij zijn de eerste zangvogel als je opstaat.
-              Het geluid van regen na droogte.
-              De echo in de bergen.
-            </h1>
-            <h1>Lorem ipsum dolor sit amet.
-              Consectetur adipiscing elit unde omnis.
-            </h1>
+            {% for introtekst in page.introtekst %}
+            <h1>{{ introtekst }}</h1>
+            {% endfor %}
           </section>
 
           <section class="home-img">
