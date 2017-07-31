@@ -3,14 +3,15 @@
     if(supportsAudio) {
       var index = 0,
       playing = false;
-      mediaPath = 'uploads/',
+      mediaPath = '..',
       extension = '',
       // tracks = [
-      //   {"name":"Nummer 1","file":"1"},
-      //   {"name":"Nummer 2","file":"2"},
-      //   {"name":"Nummer 3","file":"3"},
-      //   {"name":"Nummer 4","file":"4"},
-      //   {"name":"Nummer 5","file":"5"}
+      //   {"name":"Nummer A","file":"1"},
+      //   {"name":"Nummer B","file":"2"},
+      //   {"name":"Nummer C","file":"3"},
+      //   {"name":"Nummer D","file":"4"},
+      //   {"name":"Nummer E","file":"5"},
+      //   {"name":"Nummer F","file":"6"}
       // ],
       trackCount = tracks.length,
       title = $('.audio-player-title'),
@@ -43,7 +44,7 @@
         $('.audio-tracklist ul li:eq(' + id + ')').addClass('selected-track');
         title.text(tracks[id].name);
         index = id;
-        audio.src = mediaPath + tracks[id].file + extension;
+        audio.src = mediaPath + tracks[id].file;
       },
       playTrack = function(id) {
         loadTrack(id);
