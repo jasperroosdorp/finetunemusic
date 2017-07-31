@@ -23,7 +23,7 @@ defaults:
     type: videos
   values:
     titel:
-    video: "youtube", "vimeo"
+    video:
     id: 026292034
     samenvatting:
     audio:
