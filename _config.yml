@@ -19,15 +19,15 @@ collections:
     output: true
 defaults:
   - scope:
-      path: ""
-      type: "videos"
+      path: ''
+      type: videos
     values:
       titel:
       video:
-      id: "026292034"
+      id: 026292034
       samenvatting:
       audio:
-      layout: "video"
+      layout: video
 destination: local
 keep_files:
 - assets
