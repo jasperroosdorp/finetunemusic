@@ -26,15 +26,15 @@ gulp.task('sass', function(){
   .pipe(sass())
   .pipe(autoPrefixer())
   .pipe(rename({suffix: '.min'}))
-  .pipe(gulp.dest('local/assets'))
+  .pipe(gulp.dest('local/asset-files'))
   .pipe(browserSync.reload({stream:true}))
 });
 
 // MINIFY AND COPY SASS
 gulp.task('dist-sass', function(){
-  gulp.src(['local/assets/**/*.css'])
+  gulp.src(['local/asset-files/**/*.css'])
   .pipe(cleanCss())
-  .pipe(gulp.dest('assets'))
+  .pipe(gulp.dest('asset-files'))
 });
 
 // RETURN JAVASCRIPT ERRORS
@@ -57,14 +57,14 @@ gulp.task('js-hint', function() {
 gulp.task('js', function() {
   return gulp.src('source/scripts/conc.html')
     .pipe(useref())
-    .pipe(gulp.dest('local/assets'))
+    .pipe(gulp.dest('local/asset-files'))
 });
 
 // COPY AND MINIFY JAVASCRIPT
 gulp.task('dist-js', function() {
-  gulp.src('local/assets/**/*.js')
+  gulp.src('local/asset-files/**/*.js')
   .pipe(uglify())
-  .pipe(gulp.dest('assets'))
+  .pipe(gulp.dest('asset-files'))
 });
 
 // BUILD JEKYLL
@@ -82,14 +82,14 @@ gulp.task('jekyll', () => {
 
 // COPY LEFT-OVER DATA TO LOCAL
 gulp.task('copy', function() {
-  gulp.src('source/assets/*')
-  .pipe(gulp.dest('local/assets'))
+  gulp.src('source/asset-files/*')
+  .pipe(gulp.dest('local/asset-files'))
 });
 
-// COPY LEFT-OVER DATA TO ASSETS
+// COPY LEFT-OVER DATA TO asset-files
 gulp.task('dist-copy', function() {
-  gulp.src('source/assets/*')
-  .pipe(gulp.dest('assets'))
+  gulp.src('source/asset-files/*')
+  .pipe(gulp.dest('asset-files'))
 });
 
 // SERVE AND WATCH
@@ -103,9 +103,9 @@ gulp.task('serve', function(){
   gulp.watch(['source/scripts/**/*.js', '!source/scripts/backup', 'source/scripts/conc.html'], ['js', 'js-hint']);
   // gulp.watch(['**/*.markdown', '**/*.md', '**/*.yml', '**/*.html', '!local/*.html'], ['jekyll']);
   gulp.watch(['./*.{markdown,md}', '{_includes,_layouts}/**/*.html'], ['jekyll']);
-  gulp.watch('source/assets/*', ['copy']);
-  gulp.watch(['local/*.html', 'local/assets/**/*.js']).on('change', browserSync.reload);
-  // gulp.watch('local/assets/**/*.js').on('change', browserSync.reload);
+  gulp.watch('source/asset-files/*', ['copy']);
+  gulp.watch(['local/*.html', 'local/asset-files/**/*.js']).on('change', browserSync.reload);
+  // gulp.watch('local/asset-files/**/*.js').on('change', browserSync.reload);
 });
 
 // CREATE LOCAL BUILD
