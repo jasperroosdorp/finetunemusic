@@ -14,6 +14,9 @@ collections:
   videos:
     title: Videos
     output: true
+  voice-overs:
+    title: Voice-Overs
+    output: true
 defaults:
 - scope:
     path: ''
