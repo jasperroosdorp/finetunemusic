@@ -22,11 +22,11 @@ defaults:
     path: ''
     type: videos
   values:
-    titel: 
-    video: 
+    titel:
+    video: "youtube", "vimeo"
     id: 026292034
-    samenvatting: 
-    audio: 
+    samenvatting:
+    audio:
     layout: video
 destination: local
 keep_files:
