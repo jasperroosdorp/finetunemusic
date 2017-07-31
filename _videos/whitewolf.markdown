@@ -5,12 +5,6 @@ categories:
 - peace
 tags:
 - pizza
-opdrachtgevers:
-- Hanze Hogeschool
-- Rijksuniversiteit Groningen
-type: vimeo
-code: 
-description: 
 layout: project
 ---
 
