@@ -6,16 +6,13 @@ collections:
     title: Audio
     output: false
   posts:
-    title: Images
+    title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
   videos:
     title: Videos
-    output: true
-  voice-overs:
-    title: Voice-overs
     output: true
 defaults:
 - scope:
