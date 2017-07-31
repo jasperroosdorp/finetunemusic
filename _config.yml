@@ -17,6 +17,17 @@ collections:
   voice-overs:
     title: Voice-overs
     output: true
+defaults:
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      titel:
+      type: ["vimeo", "youtube"]
+      video: "026292034"
+      samenvatting:
+      audio:
+      layout: "video"
 destination: local
 keep_files:
 - assets
