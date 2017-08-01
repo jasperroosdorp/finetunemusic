@@ -19,7 +19,7 @@ section.home-img {
   @include responsive-width;
   margin-top: 70px;
   figure {
-    @include aspect-ratio(15, 3);
+    @include aspect-ratio(7, 3);
     @include span(12 of 12);
     // @include aspect-ratio(4, 3);
     // @include span(5.875 of 12);
@@ -29,9 +29,6 @@ section.home-img {
     }
     // &:nth-child(1) > .content { margin-left: 0; }
     // &:nth-child(2) > .content { margin-right: 0; }
-    img {
-      display: none;
-    }
   }
 }
 

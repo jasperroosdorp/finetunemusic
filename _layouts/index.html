@@ -29,12 +29,7 @@ pageid: home
           <section class="home-img">
             <figure>
               <div class='content'>
-                <img src="uploads/001.jpg" alt=""/>
-              </div>
-            </figure>
-            <figure>
-              <div class='content'>
-                <img src="uploads/001.jpg" alt=""/>
+                <img src="{{ page.image.image }}" alt=""/>
               </div>
             </figure>
           </section>
@@ -43,15 +38,6 @@ pageid: home
             <h2>{{ page.information.title }}</h2>
             <p>{{ page.information.paragraph }}</p>
           </section>
-
-          <!-- <div class="equalizer-test">
-            <svg class="music-bar" viewBox="0 0 30 50">
-              <defs><rect id="def-rect" y="35" width="6" height="50" fill="#000" /></defs>
-              <use class="bar" xlink:href="#def-rect" x="0" />
-              <use class="bar" xlink:href="#def-rect" x="12" />
-              <use class="bar" xlink:href="#def-rect" x="24" />
-            </svg>
-          </div> -->
 
           <a class="full-width-button" onclick="openPortfolio('active-window')">
             <div class="wrapper">
@@ -72,10 +58,9 @@ pageid: home
     {% include audio.html %}
 
     <script type="text/javascript" src="../source/body.js"></script>
-    <script>
+    <!-- <script>
     $(document).ready(function ($) {
       var bars = $('.music-bar .bar');
-
       var tl = (new TimelineMax()).staggerTo(bars, .3, {
         y: -10,
         repeat:-1,
@@ -83,11 +68,9 @@ pageid: home
         yoyo:true,
         ease: Quad.easeInOut}, .25
       );
-
       $('.music-bar').on('click', function(){
         tl.isActive() ? pause() : tl.play();
       });
-
       function pause() {
         tl.pause();
         TweenMax.to(bars, .7, {
@@ -95,9 +78,8 @@ pageid: home
           ease: Quad.easeOut}
         );
       }
-
     });
-    </script>
+    </script> -->
 
   </BODY>
 

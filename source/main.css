@@ -1624,7 +1624,7 @@ section.home-img {
       display: block;
       content: "";
       width: 100%;
-      padding-top: 20%; }
+      padding-top: 42.85714%; }
     section.home-img figure > .content {
       overflow: hidden;
       position: absolute;
@@ -1634,8 +1634,6 @@ section.home-img {
       bottom: 0; }
     section.home-img figure .content {
       background-color: rgba(0, 0, 0, 0.1); }
-    section.home-img figure img {
-      display: none; }
 
 section.home-description {
   max-width: 100%;

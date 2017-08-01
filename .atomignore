@@ -11,3 +11,4 @@ _music
 _videos
 _config.yml
 .gitignore
+*.backup*
