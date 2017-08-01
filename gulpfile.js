@@ -102,7 +102,7 @@ gulp.task('scripts', function() {
 gulp.task('watch', function () {
   gulp.watch('_app/sass/**/*.scss', ['sass']);
   gulp.watch(['_app/scripts/*/*.js', '!_app/scripts/*/*.backup*.js'], ['scripts', 'jshint']);
-  gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch(['pages/*', '_layouts/*.html', '_includes/*.html', '_music/*', '_videos/*', '_posts/*'], ['jekyll-rebuild']);
 });
 
 /**
