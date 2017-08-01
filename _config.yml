@@ -1,8 +1,4 @@
-# name: Your New Jekyll Site
-# markdown: redcarpet
-# highlighter: pygments # or rouge or null
-# exclude: ["node_modules", "gulpfile.js", "package.json"]
-
+---
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
@@ -28,17 +24,26 @@ defaults:
   values:
     is from vimeo: true
     number: 026292034
-    summary:
-    audio:
+    summary: 
+    audio: 
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file:
+    file: 
 - scope:
     path: ''
     type: voice-overs
   values:
-    file:
-exclude: ["node_modules", "gulpfile.js", "package.json", ".DS_Store", "README.md", "other", "CNAME", "package-lock.json", "_uploads/backup"]
+    file: 
+exclude:
+- node_modules
+- gulpfile.js
+- package.json
+- ".DS_Store"
+- README.md
+- other
+- CNAME
+- package-lock.json
+- _uploads/backup
