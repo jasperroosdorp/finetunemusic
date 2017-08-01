@@ -12,11 +12,12 @@ summary:
 clients:
   title: Opdrachtgevers
 links:
-- name:
-  video:
+- name: 
+  video: 
 - name: Madame Cambré
   music: The Wonderful Tale Of Madame Cambré
-- name:
-  voice-over:
+- name: 
+  voice-over: 
 layout: info
 ---
+
