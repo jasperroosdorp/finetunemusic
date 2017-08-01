@@ -703,6 +703,9 @@ h6 {
 p, h1, h2, h3 {
   color: rgba(0, 0, 0, 0.6); }
 
+p.links a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6); }
+
 p {
   font-size: 2.3rem; }
 
@@ -807,7 +810,7 @@ section.project-info p {
   letter-spacing: 0.01rem;
   line-height: 3.5rem; }
 
-section.info-content h2 {
+section.info-section h2 {
   font-size: 2.8rem;
   letter-spacing: 0;
   font-weight: 400;
@@ -817,7 +820,7 @@ section.info-content h2 {
   letter-spacing: 0.008rem;
   color: #000; }
 
-section.info-content p {
+section.info-section p {
   font-size: 2.3rem;
   font-size: 2.3rem;
   font-weight: 400;
@@ -1716,39 +1719,41 @@ section.project-info {
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
 
-section.info-content {
+section.info-section {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   max-width: 1550px;
-  margin-top: 5rem;
-  margin-bottom: 15rem; }
-  section.info-content:after {
+  margin-bottom: 3rem; }
+  section.info-section:after {
     content: " ";
     display: block;
     clear: both; }
-  section.info-content h2, section.info-content p {
+  section.info-section h2, section.info-section p, section.info-section ul.links {
     margin-top: 6rem; }
-  section.info-content h2 {
+  section.info-section h2 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 33.33333%;
     float: left;
     padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    font-size: 2.3rem;
-    font-weight: 400;
-    letter-spacing: -0.03rem;
-    color: #000; }
-  section.info-content p {
+    padding-right: 0.83333%; }
+  section.info-section p {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 66.66667%;
     float: left;
     padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    font-size: 2.3rem; }
+    padding-right: 0.83333%; }
+  section.info-section a {
+    padding: 0;
+    margin: 0;
+    float: left;
+    position: relative; }
+    section.info-section a:nth-last-child(n+2)::after {
+      content: ',\00a0';
+      background-color: #fff; }
 
 .project-video {
   position: relative; }

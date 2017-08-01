@@ -23,9 +23,8 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
-p, h1, h2, h3 {
-  color: rgba(0, 0, 0, 0.6);
-}
+p, h1, h2, h3 { color: rgba(0, 0, 0, 0.6); }
+p.links a { border-bottom: 1px solid rgba(0, 0, 0, 0.6); }
 
 p {
   font-size: 2.3rem;
@@ -172,7 +171,7 @@ section.project-info {
   }
 }
 
-section.info-content {
+section.info-section {
   h2 {
     font-size: 2.8rem;
     // color: rgba(255, 255, 255, 0.8);
