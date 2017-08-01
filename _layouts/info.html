@@ -28,7 +28,7 @@ pageid: info
           <section class='info-section'>
             <h2>{{ page.clients.title }}</h2>
             <p class="links">
-              {% for item in page.clients.links %}
+              {% for item in page.links %}
               <a href="{{ item.video }}{{ item.music }}{{ item.voice-over }}">{{ item.name }}</a>
               {% endfor %}
             </p>
