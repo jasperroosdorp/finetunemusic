@@ -1,5 +1,6 @@
-_site/
-.sass-cache/
+_site
+.idea
+.sass-cache
 .jekyll-metadata
 .atomignore
 node_modules

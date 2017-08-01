@@ -1,151 +1,112 @@
 var gulp = require('gulp');
-var child = require('child_process');
-var gutil = require('gulp-util');
-var runSequence = require('run-sequence');
-var browserSync = require('browser-sync').create();
-var plumber = require('gulp-plumber');
-var rename = require('gulp-rename');
+var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
-var autoPrefixer = require('gulp-autoprefixer');
-var cleanCss = require('gulp-clean-css');
-var cssnano = require('gulp-cssnano');
-var useref = require('gulp-useref');
-var jshint = require('gulp-jshint');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var cache = require('gulp-cache');
-var gulpif = require ('gulp-if');
+var prefix = require('gulp-autoprefixer');
+var cp = require('child_process');
+var jshint = require('gulp-jshint'); // Debug JS files
+var stylish = require('jshint-stylish'); // More stylish debugging
+var concat = require('gulp-concat'); // Join all JS files together to save space
+var stripDebug = require('gulp-strip-debug'); // Remove debugging stuffs
+var uglify = require('gulp-uglify'); // Minify JavaScript
 
-// Indicator messages for when build tasks are running
+var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
-  jekyllDev: 'Running: $ jekyll build for dev',
-  jekyllProd: 'Running: $ jekyll build for prod'
+  jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-// Build the Jekyll Site in development mode
-gulp.task('jekyll-dev', function (done) {
-  browserSync.notify(messages.jekyllDev);
-  return cp.spawn('jekyll', ['build', '--drafts', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
- .on('close', done);
+/**
+* Build the Jekyll Site
+*/
+gulp.task('jekyll-build', function (done) {
+  browserSync.notify(messages.jekyllBuild);
+  return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+  .on('close', done);
 });
 
-// Rebuild Jekyll & reload the page
-gulp.task('jekyll-rebuild', ['jekyll-dev'], function () {
+/**
+* Rebuild Jekyll & do page reload
+*/
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
 
-// COMPILE SASS
-gulp.task('sass', function(){
-  gulp.src(['source/sass/**/*.scss'])
-  .pipe(plumber({
-    errorHandler: function (error) {
-      console.log(error.message);
-      this.emit('end');
-    }
-  }))
-  .pipe(sass())
-  .pipe(autoPrefixer())
-  .pipe(rename({suffix: '.min'}))
-  .pipe(gulp.dest('local/asset-files'))
-  .pipe(browserSync.reload({stream:true}))
-});
-
-// MINIFY AND COPY SASS
-gulp.task('dist-sass', function(){
-  gulp.src(['local/asset-files/**/*.css'])
-  .pipe(cleanCss())
-  .pipe(gulp.dest('asset-files'))
-});
-
-// RETURN JAVASCRIPT ERRORS
-gulp.task('js-hint', function() {
-  gulp.src([
-    'source/scripts/**/*.js',
-    '!source/scripts/backup'
-  ])
-  .pipe(plumber({
-    handleError: function (err) {
-      console.log(err);
-      this.emit('end');
-    }
-  }))
-  .pipe(jshint())
-  .pipe(jshint.reporter('default'))
-});
-
-// COMPILE JAVASCRIPT
-gulp.task('js', function() {
-  return gulp.src('source/scripts/conc.html')
-    .pipe(useref())
-    .pipe(gulp.dest('local/asset-files'))
-});
-
-// COPY AND MINIFY JAVASCRIPT
-gulp.task('dist-js', function() {
-  gulp.src('local/asset-files/**/*.js')
-  .pipe(uglify())
-  .pipe(gulp.dest('asset-files'))
-});
-
-// BUILD JEKYLL
-gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build', '--watch', '--incremental', '--drafts']);
-  const jekyllLogger = (buffer) => {
-    buffer.toString()
-    .split(/\n/)
-    .forEach((message) => gutil.log('Jekyll: ' + message));
-  };
-  jekyll.stdout.on('data', jekyllLogger);
-  jekyll.stderr.on('data', jekyllLogger);
-  browserSync.reload;
-});
-
-// COPY LEFT-OVER DATA TO LOCAL
-gulp.task('copy', function() {
-  gulp.src('source/asset-files/*')
-  .pipe(gulp.dest('local/asset-files'))
-});
-
-// COPY LEFT-OVER DATA TO asset-files
-gulp.task('dist-copy', function() {
-  gulp.src('source/asset-files/*')
-  .pipe(gulp.dest('asset-files'))
-});
-
-// SERVE AND WATCH
-gulp.task('serve', function(){
-  browserSync.init({
-    notify: false,
+/**
+* Wait for jekyll-build, then launch the Server
+*/
+gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-build'], function() {
+  browserSync({
+    notify: true,
     open: false,
-    server: "./local"
+    server: {
+      baseDir: '_site'
+    }
   });
-  gulp.watch('source/sass/**/*.scss', ['sass']);
-  gulp.watch(['source/scripts/**/*.js', '!source/scripts/backup', 'source/scripts/conc.html'], ['js', 'js-hint']);
-  // gulp.watch(['**/*.markdown', '**/*.md', '**/*.yml', '**/*.html', '!local/*.html'], ['jekyll']);
-  gulp.watch(['./*.{markdown,md}', '{_includes,_layouts}/**/*.html'], ['jekyll']);
-  gulp.watch('source/asset-files/*', ['copy']);
-  gulp.watch(['local/*.html', 'local/asset-files/**/*.js']).on('change', browserSync.reload);
-  // gulp.watch('local/asset-files/**/*.js').on('change', browserSync.reload);
 });
 
-// CREATE LOCAL BUILD
-gulp.task('default', function(callback) {
-  runSequence(
-    // ['jekyll', 'sass', 'js', 'copy'],
-    // 'serve',
-    // callback
-    ['sass', 'js', 'copy'],
-    'jekyll',
-    'serve',
-    callback
-  );
+/**
+* Compile files both for live injecting and site (for future jekyll builds)
+*/
+gulp.task('sass', function () {
+  return gulp.src('_app/sass/main.scss')
+  .pipe(sass({
+    includePaths: ['scss'],
+    onError: browserSync.notify
+  }))
+  .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+  .pipe(gulp.dest('_site/source'))
+  .pipe(browserSync.reload({stream:true}))
+  .pipe(gulp.dest('source'));
 });
 
-// BUILD LOCAL DIRECTORY
-gulp.task('build', function(callback) {
-  runSequence(
-    ['sass', 'js', 'copy'],
-    ['dist-sass', 'dist-js', 'dist-copy'],
-    callback
-  );
+// Task to run JS hint
+gulp.task('jshint', function() {
+  gulp.src(['_app/scripts/*/*.js', '!_app/scripts/*/*.backup*.js'])
+    .pipe(jshint())
+    .pipe(jshint.reporter('jshint-stylish'));
 });
+
+// Task to concat, strip debugging and minify JS files
+gulp.task('scripts', function() {
+  gulp.src([
+    // Head
+    'node_modules/jquery/dist/jquery.min.js',
+    'node_modules/moveto/dist/moveTo.min.js',
+    'node_modules/@vimeo/player/dist/player.min.js',
+    '_app/scripts/head/*.js',
+    '!_app/scripts/head/*.backup*.js'
+  ])
+    .pipe(concat('head.js'))
+    .pipe(stripDebug())
+    .pipe(gulp.dest('_site/source'))
+    .pipe(uglify())
+    .pipe(gulp.dest('source'));
+  gulp.src([
+    // Body
+    'node_modules/barba.js/dist/barba.min.js',
+    'node_modules/gsap/src/minified/TweenMax.min.js',
+    'node_modules/mediaelement/build/mediaelement-and-player.min.js',
+    '_app/scripts/body/*.js',
+    '!_app/scripts/body/*.backup*.js'
+  ])
+    .pipe(concat('body.js'))
+    .pipe(stripDebug())
+    .pipe(gulp.dest('_site/source'))
+    .pipe(uglify())
+    .pipe(gulp.dest('source'));
+});
+
+/**
+* Watch scss files for changes & recompile
+* Watch html/md files, run jekyll & reload BrowserSync
+*/
+gulp.task('watch', function () {
+  gulp.watch('_app/sass/**/*.scss', ['sass']);
+  gulp.watch(['_app/scripts/*/*.js', '!_app/scripts/*/*.backup*.js'], ['scripts', 'jshint']);
+  gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+});
+
+/**
+* Default task, running just `gulp` will compile the sass,
+* compile the jekyll site, launch BrowserSync & watch files.
+*/
+gulp.task('default', ['browser-sync', 'watch']);

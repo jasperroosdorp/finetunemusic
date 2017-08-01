@@ -18,10 +18,12 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   text-align: left;
   vertical-align: top;
   text-indent: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .mejs__container * {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 /* Hide native play button from iOS to favor plugin button */
 .mejs__container video::-webkit-media-controls-start-playback-button {
@@ -174,6 +176,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__controls:not([style*="display: none"]) {
   background: rgba(255, 0, 0, 0.7);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.35)));
+  background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.35));
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.35)); }
 
 .mejs__button,
@@ -225,7 +229,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding: 16px 6px 0 6px;
   overflow: hidden;
   text-align: center;
-  box-sizing: content-box; }
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
 
 /* End: Time (Current / Duration) */
 /* Start: Play/Pause/Stop */
@@ -261,7 +266,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   display: block;
   position: absolute;
   height: 10px;
-  border-radius: 2px; }
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
 
 .mejs__time-total {
   margin: 5px 0 0 0;
@@ -270,6 +276,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__time-buffering {
   width: 100%;
+  background: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 15px 15px;
   -webkit-animation: buffering-stripes 2s linear infinite;
@@ -301,7 +308,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   margin: 0;
   width: 10px;
   background: #fff;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   cursor: pointer;
   border: solid 2px #333;
   top: -2px;
@@ -334,7 +342,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   line-height: 0;
   border: solid 5px #eee;
   border-color: #eee transparent transparent transparent;
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   top: 15px;
   left: 13px; }
 
@@ -379,7 +388,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   height: 115px;
   width: 25px;
   background: rgba(50, 50, 50, 0.7);
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   top: -115px;
   left: 5px;
   z-index: 1;
@@ -387,7 +397,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   margin: 0; }
 
 .mejs__volume-button:hover {
-  border-radius: 0 0 4px 4px; }
+  -webkit-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px; }
 
 .mejs__volume-total {
   position: absolute;
@@ -416,7 +427,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   margin: 0 0 -3px -7px;
   background: rgba(255, 255, 255, 0.9);
   cursor: ns-resize;
-  border-radius: 1px; }
+  -webkit-border-radius: 1px;
+          border-radius: 1px; }
 
 .mejs__horizontal-volume-slider {
   height: 36px;
@@ -435,7 +447,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   margin: 0;
   padding: 0;
   font-size: 1px;
-  border-radius: 2px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
   background: rgba(50, 50, 50, 0.8); }
 
 .mejs__horizontal-volume-current {
@@ -447,7 +460,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   margin: 0;
   padding: 0;
   font-size: 1px;
-  border-radius: 2px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
   background: rgba(255, 255, 255, 0.8); }
 
 .mejs__horizontal-volume-handle {
@@ -474,7 +488,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   border: solid 1px transparent;
   padding: 0;
   overflow: hidden;
-  border-radius: 0; }
+  -webkit-border-radius: 0;
+          border-radius: 0; }
 
 .mejs__chapters-button > .mejs__chapters-selector {
   width: 110px; }
@@ -554,7 +569,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding: 0;
   background: rgba(20, 20, 20, 0.5);
   white-space: pre-wrap;
-  box-shadow: 5px 0 0 rgba(20, 20, 20, 0.5), -5px 0 0 rgba(20, 20, 20, 0.5); }
+  -webkit-box-shadow: 5px 0 0 rgba(20, 20, 20, 0.5), -5px 0 0 rgba(20, 20, 20, 0.5);
+          box-shadow: 5px 0 0 rgba(20, 20, 20, 0.5), -5px 0 0 rgba(20, 20, 20, 0.5); }
 
 /* End: Track (Captions and Chapters) */
 html,
@@ -618,7 +634,8 @@ table {
   border-spacing: 0; }
 
 *, *::after, *::before {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 html, body {
   overflow-x: hidden; }
@@ -642,6 +659,7 @@ body {
 
 html.barba-active,
 html.barba-active body {
+  -webkit-transition: background-color 1.2s ease;
   transition: background-color 1.2s ease; }
 
 body {
@@ -848,7 +866,8 @@ html#home .full-width-button {
       clear: both; }
   html#home .full-width-button span {
     line-height: inherit;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 100%;
     float: left;
     padding-left: 0.83333%;
@@ -878,6 +897,7 @@ nav.upper {
     display: inline-block; }
     nav.upper .nav-trigger .trigger-name {
       line-height: 40px;
+      -webkit-transition: opacity 0.3s ease;
       transition: opacity 0.3s ease;
       display: block; }
       nav.upper .nav-trigger .trigger-name.unfold-nav {
@@ -886,6 +906,7 @@ nav.upper {
         opacity: 0;
         pointer-events: none; }
   nav.upper .current-track {
+    -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
     margin-left: 4rem; }
     nav.upper .current-track .audio-player-title {
@@ -894,6 +915,7 @@ nav.upper {
 
 nav.lower {
   height: 0;
+  -webkit-transition: height 0.3s ease;
   transition: height 0.3s ease;
   overflow: hidden; }
   nav.lower ul {
@@ -902,6 +924,7 @@ nav.lower {
     nav.lower ul:nth-child(n+2) {
       margin-left: 10.41667%; }
   nav.lower ul li a {
+    -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease; }
 
 html.portfolio-open nav.upper .current-track {
@@ -965,6 +988,7 @@ html.nav-unfolded nav.lower {
   top: 10%;
   left: -50%;
   -webkit-transform: scaleY(0.7) rotate(45deg);
+      -ms-transform: scaleY(0.7) rotate(45deg);
           transform: scaleY(0.7) rotate(45deg); }
 
 .mejs__pause > button {
@@ -991,7 +1015,8 @@ html.nav-unfolded nav.lower {
 .mejs__time-float-current,
 .mejs__time-float-corner,
 .mejs__time-marker {
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -1020,6 +1045,7 @@ html.nav-unfolded nav.lower {
   height: 4px;
   top: 50%;
   -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
 .mejs__time-total::after {
@@ -1034,6 +1060,7 @@ html.nav-unfolded nav.lower {
 .mejs__time-current {
   background: #fff;
   z-index: 1;
+  -webkit-transition: width 0.5s ease;
   transition: width 0.5s ease; }
 
 .mejs__time-float {
@@ -1057,7 +1084,8 @@ html.nav-unfolded nav.lower {
     max-width: 100%; }
 
 .audio-tracklist ul {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   float: left;
   list-style: none;
@@ -1075,6 +1103,7 @@ html.nav-unfolded nav.lower {
   display: inline;
   float: left;
   margin: 0;
+  -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease; }
   .audio-tracklist ul li.selected-track {
     color: rgba(255, 255, 255, 0.4); }
@@ -1086,7 +1115,8 @@ html.nav-unfolded nav.lower {
   .audio-tracklist ul li::before {
     left: 0;
     bottom: -1px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 50%;
     float: left;
     padding-left: 0.83333%;
@@ -1099,6 +1129,8 @@ html.nav-unfolded nav.lower {
     width: 5rem;
     margin-right: -1rem;
     border-right: 1rem solid #434355;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), to(#434355));
+    background: -webkit-linear-gradient(left, transparent, #434355);
     background: linear-gradient(to right, transparent, #434355); }
   .audio-tracklist ul li:last-child::before {
     border-color: transparent; }
@@ -1106,7 +1138,8 @@ html.nav-unfolded nav.lower {
 @media (min-width: 900px) {
   .audio-tracklist ul li {
     width: auto;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 47.91667%;
     float: left;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
@@ -1140,6 +1173,7 @@ html.nav-unfolded nav.lower {
   background: rgba(0, 0, 0, 0.9);
   outline: none !important;
   opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
   max-width: 100%;
   margin-left: auto;
@@ -1156,6 +1190,7 @@ html.nav-unfolded nav.lower {
   opacity: 0; }
 
 .lity * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .lity-wrap {
@@ -1186,6 +1221,7 @@ html.nav-unfolded nav.lower {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
 .lity-loading .lity-loader {
@@ -1206,7 +1242,9 @@ html.nav-unfolded nav.lower {
   z-index: 9993;
   width: 100%;
   -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: -webkit-transform 0.3s ease;
   transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
@@ -1214,6 +1252,7 @@ html.nav-unfolded nav.lower {
 .lity-loading .lity-content,
 .lity-closed .lity-content {
   -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
   transform: scale(0.8); }
 
 .lity-content:after {
@@ -1227,6 +1266,7 @@ html.nav-unfolded nav.lower {
   width: auto;
   height: auto;
   z-index: -1;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
 
 .lity-close {
@@ -1250,6 +1290,7 @@ html.nav-unfolded nav.lower {
   border: 0;
   background: none;
   outline: none;
+  -webkit-box-shadow: none;
   box-shadow: none; }
 
 .lity-close::-moz-focus-inner {
@@ -1272,6 +1313,7 @@ html.nav-unfolded nav.lower {
   border: 0;
   background: none;
   outline: none;
+  -webkit-box-shadow: none;
   box-shadow: none; }
 
 .lity-close:active {
@@ -1310,6 +1352,7 @@ html.nav-unfolded nav.lower {
   left: 0;
   width: 100%;
   height: 100%;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #000; }
 
@@ -1338,6 +1381,7 @@ html.nav-unfolded nav.lower {
   content: '';
   background: rgba(0, 0, 0, 0.35);
   opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out; }
 
 .portfolio {
@@ -1352,6 +1396,7 @@ html.nav-unfolded nav.lower {
       position: absolute;
       min-height: 53rem;
       top: 100vh;
+      -webkit-transition: top 0.3s ease-in;
       transition: top 0.3s ease-in; } }
 
 .portfolio-nav {
@@ -1372,6 +1417,7 @@ html.nav-unfolded nav.lower {
     display: inline-block;
     padding: 0 1.5rem;
     float: left;
+    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease; }
     .portfolio-nav .portfolio-nav-a:first-child {
       padding-left: 0;
@@ -1388,6 +1434,7 @@ html.nav-unfolded nav.lower {
     bottom: 1rem;
     overflow: hidden;
     -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
             transform: rotate(45deg); }
     .portfolio-nav .close-portfolio::before, .portfolio-nav .close-portfolio::after {
       position: absolute;
@@ -1398,9 +1445,11 @@ html.nav-unfolded nav.lower {
       background-color: #fff;
       left: 50%;
       -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
               transform: translateX(-50%); }
     .portfolio-nav .close-portfolio::before {
       -webkit-transform: translateX(-50%) rotate(90deg);
+          -ms-transform: translateX(-50%) rotate(90deg);
               transform: translateX(-50%) rotate(90deg); }
 
 .portfolio > ul {
@@ -1446,7 +1495,9 @@ html.portfolio-open {
     pointer-events: auto; }
   @media (min-width: 900px) {
     html.portfolio-open .portfolio {
+      -webkit-transition: top 0.3s ease-out;
       transition: top 0.3s ease-out;
+      top: -webkit-calc(100vh - 53rem);
       top: calc(100vh - 53rem); } }
   html.portfolio-open .tab-content {
     display: none; }
@@ -1465,6 +1516,7 @@ img {
   height: auto;
   border: 0;
   opacity: 1;
+  -webkit-transition: opacity 0.7s;
   transition: opacity 0.7s; }
 
 img[data-src] {
@@ -1472,12 +1524,14 @@ img[data-src] {
 
 .video {
   margin-bottom: 4.5rem;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   float: left; }
   @media (min-width: 600px) {
     .video {
-      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
       width: 31.94444%;
       float: left; }
       .video:nth-child(3n+2), .video:nth-child(3n+3) {
@@ -1550,7 +1604,8 @@ section.home-img {
   section.home-img figure {
     position: relative;
     overflow: hidden;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 100%;
     float: left;
     padding-left: 0.83333%;
@@ -1585,7 +1640,8 @@ section.home-description {
     display: block;
     clear: both; }
   section.home-description h2, section.home-description p {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 50%;
     float: left;
     padding-left: 0.83333%;
@@ -1638,13 +1694,15 @@ section.project-info {
   section.project-info h2, section.project-info p {
     margin-top: 6rem; }
   section.project-info h2 {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 33.33333%;
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
   section.project-info p {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 66.66667%;
     float: left;
     padding-left: 0.83333%;
@@ -1665,7 +1723,8 @@ section.info-content {
   section.info-content h2, section.info-content p {
     margin-top: 6rem; }
   section.info-content h2 {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 33.33333%;
     float: left;
     padding-left: 0.83333%;
@@ -1675,7 +1734,8 @@ section.info-content {
     letter-spacing: -0.03rem;
     color: #000; }
   section.info-content p {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 66.66667%;
     float: left;
     padding-left: 0.83333%;
