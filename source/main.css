@@ -707,14 +707,16 @@ p {
   font-size: 2.3rem; }
 
 nav {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 400; }
   nav.upper, nav.lower {
     color: #000; }
   nav.upper .current-track {
-    color: #4500EE; }
-  nav.upper .audio-player-title {
-    font-weight: 400; }
+    color: #4500EE;
+    font-weight: 400;
+    font-family: "Shanti", sans-serif; }
+    nav.upper .current-track .music-bar {
+      fill: #4500EE; }
   nav.lower ul li a {
     line-height: 3.6rem;
     opacity: 0.4; }
@@ -908,10 +910,11 @@ nav.upper {
   nav.upper .current-track {
     -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
-    margin-left: 4rem; }
+    margin-left: 0; }
     nav.upper .current-track .audio-player-title {
       display: none;
-      font-size: inherit; }
+      font-size: inherit;
+      font-weight: inherit; }
 
 nav.lower {
   height: 0;
@@ -921,11 +924,18 @@ nav.lower {
   nav.lower ul {
     display: inline-block;
     vertical-align: top; }
+    nav.lower ul li a {
+      padding-right: 2rem; }
     nav.lower ul:nth-child(n+2) {
-      margin-left: 10.41667%; }
+      margin-left: 8rem; }
+      nav.lower ul:nth-child(n+2) li a {
+        padding-left: 2rem; }
   nav.lower ul li a {
-    -webkit-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease; }
+    -webkit-transition: opacity 0.3s ease, color 0.3s ease;
+    transition: opacity 0.3s ease, color 0.3s ease; }
+    nav.lower ul li a:hover {
+      color: #4500EE;
+      opacity: 1; }
 
 html.portfolio-open nav.upper .current-track {
   opacity: 0;
@@ -1757,3 +1767,17 @@ section.info-content {
 
 .fluidvids {
   background-color: #000; }
+
+.music-bar {
+  overflow: hidden;
+  cursor: pointer;
+  height: 20px;
+  width: 0;
+  margin: 0;
+  opacity: 0;
+  margin: 0 1rem; }
+
+html.audio-playing .music-bar {
+  width: 20px;
+  margin-left: 2.5rem;
+  opacity: 1; }

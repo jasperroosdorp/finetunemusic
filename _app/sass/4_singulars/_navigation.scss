@@ -35,7 +35,7 @@ nav.upper {
   }
   .current-track {
     transition: opacity 0.3s ease;
-    margin-left: 4rem;
+    margin-left: 0;
     // vertical-align: top;
     // bottom: 0;
     // top: 0;
@@ -43,6 +43,7 @@ nav.upper {
     .audio-player-title {
       display: none;
       font-size: inherit;
+      font-weight: inherit;
     }
   }
 }
@@ -57,12 +58,19 @@ nav.lower {
   ul {
     display: inline-block;
     vertical-align: top;
+    li a { padding-right: 2rem; }
     &:nth-child(n+2) {
-      @include push(1.25 of 12);
+      // @include push(0.8 of 12);
+      margin-left: 8rem;
+      li a { padding-left: 2rem; }
     }
   }
   ul li a {
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, color 0.3s ease;
+    &:hover {
+      color: #4500EE;
+      opacity: 1;
+    }
   }
 }
 

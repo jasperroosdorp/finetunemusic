@@ -40,7 +40,7 @@ p {
 // }
 
 nav {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 400;
   &.upper, &.lower { color: #000; }
   &.upper {
@@ -48,8 +48,12 @@ nav {
       // opacity: 0.4;
       color: #4500EE;
       // color: #ff006b;
+      font-weight: 400;
+      font-family: $alt-font;
+      .music-bar {
+        fill: #4500EE;
+      }
     }
-    .audio-player-title { font-weight: 400; }
   }
   &.lower {
     ul li a { line-height: 3.6rem; opacity: 0.4; }

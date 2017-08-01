@@ -82,3 +82,25 @@
 .fluidvids {
   background-color: #000;
 }
+
+.current-track {
+  // background-color: pink;
+}
+
+.music-bar {
+  overflow: hidden;
+  cursor:pointer;
+  height: 20px;
+  width: 0;
+  margin: 0;
+  opacity: 0;
+  margin: 0 1rem;
+}
+
+html.audio-playing {
+  .music-bar {
+    width: 20px;
+    margin-left: 2.5rem;
+    opacity: 1;
+  }
+}
