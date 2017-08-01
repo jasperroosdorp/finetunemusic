@@ -8,11 +8,31 @@ var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var autoPrefixer = require('gulp-autoprefixer');
 var cleanCss = require('gulp-clean-css');
+var cssnano = require('gulp-cssnano');
 var useref = require('gulp-useref');
 var jshint = require('gulp-jshint');
+var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var cache = require('gulp-cache');
 var gulpif = require ('gulp-if');
+
+// Indicator messages for when build tasks are running
+var messages = {
+  jekyllDev: 'Running: $ jekyll build for dev',
+  jekyllProd: 'Running: $ jekyll build for prod'
+};
+
+// Build the Jekyll Site in development mode
+gulp.task('jekyll-dev', function (done) {
+  browserSync.notify(messages.jekyllDev);
+  return cp.spawn('jekyll', ['build', '--drafts', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
+ .on('close', done);
+});
+
+// Rebuild Jekyll & reload the page
+gulp.task('jekyll-rebuild', ['jekyll-dev'], function () {
+  browserSync.reload();
+});
 
 // COMPILE SASS
 gulp.task('sass', function(){
