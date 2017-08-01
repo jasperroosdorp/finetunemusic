@@ -2,7 +2,7 @@
 title: Finetunemusic.nl/studio
 position: 3
 page:
-  title: Finetunemusic | Studio
+  title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
 summary:
   title: Studio
