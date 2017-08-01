@@ -2,7 +2,6 @@ _site
 .idea
 .sass-cache
 .jekyll-metadata
-.atomignore
 node_modules
 other
 *backup*
