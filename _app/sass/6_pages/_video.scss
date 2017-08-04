@@ -1,13 +1,31 @@
-section.project-video {
+html#video {
+  nav {
+    &.upper, &.lower { color: #fff; }
+    &.upper {
+      .current-track {
+        opacity: 0.5;
+        color: #fff;
+        .music-bar { fill: #fff; }
+      }
+    }
+    &.lower {
+      ul li a {
+        opacity: 0.5;
+        &:hover {
+          color: #fff;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+section.video-container{
   @include container;
   @include responsive-width;
   @include gutters;
-  margin-top: 9rem;
+  margin-top: 6rem;
   margin-bottom: 3rem;
-  figure {
-    @include aspect-ratio(16, 9);
-    background-color: rgba(0, 0, 0, 0.4);
-  }
 }
 
 section.project-info {
@@ -17,9 +35,4 @@ section.project-info {
   h2, p { margin-top: 6rem; }
   h2 { @include span(4 of 12); }
   p { @include span(8 of 12); }
-}
-
-.fluidvids iframe {
-  // opacity: 1;
-  // visibility: hidden;
 }

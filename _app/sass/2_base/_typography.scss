@@ -60,19 +60,23 @@ nav {
   }
 }
 
-html#video {
-  nav {
-    &.upper, &.lower { color: #fff; }
-    &.upper {
-      .current-track { opacity: 0.5; }
-    }
-    &.lower {
-      ul li a { opacity: 0.5; }
-    }
-  }
-}
+// html#video {
+//   nav {
+//     &.upper, &.lower { color: #fff; }
+//     &.upper {
+//       .current-track {
+//         opacity: 0.5;
+//         color: #fff;
+//         .music-bar { fill: #fff; }
+//       }
+//     }
+//     &.lower {
+//       ul li a { opacity: 0.5; }
+//     }
+//   }
+// }
 
-section.home-intro h1 {
+section.index-intro h1 {
   font-size: 2.8rem;
   line-height: 4.3rem;
   font-weight: 300;
@@ -80,8 +84,8 @@ section.home-intro h1 {
   color: rgba(0, 0, 0, 0.9);
 }
 
-section.home-description h2,
-section.home-description p {
+section.index-description h2,
+section.index-description p {
   font-size: 2.3rem;
   font-weight: 400;
   // letter-spacing: 0;

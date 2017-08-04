@@ -1,0 +1,11 @@
+// html.vimeo-loading {
+//   #barba-wrapper { opacity: 0; }
+// }
+
+.video-container {
+  #vimeo iframe {
+    width: 100%;
+    height: 56.25vw;
+    display: block;
+  }
+}

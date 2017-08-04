@@ -17,53 +17,59 @@ pageid: video
     {% include navigation.html %}
 
     <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="project">
+      <div class="barba-container" data-pageid="video">
         <div class="barba-content">
 
-          <section class='project-video'>
-            <!-- <a href="https://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
-            <figure>
-            <div class='content'>
-            <img src="" alt=""/>
-          </div>
-        </figure>
-      </a> -->
-      <!-- <iframe src="https://player.vimeo.com/video/202771816?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-    </iframe> -->
-    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/W_mZdIBP8Lg" frameborder="0" allowfullscreen></iframe> -->
-    <!-- <div id="video-wrapper" data-video-id="59777392"></div> -->
-    <div id="video-wrapper">
-      <iframe id="vimeo" src="https://player.vimeo.com/video/202741792?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-  </section>
+          <section class='video-container'>
+            <!-- <iframe id="vimeo" src="https://player.vimeo.com/video/202771816?color=fff&title=0&byline=0&portrait=0" width="16" height="9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+            <div id="vimeo"></div>
+          </section>
 
-  <section class='project-info'>
-    <h2>Samenvatting</h2>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h2>Geluid</h2>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-  </section>
+          <section class='project-info'>
+            <h2>Samenvatting</h2>
+            <p>{{ page.summary }}</p>
+            <h2>Geluid</h2>
+            <p>{{ page.audio }}</p>
+          </section>
 
-</div>
-</div>
-</main>
+        </div>
+      </div>
+    </main>
 
-{% include portfolio.html %}
+    {% include portfolio.html %}
 
-{% include audio.html %}
+    {% include audio.html %}
 
-<script>
-// var options = {
-//   // id: 59777392,
-//   id: $("#video-wrapper").data("video-id"),
-//   width: 640,
-//   loop: true
-// };
-// var player = new Vimeo.Player('video-wrapper', options);
-</script>
+    <script type="text/javascript" src="../source/body.js"></script>
 
-<script type="text/javascript" src="../source/body.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 
-</BODY>
+    <script>
+    // if($("#vimeo").length) {
+    //
+    //   $.getScript( "https://player.vimeo.com/api/player.js", function( data, textStatus, jqxhr ) {
+    //     console.log( data ); // Data returned
+    //     console.log( textStatus ); // Success
+    //     console.log( jqxhr.status ); // 200
+    //     console.log( "Load was performed." );
+    //   });
+    //
+    //   var options = { id: 59777392, width: 640, loop: true };
+    //   var player = new Vimeo.Player('vimeo', options);
+    //
+    //   player.setVolume(0);
+    //   player.on('play', function() {
+    //     // console.log('played the video!');
+    //     $("html").addClass("video-playing");
+    //     if($("html").hasClass("audio-playing")) { audio.pause(); }
+    //   });
+    //   player.on('pause', function() {
+    //     // console.log('played the video!');
+    //     $("html").removeClass("video-playing");
+    //   });
+    // }
+    </script>
+
+  </BODY>
 
 </HTML>

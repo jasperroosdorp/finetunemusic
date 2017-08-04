@@ -1,34 +1,42 @@
-// Barba.Dispatcher.on('linkClicked', function() {
-// });
+Barba.Dispatcher.on('linkClicked', function() {
+  $('html').addClass('barba-active');
+});
 
-// Barba.Dispatcher.on('newPageReady', function() {
-// fluidvids.init({
-//   selector: ['iframe', 'object'], // runs querySelectorAll()
-//   players: ['www.youtube.com', 'player.vimeo.com'] // players to support
-// });
-// });
+Barba.Dispatcher.on('newPageReady', function() {
 
-Barba.Dispatcher.on('transitionCompleted', function() {
+  // Playing stops when switching pages, but also remove the class
+  // $('html').removeClass('video-playing');
 
-  // Equalizer animation
-  var bars = $('.music-bar .bar');
-  var tl = (new TimelineMax()).staggerTo(bars, .3, {
-    y: -10,
-    repeat:-1,
-    paused: false,
-    yoyo:true,
-    ease: Quad.easeInOut}, .25
-  );
-  $('.music-bar').on('click', function(){
-    tl.isActive() ? pause() : tl.play();
-  });
-  function pause() {
-    tl.pause();
-    TweenMax.to(bars, .7, {
-      y: 15,
-      ease: Quad.easeOut}
-    );
+  // If video page, insert video
+  if($("#vimeo").length) {
+
+    var options = { id: 202771816, width: 640, height: 360, frameborder: 0, byline: false, portrait: false, title: false, color: "fff" };
+    var player = new Vimeo.Player('vimeo', options);
+
+    // player.setVolume(0);
+    player.on('play', function() {
+      // console.log('played the video!');
+      $("html").addClass("video-playing");
+      if($("html").hasClass("audio-playing")) { audio.pause(); }
+    });
+    player.on('pause', function() {
+      // console.log('played the video!');
+      $("html").removeClass("video-playing");
+    });
   }
+
+});
+
+Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer) {
+
+  // Barba is done
+  $('html').removeClass('barba-active');
+
+  // Stop video when audio starts
+  // audio = $('#audio-player').bind('play', function() {
+  //   if($('html').hasClass('video-playing')) { player.pause() }
+  //   // player.pause()
+  // });
 
   // Hide images and fade-in after loading
   // [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
@@ -42,8 +50,14 @@ Barba.Dispatcher.on('transitionCompleted', function() {
   //   alert("playing");
   // }
 
+  // function tester() {
+  //   if ($('html').is('#video')) {
+  //     alert('video-page');
+  //   }
+  // }
+
   // Fade carousel
-  var intro = $(".home-intro > h1").hide(), i = 0;
+  var intro = $(".index-intro > h1").hide(), i = 0;
   (function cycle() {
     intro.eq(i).fadeIn(400)
     .delay(5000)
@@ -62,21 +76,6 @@ Barba.Dispatcher.on('transitionCompleted', function() {
   // Colored HTML background
   $(window).scroll(function () {
     $('html').toggleClass("top-out-of-viewport", ($(window).scrollTop() > 100));
-  });
-
-  var player = new Vimeo.Player('vimeo');
-
-  player.on('play', function() {
-    $("html").addClass("video-playing");
-    if($("html").hasClass("audio-playing")) { audio.pause(); }
-  });
-
-  player.on('pause', function() {
-    $("html").removeClass("video-playing");
-  });
-
-  audio = $('#audio-player').bind('play', function() {
-    if($('html').hasClass('video-playing')) { player.pause() }
   });
 
 });

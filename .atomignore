@@ -7,8 +7,6 @@ CNAME
 package-lock.json
 package.json
 README.md
-_music
-_videos
 _config.yml
 .gitignore
 *.backup*

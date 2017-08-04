@@ -61,8 +61,8 @@ gulp.task('sass', function () {
 // Task to run JS hint
 gulp.task('jshint', function() {
   gulp.src(['_app/scripts/*/*.js', '!_app/scripts/*/*.backup*.js'])
-    .pipe(jshint())
-    .pipe(jshint.reporter('jshint-stylish'));
+  .pipe(jshint())
+  .pipe(jshint.reporter('jshint-stylish'));
 });
 
 // Task to concat, strip debugging and minify JS files
@@ -71,28 +71,40 @@ gulp.task('scripts', function() {
     // Head
     'node_modules/jquery/dist/jquery.min.js',
     'node_modules/moveto/dist/moveTo.min.js',
-    'node_modules/@vimeo/player/dist/player.min.js',
-    '_app/scripts/head/*.js',
-    '!_app/scripts/head/*.backup*.js'
+    // '_app/scripts/head/vimeo-api.js',
+    // 'node_modules/@vimeo/player/dist/player.min.js',
+    // 'node_modules/fluidvids.js/dist/fluidvids.js',
+    // '_app/scripts/head/mep-feature-playlist.js',
+    '_app/scripts/head/vimeo-api.js',
+    '_app/scripts/head/head.js'
   ])
-    .pipe(concat('head.js'))
-    .pipe(stripDebug())
-    .pipe(gulp.dest('_site/source'))
-    .pipe(uglify())
-    .pipe(gulp.dest('source'));
+  .pipe(concat('head.js'))
+  .pipe(stripDebug())
+  .pipe(gulp.dest('_site/source'))
+  .pipe(uglify())
+  .pipe(gulp.dest('source'));
+  browserSync.reload();
   gulp.src([
     // Body
     'node_modules/barba.js/dist/barba.min.js',
+    '_app/scripts/body/barba.js',
     'node_modules/gsap/src/minified/TweenMax.min.js',
+    // '_app/scripts/body/jquery.fitvids.js',
     'node_modules/mediaelement/build/mediaelement-and-player.min.js',
-    '_app/scripts/body/*.js',
-    '!_app/scripts/body/*.backup*.js'
+    '_app/scripts/body/lity.js',
+    '_app/scripts/body/audioplayer.js',
+    '_app/scripts/body/audioswitcher.js',
+    '_app/scripts/body/contentswitch.js',
+    '_app/scripts/body/equalizer.js',
+    '_app/scripts/body/body.js'
+    // '_app/scripts/body/audiooverlap.js'
   ])
-    .pipe(concat('body.js'))
-    .pipe(stripDebug())
-    .pipe(gulp.dest('_site/source'))
-    .pipe(uglify())
-    .pipe(gulp.dest('source'));
+  .pipe(concat('body.js'))
+  .pipe(stripDebug())
+  .pipe(gulp.dest('_site/source'))
+  .pipe(uglify())
+  .pipe(gulp.dest('source'));
+  browserSync.reload();
 });
 
 /**

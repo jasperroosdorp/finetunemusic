@@ -1,6 +1,6 @@
 // .barba-container {
 //   position: relative;
-//   background: $project-bg-color;
+//   background: $video-bg-color;
 // }
 //
 // .barba-content {
@@ -21,7 +21,7 @@
 // }
 //
 // .barba-container[data-page='project'] > .barba-content {
-//   background: $project-bg-color;
+//   background: $video-bg-color;
 // }
 //
 // .barba-shadow, .barba-overlay, .barba-overlap {
@@ -58,8 +58,11 @@
 // // }
 
 html {
-  &.barba-active,
-  &.barba-active body {
-    transition: background-color 1.2s ease;
+  &.barba-active {
+    // transition: background-color 1s ease;
+    // body { transition: background-color 1s ease; }
+    nav.upper .current-track {
+      transition: opacity 0s !important;
+    }
   }
 }

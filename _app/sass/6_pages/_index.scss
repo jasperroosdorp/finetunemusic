@@ -1,4 +1,4 @@
-section.home-intro {
+section.index-intro {
   @include container;
   @include responsive-width;
   @include gutters;
@@ -14,7 +14,7 @@ section.home-intro {
   }
 }
 
-section.home-img {
+section.index-img {
   @include container;
   @include responsive-width;
   margin-top: 70px;
@@ -32,7 +32,7 @@ section.home-img {
   }
 }
 
-section.home-description {
+section.index-description {
   @include container;
   @include responsive-width;
   margin-top: 70px;

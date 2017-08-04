@@ -1,4 +1,4 @@
-html#home,
+html#index,
 html#about,
 html#info {
   background-color: #fff;
@@ -6,6 +6,6 @@ html#info {
 }
 
 html#video {
-  background-color: $project-bg-color;
-  body { background-color: $project-bg-color; }
+  background-color: $video-bg-color;
+  body { background-color: $video-bg-color; }
 }

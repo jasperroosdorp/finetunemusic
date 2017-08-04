@@ -657,10 +657,9 @@ body {
   color: #222;
   background-color: #fff; }
 
-html.barba-active,
-html.barba-active body {
-  -webkit-transition: background-color 1.2s ease;
-  transition: background-color 1.2s ease; }
+html.barba-active nav.upper .current-track {
+  -webkit-transition: opacity 0s !important;
+  transition: opacity 0s !important; }
 
 body {
   font-family: "Hind", sans-serif;
@@ -727,24 +726,15 @@ nav {
     pointer-events: none;
     opacity: 0.2; }
 
-html#video nav.upper, html#video nav.lower {
-  color: #fff; }
-
-html#video nav.upper .current-track {
-  opacity: 0.5; }
-
-html#video nav.lower ul li a {
-  opacity: 0.5; }
-
-section.home-intro h1 {
+section.index-intro h1 {
   font-size: 2.8rem;
   line-height: 4.3rem;
   font-weight: 300;
   letter-spacing: 0.008rem;
   color: rgba(0, 0, 0, 0.9); }
 
-section.home-description h2,
-section.home-description p {
+section.index-description h2,
+section.index-description p {
   font-size: 2.3rem;
   font-weight: 400;
   letter-spacing: 0.01rem;
@@ -833,19 +823,19 @@ header {
 .portfolio-wrapper {
   z-index: 10; }
 
-html#home,
+html#index,
 html#about,
 html#info {
   background-color: #fff; }
-  html#home.top-out-of-viewport,
+  html#index.top-out-of-viewport,
   html#about.top-out-of-viewport,
   html#info.top-out-of-viewport {
     background-color: #404040; }
 
 html#video {
-  background-color: #4B4B4B; }
+  background-color: #000; }
   html#video body {
-    background-color: #4B4B4B; }
+    background-color: #000; }
 
 a {
   cursor: pointer;
@@ -854,22 +844,22 @@ a {
   a:visited {
     color: inherit; }
 
-html#home .full-width-button {
+html#index .full-width-button {
   width: 100%;
   display: block;
   margin-top: 70px;
   background-color: rgba(128, 176, 218, 0.7); }
-  html#home .full-width-button .wrapper {
+  html#index .full-width-button .wrapper {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     max-width: 1550px; }
-    html#home .full-width-button .wrapper:after {
+    html#index .full-width-button .wrapper:after {
       content: " ";
       display: block;
       clear: both; }
-  html#home .full-width-button span {
+  html#index .full-width-button span {
     line-height: inherit;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -877,6 +867,11 @@ html#home .full-width-button {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
+
+.video-container #vimeo iframe {
+  width: 100%;
+  height: 56.25vw;
+  display: block; }
 
 header {
   max-width: 100%;
@@ -1583,7 +1578,7 @@ footer {
   width: 100%;
   background-color: #404040; }
 
-section.home-intro {
+section.index-intro {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1593,28 +1588,28 @@ section.home-intro {
   padding-right: 0.83333%;
   position: relative;
   height: 18rem; }
-  section.home-intro:after {
+  section.index-intro:after {
     content: " ";
     display: block;
     clear: both; }
-  section.home-intro h1 {
+  section.index-intro h1 {
     white-space: pre-line;
     position: absolute;
     bottom: 0;
     display: none; }
 
-section.home-img {
+section.index-img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   max-width: 1550px;
   margin-top: 70px; }
-  section.home-img:after {
+  section.index-img:after {
     content: " ";
     display: block;
     clear: both; }
-  section.home-img figure {
+  section.index-img figure {
     position: relative;
     overflow: hidden;
     -webkit-box-sizing: border-box;
@@ -1623,22 +1618,22 @@ section.home-img {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
-    section.home-img figure:before {
+    section.index-img figure:before {
       display: block;
       content: "";
       width: 100%;
       padding-top: 42.85714%; }
-    section.home-img figure > .content {
+    section.index-img figure > .content {
       overflow: hidden;
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0; }
-    section.home-img figure .content {
+    section.index-img figure .content {
       background-color: rgba(0, 0, 0, 0.1); }
 
-section.home-description {
+section.index-description {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1646,21 +1641,36 @@ section.home-description {
   max-width: 1550px;
   margin-top: 70px;
   margin-bottom: 70px; }
-  section.home-description:after {
+  section.index-description:after {
     content: " ";
     display: block;
     clear: both; }
-  section.home-description h2, section.home-description p {
+  section.index-description h2, section.index-description p {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 50%;
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%; }
-  section.home-description p {
+  section.index-description p {
     max-width: 55rem; }
 
-section.project-video {
+html#video nav.upper, html#video nav.lower {
+  color: #fff; }
+
+html#video nav.upper .current-track {
+  opacity: 0.5;
+  color: #fff; }
+  html#video nav.upper .current-track .music-bar {
+    fill: #fff; }
+
+html#video nav.lower ul li a {
+  opacity: 0.5; }
+  html#video nav.lower ul li a:hover {
+    color: #fff;
+    opacity: 1; }
+
+section.video-container {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1668,28 +1678,12 @@ section.project-video {
   max-width: 1550px;
   padding-left: 0.83333%;
   padding-right: 0.83333%;
-  margin-top: 9rem;
+  margin-top: 6rem;
   margin-bottom: 3rem; }
-  section.project-video:after {
+  section.video-container:after {
     content: " ";
     display: block;
     clear: both; }
-  section.project-video figure {
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.4); }
-    section.project-video figure:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: 56.25%; }
-    section.project-video figure > .content {
-      overflow: hidden;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0; }
 
 section.project-info {
   max-width: 100%;
