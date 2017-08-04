@@ -25,6 +25,15 @@ Barba.Dispatcher.on('newPageReady', function() {
     });
   }
 
+  // Fade carousel
+  var intro = $(".index-intro > h1").hide(), i = 0;
+  (function cycle() {
+    intro.eq(i).fadeIn(400)
+    .delay(5000)
+    .fadeOut(400, cycle);
+    i = ++i % intro.length;
+  })();
+
 });
 
 Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer) {
@@ -55,15 +64,6 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
   //     alert('video-page');
   //   }
   // }
-
-  // Fade carousel
-  var intro = $(".index-intro > h1").hide(), i = 0;
-  (function cycle() {
-    intro.eq(i).fadeIn(400)
-    .delay(5000)
-    .fadeOut(400, cycle);
-    i = ++i % intro.length;
-  })();
 
   // Navigation
   $('.unfold-nav').click(function() {

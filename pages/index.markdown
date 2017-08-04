@@ -22,11 +22,10 @@ short introduction: Wij zijn de eerste zangvogel als je opstaat. Het geluid van 
   laten lachen en laten huilen. Wij zijn die melodie die maar niet uit je hoofd gaat,
   maar ook dat ene liedje waar je de naam niet meer van weet.
 image:
-  image: "/uploads/tanja-heffner-321381.jpg"
+  image: "../uploads/picci.jpg"
 information:
   title: Dit zijn wij
   paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
     voice-overs en verzorgen audio branding.
 layout: index
 ---
-

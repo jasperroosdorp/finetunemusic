@@ -55,7 +55,14 @@ html#index .full-width-button {
   //   50%{background-position: 100% 100%}
   //   100%{background-position:0% 0%}
   // }
-  background-color: rgba(128, 176, 218, 0.7);
+  background-color: $portfolio-button-color;
+  color: $portfolio-text-color;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  &:hover {
+    cursor: pointer;
+    background-color: lighten($portfolio-button-color, 20%);
+    color: rgba(0, 0, 0, 0.8);
+  }
   .wrapper {
     @include container;
     @include responsive-width;

@@ -6,12 +6,16 @@ section.info-section {
   margin-bottom: 3rem;
   h2, p, ul.links { margin-top: 6rem; }
   h2 { @include span(4 of 12); }
-  p { @include span(8 of 12); }
+  p {
+    @include span(8 of 12);
+    padding-top: 0.4rem;
+  }
   a {
-    padding: 0;
+    padding: 0.4rem 0 0 0;
     margin: 0;
     float: left;
     position: relative;
+    line-height: 2.8rem;
     &:nth-last-child(n+2)::after {
       content:',\00a0';
       background-color: #fff;

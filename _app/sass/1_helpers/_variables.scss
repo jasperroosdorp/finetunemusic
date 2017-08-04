@@ -23,15 +23,27 @@ $container-style: fluid;
 $def-font: 'Hind', sans-serif;
 $alt-font: 'Shanti', sans-serif;
 
-// PORTFOLIO
+// BRAND COLORS
+$color001: #1C6A54;
+// $color002: #4500EE;
+// $color002: #7437FF;
+// $color002: #0496FF;
+$color002: #6236db;
+$color002: #FD6D00;
+$color002: #4500EE;
+$color002: #1C6A54;
 
-$portfolio-bg-color: #434355;
-$portfolio-overlay-color: rgba(0, 0, 0, 0.35);
+
+// PORTFOLIO
+$portfolio-button-color: #c3af8f;
+$portfolio-text-color: #fff;
+$audio-player-title-color: #ff8383;
+// $portfolio-bg-color: #434355;
+$portfolio-bg-color: #262325;
+$portfolio-overlay-color: rgba(0, 0, 0, 0.5);
 
 // PROJECT
-
 $video-bg-color: #000;
 
 // FOOTER
-
 $footer-bg-color: #404040;

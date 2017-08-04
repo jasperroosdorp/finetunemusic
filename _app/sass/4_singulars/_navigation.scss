@@ -68,7 +68,7 @@ nav.lower {
   ul li a {
     transition: opacity 0.3s ease, color 0.3s ease;
     &:hover {
-      color: #4500EE;
+      color: $color002;
       opacity: 1;
     }
   }
@@ -78,8 +78,8 @@ html {
   &.portfolio-open {
     nav.upper .current-track {
       // display: none;
-      opacity: 0;
-      pointer-events: none;
+      opacity: 0 !important;
+      pointer-events: none !important;
     }
   }
   &.audio-playing  {

@@ -34,5 +34,8 @@ section.project-info {
   margin-bottom: 15rem;
   h2, p { margin-top: 6rem; }
   h2 { @include span(4 of 12); }
-  p { @include span(8 of 12); }
+  p {
+    @include span(8 of 12);
+    padding-top: 0.3rem;
+  }
 }

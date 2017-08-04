@@ -45,12 +45,12 @@ nav {
   &.upper {
     .current-track {
       // opacity: 0.4;
-      color: #4500EE;
+      color: $color002;
       // color: #ff006b;
       font-weight: 400;
       font-family: $alt-font;
       .music-bar {
-        fill: #4500EE;
+        fill: $color002;
       }
     }
   }
@@ -104,6 +104,12 @@ section.index-description p {
 
 .portfolio {
   color: #fff;
+  .audio-player-title {
+    color: $audio-player-title-color;
+    font-weight: 400;
+    // font-family: $alt-font;
+    // letter-spacing: -0.01rem;
+  }
 }
 
 .portfolio-nav-a {
