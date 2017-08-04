@@ -1,7 +1,7 @@
 ---
 title: Het Nieuwe Schilderij
 date: 2017-08-01 13:46:00 +02:00
-position: 3
+position: 2
 file: "/uploads/2.mp3"
 ---
 
