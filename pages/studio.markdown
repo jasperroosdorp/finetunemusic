@@ -13,10 +13,11 @@ clients:
   title: Opdrachtgevers
 links:
 - name: Migloko
-  video: ../videos/white-wolf.html
+  video: "../videos/white-wolf.html"
 - name: Hanze Hogeschool
   music: The Wonderful Tale Of Madame Cambré
 - name: KLM
-  voice-over:
+  voice-over: 
 layout: info
 ---
+
