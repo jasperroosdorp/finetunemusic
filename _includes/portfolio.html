@@ -6,117 +6,70 @@
 
   <div class="portfolio">
 
-    <nav class='portfolio-nav'>
-      <a href="javascript:void(0)" class='portfolio-nav-a videos active-window'>Video's</a>
-      <a href="javascript:void(0)" class='portfolio-nav-a muziek'>Muziek</a>
-      <a href="javascript:void(0)" class='portfolio-nav-a voice-overs'>Voice-overs</a>
+    <div class="portfolio-content">
+
+      <ul class='portfolio-nav'>
+        <li><a href="#tab-1" class='portfolio-nav-a videos'>Video's</a></li>
+        <li><a href="#tab-2" class='portfolio-nav-a muziek'>Muziek</a></li>
+        <li><a href="#tab-3" class='portfolio-nav-a voice-overs'>Voice-overs</a></li>
+        <!-- <li><a href="javascript:void(0)" class='close-portfolio'></a></li> -->
+      </ul>
+
       <a href="javascript:void(0)" class='close-portfolio'></a>
-    </nav>
 
-    <ul>
-
-      <!--/ VIDEO'S /-->
-      <li>
-        <a href="javascript:void(0)" class="tab-link videos"></a>
-        <div class="tab-content videos">
-
-          <a class="video" href="http://localhost:3000/videos/white-wolf.html">
-            <figure><div class='content'><img src="../uploads/whitewolf.jpeg" alt=""/></div></figure>
-            <span>White Wolf</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>THITHI</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>Basher Beatdown</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>PRA Health Sciences</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>LearningSpaces</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>Han Koning</span>
-          </a>
-
-          <a class="video" href="project_whitewolf.html">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>White Wolf</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>THITHI</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>Basher Beatdown</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>PRA Health Sciences</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>LearningSpaces</span>
-          </a>
-
-          <a class="video">
-            <figure><div class='content'><img src="" alt=""/></div></figure>
-            <span>Han Koning</span>
-          </a>
-
+      <div id='tab-1'><span>Change the tab to see that there is an animation.</span></div>
+      <div id='tab-2'>
+        <div class="mediawrapper music">
+          <div class="audio-player-title music">&nbsp;</div>
+          <audio id="mejs" type="audio/mp3" width="100%" controls="controls">
+            {% assign sorted = (site.music | sort: 'position') %}
+            {% for music in sorted %}
+            {% if music.published != false %}
+            <source src="{{ music.file }}" title="{{ music.title }}"></source>
+            {% endif %}
+            {% endfor %}
+          </audio>
         </div>
-      </li>
-
-      <!--/ MUZIEK /-->
-      <li>
-        <a href="javascript:void(0)" class="tab-link muziek"></a>
-        <div class="tab-content muziek">
-          <!--/ AUDIO PLAYER /-->
-          <div class='audio-player-container'>
-            <div class="audio-player-title">&nbsp;</div>
-            <div id="mediawrapper" class="audio-player-wrapper">
-              <audio id="audio-player" controls src="../uploads/1.mp3"></audio>
-            </div>
-          </div>
-          <!--/ TRACKLIST /-->
-          <div class='audio-tracklist'>
-            <ul>
-              {% assign sorted = (site.music| sort: 'position') %}
-              {% for music in sorted %}
-              {% if music.published != false %}
-              <li><a>{{ music.title }}</a></li>
-              {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
+      </div>
+      <div id='tab-3'>
+        <div class="mediawrapper voice-overs">
+          <div class="audio-player-title voice-overs">&nbsp;</div>
+          <audio id="mejs" type="audio/mp3" width="100%" controls="controls">
+            {% assign sorted = (site.music | sort: 'position') %}
+            {% for music in sorted %}
+            {% if music.published != false %}
+            <source src="{{ music.file }}" title="{{ music.title }}"></source>
+            {% endif %}
+            {% endfor %}
+          </audio>
         </div>
-      </li>
-
-      <!--/ VOICE-OVERS /-->
-      <li>
-        <a href="javascript:void(0)" class="tab-link voice-overs"></a>
-        <div class="tab-content voice-overs">
-          <p>Donec mattis mauris gravida metus laoreet non rutrum sem viverra. Aenean nibh libero, viverra vel vestibulum in, porttitor ut sapien. Phasellus tempor lorem id justo ornare tincidunt. Nulla faucibus, purus eu placerat fermentum, velit mi iaculis nunc, bibendum tincidunt ipsum justo eu mauris. Nulla facilisi. Vestibulum vel lectus ac purus tempus suscipit nec sit amet eros. Nullam fringilla, enim eu lobortis dapibus, quam magna tincidunt nibh, sit amet imperdiet dolor justo congue turpis.</p>
-          <p>Donec mattis mauris gravida metus laoreet non rutrum sem viverra. Aenean nibh libero, viverra vel vestibulum in, porttitor ut sapien. Phasellus tempor lorem id justo ornare tincidunt. Nulla faucibus, purus eu placerat fermentum, velit mi iaculis nunc, bibendum tincidunt ipsum justo eu mauris. Nulla facilisi. Vestibulum vel lectus ac purus tempus suscipit nec sit amet eros. Nullam fringilla, enim eu lobortis dapibus, quam magna tincidunt nibh, sit amet imperdiet dolor justo congue turpis.</p>
+      </div>
+      <!-- <div id='tab-3'>
+        <div class="mediawrapper voice-overs">
+          <div class="audio-player-title voice-overs">&nbsp;</div>
+          <audio id="mejs" type="audio/mp3" controls="controls">
+            {% assign sorted = (site.music | sort: 'position') %}
+            {% for music in sorted %}
+            {% if music.published != false %}
+            <source src="{{ music.file }}" title="{{ music.title }}"></source>
+            {% endif %}
+            {% endfor %}
+          </audio>
         </div>
-      </li>
+      </div> -->
 
-    </ul>
-  </div>
+      <!-- <div id="mediawrapper" class="audio-player-wrapper mediawrapper music">
+      <div class="audio-player-title music">&nbsp;</div>
+      <audio id="mejs" type="audio/mp3" controls="controls">
+      {% assign sorted = (site.music | sort: 'position') %}
+      {% for music in sorted %}
+      {% if music.published != false %}
+      <source src="{{ music.file }}" title="{{ music.title }}"></source>
+      {% endif %}
+      {% endfor %}
+    </audio>
+  </div> -->
+
+</div>
+</div>
 </div>

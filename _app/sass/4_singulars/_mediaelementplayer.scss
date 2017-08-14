@@ -1,0 +1,218 @@
+$audio-bar-height: 30px;
+
+.portfolio .audio-player-title {
+  margin: 4rem 0;
+}
+
+.mejs-container {
+	position: relative;
+  height: $audio-bar-height !important;
+	// font-family: Helvetica, Arial;
+	text-align: left;
+	vertical-align: top;
+	text-indent: 0;
+  width: 100%;
+  .mejs-clear { clear: both; }
+}
+
+.mejs-controls {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $portfolio-bg-color;
+  height: $audio-bar-height;
+  width: 100%;
+  div {
+  	list-style-type: none;
+  	background-image: none;
+  	display: block;
+  	float: left;
+  	margin: 0;
+  	padding: 0;
+    width: $audio-bar-height;
+    height: $audio-bar-height;
+  	font-size: 11px;
+  	line-height: 11px;
+  	// font-family: Helvetica, Arial, sans-serif;
+    // font-family: Arial, sans-serif;
+    // font-size: 2.8rem !important;
+  	border: 0;
+  }
+  .mejs-button {
+    margin-right: 4rem;
+    padding-left: 0.2rem;
+  }
+  .mejs-button button {
+  	cursor: pointer;
+  	display: block;
+  	font-size: 0;
+  	line-height: 0;
+  	text-decoration: none;
+  	padding: 0;
+  	position: absolute;
+    height: $audio-bar-height;
+    width: $audio-bar-height;
+  	border: 0;
+  	background: transparent url(controls.svg) no-repeat;
+    &:focus { outline: none; }
+  }
+  .mejs-time {
+  	color: #fff;
+  	display: block;
+  	width: auto;
+    padding: 0;
+  	overflow: hidden;
+  	-moz-box-sizing: content-box;
+  	-webkit-box-sizing: content-box;
+  	box-sizing: content-box;
+    height: $audio-bar-height !important;
+    position: relative;
+    width: 5rem;
+    left: 0;
+  }
+  .mejs-time span {
+  	color: #fff;
+  	// font-size: 11px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  	display: block;
+  	width: 100%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    &.mejs-duration {
+      text-align: right;
+    }
+  }
+  .mejs-play button {
+    // background: green;
+    overflow: hidden;
+    &::after {
+      position: absolute;
+      width: 70%;
+      height: 80%;
+      display: block;
+      content: '';
+      background-color: #fff;
+      top: 10%;
+      left: -50%;
+      transform: scaleY(0.7) rotate(45deg);
+    }
+  }
+  .mejs-pause button {
+    // background: orange;
+    &::before, &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 0.35rem;
+      height: 60%;
+      margin-top: 20%;
+      background-color: #fff;
+      top: 0;
+      left: 0;
+    }
+    &::after {
+      margin-left: 30%;
+    }
+  }
+  div.mejs-time-rail {
+    position: relative;
+  	direction: ltr;
+  	width: 200px;
+    margin: 0 1.2rem;
+    height: $audio-bar-height;
+    // margin-left: 1.5rem;
+  }
+}
+
+.mejs-controls .mejs-time-rail {
+  span {
+  	display: block;
+  	position: absolute;
+    height: $audio-bar-height;
+  	cursor: pointer;
+  }
+  .mejs-time-total {
+    &::after {
+      position: absolute;
+      height: 0.4rem;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.3);
+      display: block;
+      content: '';
+    }
+  }
+  .mejs-time-buffering { width: 100%; }
+  .mejs-time-loaded { width: 0; }
+  .mejs-time-current {
+      position: absolute;
+  	width: 0;
+    transition: width 0.3s ease;
+    &::after {
+      position: absolute;
+      height: 0.4rem;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      display: block;
+      content: '';
+    }
+  }
+  .mejs-time-handle,
+  .mejs-time-float,
+  .mejs-time-float-current,
+  .mejs-time-float-corner {
+    display: none;
+  }
+}
+
+.mejs-playlist {
+  padding-top: $audio-bar-height;
+  left: 0;
+  width: 100% !important;
+  height: auto !important;
+  overflow-y: auto;
+  ul {
+    padding-top: 4rem;
+  }
+  ul li {
+    color: #fff;
+    $font-family: $alt-font !important;
+    font-size: 2rem;
+    line-height: 5.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    float: left;
+    width: calc(50% - 3rem);
+    white-space: nowrap;
+    position: relative;
+    // height: 3rem;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    &:nth-child(odd) { margin-right: 3rem; }
+    &:nth-child(even) { margin-left: 3rem; }
+    &:nth-last-child(-n+2) { border-color: transparent; }
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 5rem;
+      display: block;
+      content: '';
+      background: linear-gradient(to left, $portfolio-bg-color 0%,rgba(0,0,0,0) 100%);
+    }
+    &:hover { color: rgba(255, 255, 255, 0.7); }
+    &.current { color: rgba(255, 255, 255, 0.7); pointer-events: none; }
+  }
+}

@@ -7,48 +7,47 @@
     height: 100vh;
     top: 0; left: 0; right: 0;
   }
-}
-
-.portfolio-overlay {
-  position: fixed;
-  top: 0; bottom: 0; left: 0; right: 0;
-  display: block;
-  content: '';
-  background: $portfolio-overlay-color;
-  opacity: 0;
-  transition: opacity 0.3s ease-out;
-}
-
-.portfolio {
-  position: fixed;
-  overflow-x: hidden;
-  top: 0; left: 0; right: 0;
-  background: $portfolio-bg-color;
-  @include for-tablet-landscape-up {
-    position: absolute;
-    min-height: 53rem;
-    top: 100vh;
-    transition: top 0.3s ease-in;
+  .portfolio-overlay {
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    display: block;
+    content: '';
+    background: $portfolio-overlay-color;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+  .portfolio {
+    position: fixed;
+    overflow-x: hidden;
+    top: 0; left: 0; right: 0;
+    background: $portfolio-bg-color;
+    // @include container;
+    // @include responsive-width;
+    @include for-tablet-landscape-up {
+      position: absolute;
+      min-height: 53rem;
+      top: 100vh;
+      transition: top 0.3s ease-in;
+    }
   }
 }
 
-.portfolio-nav {
-  position: relative;
-  padding-top: 7rem;
+.portfolio-content {
   @include container;
   @include responsive-width;
   @include gutters;
-  .portfolio-nav-a {
-    display: inline-block;
-    padding: 0 1.5rem;
-    float: left;
-    transition: color 0.3s ease;
-    &:first-child {
-      padding-left: 0;
-      margin-left: 0;
-    }
-    &.active-window {
-      pointer-events: none;
+  position: relative;
+  .portfolio-nav {
+    position: relative;
+    padding-top: 7rem;
+    @include container;
+    .portfolio-nav-a {
+      display: inline-block;
+      padding: 0 1.5rem;
+      float: left;
+      transition: color 0.3s ease;
+      &:first-child { padding-left: 0; margin-left: 0; }
+      &.active-window { pointer-events: none; }
     }
   }
   .close-portfolio {
@@ -57,8 +56,9 @@
     content: '';
     height: 2.2rem;
     width: 2.2rem;
+    // right: 0;
     right: gutters(20);
-    bottom: 1rem;
+    top: 7.7rem;
     overflow: hidden;
     transform: rotate(45deg);
     &::before, &::after {
@@ -77,48 +77,16 @@
   }
 }
 
-.portfolio > ul {
-  @include clearfix;
-  @include container;
-  @include responsive-width;
-  li {
-    list-style: none;
-    display: inline;
-  }
-  .tab-content {
-    @include container;
-    &.muziek, &.voice-overs {
-      @include gutters;
-      margin-top: 4rem;
-    }
-    &.videos {
-      margin-bottom: 7.5rem;
-      margin-top: 5rem;
-    }
-    &.voice-overs {
-      opacity: 0;
-    }
-    background: $portfolio-bg-color;
-  }
-}
-
 html.portfolio-open {
   background-color: $portfolio-overlay-color;
   overflow: hidden;
-  .portfolio-wrapper {
-    pointer-events: auto;
-  }
+  .portfolio-wrapper { pointer-events: auto; }
+  .portfolio-overlay { opacity: 1; }
   .portfolio {
     @include for-tablet-landscape-up {
       transition: top 0.3s ease-out;
       top: calc(100vh - 53rem);
     }
-  }
-  .tab-content {
-    display: none;
-  }
-  .portfolio-overlay {
-    opacity: 1;
   }
 }
 
@@ -128,47 +96,44 @@ html.portfolio-closing {
       top: 100vh;
     }
   }
-  .tab-content {
-    display: none;
-  }
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border: 0;
-  opacity: 1;
-  transition: opacity 0.7s;
-}
-
-img[data-src] {
-  opacity: 0;
-}
-
-.video {
-  margin-bottom: 4.5rem;
-  @include span(12 of 12 no-gutters);
-  @include for-tablet-portrait-up {
-    @include span(11.5 of 36 no-gutters);
-    &:nth-child(3n+2),
-    &:nth-child(3n+3) {
-      @include push(0.25 of 12);
-    }
-  }
-  figure {
-    overflow: hidden;
-    margin-bottom: 3.5rem;
-    @include aspect-ratio(3, 2);
-  }
-  .content {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  img {
-    position: absolute;
-    width: 100%;
-    opacity: 0;
-  }
-  span {
-    padding-left: gutters(4);
-  }
-}
+// img {
+//   max-width: 100%;
+//   height: auto;
+//   border: 0;
+//   opacity: 1;
+//   transition: opacity 0.7s;
+// }
+//
+// img[data-src] {
+//   opacity: 0;
+// }
+//
+// .video {
+//   margin-bottom: 4.5rem;
+//   @include span(12 of 12 no-gutters);
+//   @include for-tablet-portrait-up {
+//     @include span(11.5 of 36 no-gutters);
+//     &:nth-child(3n+2),
+//     &:nth-child(3n+3) {
+//       @include push(0.25 of 12);
+//     }
+//   }
+//   figure {
+//     overflow: hidden;
+//     margin-bottom: 3.5rem;
+//     @include aspect-ratio(3, 2);
+//   }
+//   .content {
+//     background-color: rgba(0, 0, 0, 0.2);
+//   }
+//   img {
+//     position: absolute;
+//     width: 100%;
+//     opacity: 0;
+//   }
+//   span {
+//     padding-left: gutters(4);
+//   }
+// }

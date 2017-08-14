@@ -185,6 +185,8 @@
 
       // set the first track as current
       layers.find('li:first').addClass('current played');
+      $('.audio-player-title.music').html($('.mediawrapper.music .current').text());
+      $('.audio-player-title.voice-overs').html($('.mediawrapper.voice-overs .current').text());
       // play track from playlist when clicking it
       layers.find('.mejs-playlist > ul li').click(function(e) {
         if (!$(this).hasClass('current')) {
@@ -251,11 +253,15 @@
     },
     playTrack: function(track) {
       var t = this;
+      // var audio-player-title = document.querySelector(".audio-player-title");
       t.pause();
       t.setSrc(track.attr('data-url'));
       t.load();
       t.play();
       track.addClass('current').siblings().removeClass('current');
+      $('.audio-player-title.music').html($('.mediawrapper.music .current').text());
+      $('.audio-player-title.voice-overs').html($('.mediawrapper.voice-overs .current').text());
+      $('.audio-player-title.music.voice-overs').html(track.text());
     },
     playTrackURL: function(url) {
       var t = this;

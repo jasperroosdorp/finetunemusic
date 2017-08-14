@@ -20,6 +20,12 @@ html#video {
   }
 }
 
+html.portfolio-open {
+  .video-container {
+    opacity: 0;
+  }
+}
+
 section.video-container{
   @include container;
   @include responsive-width;

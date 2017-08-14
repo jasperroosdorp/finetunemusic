@@ -60,7 +60,21 @@ gulp.task('sass', function () {
 
 // Task to run JS hint
 gulp.task('jshint', function() {
-  gulp.src(['_app/scripts/*/*.js', '!_app/scripts/*/*.backup*.js'])
+  gulp.src([
+    '_app/scripts/head/mediaelement-and-player.js',
+    '_app/scripts/head/mep-feature-playlist.js',
+    '_app/scripts/head/vimeo-api.js',
+    '_app/scripts/head/head.js',
+    '_app/scripts/body/barba.js',
+    // '_app/scripts/body/lity.js',
+    // '_app/scripts/body/audioplayer.js',
+    // '_app/scripts/body/audioswitcher.js',
+    // '_app/scripts/body/contentswitch.js',
+    '_app/scripts/body/portfolio.js',
+    '_app/scripts/body/equalizer.js',
+    '_app/scripts/body/body.js'
+    // '_app/scripts/body/audiooverlap.js'
+  ])
   .pipe(jshint())
   .pipe(jshint.reporter('jshint-stylish'));
 });
@@ -75,6 +89,9 @@ gulp.task('scripts', function() {
     // 'node_modules/@vimeo/player/dist/player.min.js',
     // 'node_modules/fluidvids.js/dist/fluidvids.js',
     // '_app/scripts/head/mep-feature-playlist.js',
+    // 'node_modules/mediaelement/build/mediaelement-and-player.min.js',
+    '_app/scripts/head/mediaelement-and-player.js',
+    '_app/scripts/head/mep-feature-playlist.js',
     '_app/scripts/head/vimeo-api.js',
     '_app/scripts/head/head.js'
   ])
@@ -90,13 +107,16 @@ gulp.task('scripts', function() {
     '_app/scripts/body/barba.js',
     'node_modules/gsap/src/minified/TweenMax.min.js',
     // '_app/scripts/body/jquery.fitvids.js',
-    'node_modules/mediaelement/build/mediaelement-and-player.min.js',
+    // 'node_modules/mediaelement/build/mediaelement-and-player.min.js',
     '_app/scripts/body/lity.js',
-    '_app/scripts/body/audioplayer.js',
-    '_app/scripts/body/audioswitcher.js',
-    '_app/scripts/body/contentswitch.js',
+    // '_app/scripts/body/audioplayer.js',
+    // '_app/scripts/body/audioswitcher.js',
+    // '_app/scripts/body/contentswitch.js',
+    'node_modules/tabslet/jquery.tabslet.min.js',
+    '_app/scripts/body/portfolio.js',
     '_app/scripts/body/equalizer.js',
     '_app/scripts/body/body.js'
+    // '_app/scripts/body/tabslet.js'
     // '_app/scripts/body/audiooverlap.js'
   ])
   .pipe(concat('body.js'))

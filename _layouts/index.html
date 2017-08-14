@@ -9,59 +9,115 @@ pageid: index
     <title>{{ page.title }}</title>
     {% include meta.html %}
     <link rel="stylesheet" href="../source/main.css">
-    <script src="../source/head.js"></script>
-  </HEAD>
+    <!-- <script src="../source/head.js"></script> -->
 
-  <BODY>
+    <!-- <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1.10.2/jquery-1.10.2.min.js">
+  </script> -->
+  <!-- <script type="text/javascript" src="http://cdn.jsdelivr.net/mediaelement/2.13.1/mediaelement-and-player.min.js"></script> -->
+  <script src="../source/head.js"></script>
+  <!-- <script type="text/javascript" src="../mep-feature-playlist.js"></script> -->
+  <!-- <link type="text/css" rel="stylesheet" href="http://cdn.jsdelivr.net/mediaelement/2.13.1/mediaelementplayer.min.css" /> -->
+  <!-- <link type="text/css" rel="stylesheet" href="../mep-feature-playlist.css" /> -->
 
-    {% include navigation.html %}
+  <script>
+  $(function(){
+    $('video,audio').mediaelementplayer({
+      loop: true,
+      shuffle: false,
+      playlist: true,
+      audioHeight: 30,
+      // playlistposition: 'bottom',
+      features: ['playlistfeature', 'playpause', 'current', 'progress', 'duration'],
+      keyActions: []
+    });
+  });
+  </script>
+</HEAD>
 
-    <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="index">
-        <div class="barba-content">
+<BODY>
 
-          <section class="index-intro">
-            {% for introduction in page.introduction %}
-            <h1>{{ introduction }}</h1>
-            {% endfor %}
-          </section>
+  <!-- <div class="audio-player-title music voice-overs">&nbsp;</div> -->
 
-          <section class="index-img">
-            <figure>
-              <div class='content'>
-                <img src="{{ page.image.image }}" alt=""/>
-              </div>
-            </figure>
-          </section>
+  <!-- <div class="mediawrapper music">
+    <div class="audio-player-title music">&nbsp;</div>
+    <audio id="mejs" type="audio/mp3" controls="controls">
+      {% assign sorted = (site.music | sort: 'position') %}
+      {% for music in sorted %}
+      {% if music.published != false %}
+      <source src="{{ music.file }}" title="{{ music.title }}"></source>
+      {% endif %}
+      {% endfor %}
+    </audio>
+  </div> -->
 
-          <section class="index-description">
-            <h2>{{ page.information.title }}</h2>
-            <p>{{ page.information.paragraph }}</p>
-          </section>
+  <!-- <div class="mediawrapper voice-overs">
+    <div class="audio-player-title voice-overs">&nbsp;</div>
+    <audio id="mejs" type="audio/mp3" controls="controls">
+      {% assign sorted = (site.music) %}
+      {% for music in sorted %}
+      {% if music.published != false %}
+      <source src="{{ music.file }}" title="{{ music.title }}"></source>
+      {% endif %}
+      {% endfor %}
+    </audio>
+  </div> -->
 
-          <a class="full-width-button" onclick="openPortfolio('active-window')">
-            <div class="wrapper">
-              <span>
-                Beluister ons portfolio
-              </span>
+  {% include navigation.html %}
+
+  <main id="barba-wrapper">
+    <div class="barba-container" data-pageid="index">
+      <div class="barba-content">
+
+        <section class="index-intro">
+          {% for introduction in page.introduction %}
+          <h1>{{ introduction }}</h1>
+          {% endfor %}
+        </section>
+
+        <section class="index-img">
+          <figure>
+            <div class='content'>
+              <img src="{{ page.image.image }}" alt=""/>
             </div>
-          </a>
+          </figure>
+        </section>
 
-          <footer>
-          </footer>
+        <section class="index-description">
+          <h2>{{ page.information.title }}</h2>
+          <p>{{ page.information.paragraph }}</p>
+        </section>
 
-        </div>
+        <a class="full-width-button" onclick="openPortfolio('active-window')">
+          <div class="wrapper">
+            <span>
+              Beluister ons portfolio
+            </span>
+          </div>
+        </a>
+
+        <footer>
+        </footer>
+
       </div>
-    </main>
+    </div>
+  </main>
 
-    {% include portfolio.html %}
+  {% include portfolio.html %}
 
-    {% include audio.html %}
+  <script type="text/javascript" src="../source/body.js"></script>
 
-    <script type="text/javascript" src="../source/body.js"></script>
+  <!-- <script>
+  $(document).ready(function() {
 
-    <script src="https://player.vimeo.com/api/player.js"></script>
+    $('.tabs').tabslet({
+    mouseevent: 'click',
+    attribute: 'href',
+    animation: true
+    });
 
-  </BODY>
+  });
+  </script> -->
+
+</BODY>
 
 </HTML>

@@ -7,6 +7,8 @@ Barba.Dispatcher.on('newPageReady', function() {
   // Playing stops when switching pages, but also remove the class
   // $('html').removeClass('video-playing');
 
+  // alert('test');
+
   // If video page, insert video
   if($("#vimeo").length) {
 
