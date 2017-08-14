@@ -35,10 +35,10 @@
         <div class="mediawrapper voice-overs">
           <div class="audio-player-title voice-overs">&nbsp;</div>
           <audio id="mejs" type="audio/mp3" width="100%" controls="controls">
-            {% assign sorted = (site.music | sort: 'position') %}
-            {% for music in sorted %}
-            {% if music.published != false %}
-            <source src="{{ music.file }}" title="{{ music.title }}"></source>
+            {% assign sorted = (site.voice-overs | sort: 'position') %}
+            {% for voice-overs in sorted %}
+            {% if voice-overs.published != false %}
+            <source src="{{ voice-overs.file }}" title="{{ voice-overs.title }}"></source>
             {% endif %}
             {% endfor %}
           </audio>
