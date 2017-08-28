@@ -27,20 +27,20 @@ defaults:
     number: 202771816
     width: 640
     height: 360
-    image:
-    summary:
-    audio:
+    image: 
+    summary: 
+    audio: 
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file:
+    file: 
 - scope:
     path: ''
     type: voice-overs
   values:
-    file:
+    file: 
 exclude:
 - node_modules
 - gulpfile.js
