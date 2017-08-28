@@ -1,75 +1,56 @@
 <div class='portfolio-wrapper'>
 
-  <!-- <a class='portfolio-overlay open-portfolio moveto' data-target="#top-marker" data-mt-duration="300" data-mt-easing="easeOutQuad"></a> -->
-
   <a class='portfolio-overlay close-portfolio'></a>
 
   <div class="portfolio">
 
     <div class="portfolio-content">
 
-      <ul class='portfolio-nav'>
-        <li><a href="#tab-1" class='portfolio-nav-a videos'>Video's</a></li>
-        <li><a href="#tab-2" class='portfolio-nav-a muziek'>Muziek</a></li>
-        <li><a href="#tab-3" class='portfolio-nav-a voice-overs'>Voice-overs</a></li>
-        <!-- <li><a href="javascript:void(0)" class='close-portfolio'></a></li> -->
+      <ul class="portfolio-nav">
+        <li><a class='portfolio-nav-a tab-1'>Video's</a></li>
+        <li><a class='portfolio-nav-a tab-2a'>Muziek</a></li>
+        <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
       </ul>
 
       <a href="javascript:void(0)" class='close-portfolio'></a>
 
-      <div id='tab-1'><span>Change the tab to see that there is an animation.</span></div>
-      <div id='tab-2'>
+      <div id='tab-1'>
+        {% assign sorted = (site.videos | sort: 'position') %}
+        {% for videos in sorted %}
+        {% if videos.published != false %}
+        <a class="video" href="http://localhost:3000{{ videos.url }}">
+          <figure>
+            <div class='content' style="background-image: url('{{ videos.image }}')"></div>
+          </figure>
+          <span>{{ videos.title }}</span>
+        </a>
+        {% endif %}
+        {% endfor %}
+        <!-- <a href="http://www.google.nl">Google</a> -->
+      </div>
+
+      <div id='tab-2' class='player-hidden'>
         <div class="mediawrapper music">
-          <div class="audio-player-title music">&nbsp;</div>
+          <!-- <div class="audio-player-title music">&nbsp;</div> -->
           <audio id="mejs" type="audio/mp3" width="100%" controls="controls">
             {% assign sorted = (site.music | sort: 'position') %}
             {% for music in sorted %}
             {% if music.published != false %}
-            <source src="{{ music.file }}" title="{{ music.title }}"></source>
+            <source class="music" src="{{ music.file }}" title="{{ music.title }}"></source>
             {% endif %}
             {% endfor %}
-          </audio>
-        </div>
-      </div>
-      <div id='tab-3'>
-        <div class="mediawrapper voice-overs">
-          <div class="audio-player-title voice-overs">&nbsp;</div>
-          <audio id="mejs" type="audio/mp3" width="100%" controls="controls">
             {% assign sorted = (site.voice-overs | sort: 'position') %}
             {% for voice-overs in sorted %}
             {% if voice-overs.published != false %}
-            <source src="{{ voice-overs.file }}" title="{{ voice-overs.title }}"></source>
+            <source class="voice-over" src="{{ voice-overs.file }}" title="{{ voice-overs.title }}"></source>
             {% endif %}
             {% endfor %}
           </audio>
         </div>
       </div>
-      <!-- <div id='tab-3'>
-        <div class="mediawrapper voice-overs">
-          <div class="audio-player-title voice-overs">&nbsp;</div>
-          <audio id="mejs" type="audio/mp3" controls="controls">
-            {% assign sorted = (site.music | sort: 'position') %}
-            {% for music in sorted %}
-            {% if music.published != false %}
-            <source src="{{ music.file }}" title="{{ music.title }}"></source>
-            {% endif %}
-            {% endfor %}
-          </audio>
-        </div>
-      </div> -->
-
-      <!-- <div id="mediawrapper" class="audio-player-wrapper mediawrapper music">
-      <div class="audio-player-title music">&nbsp;</div>
-      <audio id="mejs" type="audio/mp3" controls="controls">
-      {% assign sorted = (site.music | sort: 'position') %}
-      {% for music in sorted %}
-      {% if music.published != false %}
-      <source src="{{ music.file }}" title="{{ music.title }}"></source>
-      {% endif %}
-      {% endfor %}
-    </audio>
-  </div> -->
 
 </div>
+
 </div>
+
 </div>

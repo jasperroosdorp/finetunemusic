@@ -40,3 +40,98 @@ html.audio-playing {
     opacity: 1;
   }
 }
+
+html.portfolio-tab-1 .portfolio-wrapper .portfolio-nav-a.tab-1,
+html.portfolio-tab-2a .portfolio-wrapper .portfolio-nav-a.tab-2a,
+html.portfolio-tab-2b .portfolio-wrapper .portfolio-nav-a.tab-2b {
+  transition: opacity 0.3s ease;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+html.portfolio-open .portfolio-wrapper,
+html.portfolio-closing .portfolio-wrapper {
+  #tab-1,
+  #tab-2,
+  #tab-2 .mejs-controls,
+  #tab-2 .mejs-playlist li {
+    display: none;
+  }
+  #tab-1,
+  #tab-2 .mejs-controls,
+  #tab-2 .mejs-playlist li {
+    animation-name: fadein;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+#tab-2 {
+  // height: 3000px;
+}
+
+@keyframes fadein {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+html.portfolio-tab-1 .portfolio-wrapper #tab-1,
+html.portfolio-tab-2a .portfolio-wrapper #tab-2,
+html.portfolio-tab-2b .portfolio-wrapper #tab-2,
+html.portfolio-tab-2a .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-tab-2a .portfolio-wrapper #tab-2 .mejs-playlist li.music,
+html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
+  display: block;
+}
+
+#tab-2.player-hidden {
+  .mejs-controls {
+    pointer-events: none;
+    margin-top: -$audio-bar-height;
+    &::after {
+      opacity: 1;
+    }
+  }
+  .mejs-playlist ul {
+    margin-top: 0;
+    padding-top: 5.8rem;
+    // padding-top: 3.5rem;
+  }
+}
+
+#tab-2 {
+  .mejs-controls {
+    pointer-events: auto;
+    margin-top: 0;
+    top: 7rem;
+    // background-color: transparent;
+    // width: auto;
+    // overflow: auto;
+    &::after {
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+      content: '';
+      background-color: $portfolio-bg-color;
+      transition: opacity 0.5s;
+    }
+  }
+  .mejs-playlist ul {
+    margin-top: $audio-bar-height;
+    padding-top: 11rem;
+    transition: padding-top 0.3s ease-out;
+  }
+}
+
+html.portfolio-tab-1 .portfolio-wrapper {
+  @include for-tablet-landscape-up {
+    overflow-y: scroll;
+  }
+}

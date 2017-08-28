@@ -3169,9 +3169,29 @@ if (typeof jQuery != 'undefined') {
 					if (media.paused) {
 						media.play();
             $('html').addClass('audio-playing');
+            if($('.mejs-playlist li.current').hasClass('music')) {
+              $('html').removeClass('voice-over');
+              $('html').addClass('music');
+            }
+            else {
+              $('html').removeClass('music');
+              $('html').addClass('voice-over');
+            }
+            // if($('.mediawrapper.music .mejs-playpause-button').hasClass('mejs-pause')) {
+            //   $('html').removeClass('voice-over');
+            //   $('html').addClass('music')
+            // }
+            // if($('.mediawrapper.voice-overs .mejs-playpause-button').hasClass('mejs-pause')) {
+            //   $('html').removeClass('music');
+            //   $('html').addClass('voice-over')
+            // }
 					} else {
 						media.pause();
             $('html').removeClass('audio-playing');
+            $('html').removeClass('music');
+            $('html').removeClass('voice-over');
+            // $('html').removeClass('music');
+            // $('html').removeClass('voice-over');
 					}
 
 					return false;
@@ -3180,10 +3200,42 @@ if (typeof jQuery != 'undefined') {
 			media.addEventListener('play',function() {
 				play.removeClass('mejs-play').addClass('mejs-pause');
         $('html').addClass('audio-playing');
+        if($('.mejs-playlist li.current').hasClass('music')) {
+          $('html').removeClass('voice-over');
+          $('html').addClass('music');
+        }
+        else {
+          $('html').removeClass('music');
+          $('html').addClass('voice-over');
+        }
+        // if($('.mediawrapper.music .mejs-playpause-button').hasClass('mejs-pause')) {
+        //   $('html').removeClass('voice-over');
+        //   $('html').addClass('music')
+        // }
+        // if($('.mediawrapper.voice-overs .mejs-playpause-button').hasClass('mejs-pause')) {
+        //   $('html').removeClass('music');
+        //   $('html').addClass('voice-over')
+        // }
 			}, false);
 			media.addEventListener('playing',function() {
 				play.removeClass('mejs-play').addClass('mejs-pause');
         $('html').addClass('audio-playing');
+        if($('.mejs-playlist li.current').hasClass('music')) {
+          $('html').removeClass('voice-over');
+          $('html').addClass('music');
+        }
+        else {
+          $('html').removeClass('music');
+          $('html').addClass('voice-over');
+        }
+        // if($('.mediawrapper.music .mejs-playpause-button').hasClass('mejs-pause')) {
+        //   $('html').removeClass('voice-over');
+        //   $('html').addClass('music')
+        // }
+        // if($('.mediawrapper.voice-overs .mejs-playpause-button').hasClass('mejs-pause')) {
+        //   $('html').removeClass('music');
+        //   $('html').addClass('voice-over')
+        // }
 			}, false);
 
 

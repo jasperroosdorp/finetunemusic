@@ -232,11 +232,14 @@ section.info-section p {
   letter-spacing: 0.01rem;
   line-height: 3.5rem; }
 
-header {
-  z-index: 9; }
-
 .portfolio-wrapper {
   z-index: 10; }
+
+section.index-intro {
+  z-index: 9; }
+
+header {
+  z-index: 8; }
 
 html#index,
 html#about,
@@ -337,10 +340,12 @@ nav.upper {
       font-weight: inherit; }
 
 nav.lower {
-  height: 0;
-  -webkit-transition: height 0.3s ease;
-  transition: height 0.3s ease;
-  overflow: hidden; }
+  height: 120px;
+  margin-bottom: -120px;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease, margin-bottom 0.3s ease;
+  transition: opacity 0.3s ease, margin-bottom 0.3s ease; }
   nav.lower ul {
     display: inline-block;
     vertical-align: top; }
@@ -377,10 +382,12 @@ html.nav-unfolded nav.upper .fold-nav {
   pointer-events: auto !important; }
 
 html.nav-unfolded nav.lower {
-  height: 110px; }
+  pointer-events: auto;
+  margin-bottom: 0;
+  opacity: 1; }
 
 .portfolio .audio-player-title {
-  margin: 4rem 0; }
+  opacity: 0; }
 
 .mejs-container {
   position: relative;
@@ -399,7 +406,6 @@ html.nav-unfolded nav.lower {
   padding: 0;
   bottom: 0;
   left: 0;
-  background-color: #262325;
   height: 30px;
   width: 100%; }
   .mejs-controls div {
@@ -540,13 +546,14 @@ html.nav-unfolded nav.lower {
   display: none; }
 
 .mejs-playlist {
-  padding-top: 30px;
   left: 0;
   width: 100% !important;
   height: auto !important;
   overflow-y: auto; }
   .mejs-playlist ul {
-    padding-top: 4rem; }
+    width: 100%;
+    width: -webkit-calc(100% + 6rem);
+    width: calc(100% + 6rem); }
   .mejs-playlist ul li {
     color: #fff;
     font-size: 2rem;
@@ -557,16 +564,12 @@ html.nav-unfolded nav.lower {
     float: left;
     width: -webkit-calc(50% - 3rem);
     width: calc(50% - 3rem);
+    margin: 0 1.5rem;
+    left: -1.5rem;
     white-space: nowrap;
     position: relative;
     overflow: hidden;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
-    .mejs-playlist ul li:nth-child(odd) {
-      margin-right: 3rem; }
-    .mejs-playlist ul li:nth-child(even) {
-      margin-left: 3rem; }
-    .mejs-playlist ul li:nth-last-child(-n+2) {
-      border-color: transparent; }
+    border-top: 1px solid rgba(255, 255, 255, 0.2); }
     .mejs-playlist ul li::after {
       position: absolute;
       top: 0;
@@ -584,229 +587,26 @@ html.nav-unfolded nav.lower {
       color: rgba(255, 255, 255, 0.7);
       pointer-events: none; }
 
-/*
-Document        : mep-feature-playlist.css
-Author          : Andrew Berezovsky <andrew.berezovsky@gmail.com>
-Original Author : Junaid Qadir Baloch <shekhanzai.baloch@gmail.com>
-*/
-/* Start: Show/Hide Playlist*/
-/* End: Show/Hide Playlist */
-/* Start: Previous */
-/* End: Previous */
-/* Start: Next */
-/* End: Next */
-/* Start: Shuffle */
-/* End: Shuffle */
-/*Start: Playlist*/
-/*End: Playlist*/
-/*! Lity - v2.2.2 - 2016-12-14
-* http://sorgalla.com/lity/
-* Copyright (c) 2015-2016 Jan Sorgalla; Licensed MIT */
-.lity {
-  z-index: 9990;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  white-space: nowrap;
-  background: #0b0b0b;
-  background: rgba(0, 0, 0, 0.9);
-  outline: none !important;
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-  .lity:after {
-    content: " ";
-    display: block;
-    clear: both; }
+.mejs-playlist ul li:nth-child(1),
+.mejs-playlist ul li:nth-child(2),
+.mejs-playlist ul li.music + li.voice-over,
+.mejs-playlist ul li.music + li.voice-over + li.voice-over {
+  border-color: transparent; }
 
-.lity.lity-opened {
-  opacity: 1; }
-
-.lity.lity-closed {
-  opacity: 0; }
-
-.lity * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.lity-wrap {
-  z-index: 9990;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  outline: none !important; }
-
-.lity-wrap:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; }
-
-.lity-loader {
-  z-index: 9991;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  margin-top: -0.8em;
-  width: 100%;
-  text-align: center;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-.lity-loading .lity-loader {
-  opacity: 1; }
-
-.lity-container {
-  z-index: 9992;
-  position: relative;
-  text-align: left;
-  vertical-align: middle;
-  display: inline-block;
-  white-space: normal;
-  max-width: 100%;
-  max-height: 100%;
-  outline: none !important; }
-
-.lity-content {
-  z-index: 9993;
-  width: 100%;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
-
-.lity-loading .lity-content,
-.lity-closed .lity-content {
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8); }
-
-.lity-content:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  display: block;
-  right: 0;
-  width: auto;
-  height: auto;
-  z-index: -1;
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
-
-.lity-close {
-  z-index: 9994;
-  width: 35px;
-  height: 35px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  -webkit-appearance: none;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  padding: 0;
-  color: #fff;
-  font-style: normal;
-  font-size: 35px;
-  font-family: Arial, Baskerville, monospace;
-  line-height: 35px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  border: 0;
-  background: none;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-
-.lity-close::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
-
-.lity-close:hover,
-.lity-close:focus,
-.lity-close:active,
-.lity-close:visited {
-  text-decoration: none;
-  text-align: center;
-  padding: 0;
-  color: #fff;
-  font-style: normal;
-  font-size: 35px;
-  font-family: Arial, Baskerville, monospace;
-  line-height: 35px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  border: 0;
-  background: none;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-
-.lity-close:active {
-  top: 1px; }
-
-/* Image */
-.lity-image img {
-  max-width: 100%;
-  display: block;
-  line-height: 0;
-  border: 0; }
-
-/* iFrame */
-.lity-iframe .lity-container,
-.lity-youtube .lity-container,
-.lity-vimeo .lity-container,
-.lity-facebookvideo .lity-container,
-.lity-googlemaps .lity-container {
-  width: 100%;
-  max-width: 964px; }
-
-.lity-iframe-container {
-  width: 100%;
+.portfolio-content > ul.muziek ~ #tab-2 .mejs-playlist ul li.voice-over,
+.portfolio-content > ul.voice-overs ~ #tab-2 .mejs-playlist ul li.music {
   height: 0;
-  padding-top: 56.25%;
-  overflow: auto;
-  pointer-events: auto;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-overflow-scrolling: touch; }
-
-.lity-iframe-container iframe {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-  background: #000; }
-
-.lity-hide {
-  display: none; }
+  width: 0;
+  pointer-events: 0;
+  opacity: 0;
+  margin: 0; }
 
 .portfolio-wrapper {
   pointer-events: none; }
   @media (min-width: 900px) {
     .portfolio-wrapper {
       position: fixed;
-      overflow-x: hidden;
-      overflow-y: scroll;
+      overflow: hidden;
       height: 100vh;
       top: 0;
       left: 0;
@@ -826,6 +626,7 @@ Original Author : Junaid Qadir Baloch <shekhanzai.baloch@gmail.com>
   .portfolio-wrapper .portfolio {
     position: fixed;
     overflow-x: hidden;
+    overflow-y: hidden;
     top: 0;
     left: 0;
     right: 0;
@@ -844,33 +645,33 @@ Original Author : Junaid Qadir Baloch <shekhanzai.baloch@gmail.com>
   margin-right: auto;
   width: 90%;
   max-width: 1550px;
-  padding-left: 0.83333%;
-  padding-right: 0.83333%;
   position: relative; }
   .portfolio-content:after {
     content: " ";
     display: block;
     clear: both; }
-  .portfolio-content .portfolio-nav {
+  .portfolio-content > ul {
     position: relative;
     padding-top: 7rem;
     max-width: 100%;
     margin-left: auto;
-    margin-right: auto; }
-    .portfolio-content .portfolio-nav:after {
+    margin-right: auto;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%; }
+    .portfolio-content > ul:after {
       content: " ";
       display: block;
       clear: both; }
-    .portfolio-content .portfolio-nav .portfolio-nav-a {
+    .portfolio-content > ul .portfolio-nav-a {
       display: inline-block;
-      padding: 0 1.5rem;
+      padding: 0 3rem;
       float: left;
       -webkit-transition: color 0.3s ease;
       transition: color 0.3s ease; }
-      .portfolio-content .portfolio-nav .portfolio-nav-a:first-child {
+      .portfolio-content > ul .portfolio-nav-a:first-child {
         padding-left: 0;
         margin-left: 0; }
-      .portfolio-content .portfolio-nav .portfolio-nav-a.active-window {
+      .portfolio-content > ul .portfolio-nav-a.active-window {
         pointer-events: none; }
   .portfolio-content .close-portfolio {
     position: absolute;
@@ -918,6 +719,70 @@ html.portfolio-open {
   html.portfolio-closing .portfolio {
     top: 100vh; } }
 
+#tab-1 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 7.5rem;
+  padding-bottom: 3.75rem; }
+  #tab-1:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+#tab-2 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+  #tab-2:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.video {
+  margin-bottom: 4.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  float: left; }
+  @media (min-width: 600px) {
+    .video {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 30.55556%;
+      float: left; }
+      .video:nth-child(3n+2), .video:nth-child(3n+3) {
+        margin-left: 4.16667%; } }
+  .video figure {
+    overflow: hidden;
+    margin-bottom: 3.5rem;
+    position: relative;
+    overflow: hidden; }
+    .video figure:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 66.66667%; }
+    .video figure > .content {
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+  .video .content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .video .content:hover {
+      cursor: pointer; }
+  .video span {
+    padding-left: 2.5%; }
+
 footer {
   display: block;
   content: '';
@@ -939,6 +804,18 @@ section.index-intro {
     content: " ";
     display: block;
     clear: both; }
+  section.index-intro::before {
+    position: absolute;
+    top: 0;
+    height: 10rem;
+    left: 0;
+    right: 0;
+    display: block;
+    content: '';
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(75%, #fff));
+    background: -webkit-linear-gradient(top, transparent 0%, #fff 75%);
+    background: linear-gradient(to bottom, transparent 0%, #fff 75%);
+    pointer-events: none; }
   section.index-intro h1 {
     white-space: pre-line;
     position: absolute;
@@ -1135,3 +1012,95 @@ html.audio-playing .music-bar {
   width: 20px;
   margin-left: 2.5rem;
   opacity: 1; }
+
+html.portfolio-tab-1 .portfolio-wrapper .portfolio-nav-a.tab-1,
+html.portfolio-tab-2a .portfolio-wrapper .portfolio-nav-a.tab-2a,
+html.portfolio-tab-2b .portfolio-wrapper .portfolio-nav-a.tab-2b {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0.6;
+  pointer-events: none; }
+
+html.portfolio-open .portfolio-wrapper #tab-1,
+html.portfolio-open .portfolio-wrapper #tab-2,
+html.portfolio-open .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-open .portfolio-wrapper #tab-2 .mejs-playlist li,
+html.portfolio-closing .portfolio-wrapper #tab-1,
+html.portfolio-closing .portfolio-wrapper #tab-2,
+html.portfolio-closing .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-closing .portfolio-wrapper #tab-2 .mejs-playlist li {
+  display: none; }
+
+html.portfolio-open .portfolio-wrapper #tab-1,
+html.portfolio-open .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-open .portfolio-wrapper #tab-2 .mejs-playlist li,
+html.portfolio-closing .portfolio-wrapper #tab-1,
+html.portfolio-closing .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-closing .portfolio-wrapper #tab-2 .mejs-playlist li {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+html.portfolio-tab-1 .portfolio-wrapper #tab-1,
+html.portfolio-tab-2a .portfolio-wrapper #tab-2,
+html.portfolio-tab-2b .portfolio-wrapper #tab-2,
+html.portfolio-tab-2a .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-controls,
+html.portfolio-tab-2a .portfolio-wrapper #tab-2 .mejs-playlist li.music,
+html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
+  display: block; }
+
+#tab-2.player-hidden .mejs-controls {
+  pointer-events: none;
+  margin-top: -30px; }
+  #tab-2.player-hidden .mejs-controls::after {
+    opacity: 1; }
+
+#tab-2.player-hidden .mejs-playlist ul {
+  margin-top: 0;
+  padding-top: 5.8rem; }
+
+#tab-2 .mejs-controls {
+  pointer-events: auto;
+  margin-top: 0;
+  top: 7rem; }
+  #tab-2 .mejs-controls::after {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    content: '';
+    background-color: #262325;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s; }
+
+#tab-2 .mejs-playlist ul {
+  margin-top: 30px;
+  padding-top: 11rem;
+  -webkit-transition: padding-top 0.3s ease-out;
+  transition: padding-top 0.3s ease-out; }
+
+@media (min-width: 900px) {
+  html.portfolio-tab-1 .portfolio-wrapper {
+    overflow-y: scroll; } }

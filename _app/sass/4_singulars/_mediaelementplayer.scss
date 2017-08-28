@@ -1,7 +1,8 @@
 $audio-bar-height: 30px;
 
 .portfolio .audio-player-title {
-  margin: 4rem 0;
+  // margin: 4rem 0;
+  opacity: 0;
 }
 
 .mejs-container {
@@ -22,7 +23,7 @@ $audio-bar-height: 30px;
   padding: 0;
   bottom: 0;
   left: 0;
-  background-color: $portfolio-bg-color;
+  // background-color: $portfolio-bg-color;
   height: $audio-bar-height;
   width: 100%;
   div {
@@ -177,13 +178,16 @@ $audio-bar-height: 30px;
 }
 
 .mejs-playlist {
-  padding-top: $audio-bar-height;
+  // padding-top: $audio-bar-height;
   left: 0;
   width: 100% !important;
   height: auto !important;
   overflow-y: auto;
   ul {
-    padding-top: 4rem;
+    // padding-top: 4rem;
+    // margin: 0 -3rem;
+    width: 100%;
+    width: calc(100% + 6rem);
   }
   ul li {
     color: #fff;
@@ -194,14 +198,20 @@ $audio-bar-height: 30px;
     transition: color 0.3s ease;
     float: left;
     width: calc(50% - 3rem);
+    margin: 0 1.5rem;
+    left: -1.5rem;
+    // margin: 0 1.5rem;
     white-space: nowrap;
     position: relative;
     // height: 3rem;
     overflow: hidden;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    &:nth-child(odd) { margin-right: 3rem; }
-    &:nth-child(even) { margin-left: 3rem; }
-    &:nth-last-child(-n+2) { border-color: transparent; }
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    // &:nth-child(odd) { margin-right: 3rem; }
+    // &:nth-child(even) { margin-left: 3rem; }
+    // &:nth-last-child(-n+2) { border-color: transparent; }
+    // &:first-child() {
+    //   background-color: pink !important;
+    // }
     &::after {
       position: absolute;
       top: 0;
@@ -215,4 +225,28 @@ $audio-bar-height: 30px;
     &:hover { color: rgba(255, 255, 255, 0.7); }
     &.current { color: rgba(255, 255, 255, 0.7); pointer-events: none; }
   }
+}
+
+.mejs-playlist ul li:nth-child(1),
+.mejs-playlist ul li:nth-child(2),
+.mejs-playlist ul li.music + li.voice-over,
+.mejs-playlist ul li.music + li.voice-over + li.voice-over {
+  border-color: transparent;
+}
+
+// li[title="index.html"] {
+//   background-color: pink !important;
+//   display: none;
+//   ~ li {
+//     opacity: 0;
+//   }
+// }
+
+.portfolio-content > ul.muziek ~ #tab-2 .mejs-playlist ul li.voice-over,
+.portfolio-content > ul.voice-overs ~ #tab-2 .mejs-playlist ul li.music {
+  height: 0;
+  width: 0;
+  pointer-events: 0;
+  opacity: 0;
+  margin: 0;
 }

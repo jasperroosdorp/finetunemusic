@@ -169,6 +169,7 @@
       $('#'+player.id).find('.mejs-mediaelement source').each(function(index, element) {
         if ($.trim(this.src) != '') {
           var track = {};
+          track.class = $(this).attr('class');
           track.source = $.trim(this.src);
           if ($.trim(this.title) != '') {
             track.name = $.trim(this.title);
@@ -180,15 +181,23 @@
         }
       });
       for (var track in tracks) {
-        layers.find('.mejs-playlist > ul').append('<li data-url="' + tracks[track].source + '" title="' + tracks[track].name + '">' + tracks[track].name + '</li>');
+        layers.find('.mejs-playlist > ul').append('<li data-url="' + tracks[track].source + '" class="' + tracks[track].class + '" title="' + tracks[track].name + '">' + tracks[track].name + '</li>');
       }
 
       // set the first track as current
-      layers.find('li:first').addClass('current played');
-      $('.audio-player-title.music').html($('.mediawrapper.music .current').text());
-      $('.audio-player-title.voice-overs').html($('.mediawrapper.voice-overs .current').text());
+      // layers.find('li:first').addClass('current played');
+      // $('.audio-player-title.music').html($('.mediawrapper.music .current').text());
+      // $('.audio-player-title.voice-overs').html($('.mediawrapper.voice-overs .current').text());
       // play track from playlist when clicking it
+
+      $('#tab-2.player-hidden .mejs-playlist > ul li').click(function(e) {
+        $('#tab-2').removeClass('player-hidden');
+      });
+
       layers.find('.mejs-playlist > ul li').click(function(e) {
+        // if ($('html').hasClass('player-hidden')) {
+        //   $('html').removeClass('player-hidden');
+        // }
         if (!$(this).hasClass('current')) {
           $(this).addClass('played');
           player.playTrack($(this));

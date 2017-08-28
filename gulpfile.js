@@ -63,7 +63,7 @@ gulp.task('jshint', function() {
   gulp.src([
     '_app/scripts/head/mediaelement-and-player.js',
     '_app/scripts/head/mep-feature-playlist.js',
-    '_app/scripts/head/vimeo-api.js',
+    // '_app/scripts/head/vimeo-api.js',
     '_app/scripts/head/head.js',
     '_app/scripts/body/barba.js',
     // '_app/scripts/body/lity.js',
@@ -92,7 +92,6 @@ gulp.task('scripts', function() {
     // 'node_modules/mediaelement/build/mediaelement-and-player.min.js',
     '_app/scripts/head/mediaelement-and-player.js',
     '_app/scripts/head/mep-feature-playlist.js',
-    '_app/scripts/head/vimeo-api.js',
     '_app/scripts/head/head.js'
   ])
   .pipe(concat('head.js'))
@@ -106,13 +105,13 @@ gulp.task('scripts', function() {
     'node_modules/barba.js/dist/barba.min.js',
     '_app/scripts/body/barba.js',
     'node_modules/gsap/src/minified/TweenMax.min.js',
-    // '_app/scripts/body/jquery.fitvids.js',
+    '_app/scripts/body/jquery.fitvids.js',
     // 'node_modules/mediaelement/build/mediaelement-and-player.min.js',
-    '_app/scripts/body/lity.js',
+    // '_app/scripts/body/lity.js',
     // '_app/scripts/body/audioplayer.js',
     // '_app/scripts/body/audioswitcher.js',
     // '_app/scripts/body/contentswitch.js',
-    'node_modules/tabslet/jquery.tabslet.min.js',
+    // 'node_modules/tabslet/jquery.tabslet.min.js',
     '_app/scripts/body/portfolio.js',
     '_app/scripts/body/equalizer.js',
     '_app/scripts/body/body.js'

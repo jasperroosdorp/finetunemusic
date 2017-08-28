@@ -4,13 +4,29 @@ section.index-intro {
   @include gutters;
   position: relative;
   height: 18rem;
+  // background-color: pink;
+  // background-color: #fff;
   // overflow-y: hidden;
   // top: 70px;
+  &::before {
+    position: absolute;
+    top: 0;
+    height: 10rem;
+    left: 0;
+    right: 0;
+    display: block;
+    content: '';
+    // background-color: orange;
+    background: linear-gradient(to bottom, transparent 0%, #fff 75%);
+    pointer-events: none;
+  }
   h1 {
     white-space: pre-line;
     position: absolute;
     bottom: 0;
     display: none;
+    // @include span(11 of 12 no-gutters);
+    // @include push(0.5 of 12);
   }
 }
 
@@ -43,7 +59,11 @@ section.index-description {
   margin-top: 70px;
   margin-bottom: 70px;
   h2, p {
+    // @include span(5.5 of 12);
     @include span(6 of 12);
+  }
+  h2 {
+    // @include push(0.5 of 12);
   }
   p {
     max-width: 55rem;

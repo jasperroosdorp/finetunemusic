@@ -3,7 +3,7 @@ pageid: index
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="no-js" lang="nl">
+<HTML id="{{ layout.pageid }}" class="no-js portfolio-tab-1" lang="nl">
 
   <HEAD>
     <title>{{ page.title }}</title>
@@ -26,7 +26,7 @@ pageid: index
       shuffle: false,
       playlist: true,
       audioHeight: 30,
-      // playlistposition: 'bottom',
+      playlistposition: 'bottom',
       features: ['playlistfeature', 'playpause', 'current', 'progress', 'duration'],
       keyActions: []
     });
@@ -87,7 +87,7 @@ pageid: index
           <p>{{ page.information.paragraph }}</p>
         </section>
 
-        <a class="full-width-button" onclick="openPortfolio('active-window')">
+        <a class="full-width-button" onclick="openPortfolio()">
           <div class="wrapper">
             <span>
               Beluister ons portfolio
