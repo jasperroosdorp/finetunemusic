@@ -4,7 +4,18 @@ Barba.Dispatcher.on('linkClicked', function() {
 
 Barba.Dispatcher.on('newPageReady', function() {
 
+  var tabheight = $('#tab-1').height();
+  $('#tab-2').css('height', tabheight);
+
   $(".video-container").fitVids();
+
+  // $('header').removeClass('hide');
+
+  // $('html').removeClass('portfolio-to-top');
+
+  // setTimeout(function(){
+  //   $('html').removeClass('portfolio-to-top');
+  // }, 2000);
 
   // Playing stops when switching pages, but also remove the class
   // $('html').removeClass('video-playing');
@@ -84,6 +95,33 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
   })
   $('.fold-nav').click(function() {
     $('html').removeClass('nav-unfolded');
+  })
+
+  // Returning from video page
+  $('.return-button').click(function() {
+    // $('html').addClass('portfolio-to-top');
+    // $('header').addClass('hide');
+    // $('html').removeClass('portfolio-tab-2a portfolio-tab-2b');
+    // $('html').addClass('portfolio-tab-1');
+    // javascript:history.back()
+    // $('.portfolio-wrapper').animate({ scrollTop: 0}, 300, 'swing');
+    // parent.history.back();
+    // return false;
+  })
+
+  $('#tab-1 .video').click(function() {
+    var currentpath = window.location.pathname;
+    // $('header').addClass('hide');
+    $('nav.upper .return-button').attr("href", currentpath);
+    // $('html').addClass('portfolio-to-top');
+    $('audio').each(function() { $(this)[0].pause(); });
+    // if ($("html").hasClass("audio-playing")) {
+    //   // audio.pause();
+    //   media.pause();
+      $('html').removeClass('audio-playing music voice-over');
+      // $('html').removeClass('music');
+      // $('html').removeClass('voice-over');
+    // }
   })
 
   // Colored HTML background

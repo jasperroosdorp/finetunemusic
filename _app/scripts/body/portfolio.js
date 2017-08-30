@@ -15,11 +15,12 @@ function openPortfolio() {
 
 $(document).ready(function () {
 
-  var tabheight = $('#tab-1').height();
-  $('#tab-2').css('height', tabheight);
+  // var tabheight = $('#tab-1').height();
+  // $('#tab-2').css('height', tabheight);
 
   // NAVIGATION WITHIN PORTFOLIO
   $('.portfolio-nav-a').on('click', function(event) {
+    // $('html').removeClass('portfolio-to-top');
     $('.portfolio-wrapper').animate({ scrollTop: 0}, 300, 'swing');
     // $('.portfolio-nav').addClass('test');
     // $('.portfolio-content > ul').attr("class", $(this).attr("class"));

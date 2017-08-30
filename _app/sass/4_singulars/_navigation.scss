@@ -35,6 +35,9 @@ nav.upper {
       }
     }
   }
+  .return-button {
+    display: none;
+  }
   .current-track {
     transition: opacity 0.3s ease;
     margin-left: 0;

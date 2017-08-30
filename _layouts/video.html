@@ -3,7 +3,7 @@ pageid: video
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="no-js portfolio-tab-1" lang="nl">
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1 portfolio-open" lang="nl">
 
   <HEAD>
     <title>{{ page.title }}</title>
@@ -21,8 +21,7 @@ pageid: video
         <div class="barba-content">
 
           <section class='video-container'>
-            <iframe id="vimeo" src="https://player.vimeo.com/video/202771816?color=fff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <!-- <div id="vimeo"></div> -->
+            <iframe id="vimeo" src="https://player.vimeo.com/video/{{ page.number }}?color=fff&title=0&byline=0&portrait=0" width="{{ page.width }}" height="{{ page.height }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </section>
 
           <section class='project-info'>
@@ -39,34 +38,6 @@ pageid: video
     {% include portfolio.html %}
 
     <script type="text/javascript" src="../source/body.js"></script>
-
-    <script src="https://player.vimeo.com/api/player.js"></script>
-
-    <script>
-    // if($("#vimeo").length) {
-    //
-    //   $.getScript( "https://player.vimeo.com/api/player.js", function( data, textStatus, jqxhr ) {
-    //     console.log( data ); // Data returned
-    //     console.log( textStatus ); // Success
-    //     console.log( jqxhr.status ); // 200
-    //     console.log( "Load was performed." );
-    //   });
-    //
-    //   var options = { id: 59777392, width: 640, loop: true };
-    //   var player = new Vimeo.Player('vimeo', options);
-    //
-    //   player.setVolume(0);
-    //   player.on('play', function() {
-    //     // console.log('played the video!');
-    //     $("html").addClass("video-playing");
-    //     if($("html").hasClass("audio-playing")) { audio.pause(); }
-    //   });
-    //   player.on('pause', function() {
-    //     // console.log('played the video!');
-    //     $("html").removeClass("video-playing");
-    //   });
-    // }
-    </script>
 
   </BODY>
 

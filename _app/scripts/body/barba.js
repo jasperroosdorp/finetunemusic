@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   Barba.Dispatcher.on('newPageReady', function(current, prev, container) {
-      history.scrollRestoration = 'manual';
+    history.scrollRestoration = 'manual';
   });
 
   var FadeTransition = Barba.BaseTransition.extend({
@@ -22,7 +22,12 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     fadeOut: function() {
       this.closeWindows();
-      // document.body.scrollTop = 0;
+      $('html#video .return-button').css({ opacity : 1 });
+      $('html#video .return-button').animate({ opacity: 0 }, 1000);
+      $('html.portfolio-open .portfolio-content').animate({ opacity: 0 }, 1000);
+      $('.portfolio-wrapper').animate({
+        scrollTop: $('.portfolio-wrapper').scrollTop() + ($('.portfolio').offset().top - $('.portfolio-wrapper').offset().top)
+      }, 200);
       return $(this.oldContainer).animate({ opacity: 0 }, 1000).promise();
     },
     fadeIn: function() {
@@ -31,7 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
       $(this.oldContainer).hide();
       document.body.scrollTop = 0;
       this.updatePageID();
-      $("[data-bg-color]").attr( "data-bg-color", this.newContainer.dataset.page );
+      $('html#video .return-button').css({ opacity : 0 });
+      $('html#video .return-button').animate({ opacity: 1 }, 1000);
+      $('html.portfolio-open .portfolio-wrapper').delay(800).animate({ scrollTop: $('body').scrollTop() }, 200);
+      $('html.portfolio-open .portfolio-content').animate({ opacity: 1 }, 1000);
       $el.css({ visibility : 'visible', opacity : 0 });
       $el.animate({ opacity: 1 }, 1000, function() { _this.done(); });
     },
@@ -40,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
       $('html').attr('id', newID);
     },
     closeWindows: function() {
-      $('html').removeClass('nav-unfolded portfolio-open');
+      $('html').removeClass('nav-unfolded');
     }
   });
 

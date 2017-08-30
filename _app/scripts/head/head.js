@@ -18,3 +18,17 @@ document.addEventListener('DOMContentLoaded', function(){
     moveTo.registerTrigger(triggers[i]);
   }
 });
+
+
+// Initialize mediaelementplayer
+$(function(){
+  $('video,audio').mediaelementplayer({
+    loop: true,
+    shuffle: false,
+    playlist: true,
+    audioHeight: 30,
+    playlistposition: 'bottom',
+    features: ['playlistfeature', 'playpause', 'current', 'progress', 'duration'],
+    keyActions: []
+  });
+});

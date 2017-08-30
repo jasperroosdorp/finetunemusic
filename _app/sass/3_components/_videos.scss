@@ -9,3 +9,34 @@
     display: block;
   }
 }
+
+.video {
+  margin-bottom: 4.5rem;
+  @include span(12 of 12 no-gutters);
+  @include for-tablet-portrait-up {
+    @include span(11 of 36 no-gutters);
+    &:nth-child(-n+3) {
+      margin-top: 7.5rem;
+    }
+    &:nth-child(3n+2),
+    &:nth-child(3n+3) {
+      @include push(1.5 of 36);
+    }
+  }
+  figure {
+    overflow: hidden;
+    margin-bottom: 3.5rem;
+    @include aspect-ratio(3, 2);
+  }
+  .content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  span {
+    padding-left: gutters(4);
+  }
+}

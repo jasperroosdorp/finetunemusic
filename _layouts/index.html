@@ -3,64 +3,16 @@ pageid: index
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="no-js portfolio-tab-1" lang="nl">
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" lang="nl">
 
   <HEAD>
     <title>{{ page.title }}</title>
     {% include meta.html %}
     <link rel="stylesheet" href="../source/main.css">
-    <!-- <script src="../source/head.js"></script> -->
-
-    <!-- <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1.10.2/jquery-1.10.2.min.js">
-  </script> -->
-  <!-- <script type="text/javascript" src="http://cdn.jsdelivr.net/mediaelement/2.13.1/mediaelement-and-player.min.js"></script> -->
-  <script src="../source/head.js"></script>
-  <!-- <script type="text/javascript" src="../mep-feature-playlist.js"></script> -->
-  <!-- <link type="text/css" rel="stylesheet" href="http://cdn.jsdelivr.net/mediaelement/2.13.1/mediaelementplayer.min.css" /> -->
-  <!-- <link type="text/css" rel="stylesheet" href="../mep-feature-playlist.css" /> -->
-
-  <script>
-  $(function(){
-    $('video,audio').mediaelementplayer({
-      loop: true,
-      shuffle: false,
-      playlist: true,
-      audioHeight: 30,
-      playlistposition: 'bottom',
-      features: ['playlistfeature', 'playpause', 'current', 'progress', 'duration'],
-      keyActions: []
-    });
-  });
-  </script>
+    <script src="../source/head.js"></script>
 </HEAD>
 
 <BODY>
-
-  <!-- <div class="audio-player-title music voice-overs">&nbsp;</div> -->
-
-  <!-- <div class="mediawrapper music">
-    <div class="audio-player-title music">&nbsp;</div>
-    <audio id="mejs" type="audio/mp3" controls="controls">
-      {% assign sorted = (site.music | sort: 'position') %}
-      {% for music in sorted %}
-      {% if music.published != false %}
-      <source src="{{ music.file }}" title="{{ music.title }}"></source>
-      {% endif %}
-      {% endfor %}
-    </audio>
-  </div> -->
-
-  <!-- <div class="mediawrapper voice-overs">
-    <div class="audio-player-title voice-overs">&nbsp;</div>
-    <audio id="mejs" type="audio/mp3" controls="controls">
-      {% assign sorted = (site.music) %}
-      {% for music in sorted %}
-      {% if music.published != false %}
-      <source src="{{ music.file }}" title="{{ music.title }}"></source>
-      {% endif %}
-      {% endfor %}
-    </audio>
-  </div> -->
 
   {% include navigation.html %}
 
@@ -105,18 +57,6 @@ pageid: index
   {% include portfolio.html %}
 
   <script type="text/javascript" src="../source/body.js"></script>
-
-  <!-- <script>
-  $(document).ready(function() {
-
-    $('.tabs').tabslet({
-    mouseevent: 'click',
-    attribute: 'href',
-    animation: true
-    });
-
-  });
-  </script> -->
 
 </BODY>
 
