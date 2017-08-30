@@ -1,7 +1,7 @@
 ---
 title: Knab Crowdfunding
 date: 2017-08-30 12:40:00 +02:00
-position: 1
+position: 2
 embed: <iframe src="https://player.vimeo.com/video/185963476?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
