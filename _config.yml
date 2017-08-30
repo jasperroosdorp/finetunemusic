@@ -22,10 +22,10 @@ defaults:
     path: ''
     type: videos
   values:
-    embed: 'Share' vanuit Vimeo en 'Delen' vanuit YouTube
+    embed: Voeg hier de iframe-code in
     image:
     summary:
-    audio: 
+    audio:
     layout: video
 - scope:
     path: ''
