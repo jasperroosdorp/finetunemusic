@@ -22,25 +22,21 @@ defaults:
     path: ''
     type: videos
   values:
-    is from vimeo: true
-    is from youtube: false
-    number: 202771816
-    width: 640
-    height: 360
-    image: 
-    summary: 
+    embed: 'Share' vanuit Vimeo en 'Delen' vanuit YouTube
+    image:
+    summary:
     audio: 
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file: 
+    file:
 - scope:
     path: ''
     type: voice-overs
   values:
-    file: 
+    file:
 exclude:
 - node_modules
 - gulpfile.js
