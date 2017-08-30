@@ -23,20 +23,20 @@ defaults:
     type: videos
   values:
     embed: Voeg hier de iframe-code in
-    image:
-    summary:
-    audio:
+    image: 
+    summary: 
+    audio: 
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file:
+    file: 
 - scope:
     path: ''
     type: voice-overs
   values:
-    file:
+    file: 
 exclude:
 - node_modules
 - gulpfile.js
