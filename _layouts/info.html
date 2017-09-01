@@ -30,8 +30,15 @@ pageid: info
           <section class='info-section'>
             <h2>{{ page.clients.title }}</h2>
             <p class="links">
-              {% for item in page.links %}
-              <a href="{{ item.video }}{{ item.music }}{{ item.voice-over }}">{{ item.name }}</a>
+              {% assign sorted = (site.videos | sort: 'position') %}
+              {% for videos in sorted %}
+              {% if videos.published != false %}
+              {% if videos.language == page.language %}
+              {% if videos.featured == true %}
+              <a href="{{ videos.url }}">{{ videos.client }}</a>
+              {% endif %}
+              {% endif %}
+              {% endif %}
               {% endfor %}
             </p>
           </section>

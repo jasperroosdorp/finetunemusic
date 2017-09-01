@@ -24,24 +24,34 @@ defaults:
   values:
     language: Dutch
     name: White Wolf
+    client: Migloko
     embed: Insert iframe code
-    image: 
+    image:
     summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
       interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
       massa vel, egestas nisi nam ac velit mauris.
     audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
       sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+    featured:
+    - is on production: false
+      is on voice-overs: false
+      is on studio: false
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file: 
+    file:
+    client: Hanze Hogeschool
+    featured:
+    - is on production: false
+      is on voice-overs: false
+      is on studio: false
 - scope:
     path: ''
     type: voice-overs
   values:
-    file: 
+    file:
 exclude:
 - node_modules
 - gulpfile.js
