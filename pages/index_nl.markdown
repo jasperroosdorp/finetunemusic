@@ -1,5 +1,5 @@
 ---
-title: Home (nl)
+title: "/"
 position: 0
 page:
   title: Finetunemusic
