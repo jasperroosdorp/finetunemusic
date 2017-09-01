@@ -1,9 +1,7 @@
 ---
-title: "/white-wolf"
+title: White Wolf (NL)
 date: 2017-08-30 12:39:00 +02:00
 position: 0
-language: Dutch
-name: White Wolf
 embed: <iframe src="https://player.vimeo.com/video/202741792?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
@@ -13,5 +11,7 @@ summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, in
   egestas nisi nam ac velit mauris.
 audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
   sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+language: Dutch
+name: White Wolf
 ---
 
