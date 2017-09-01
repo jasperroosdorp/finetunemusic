@@ -25,13 +25,14 @@
         {% assign sorted = (site.videos | sort: 'position') %}
         {% for videos in sorted %}
         {% if videos.published != false %}
-        <!-- <a class="video" href="http://localhost:3000{{ videos.url }}"> -->
-        <a class="video" href="{{ videos.url }}.html">
+        {% if videos.language == page.language %}
+        <a class="video" href="{{ videos.url }}">
           <figure>
             <div class='content' style="background-image: url('{{ videos.image }}')"></div>
           </figure>
-          <span>{{ videos.title }}</span>
+          <span>{{ videos.name }}</span>
         </a>
+        {% endif %}
         {% endif %}
         {% endfor %}
         <!-- <a href="http://www.google.nl">Google</a> -->

@@ -56,8 +56,13 @@ nav {
   }
   &.lower {
     ul li a { line-height: 3.6rem; opacity: 0.4; }
-    .nl { pointer-events: none; opacity: 0.2; }
   }
+}
+
+html[lang="nl"] nav.lower a.nl,
+html[lang="en"] nav.lower a.en {
+  pointer-events: none;
+  opacity: 0.2;
 }
 
 // html#video {

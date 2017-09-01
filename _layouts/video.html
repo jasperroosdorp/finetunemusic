@@ -8,7 +8,7 @@ pageid: video
 {% if page.language == 'English' %}lang="en"{% endif %}>
 
 <HEAD>
-  <title>{{ page.title }}</title>
+  <title>{{ page.name }}</title>
   {% include meta.html %}
   <link rel="stylesheet" href="../../source/main.css">
   <script src="../../source/head.js"></script>
@@ -27,9 +27,11 @@ pageid: video
         </section>
 
         <section class='project-info'>
-          <h2>Samenvatting</h2>
+          {% if page.language == 'Dutch' %}<h2>Samenvatting</h2>{% endif %}
+          {% if page.language == 'English' %}<h2>Summary</h2>{% endif %}
           <p>{{ page.summary }}</p>
-          <h2>Geluid</h2>
+          {% if page.language == 'Dutch' %}<h2>Geluid</h2>{% endif %}
+          {% if page.language == 'English' %}<h2>Audio</h2>{% endif %}
           <p>{{ page.audio }}</p>
         </section>
 
