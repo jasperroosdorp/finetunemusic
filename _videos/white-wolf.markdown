@@ -14,6 +14,8 @@ summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, in
   egestas nisi nam ac velit mauris.
 audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
   sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-featured: true
+pages:
+- Finetunemusic.nl/voice-overs
+- Finetunemusic.nl/studio
 ---
 
