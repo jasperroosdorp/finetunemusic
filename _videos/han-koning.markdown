@@ -1,7 +1,7 @@
 ---
 title: han-koning
 date: 2017-08-30 12:38:00 +02:00
-position: 16
+position: 8
 language: Dutch
 name: Han Koning
 embed: <iframe src="https://player.vimeo.com/video/139374972?color=ffffff&title=0&byline=0&portrait=0"
