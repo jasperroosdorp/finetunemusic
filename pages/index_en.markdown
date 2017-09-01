@@ -6,27 +6,24 @@ page:
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
 introduction:
 - |-
-  Wij zijn de eerste zangvogel als je opstaat.
-  Het geluid van regen na droogte.
-  De echo in de bergen.
-- |-
-  Je vindt ons overal, maar toch zijn we altijd onzichtbaar.
-  We verplaatsen ons met enorme snelheid.
-- |-
-  We kunnen je laten schrikken, laten lachen en laten huilen.
-  Wij zijn die melodie die maar niet uit je hoofd gaat,
-  maar ook dat ene liedje waar je de naam niet meer van weet.
-short introduction: Wij zijn de eerste zangvogel als je opstaat. Het geluid van regen
-  na droogte. De echo in de bergen. Je vindt ons overal, maar toch zijn we altijd
-  onzichtbaar. We verplaatsen ons met enorme snelheid. We kunnen je laten schrikken,
-  laten lachen en laten huilen. Wij zijn die melodie die maar niet uit je hoofd gaat,
-  maar ook dat ene liedje waar je de naam niet meer van weet.
+  Phasellus neque elit, ultrices sed orci.
+  Sed eu urna et metus varius dictum.
+  Duis ut neque vel ut sit amet.
+- "Suspendisse sem lorem, molestie a iaculis eget egestas. \nDonec vulputate elit
+  a turpis vestibulum."
+- "Phasellus elementum nisi sed orci porttitor, et elementum.\nDuis eleifend convallis
+  finibus praesent non ligula mollis, \nmalesuada ante id, rutrum arcu."
+short introduction: Aenean rutrum dolor nec ligula consectetur aliquet. Maecenas dignissim
+  nunc eget dolor vehicula, eget euismod nibh facilisis. Suspendisse ultricies dapibus
+  aliquam. Nam at turpis at metus dapibus auctor eget at orci. In commodo turpis at
+  porta malesuada. Aenean sagittis pellentesque lacus at consequat. Vestibulum orci
+  lorem, pellentesque eu tempor hendrerit, varius a diam.
 image:
   image: "../uploads/picci.jpg"
 information:
-  title: Dit zijn wij
-  paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
-    voice-overs en verzorgen audio branding.
+  title: Sed quis justo
+  paragraph: Praesent suscipit purus in diam semper fermentum. In laoreet tortor id
+    eros vehicula vestibulum ac pharetra nibh.
 layout: index_en
 ---
 
