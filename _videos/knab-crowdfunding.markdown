@@ -1,5 +1,5 @@
 ---
-title: Knab Crowdfunding
+title: knab-crowdfunding
 date: 2017-08-30 12:40:00 +02:00
 position: 3
 language: Dutch
