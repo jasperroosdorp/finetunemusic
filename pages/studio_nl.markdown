@@ -1,6 +1,6 @@
 ---
-title: Finetunemusic.nl/en/studio
-position: 7
+title: Finetunemusic.nl/studio
+position: 6
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
@@ -18,6 +18,6 @@ links:
   music: The Wonderful Tale Of Madame Cambré
 - name: KLM
   voice-over: 
-layout: info
+layout: info_nl
 ---
 

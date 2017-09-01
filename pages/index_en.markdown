@@ -1,6 +1,6 @@
 ---
-title: Finetunemusic.nl
-position: 0
+title: Finetunemusic.nl/en
+position: 1
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
@@ -27,6 +27,6 @@ information:
   title: Dit zijn wij
   paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
     voice-overs en verzorgen audio branding.
-layout: index
+layout: index_en
 ---
 

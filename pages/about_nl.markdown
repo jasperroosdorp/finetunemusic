@@ -53,6 +53,5 @@ information:
   title: Dit zijn wij
   paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
     voice-overs en verzorgen audio branding.
-layout: about
+layout: about_nl
 ---
-

@@ -1,0 +1,47 @@
+---
+pageid: info
+---
+
+<!DOCTYPE html>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" lang="nl">
+
+  <HEAD>
+    <title>{{ page.title }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" href="../../source/main.css">
+    <script src="../../source/head.js"></script>
+  </HEAD>
+
+  <BODY>
+
+    {% include navigation.html %}
+
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="info">
+        <div class="barba-content">
+
+          <section class='info-section'>
+            <h2>{{ page.summary.title }}</h2>
+            <p>{{ page.summary.paragraph }}</p>
+          </section>
+
+          <section class='info-section'>
+            <h2>{{ page.clients.title }}</h2>
+            <p class="links">
+              {% for item in page.links %}
+              <a href="{{ item.video }}{{ item.music }}{{ item.voice-over }}">{{ item.name }}</a>
+              {% endfor %}
+            </p>
+          </section>
+
+        </div>
+      </div>
+    </main>
+
+    {% include portfolio.html %}
+
+    <script type="text/javascript" src="../../source/body.js"></script>
+
+  </BODY>
+
+</HTML>
