@@ -1,7 +1,7 @@
 ---
 title: scansource
 date: 2017-08-30 12:34:00 +02:00
-position: 6
+position: 3
 language: Dutch
 name: ScanSource
 embed: <iframe src="https://player.vimeo.com/video/135062943?color=ffffff&title=0&byline=0&portrait=0"
