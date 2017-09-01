@@ -1,5 +1,5 @@
 ---
-title: Finetunemusic.nl/studio
+title: Finetunemusic.nl/en/studio
 position: 3
 page:
   title: Finetunemusic
