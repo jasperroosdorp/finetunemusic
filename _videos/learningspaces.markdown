@@ -1,7 +1,7 @@
 ---
 title: learningspaces
 date: 2017-08-30 12:41:00 +02:00
-position: 8
+position: 12
 language: Dutch
 name: LearningSpaces
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/adMgJXYjnOA?rel=0&amp;controls=0&amp;showinfo=0"
@@ -13,4 +13,3 @@ summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, in
 audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
   sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 ---
-

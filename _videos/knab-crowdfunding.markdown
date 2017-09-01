@@ -1,7 +1,7 @@
 ---
 title: knab-crowdfunding
 date: 2017-08-30 12:40:00 +02:00
-position: 3
+position: 2
 language: Dutch
 name: Knab Crowdfunding
 embed: <iframe src="https://player.vimeo.com/video/185963476?color=ffffff&title=0&byline=0&portrait=0"
@@ -14,4 +14,3 @@ summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, in
 audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
   sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 ---
-

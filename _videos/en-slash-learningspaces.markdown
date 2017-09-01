@@ -1,13 +1,12 @@
 ---
-title: wat-wil-je-nou
-date: 2017-08-30 12:37:00 +02:00
-position: 14
-language: Dutch
-name: Wat wil je nou?
-embed: <iframe src="https://player.vimeo.com/video/168559351?color=ffffff&title=0&byline=0&portrait=0"
-  width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
-image: "/uploads/8_watwiljenou.jpg"
+title: en/learningspaces
+date: 2017-08-30 12:41:00 +02:00
+position: 13
+language: English
+name: LearningSpaces
+embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/adMgJXYjnOA?rel=0&amp;controls=0&amp;showinfo=0"
+  frameborder="0" allowfullscreen></iframe>
+image: "/uploads/7_learningspaces.jpg"
 summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
   eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
   egestas nisi nam ac velit mauris.
