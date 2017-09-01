@@ -1,5 +1,5 @@
 ---
-title: EN | Finetunemusic.nl/en
+title: Finetunemusic.nl/en
 position: 1
 page:
   title: Finetunemusic
