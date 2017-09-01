@@ -1,6 +1,6 @@
 ---
 title: Finetunemusic.nl/studio
-position: 4
+position: 5
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.

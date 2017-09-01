@@ -1,6 +1,6 @@
 ---
 title: Finetunemusic.nl/en/about-us
-position: 5
+position: 3
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
