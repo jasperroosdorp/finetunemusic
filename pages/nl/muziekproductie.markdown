@@ -5,4 +5,3 @@ position: 2
 layout: info
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
 ---
-
