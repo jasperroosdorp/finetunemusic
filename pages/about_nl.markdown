@@ -1,10 +1,10 @@
 ---
 title: Finetunemusic.nl/over-ons
 position: 2
+language: Dutch
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
-language: Dutch
 introduction:
 - |-
   Wij zijn de eerste zangvogel als je opstaat.
