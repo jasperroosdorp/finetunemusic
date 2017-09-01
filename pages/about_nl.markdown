@@ -1,5 +1,5 @@
 ---
-title: Finetunemusic.nl/over-ons
+title: Over ons (nl)
 position: 2
 page:
   title: Finetunemusic
