@@ -1,0 +1,118 @@
+---
+pageid: about
+---
+
+<!DOCTYPE html>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1"
+{% if page.language == 'Dutch' %}lang="nl"{% endif %}
+{% if page.language == 'English' %}lang="en"{% endif %}>
+
+  <HEAD>
+    <title>{{ page.title }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" href="../../source/main.css">
+    <script src="../../source/head.js"></script>
+  </HEAD>
+
+  <BODY>
+
+    {% include navigation.html %}
+
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="about">
+        <div class="barba-content">
+
+          <section class="people">
+
+            <ul>
+              <li>
+                <a id="overview-link" href="#overview">&nbsp;</a>
+              </li>
+              {% for person in page.people %}
+              <li>
+                <a id='full-description-link-{{ person.name }}' href="#full-description-{{ person.name }}">{{ person.name }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+
+            <div id="overview">
+              {% for person in page.people %}
+              <div class="person">
+                <figure>
+                  <div class='content'>
+                    <img src="{{ person.image }}" alt=""/>
+                  </div>
+                </figure>
+                <div class='description'>
+                  <h2>{{ person.name }}</h2>
+                  {{ person.preview | markdownify }}
+                  <a class='read-more' onclick="document.getElementById('full-description-link-{{ person.name }}').click();">Lees meer over {{ person.name }}</a>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+
+            {% for person in page.people %}
+            <div class='full-description' id='full-description-{{ person.name }}'>
+              <figure>
+                <div class='content'>
+                  <img src="{{ person.image }}" alt=""/>
+                </div>
+              </figure>
+              <h2>{{ person.name }}</h2>
+              <div class="paragraph-wrapper">
+                {{ person.full | markdownify }}
+              </div>
+              <a class='read-less' onclick="document.getElementById('overview-link').click();">Sluiten</a>
+            </div>
+            {% endfor %}
+
+          </section>
+
+
+          <a class="full-width-button" onclick="openPortfolio()">
+            <div class="wrapper">
+              {% if page.language == 'Dutch' %}
+              <span>Beluister ons portfolio</span>
+              {% endif %}
+              {% if page.language == 'English' %}
+              <span>Listen to our portfolio</span>
+              {% endif %}
+            </div>
+          </a>
+
+          <footer>
+          </footer>
+
+        </div>
+      </div>
+    </main>
+
+    {% include portfolio.html %}
+
+    <script type="text/javascript" src="../../source/body.js"></script>
+
+    <script>
+    // function myFunction() {
+    //   alert('test!');
+    // }
+
+    // function readMore() {
+    //   // $('.full-description-link.Paul').trigger('click');
+    //   // alert('test!');
+    //   $(this).addClass('test');
+    // }
+
+    // $(document).ready(function() {
+    //   $('.full-description-wrapper').tabslet({
+    //     mouseevent: 'click',
+    //     attribute: 'href',
+    //     animation: true,
+    //     active: false
+    //   });
+    // });
+    </script>
+
+  </BODY>
+
+</HTML>

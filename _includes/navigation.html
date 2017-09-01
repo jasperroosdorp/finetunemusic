@@ -3,11 +3,16 @@
   <nav class='upper'>
     <a class='nav-trigger'>
       <!-- <span class='nav-icon-wrapper'>
-        <span class='nav-icon'></span> -->
+      <span class='nav-icon'></span> -->
       <span class='trigger-name unfold-nav'>Menu</span>
       <span class='trigger-name fold-nav'>Menu</span>
     </a>
+    {% if page.language == 'Dutch' %}
     <a class="return-button" href="/pages/index.html">Terug</a>
+    {% endif %}
+    {% if page.language == 'English' %}
+    <a class="return-button" href="/pages/index.html">Back</a>
+    {% endif %}
     <a class='current-track'>
       <svg class="music-bar" onclick="openPortfolio()" viewBox="0 0 20 20">
         <defs><rect id="def-rect" y="10" width="2" height="20" /></defs>
@@ -15,7 +20,12 @@
         <use class="bar" xlink:href="#def-rect" x="9" />
         <use class="bar" xlink:href="#def-rect" x="18" />
       </svg>
+      {% if page.language == 'Dutch' %}
       <span class='placeholder' onclick="openPortfolio()">Beluister</span>
+      {% endif %}
+      {% if page.language == 'English' %}
+      <span class='placeholder' onclick="openPortfolio()">Listen</span>
+      {% endif %}
       <span class='audio-player-title music voice-overs' onclick="openPortfolio()">&nbsp;</span>
     </a>
   </nav>
@@ -25,21 +35,33 @@
       <li><a href="../pages/index.html">Home</a></li>
     </ul>
     <ul>
+      {% if page.language == 'Dutch' %}
       <li><a href="../pages/muziekproductie.html">Muziekproductie</a></li>
       <li><a href="../pages/voice-overs.html">Voice-overs</a></li>
       <li><a href="../pages/studio.html">Studio</a></li>
+      {% endif %}
+      {% if page.language == 'English' %}
+      <li><a href="../pages/muziekproductie.html">Production</a></li>
+      <li><a href="../pages/voice-overs.html">Voice-overs</a></li>
+      <li><a href="../pages/studio.html">Studio</a></li>
+      {% endif %}
     </ul>
     <ul>
+      {% if page.language == 'Dutch' %}
       <li><a href="../pages/overons.html">Over ons</a></li>
       <li><a>Contact</a></li>
+      {% endif %}
+      {% if page.language == 'English' %}
+      <li><a href="../pages/overons.html">About us</a></li>
+      {% endif %}
     </ul>
     <!-- <ul>
-      <li><a>Contact</a></li>
-    </ul> -->
-    <ul>
-      <li><a class="en">English</a></li>
-      <li><a class="nl">Nederlands</a></li>
-    </ul>
-  </nav>
+    <li><a>Contact</a></li>
+  </ul> -->
+  <ul>
+    <li><a class="en">English</a></li>
+    <li><a class="nl">Nederlands</a></li>
+  </ul>
+</nav>
 
 </header>

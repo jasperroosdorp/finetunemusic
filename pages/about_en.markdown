@@ -4,6 +4,7 @@ position: 3
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
+language: English
 introduction:
 - |-
   Wij zijn de eerste zangvogel als je opstaat.
@@ -53,6 +54,5 @@ information:
   title: Dit zijn wij
   paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
     voice-overs en verzorgen audio branding.
-layout: about_en
+layout: about
 ---
-

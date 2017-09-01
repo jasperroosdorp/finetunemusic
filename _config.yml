@@ -22,21 +22,26 @@ defaults:
     path: ''
     type: videos
   values:
-    embed: Voeg hier de iframe-code in
-    image: 
-    summary: 
-    audio: 
+    language: Dutch
+    name: White Wolf
+    embed: Insert iframe code
+    image:
+    summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
+      eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
+      egestas nisi nam ac velit mauris.
+    audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file: 
+    file:
 - scope:
     path: ''
     type: voice-overs
   values:
-    file: 
+    file:
 exclude:
 - node_modules
 - gulpfile.js

@@ -3,7 +3,9 @@ pageid: info
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" lang="nl">
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1"
+{% if page.language == 'Dutch' %}lang="nl"{% endif %}
+{% if page.language == 'English' %}lang="en"{% endif %}>
 
   <HEAD>
     <title>{{ page.title }}</title>

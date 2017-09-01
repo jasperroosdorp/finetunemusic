@@ -1,0 +1,46 @@
+---
+pageid: video
+---
+
+<!DOCTYPE html>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1 portfolio-open"
+{% if page.language == 'Dutch' %}lang="nl"{% endif %}
+{% if page.language == 'English' %}lang="en"{% endif %}>
+
+<HEAD>
+  <title>{{ page.title }}</title>
+  {% include meta.html %}
+  <link rel="stylesheet" href="../../source/main.css">
+  <script src="../../source/head.js"></script>
+</HEAD>
+
+<BODY>
+
+  {% include navigation.html %}
+
+  <main id="barba-wrapper">
+    <div class="barba-container" data-pageid="video">
+      <div class="barba-content">
+
+        <section class='video-container'>
+          {{ page.embed }}
+        </section>
+
+        <section class='project-info'>
+          <h2>Samenvatting</h2>
+          <p>{{ page.summary }}</p>
+          <h2>Geluid</h2>
+          <p>{{ page.audio }}</p>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  {% include portfolio.html %}
+
+  <script type="text/javascript" src="../../source/body.js"></script>
+
+</BODY>
+
+</HTML>

@@ -1,6 +1,7 @@
 ---
 title: Finetunemusic.nl/en
 position: 1
+language: English
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
@@ -24,6 +25,5 @@ information:
   title: Sed quis justo
   paragraph: Praesent suscipit purus in diam semper fermentum. In laoreet tortor id
     eros vehicula vestibulum ac pharetra nibh.
-layout: index_en
+layout: index
 ---
-

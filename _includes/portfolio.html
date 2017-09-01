@@ -7,9 +7,16 @@
     <div class="portfolio-content">
 
       <ul class="portfolio-nav">
+        {% if page.language == 'Dutch' %}
         <li><a class='portfolio-nav-a tab-1'>Video's</a></li>
         <li><a class='portfolio-nav-a tab-2a'>Muziek</a></li>
         <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
+        {% endif %}
+        {% if page.language == 'English' %}
+        <li><a class='portfolio-nav-a tab-1'>Videos</a></li>
+        <li><a class='portfolio-nav-a tab-2a'>Music</a></li>
+        <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
+        {% endif %}
       </ul>
 
       <a href="javascript:void(0)" class='close-portfolio'></a>

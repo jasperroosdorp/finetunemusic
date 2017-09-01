@@ -1,6 +1,7 @@
 ---
 title: Finetunemusic.nl/en/studio
 position: 7
+language: English
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
@@ -17,7 +18,6 @@ links:
 - name: Hanze Hogeschool
   music: The Wonderful Tale Of Madame Cambré
 - name: KLM
-  voice-over: 
-layout: info_en
+  voice-over:
+layout: info
 ---
-

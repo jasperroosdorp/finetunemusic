@@ -3,7 +3,9 @@ pageid: index
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" lang="nl">
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1"
+{% if page.language == 'Dutch' %}lang="nl"{% endif %}
+{% if page.language == 'English' %}lang="en"{% endif %}>
 
   <HEAD>
     <title>{{ page.title }}</title>
@@ -41,9 +43,12 @@ pageid: index
 
         <a class="full-width-button" onclick="openPortfolio()">
           <div class="wrapper">
-            <span>
-              Beluister ons portfolio
-            </span>
+            {% if page.language == 'Dutch' %}
+            <span>Beluister ons portfolio</span>
+            {% endif %}
+            {% if page.language == 'English' %}
+            <span>Listen to our portfolio</span>
+            {% endif %}
           </div>
         </a>
 
