@@ -16,16 +16,19 @@ introduction:
   We kunnen je laten schrikken, laten lachen en laten huilen.
   Wij zijn die melodie die maar niet uit je hoofd gaat,
   maar ook dat ene liedje waar je de naam niet meer van weet.
-short: Wij zijn de eerste zangvogel als je opstaat. Het geluid van regen
-  na droogte. De echo in de bergen. Je vindt ons overal, maar toch zijn we altijd
-  onzichtbaar. We verplaatsen ons met enorme snelheid. We kunnen je laten schrikken,
-  laten lachen en laten huilen. Wij zijn die melodie die maar niet uit je hoofd gaat,
-  maar ook dat ene liedje waar je de naam niet meer van weet.
+short: Wij zijn de eerste zangvogel als je opstaat. Het geluid van regen na droogte.
+  De echo in de bergen. Je vindt ons overal, maar toch zijn we altijd onzichtbaar.
+  We verplaatsen ons met enorme snelheid. We kunnen je laten schrikken, laten lachen
+  en laten huilen. Wij zijn die melodie die maar niet uit je hoofd gaat, maar ook
+  dat ene liedje waar je de naam niet meer van weet.
 people:
 - name: David
   image: "../uploads/picci.jpg"
-  preview: |
-    Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is.
+  preview: 'Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid.
+    Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere
+    composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is.
+
+'
   full: |
     Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is. Oor voor detail hoor je terug in zijn muziek; onder andere in de bedrevenheid waarmee hij rijke, gedetailleerde mixes maakt voor diverse muziekstijlen.
 
@@ -34,8 +37,12 @@ people:
     Als geen ander weet David emoties in muziek en sound design uit te drukken. Dit zet hij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar. David werkte onder meer samen met Bert Visscher, Club Guy and Roni en De Noorderlingen.
 - name: Paul
   image: "../uploads/picci.jpg"
-  preview: |
-    Paul’s brede achtergrond maakt dat hij thuis is in uiteenlopende stijlen. Zijn werk als songwriter en producer variëert van het schrijven van catchy popsongs tot het maken van vuige, brutale beats, waarbij een uitgesproken groove altijd voorop staat.
+  preview: 'Paul’s brede achtergrond maakt dat hij thuis is in uiteenlopende stijlen.
+    Zijn werk als songwriter en producer variëert van het schrijven van catchy popsongs
+    tot het maken van vuige, brutale beats, waarbij een uitgesproken groove altijd
+    voorop staat.
+
+'
   full: |
     Paul’s brede achtergrond maakt dat hij thuis is in uiteenlopende stijlen. Zijn werk als songwriter en producer variëert van het schrijven van catchy popsongs tot het maken van vuige, brutale beats, waarbij een uitgesproken groove altijd voorop staat.
 
@@ -48,3 +55,4 @@ information:
     voice-overs en verzorgen audio branding.
 layout: overons
 ---
+
