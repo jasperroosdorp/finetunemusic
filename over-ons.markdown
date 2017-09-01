@@ -1,6 +1,6 @@
 ---
 title: Finetunemusic.nl/over-ons
-position: 1
+position: 2
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
