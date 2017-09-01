@@ -8,8 +8,8 @@ pageid: index
   <HEAD>
     <title>{{ page.title }}</title>
     {% include meta.html %}
-    <link rel="stylesheet" href="../source/main.css">
-    <script src="../source/head.js"></script>
+    <link rel="stylesheet" href="../../source/main.css">
+    <script src="../../source/head.js"></script>
 </HEAD>
 
 <BODY>
@@ -56,7 +56,18 @@ pageid: index
 
   {% include portfolio.html %}
 
-  <script type="text/javascript" src="../source/body.js"></script>
+  <script type="text/javascript" src="../../source/body.js"></script>
+
+  <script>
+  // Fade carousel
+  var intro = $(".index-intro > h1").hide(), i = 0;
+  (function cycle() {
+    intro.eq(i).fadeIn(400)
+    .delay(5000)
+    .fadeOut(400, cycle);
+    i = ++i % intro.length;
+  })();
+  </script>
 
 </BODY>
 

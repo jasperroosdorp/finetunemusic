@@ -3,26 +3,16 @@ section.index-intro {
   @include responsive-width;
   @include gutters;
   position: relative;
-  height: 18rem;
-  // background-color: pink;
+  height: 13rem;
+  // background-color: blue;
   // background-color: #fff;
   // overflow-y: hidden;
   // top: 70px;
-  &::before {
-    position: absolute;
-    top: 0;
-    height: 10rem;
-    left: 0;
-    right: 0;
-    display: block;
-    content: '';
-    // background-color: orange;
-    background: linear-gradient(to bottom, transparent 0%, #fff 75%);
-    pointer-events: none;
-  }
   h1 {
+    // background-color: green;
     white-space: pre-line;
     position: absolute;
+    // z-index: 999;
     bottom: 0;
     display: none;
     // @include span(11 of 12 no-gutters);

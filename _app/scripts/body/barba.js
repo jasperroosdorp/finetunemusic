@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
       $('html#video .return-button').css({ opacity : 1 });
       $('html#video .return-button').animate({ opacity: 0 }, 1000);
       $('html.portfolio-open .portfolio-content').animate({ opacity: 0 }, 1000);
-      $('.portfolio-wrapper').animate({
+      $('html.portfolio-open .portfolio-wrapper').animate({
         scrollTop: $('.portfolio-wrapper').scrollTop() + ($('.portfolio').offset().top - $('.portfolio-wrapper').offset().top)
-      }, 200);
+      }, 300);
       return $(this.oldContainer).animate({ opacity: 0 }, 1000).promise();
     },
     fadeIn: function() {
@@ -36,9 +36,19 @@ document.addEventListener("DOMContentLoaded", function() {
       $(this.oldContainer).hide();
       document.body.scrollTop = 0;
       this.updatePageID();
+
+      // Fade carousel
+      var intro = $(".index-intro > h1").hide(), i = 0;
+      (function cycle() {
+        intro.eq(i).fadeIn(400)
+        .delay(5000)
+        .fadeOut(400, cycle);
+        i = ++i % intro.length;
+      })();
+
       $('html#video .return-button').css({ opacity : 0 });
       $('html#video .return-button').animate({ opacity: 1 }, 1000);
-      $('html.portfolio-open .portfolio-wrapper').delay(800).animate({ scrollTop: $('body').scrollTop() }, 200);
+      $('html.portfolio-open .portfolio-wrapper').delay(700).animate({ scrollTop: $('body').scrollTop() }, 300);
       $('html.portfolio-open .portfolio-content').animate({ opacity: 1 }, 1000);
       $el.css({ visibility : 'visible', opacity : 0 });
       $el.animate({ opacity: 1 }, 1000, function() { _this.done(); });

@@ -8,8 +8,8 @@ pageid: video
   <HEAD>
     <title>{{ page.title }}</title>
     {% include meta.html %}
-    <link rel="stylesheet" href="../source/main.css">
-    <script src="../source/head.js"></script>
+    <link rel="stylesheet" href="../../source/main.css">
+    <script src="../../source/head.js"></script>
   </HEAD>
 
   <BODY>
@@ -21,7 +21,7 @@ pageid: video
         <div class="barba-content">
 
           <section class='video-container'>
-            <iframe id="vimeo" src="https://player.vimeo.com/video/{{ page.number }}?color=fff&title=0&byline=0&portrait=0" width="{{ page.width }}" height="{{ page.height }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            {{ page.embed }}
           </section>
 
           <section class='project-info'>
@@ -37,7 +37,7 @@ pageid: video
 
     {% include portfolio.html %}
 
-    <script type="text/javascript" src="../source/body.js"></script>
+    <script type="text/javascript" src="../../source/body.js"></script>
 
   </BODY>
 

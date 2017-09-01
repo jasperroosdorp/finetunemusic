@@ -47,6 +47,7 @@
     @include gutters();
     .portfolio-nav-a {
       display: inline-block;
+      user-select: none;
       padding: 0 3rem;
       float: left;
       transition: color 0.3s ease;
@@ -89,7 +90,7 @@ html.portfolio-open {
   .portfolio {
     @include for-tablet-landscape-up {
       transition: transform 0.3s ease-out;
-      transform: translateY(-52rem);
+      transform: translateY(-56rem);
     }
   }
   // &.portfolio-to-top {

@@ -111,7 +111,7 @@ gulp.task('scripts', function() {
     // '_app/scripts/body/audioplayer.js',
     // '_app/scripts/body/audioswitcher.js',
     // '_app/scripts/body/contentswitch.js',
-    // 'node_modules/tabslet/jquery.tabslet.min.js',
+    'node_modules/tabslet/jquery.tabslet.min.js',
     '_app/scripts/body/portfolio.js',
     '_app/scripts/body/equalizer.js',
     '_app/scripts/body/body.js'

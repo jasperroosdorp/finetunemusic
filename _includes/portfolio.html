@@ -18,7 +18,8 @@
         {% assign sorted = (site.videos | sort: 'position') %}
         {% for videos in sorted %}
         {% if videos.published != false %}
-        <a class="video" href="http://localhost:3000{{ videos.url }}">
+        <!-- <a class="video" href="http://localhost:3000{{ videos.url }}"> -->
+        <a class="video" href="en{{ videos.url }}.html">
           <figure>
             <div class='content' style="background-image: url('{{ videos.image }}')"></div>
           </figure>

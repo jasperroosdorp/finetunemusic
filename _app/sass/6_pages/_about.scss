@@ -1,0 +1,87 @@
+// section.index-intro {
+//   @include container;
+//   @include responsive-width;
+//   @include gutters;
+//   position: relative;
+//   height: 13rem;
+//   h1 {
+//     white-space: pre-line;
+//     position: absolute;
+//     bottom: 0;
+//     display: none;
+//   }
+// }
+//
+// section.index-img {
+//   @include container;
+//   @include responsive-width;
+//   margin-top: 70px;
+//   figure {
+//     @include aspect-ratio(4, 2);
+//     @include span(12 of 12);
+//     img {
+//       position: absolute;
+//       left: 0;
+//       right: 0;
+//     }
+//     .content {
+//       background-color: rgba(0, 0, 0, 0.1);
+//     }
+//   }
+// }
+//
+// section.index-description {
+//   @include container;
+//   @include responsive-width;
+//   margin-top: 70px;
+//   margin-bottom: 70px;
+//   h2, p {
+//     @include span(6 of 12);
+//   }
+//   p {
+//     max-width: 55rem;
+//   }
+// }
+
+section.people {
+  @include container;
+  @include responsive-width;
+  ul {
+    display: none;
+  }
+  figure {
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-bottom: 5rem;
+  }
+  h2 {
+    margin-bottom: 4rem;
+  }
+  p + p {
+    margin-top: 3rem;
+  }
+}
+
+section.people #overview {
+  .person { @include span(6 of 12 no-gutters); }
+  .description { @include span(6 of 6); }
+  figure {
+    @include span(6 of 6 no-gutters);
+    @include aspect-ratio(4, 3);
+  }
+}
+
+section.people .full-description {
+  @include span(12 of 12);
+  figure {
+    @include span(12 of 12 no-gutters);
+    @include aspect-ratio(8, 3);
+  }
+  .paragraph-wrapper {
+    @include span(12 of 12 no-gutters);
+    column-count: 2;
+    column-gap: 8rem;
+  }
+  p {
+    page-break-inside: avoid;
+  }
+}

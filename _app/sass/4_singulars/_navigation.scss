@@ -3,7 +3,11 @@ header {
   @include responsive-width;
   @include gutters;
   margin-top: 7rem;
+  // margin-bottom: -12rem;
+  margin-bottom: -12rem;
   position: relative;
+  // background-color: orange;
+  // overflow: hidden;
 }
 
 nav.upper {
@@ -12,6 +16,9 @@ nav.upper {
   // @include push(0.5 of 12);
   user-select: none;
   // background-color: yellow;
+  // z-index: 999;
+  // position: relative;
+  // z-index: 1;
   .nav-trigger {
     // position: relative;
     // width: 100px;
@@ -41,10 +48,6 @@ nav.upper {
   .current-track {
     transition: opacity 0.3s ease;
     margin-left: 0;
-    // vertical-align: top;
-    // bottom: 0;
-    // top: 0;
-    // background-color: pink;
     .audio-player-title {
       display: none;
       font-size: inherit;
@@ -54,31 +57,52 @@ nav.upper {
 }
 
 nav.lower {
-  // display: none;
-  height: 120px;
-  margin-bottom: -120px;
-  // overflow: hidden;
+  // height: 12rem;
+  // position: relative;
   pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease, margin-bottom 0.3s ease;
-  // opacity: 0;
+  // opacity: 1;
   // transition: opacity 0.3s ease;
+  // z-index: 0;
+  // background: transparent;
+  // background: green;
+  // &::after {
+  //   transition: opacity 0.3s ease;
+  //   position: absolute;
+  //   display: block;
+  //   content: '';
+  //   height: 200%;
+  //   top: 0; left: 0; right: 0;
+  //   transition: transform 0.3s ease;
+  //   will-change: transform;
+  //   transform: translateY(-12rem);
+  //   background: pink;
+  //   // border-bottom: 10px solid blue;
+  //   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+  //   pointer-events: none;
+  //   opacity: 1;
+  // }
   ul {
     display: inline-block;
     vertical-align: top;
-    li a { padding-right: 2rem; }
-    &:nth-child(n+2) {
-      // @include push(0.8 of 12);
-      margin-left: 8rem;
-      li a { padding-left: 2rem; }
+    li {
+      opacity: 0;
+      transition: opacity 0.22s;
+      &:nth-child(3) { transition-delay: 0s }
+      &:nth-child(2) { transition-delay: 0.04s }
+      &:nth-child(1) { transition-delay: 0.08s }
+    }
+    li a {
+      padding-right: 2rem;
+      transition: opacity 0.3s ease, color 0.3s ease;
+      &:hover {
+        color: $color002;
+        opacity: 1;
+      }
     }
   }
-  ul li a {
-    transition: opacity 0.3s ease, color 0.3s ease;
-    &:hover {
-      color: $color002;
-      opacity: 1;
-    }
+  ul:nth-child(n+2) {
+    margin-left: 8rem;
+    li a { padding-left: 2rem; }
   }
 }
 
@@ -100,26 +124,34 @@ html {
     nav.upper {
       .current-track,
       .unfold-nav {
-        // display: none !important;
         opacity: 0 !important;
         pointer-events: none;
-        // position: absolute;
       }
       .fold-nav {
-        // display: inline-block !important;
         opacity: 1 !important;
         pointer-events: auto !important;
       }
     }
     nav.lower {
-      // display: block;
-      // height: 300px;
       pointer-events: auto;
-      margin-bottom: 0;
       opacity: 1;
-      // transition: height 0.3s ease;
-      // opacity: 1;
-      // background-color: yellow;
+      &::after { transform: translateY(12rem); }
+      ul li {
+        opacity: 1;
+        &:nth-child(3) { transition-delay: 0.08s }
+        &:nth-child(2) { transition-delay: 0.04s }
+        &:nth-child(1) { transition-delay: 0s }
+      }
+    }
+    main {
+      transform: translateY(11rem);
     }
   }
+}
+
+main {
+  margin-top: 7rem;
+  transition: transform 0.3s ease;
+  transform: translateY(0);
+  will-change: transform;
 }

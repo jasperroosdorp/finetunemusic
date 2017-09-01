@@ -7,6 +7,17 @@ Barba.Dispatcher.on('newPageReady', function() {
   var tabheight = $('#tab-1').height();
   $('#tab-2').css('height', tabheight);
 
+  $('.people').tabslet({
+    mouseevent: 'click',
+    attribute: 'href',
+    animation: true
+  });
+
+  // $('.read-more').click(function(name) {
+  //   $( "button:first" ).trigger( "click" );
+  //   update( $( "span:last" ) );
+  // });
+
   $(".video-container").fitVids();
 
   // $('header').removeClass('hide');
@@ -55,15 +66,6 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
 
   // Barba is done
   $('html').removeClass('barba-active');
-
-  // Fade carousel
-  var intro = $(".index-intro > h1").hide(), i = 0;
-  (function cycle() {
-    intro.eq(i).fadeIn(400)
-    .delay(5000)
-    .fadeOut(400, cycle);
-    i = ++i % intro.length;
-  })();
 
   // Stop video when audio starts
   // audio = $('#audio-player').bind('play', function() {
@@ -118,9 +120,9 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
     // if ($("html").hasClass("audio-playing")) {
     //   // audio.pause();
     //   media.pause();
-      $('html').removeClass('audio-playing music voice-over');
-      // $('html').removeClass('music');
-      // $('html').removeClass('voice-over');
+    $('html').removeClass('audio-playing music voice-over');
+    // $('html').removeClass('music');
+    // $('html').removeClass('voice-over');
     // }
   })
 
