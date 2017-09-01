@@ -1,10 +1,10 @@
 ---
 title: Finetunemusic.nl/en/about-us
 position: 3
+language: English
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
-language: English
 introduction:
 - |-
   Wij zijn de eerste zangvogel als je opstaat.
