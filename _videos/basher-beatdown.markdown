@@ -1,7 +1,7 @@
 ---
 title: basher-beatdown
 date: 2017-08-30 12:36:00 +02:00
-position: 10
+position: 5
 language: Dutch
 name: Basher Beatdown
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/W_mZdIBP8Lg?rel=0&amp;controls=0&amp;showinfo=0"
