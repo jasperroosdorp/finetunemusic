@@ -26,7 +26,7 @@ defaults:
     name: White Wolf
     client: Migloko
     embed: Insert iframe code
-    image:
+    image: 
     summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
       interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
       massa vel, egestas nisi nam ac velit mauris.
@@ -41,7 +41,7 @@ defaults:
     path: ''
     type: music
   values:
-    file:
+    file: 
     client: Hanze Hogeschool
     featured:
     - is on production: false
@@ -51,7 +51,7 @@ defaults:
     path: ''
     type: voice-overs
   values:
-    file:
+    file: 
 exclude:
 - node_modules
 - gulpfile.js
