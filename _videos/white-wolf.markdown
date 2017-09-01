@@ -1,5 +1,5 @@
 ---
-title: White Wolf
+title: white-wolf
 date: 2017-08-30 12:39:00 +02:00
 position: 0
 embed: <iframe src="https://player.vimeo.com/video/202741792?color=ffffff&title=0&byline=0&portrait=0"
