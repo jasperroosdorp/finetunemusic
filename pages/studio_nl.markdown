@@ -5,20 +5,14 @@ language: Dutch
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
-summary:
-  title: Studio
-  paragraph: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.
+text: |-
+  ## Studio
+
+  Verklanken van identiteit is onze passie. Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek, van interactief sound design voor games tot theatervoorstellingen. We houden van de verbazing van klanten die ontdekken dat muziek het imago van een bedrijf of product hoorbaar kan maken.
+
+  Wij werken veel samen met andere creatieve partijen om zo een geheel te creëren waarin het visuele en het auditieve elkaar versterken. We werkten onder andere met G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones en Sword GC.
 clients:
   title: Opdrachtgevers
-links:
-- name: Migloko
-  video: "../videos/white-wolf.html"
-- name: Hanze Hogeschool
-  music: The Wonderful Tale Of Madame Cambré
-- name: KLM
-  voice-over: 
 layout: info
 ---
 
