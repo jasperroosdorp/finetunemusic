@@ -7,112 +7,127 @@ pageid: about
 {% if page.language == 'Dutch' %}lang="nl"{% endif %}
 {% if page.language == 'English' %}lang="en"{% endif %}>
 
-  <HEAD>
-    <title>{{ page.page.title }}</title>
-    {% include meta.html %}
-    <link rel="stylesheet" href="../../source/main.css">
-    <script src="../../source/head.js"></script>
-  </HEAD>
+<HEAD>
+  <title>{{ page.page.title }}</title>
+  {% include meta.html %}
+  <link rel="stylesheet" href="../../source/main.css">
+  <script src="../../source/head.js"></script>
+</HEAD>
 
-  <BODY>
+<BODY>
 
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="about">
-        <div class="barba-content">
+  <main id="barba-wrapper">
+    <div class="barba-container" data-pageid="about">
+      <div class="barba-content">
 
-          <section class="people">
+        <section class="about-description">
+          <h2>{{ page.information.title }}</h2>
+          <p>{{ page.information.paragraph }}</p>
+        </section>
 
-            <ul>
-              <li>
-                <a id="overview-link" href="#overview">&nbsp;</a>
-              </li>
-              {% for person in page.people %}
-              <li>
-                <a id='full-description-link-{{ person.name }}' href="#full-description-{{ person.name }}">{{ person.name }}</a>
-              </li>
-              {% endfor %}
-            </ul>
+        <section class="people">
 
-            <div id="overview">
-              {% for person in page.people %}
-              <div class="person">
-                <figure>
-                  <div class='content'>
-                    <img src="{{ person.image }}" alt=""/>
-                  </div>
-                </figure>
-                <div class='description'>
-                  <h2>{{ person.name }}</h2>
-                  {{ person.preview | markdownify }}
-                  <a class='read-more' onclick="document.getElementById('full-description-link-{{ person.name }}').click();">Lees meer over {{ person.name }}</a>
-                </div>
-              </div>
-              {% endfor %}
-            </div>
-
+          <ul>
+            <li>
+              <a id="overview-link" href="#overview">&nbsp;</a>
+            </li>
             {% for person in page.people %}
-            <div class='full-description' id='full-description-{{ person.name }}'>
+            <li>
+              <a id='full-description-link-{{ person.name }}' href="#full-description-{{ person.name }}">{{ person.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <div id="overview">
+            {% for person in page.people %}
+            <div class="person">
               <figure>
                 <div class='content'>
-                  <img src="{{ person.image }}" alt=""/>
+                  <img src="{{ person.preview-image }}" alt=""/>
                 </div>
               </figure>
-              <h2>{{ person.name }}</h2>
-              <div class="paragraph-wrapper">
-                {{ person.full | markdownify }}
+              <div class='description'>
+                <h2>{{ person.name }}</h2>
+                {{ person.preview | markdownify }}
+                <p>
+                  <a class='read-more' onclick="document.getElementById('full-description-link-{{ person.name }}').click();">
+                    {% if page.language == 'Dutch' %}Lees meer{% endif %}
+                    {% if page.language == 'English' %}Read more{% endif %}
+                  </a>
+                </p>
               </div>
-              <a class='read-less' onclick="document.getElementById('overview-link').click();">Sluiten</a>
             </div>
             {% endfor %}
+          </div>
 
-          </section>
-
-
-          <a class="full-width-button" onclick="openPortfolio()">
-            <div class="wrapper">
-              {% if page.language == 'Dutch' %}
-              <span>Beluister ons portfolio</span>
-              {% endif %}
-              {% if page.language == 'English' %}
-              <span>Listen to our portfolio</span>
-              {% endif %}
+          {% for person in page.people %}
+          <div class='full-description' id='full-description-{{ person.name }}'>
+            <figure>
+              <div class='content'>
+                <img src="{{ person.full-image }}" alt=""/>
+              </div>
+            </figure>
+            <h2>{{ person.name }}</h2>
+            <div class="paragraph-wrapper">
+              {{ person.full | markdownify }}
+              <p>
+                <a class='read-less' onclick="document.getElementById('overview-link').click();">
+                  {% if page.language == 'Dutch' %}Terug{% endif %}
+                  {% if page.language == 'English' %}Back{% endif %}
+                </a>
+              </p>
             </div>
-          </a>
+          </div>
+          {% endfor %}
 
-          <footer>
-          </footer>
+        </section>
 
-        </div>
+
+        <a class="full-width-button" onclick="openPortfolio()">
+          <div class="wrapper">
+            {% if page.language == 'Dutch' %}
+            <span>Beluister ons portfolio</span>
+            {% endif %}
+            {% if page.language == 'English' %}
+            <span>Listen to our portfolio</span>
+            {% endif %}
+          </div>
+        </a>
+
+        <footer>
+        </footer>
+
       </div>
-    </main>
+    </div>
+  </main>
 
-    {% include portfolio.html %}
+  {% include portfolio.html %}
 
-    <script type="text/javascript" src="../../source/body.js"></script>
+  <script type="text/javascript" src="../../source/body.js"></script>
 
-    <script>
-    // function myFunction() {
-    //   alert('test!');
-    // }
+  <script>
+  // function myFunction() {
+  //   alert('test!');
+  // }
 
-    // function readMore() {
-    //   // $('.full-description-link.Paul').trigger('click');
-    //   // alert('test!');
-    //   $(this).addClass('test');
-    // }
+  // function readMore() {
+  //   // $('.full-description-link.Paul').trigger('click');
+  //   // alert('test!');
+  //   $(this).addClass('test');
+  // }
 
-    // $(document).ready(function() {
-    //   $('.full-description-wrapper').tabslet({
-    //     mouseevent: 'click',
-    //     attribute: 'href',
-    //     animation: true,
-    //     active: false
-    //   });
-    // });
-    </script>
+  // $(document).ready(function() {
+  //   $('.full-description-wrapper').tabslet({
+  //     mouseevent: 'click',
+  //     attribute: 'href',
+  //     animation: true,
+  //     active: false
+  //   });
+  // });
+  </script>
 
-  </BODY>
+</BODY>
 
 </HTML>

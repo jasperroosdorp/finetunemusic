@@ -92,21 +92,11 @@ html.portfolio-open {
       transition: transform 0.3s ease-out;
       transform: translateY(-56rem);
     }
+    @include for-big-desktop-up {
+      transform: translateY(-65rem);
+    }
   }
-  // &.portfolio-to-top {
-  //   .portfolio {
-  //     @include for-tablet-landscape-up {
-  //       transform: translateY(-100vh);
-  //     }
-  //   }
-  // }
 }
-
-// html.barba-active {
-//   .portfolio-content {
-//     opacity: 0;
-//   }
-// }
 
 #tab-1 {
   @include container;

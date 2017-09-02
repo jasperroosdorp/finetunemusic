@@ -34,7 +34,7 @@ pageid: info
               {% if videos.published != false %}
               {% if videos.language == page.language and videos.pages %}
               {% for item in videos.pages %}
-              {% if item == 'Finetunemusic.nl/studio' %}
+              {% if item == page.title %}
               <a href="{{ videos.url }}">{{ videos.client }}</a>
               {% endif %}
               {% endfor %}

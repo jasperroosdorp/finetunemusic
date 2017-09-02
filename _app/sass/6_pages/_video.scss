@@ -54,7 +54,7 @@ html#video .portfolio-wrapper {
 section.video-container{
   @include container;
   @include responsive-width;
-  @include gutters;
+  // @include gutters;
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
@@ -68,5 +68,7 @@ section.project-info {
   p {
     @include span(8 of 12);
     padding-top: 0.3rem;
+    max-width: 90rem;
+    // float: right;
   }
 }

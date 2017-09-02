@@ -1,57 +1,23 @@
-// section.index-intro {
-//   @include container;
-//   @include responsive-width;
-//   @include gutters;
-//   position: relative;
-//   height: 13rem;
-//   h1 {
-//     white-space: pre-line;
-//     position: absolute;
-//     bottom: 0;
-//     display: none;
-//   }
-// }
-//
-// section.index-img {
-//   @include container;
-//   @include responsive-width;
-//   margin-top: 70px;
-//   figure {
-//     @include aspect-ratio(4, 2);
-//     @include span(12 of 12);
-//     img {
-//       position: absolute;
-//       left: 0;
-//       right: 0;
-//     }
-//     .content {
-//       background-color: rgba(0, 0, 0, 0.1);
-//     }
-//   }
-// }
-//
-// section.index-description {
-//   @include container;
-//   @include responsive-width;
-//   margin-top: 70px;
-//   margin-bottom: 70px;
-//   h2, p {
-//     @include span(6 of 12);
-//   }
-//   p {
-//     max-width: 55rem;
-//   }
-// }
+section.about-description {
+  @include container;
+  @include responsive-width;
+  h2 { @include span(4 of 12); }
+  p {
+    @include span(8 of 12);
+    max-width: 100rem;
+  }
+}
 
 section.people {
   @include container;
   @include responsive-width;
+  margin-top: 10rem;
   ul {
     display: none;
   }
   figure {
     background-color: rgba(0, 0, 0, 0.05);
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
   }
   h2 {
     margin-bottom: 4rem;
@@ -63,21 +29,34 @@ section.people {
 
 section.people #overview {
   .person { @include span(6 of 12 no-gutters); }
-  .description { @include span(6 of 6); }
+  .description {
+    @include span(6 of 6);
+    p {
+      padding-right: 7rem;
+    }
+  }
   figure {
     @include span(6 of 6 no-gutters);
     @include aspect-ratio(4, 3);
   }
+  a {
+    padding: 0.4rem 0 0 0;
+    margin: 0;
+    float: left;
+    position: relative;
+    line-height: 4rem;
+  }
 }
 
 section.people .full-description {
-  @include span(12 of 12);
+  @include span(12 of 12 no-gutters);
   figure {
     @include span(12 of 12 no-gutters);
     @include aspect-ratio(8, 3);
   }
+  h2 { @include gutters() }
   .paragraph-wrapper {
-    @include span(12 of 12 no-gutters);
+    @include span(12 of 12);
     column-count: 2;
     column-gap: 8rem;
   }

@@ -223,7 +223,9 @@ $audio-bar-height: 30px;
       background: linear-gradient(to left, $portfolio-bg-color 0%,rgba(0,0,0,0) 100%);
     }
     &:hover { color: rgba(255, 255, 255, 0.7); }
-    &.current { color: rgba(255, 255, 255, 0.7); pointer-events: none; }
+    &.current {
+      color: $audio-player-title-color; 
+      pointer-events: none; }
   }
 }
 

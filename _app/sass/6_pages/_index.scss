@@ -4,19 +4,11 @@ section.index-intro {
   @include gutters;
   position: relative;
   height: 13rem;
-  // background-color: blue;
-  // background-color: #fff;
-  // overflow-y: hidden;
-  // top: 70px;
   h1 {
-    // background-color: green;
     white-space: pre-line;
     position: absolute;
-    // z-index: 999;
     bottom: 0;
     display: none;
-    // @include span(11 of 12 no-gutters);
-    // @include push(0.5 of 12);
   }
 }
 
@@ -32,14 +24,9 @@ section.index-img {
       left: 0;
       right: 0;
     }
-    // @include aspect-ratio(4, 3);
-    // @include span(5.875 of 12);
-    // &:nth-child(2) { @include push(0.25 of 12) }
     .content {
       background-color: rgba(0, 0, 0, 0.1);
     }
-    // &:nth-child(1) > .content { margin-left: 0; }
-    // &:nth-child(2) > .content { margin-right: 0; }
   }
 }
 
@@ -47,15 +34,6 @@ section.index-description {
   @include container;
   @include responsive-width;
   margin-top: 70px;
-  margin-bottom: 70px;
-  h2, p {
-    // @include span(5.5 of 12);
-    @include span(6 of 12);
-  }
-  h2 {
-    // @include push(0.5 of 12);
-  }
-  p {
-    max-width: 55rem;
-  }
+  h2, p { @include span(6 of 12); }
+  p { max-width: 55rem; }
 }

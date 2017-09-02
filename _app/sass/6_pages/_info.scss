@@ -1,16 +1,15 @@
 section.info-section {
   @include container;
   @include responsive-width;
-  // @include gutters;
-  // margin-top: 9rem;
-  margin-bottom: 4rem;
-  h2, p { margin-top: 4rem; }
+  + .info-section {
+    margin-top: 8rem;
+  }
   h2 { @include span(4 of 12); }
   p {
     @include span(8 of 12);
     padding-top: 0.4rem;
     float: right;
-    + p { padding-top: 0; }
+    + p { padding-top: 4rem; }
   }
   a {
     padding: 0.4rem 0 0 0;
