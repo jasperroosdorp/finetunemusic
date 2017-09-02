@@ -4,7 +4,8 @@ position: 6
 language: Dutch
 page:
   title: Finetunemusic
-  google: Onze muziekstudio in Haren, Groningen is een sfeervolle multifunctionele werkplek met state of the art apparatuur en meerdere opnameruimtes.
+  google: Onze muziekstudio in Haren, Groningen is een sfeervolle multifunctionele
+    werkplek met state of the art apparatuur en meerdere opnameruimtes.
 text: |-
   ## Studio
 
@@ -13,3 +14,4 @@ clients:
   title: Opdrachtgevers
 layout: info
 ---
+

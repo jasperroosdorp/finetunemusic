@@ -4,7 +4,8 @@ position: 8
 language: Dutch
 page:
   title: Finetunemusic
-  google: Voice overs voor o.a. radio en tv commercials en luisterboeken. Fine Tune Music levert in 24 uur de allerhoogste kwaliteit. Check gerust ons portfolio.
+  google: Voice overs voor o.a. radio en tv commercials en luisterboeken. Fine Tune
+    Music levert in 24 uur de allerhoogste kwaliteit. Check gerust ons portfolio.
 text: |-
   ## Voice-overs
 
@@ -15,3 +16,4 @@ clients:
   title: Opdrachtgevers
 layout: info
 ---
+

@@ -4,7 +4,8 @@ position: 5
 language: English
 page:
   title: Finetunemusic
-  google: Sed pellentesque, dolor vitae porttitor auctor, nisi nisi iaculis nisi, vel maximus odio massa quis ante.
+  google: Sed pellentesque, dolor vitae porttitor auctor, nisi nisi iaculis nisi,
+    vel maximus odio massa quis ante.
 text: |-
   ## Production
 
@@ -15,3 +16,4 @@ clients:
   title: Opdrachtgevers
 layout: info
 ---
+
