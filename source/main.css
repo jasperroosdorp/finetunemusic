@@ -1089,13 +1089,13 @@ section.info-section {
   margin-right: auto;
   width: 90%;
   max-width: 1550px;
-  margin-bottom: 3rem; }
+  margin-bottom: 4rem; }
   section.info-section:after {
     content: " ";
     display: block;
     clear: both; }
-  section.info-section h2, section.info-section p, section.info-section ul.links {
-    margin-top: 6rem; }
+  section.info-section h2, section.info-section p {
+    margin-top: 4rem; }
   section.info-section h2 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1110,7 +1110,10 @@ section.info-section {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
-    padding-top: 0.4rem; }
+    padding-top: 0.4rem;
+    float: right; }
+    section.info-section p + p {
+      padding-top: 0; }
   section.info-section a {
     padding: 0.4rem 0 0 0;
     margin: 0;
@@ -1120,6 +1123,9 @@ section.info-section {
     section.info-section a:nth-last-child(n+2)::after {
       content: ',\00a0';
       background-color: #fff; }
+
+html#info main {
+  margin-bottom: 15rem; }
 
 .project-video {
   position: relative; }

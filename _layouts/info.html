@@ -23,8 +23,7 @@ pageid: info
         <div class="barba-content">
 
           <section class='info-section'>
-            <h2>{{ page.summary.title }}</h2>
-            <p>{{ page.summary.paragraph }}</p>
+            {{ page.text | markdownify }}
           </section>
 
           <section class='info-section'>

@@ -4,15 +4,12 @@ position: 6
 language: Dutch
 page:
   title: Finetunemusic
-  google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
+  google: Onze muziekstudio in Haren, Groningen is een sfeervolle multifunctionele werkplek met state of the art apparatuur en meerdere opnameruimtes.
 text: |-
   ## Studio
 
-  Verklanken van identiteit is onze passie. Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek, van interactief sound design voor games tot theatervoorstellingen. We houden van de verbazing van klanten die ontdekken dat muziek het imago van een bedrijf of product hoorbaar kan maken.
-
-  Wij werken veel samen met andere creatieve partijen om zo een geheel te creëren waarin het visuele en het auditieve elkaar versterken. We werkten onder andere met G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones en Sword GC.
+  Onze muziekstudio is een sfeervolle multifunctionele werkplek met state of the art apparatuur en meerdere opnameruimtes. De diensten die wij leveren bestaan uit volledige bandopnames, maar ook voor kleinere opnamesessies kun je bij ons terecht. Ook het mixen van je muziek nemen wij graag voor onze rekening. Daarnaast adviseren we je graag op het gebied van muziekproductie. We kunnen je bijvoorbeeld ondersteunen bij het uitwerken van composities en met het vinden van een passende sound bij je track. Of het nou gaat om filmische arrangementen, soulvolle R’n’B-producties, of experimentele beats. Veelzijdigheid is één van onze kwaliteiten.
 clients:
   title: Opdrachtgevers
 layout: info
 ---
-
