@@ -5,23 +5,13 @@ language: Dutch
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
-introduction:
-- |-
-  Wij zijn de eerste zangvogel als je opstaat.
-  Het geluid van regen na droogte.
-  De echo in de bergen.
-- |-
-  Je vindt ons overal, maar toch zijn we altijd onzichtbaar.
-  We verplaatsen ons met enorme snelheid.
-- |-
-  We kunnen je laten schrikken, laten lachen en laten huilen.
-  Wij zijn die melodie die maar niet uit je hoofd gaat,
-  maar ook dat ene liedje waar je de naam niet meer van weet.
-short: Wij zijn de eerste zangvogel als je opstaat. Het geluid van regen na droogte.
-  De echo in de bergen. Je vindt ons overal, maar toch zijn we altijd onzichtbaar.
-  We verplaatsen ons met enorme snelheid. We kunnen je laten schrikken, laten lachen
-  en laten huilen. Wij zijn die melodie die maar niet uit je hoofd gaat, maar ook
-  dat ene liedje waar je de naam niet meer van weet.
+information:
+  title: Ons team
+  paragraph: We zijn een collectief van getalenteerde musici die zij aan zij werken.
+    Bestaande uit David en Paul, beide componist en muziekproducent. Diversiteit zit
+    in ons DNA, en dat hoor je terug in ons portfolio. Ons team bestaat uit vakgekken.
+    We zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw
+    wensen.
 people:
 - name: David
   image: "../uploads/picci.jpg"
@@ -50,10 +40,6 @@ people:
     Paul is een bekwaam arrangeur en weet instrumenten hun eigen plek te geven binnen orkestraal-filmische partijen, swingende jazz-harmonieën, maar ook binnen compacte songstructuren. Deze ambacht verfijnde hij onder andere door zijn ervaring in het schrijven van vocale arrangementen, waarvoor hij diverse internationale prijzen ontving.
 
     De afgelopen jaren schreef en produceerde hij muziek voor een groot aantal voorstellingen als huiscomponist van Theater Young Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen van verhalen in zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. Dit zie je ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven, zowel binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi en The Cool Quest.
-information:
-  title: Dit zijn wij
-  paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
-    voice-overs en verzorgen audio branding.
 layout: about
 ---
 
