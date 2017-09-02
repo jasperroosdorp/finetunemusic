@@ -17,4 +17,4 @@ text: |-
 clients:
   title: Opdrachtgevers
 layout: info
-  ---
+---
