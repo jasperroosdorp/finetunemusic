@@ -7,7 +7,7 @@ page:
   google: Sed pellentesque, dolor vitae porttitor auctor, nisi nisi iaculis nisi,
     vel maximus odio massa quis ante.
 text: |-
-  ## Studio
+  ## Voice-overs
 
   Verklanken van identiteit is onze passie. Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek, van interactief sound design voor games tot theatervoorstellingen. We houden van de verbazing van klanten die ontdekken dat muziek het imago van een bedrijf of product hoorbaar kan maken.
 
