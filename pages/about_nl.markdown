@@ -10,7 +10,7 @@ information:
     ## Ons team
 
     We zijn een collectief van getalenteerde musici die zij aan zij werken. Bestaande uit David en Paul, beide componist en muziekproducent. Diversiteit zit in ons DNA, en dat hoor je terug in ons portfolio. Ons team bestaat uit vakgekken. We zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw wensen.
-image: "../uploads/rawpixel-com-310777.jpg"
+image: "../uploads/images/rawpixel-com-310777.jpg"
 people:
   description:
   - |-
@@ -31,4 +31,3 @@ people:
     De afgelopen jaren schreef en produceerde hij muziek voor een groot aantal voorstellingen als huiscomponist van Theater Young Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen van verhalen in zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. Dit zie je ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven, zowel binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi en The Cool Quest.
 layout: about
 ---
-
