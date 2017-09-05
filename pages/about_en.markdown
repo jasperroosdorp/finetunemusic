@@ -1,5 +1,5 @@
 ---
-title: Finetunemusic.nl/over-ons
+title: Finetunemusic.nl/en/about-us
 position: 3
 language: English
 page:
