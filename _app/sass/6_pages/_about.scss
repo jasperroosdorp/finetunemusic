@@ -12,14 +12,14 @@ section.people {
   @include container;
   @include responsive-width;
   margin-top: 10rem;
-  .person {
-    @include span(6 of 12 no-gutters);
-  }
   figure {
   @include span(6 of 6 no-gutters);
-  @include aspect-ratio(4, 3);
+  @include aspect-ratio(2, 1);
     background-color: rgba(0, 0, 0, 0.05);
     margin-bottom: 10rem;
+  }
+  .person {
+    @include span(6 of 12 no-gutters);
   }
   .description {
     @include span(6 of 6);

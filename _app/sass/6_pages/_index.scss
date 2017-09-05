@@ -17,7 +17,7 @@ section.index-img {
   @include responsive-width;
   margin-top: 70px;
   figure {
-    @include aspect-ratio(4, 2);
+    @include aspect-ratio(2, 1);
     @include span(12 of 12);
     img {
       position: absolute;
