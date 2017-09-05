@@ -20,7 +20,7 @@ short introduction: Aenean rutrum dolor nec ligula consectetur aliquet. Maecenas
   porta malesuada. Aenean sagittis pellentesque lacus at consequat. Vestibulum orci
   lorem, pellentesque eu tempor hendrerit, varius a diam.
 image:
-  image: "../uploads/picci.jpg"
+  image: "/uploads/rawpixel-com-296613.jpg"
 information:
   title: Sed quis justo
   paragraph: Praesent suscipit purus in diam semper fermentum. In laoreet tortor id
