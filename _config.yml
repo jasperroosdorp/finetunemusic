@@ -1,8 +1,6 @@
 ---
 title: Finetunemusic
 timezone: Europe/Amsterdam
-cdn: http://res.cloudinary.com/roosdorp/image/fetch
-host: http://finetunemusic.jasperroosdorp.nl/
 collections:
   posts:
     title: Languages
@@ -28,28 +26,30 @@ defaults:
     name: White Wolf
     client: Migloko
     embed: Insert iframe code
-    image:
+    image: 
     summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
       interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
       massa vel, egestas nisi nam ac velit mauris.
     audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
       sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
     pages:
-    -
+    - 
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file:
+    file: 
     client: Hanze Hogeschool
     pages:
-    -
+    - 
 - scope:
     path: ''
     type: voice-overs
   values:
-    file:
+    file: 
+cdn: http://res.cloudinary.com/roosdorp/image/fetch
+host: http://finetunemusic.jasperroosdorp.nl/
 exclude:
 - node_modules
 - gulpfile.js
