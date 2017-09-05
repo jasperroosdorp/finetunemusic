@@ -10,7 +10,7 @@ information:
     ## Our team
 
     Integer rutrum ligula leo, vitae pellentesque nulla vehicula eu. Vivamus ut risus arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Stibulum lobortis faucibus venenatis. Nunc laoreet dui posuere faucibus tempor. Morbi turpis sem, eleifend sed mi sit amet, porta pulvinar nisl. Etiam ac ullamcorper massa, sed pellentesque massa.
-image: "../uploads/images/rawpixel-com-310777.jpg"
+image: "../uploads/rawpixel-com-310777.jpg"
 people:
   description:
   - |-
