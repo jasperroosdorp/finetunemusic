@@ -24,7 +24,7 @@
     background: $portfolio-bg-color;
     @include for-tablet-landscape-up {
       position: absolute;
-      transition: transform 0.3s ease-in;
+      transition: transform 0.4s ease-in;
       top: 100vh;
       transform: translateY(0);
       will-change: transform;
@@ -89,7 +89,7 @@ html.portfolio-open {
   .portfolio-overlay { opacity: 1; }
   .portfolio {
     @include for-tablet-landscape-up {
-      transition: transform 0.3s ease-out;
+      transition: transform 0.4s ease-out;
       transform: translateY(-56rem);
     }
     @include for-big-desktop-up {

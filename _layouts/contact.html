@@ -7,43 +7,48 @@ pageid: info
 {% if page.language == 'Dutch' %}lang="nl"{% endif %}
 {% if page.language == 'English' %}lang="en"{% endif %}>
 
-  <HEAD>
-    <title>{{ page.page.title }}</title>
-    {% include meta.html %}
-    <link rel="stylesheet" href="../../source/main.css">
-    <script src="../../source/head.js"></script>
-  </HEAD>
+<HEAD>
+  <title>{{ page.page.title }}</title>
+  {% include meta.html %}
+  <link rel="stylesheet" href="../source/main.min.css">
+  <script src="../source/head.min.js"></script>
+</HEAD>
 
-  <BODY>
+<BODY>
 
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="info">
-        <div class="barba-content">
+  <main id="barba-wrapper">
+    <div class="barba-container" data-pageid="info">
+      <div class="barba-content">
 
-          <section class='info-section'>
-            <h2>{{ page.summary.title }}</h2>
-            <p>{{ page.summary.paragraph }}</p>
-          </section>
+        <section class='info-section'>
+          <h2>{{ page.summary.title }}</h2>
+          <p>{{ page.summary.paragraph }}</p>
+        </section>
 
-          <section class='info-section'>
-            <h2>{{ page.clients.title }}</h2>
-            <p class="links">
-              {% for item in page.links %}
-              <a href="{{ item.video }}{{ item.music }}{{ item.voice-over }}">{{ item.name }}</a>
-              {% endfor %}
-            </p>
-          </section>
+        <section class='info-section'>
+          <h2>{{ page.clients.title }}</h2>
+          <p class="links">
+            {% for item in page.links %}
+            <a href="{{ item.video }}{{ item.music }}{{ item.voice-over }}">{{ item.name }}</a>
+            {% endfor %}
+          </p>
+        </section>
 
-        </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    {% include portfolio.html %}
+  {% include portfolio.html %}
 
-    <script type="text/javascript" src="../../source/body.js"></script>
+  <script type="text/javascript" src="../source/body.min.js"></script>
 
-  </BODY>
+  <script type="text/javascript">
+  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+  cl.responsive();
+  </script>
+
+</BODY>
 
 </HTML>

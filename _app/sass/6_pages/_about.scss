@@ -12,55 +12,23 @@ section.people {
   @include container;
   @include responsive-width;
   margin-top: 10rem;
-  ul {
-    display: none;
+  .person {
+    @include span(6 of 12 no-gutters);
   }
   figure {
+  @include span(6 of 6 no-gutters);
+  @include aspect-ratio(4, 3);
     background-color: rgba(0, 0, 0, 0.05);
     margin-bottom: 10rem;
+  }
+  .description {
+    @include span(6 of 6);
   }
   h2 {
     margin-bottom: 4rem;
   }
-  p + p {
-    margin-top: 3rem;
-  }
-}
-
-section.people #overview {
-  .person { @include span(6 of 12 no-gutters); }
-  .description {
-    @include span(6 of 6);
-    p {
-      padding-right: 7rem;
-    }
-  }
-  figure {
-    @include span(6 of 6 no-gutters);
-    @include aspect-ratio(4, 3);
-  }
-  a {
-    padding: 0.4rem 0 0 0;
-    margin: 0;
-    float: left;
-    position: relative;
-    line-height: 4rem;
-  }
-}
-
-section.people .full-description {
-  @include span(12 of 12 no-gutters);
-  figure {
-    @include span(12 of 12 no-gutters);
-    @include aspect-ratio(8, 3);
-  }
-  h2 { @include gutters() }
-  .paragraph-wrapper {
-    @include span(12 of 12);
-    column-count: 2;
-    column-gap: 8rem;
-  }
   p {
-    page-break-inside: avoid;
+    padding-right: 7rem;
+    + p { margin-top: 3rem; }
   }
 }

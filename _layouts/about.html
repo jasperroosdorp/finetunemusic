@@ -10,8 +10,8 @@ pageid: about
 <HEAD>
   <title>{{ page.page.title }}</title>
   {% include meta.html %}
-  <link rel="stylesheet" href="../../source/main.css">
-  <script src="../../source/head.js"></script>
+  <link rel="stylesheet" href="../source/main.min.css">
+  <script src="../source/head.min.js"></script>
 </HEAD>
 
 <BODY>
@@ -28,60 +28,19 @@ pageid: about
         </section>
 
         <section class="people">
-
-          <ul>
-            <li>
-              <a id="overview-link" href="#overview">&nbsp;</a>
-            </li>
-            {% for person in page.people %}
-            <li>
-              <a id='full-description-link-{{ person.name }}' href="#full-description-{{ person.name }}">{{ person.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-
-          <div id="overview">
-            {% for person in page.people %}
-            <div class="person">
-              <figure>
-                <div class='content'>
-                  <img src="{{ person.preview-image }}" alt=""/>
-                </div>
-              </figure>
-              <div class='description'>
-                <h2>{{ person.name }}</h2>
-                {{ person.preview | markdownify }}
-                <p>
-                  <a class='read-more' onclick="document.getElementById('full-description-link-{{ person.name }}').click();">
-                    {% if page.language == 'Dutch' %}Lees meer{% endif %}
-                    {% if page.language == 'English' %}Read more{% endif %}
-                  </a>
-                </p>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-
           {% for person in page.people %}
-          <div class='full-description' id='full-description-{{ person.name }}'>
+          <div class="person">
             <figure>
               <div class='content'>
-                <img src="{{ person.full-image }}" alt=""/>
+                <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto/{{ site.host }}{{ person.image | replace: "../uploads", "uploads" }}" />
               </div>
             </figure>
-            <h2>{{ person.name }}</h2>
-            <div class="paragraph-wrapper">
-              {{ person.full | markdownify }}
-              <p>
-                <a class='read-less' onclick="document.getElementById('overview-link').click();">
-                  {% if page.language == 'Dutch' %}Terug{% endif %}
-                  {% if page.language == 'English' %}Back{% endif %}
-                </a>
-              </p>
+            <div class='description'>
+              <h2>{{ person.name }}</h2>
+              {{ person.text | markdownify }}
             </div>
           </div>
           {% endfor %}
-
         </section>
 
 
@@ -96,16 +55,18 @@ pageid: about
           </div>
         </a>
 
-        <footer>
-        </footer>
-
       </div>
     </div>
   </main>
 
   {% include portfolio.html %}
 
-  <script type="text/javascript" src="../../source/body.js"></script>
+  <script type="text/javascript" src="../source/body.min.js"></script>
+
+  <script type="text/javascript">
+  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+  cl.responsive();
+  </script>
 
   <script>
   // function myFunction() {

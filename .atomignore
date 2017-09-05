@@ -1,6 +1,5 @@
 node_modules
 _uploads
-source
 _site
 .htaccess
 CNAME
@@ -13,3 +12,4 @@ _config.yml
 _layouts/core/compress.html
 _layouts/*_en.html
 _layouts/*_nl.html
+source

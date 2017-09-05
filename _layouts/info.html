@@ -7,51 +7,56 @@ pageid: info
 {% if page.language == 'Dutch' %}lang="nl"{% endif %}
 {% if page.language == 'English' %}lang="en"{% endif %}>
 
-  <HEAD>
-    <title>{{ page.page.title }}</title>
-    {% include meta.html %}
-    <link rel="stylesheet" href="../../source/main.css">
-    <script src="../../source/head.js"></script>
-  </HEAD>
+<HEAD>
+  <title>{{ page.page.title }}</title>
+  {% include meta.html %}
+  <link rel="stylesheet" href="../source/main.min.css">
+  <script src="../source/head.min.js"></script>
+</HEAD>
 
-  <BODY>
+<BODY>
 
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="info">
-        <div class="barba-content">
+  <main id="barba-wrapper">
+    <div class="barba-container" data-pageid="info">
+      <div class="barba-content">
 
-          <section class='info-section'>
-            {{ page.text | markdownify }}
-          </section>
+        <section class='info-section'>
+          {{ page.text | markdownify }}
+        </section>
 
-          <section class='info-section'>
-            <h2>{{ page.clients.title }}</h2>
-            <p class="links">
-              {% assign sorted = (site.videos | sort: 'position') %}
-              {% for videos in sorted %}
-              {% if videos.published != false %}
-              {% if videos.language == page.language and videos.pages %}
-              {% for item in videos.pages %}
-              {% if item == page.title %}
-              <a href="{{ videos.url }}">{{ videos.client }}</a>
-              {% endif %}
-              {% endfor %}
-              {% endif %}
-              {% endif %}
-              {% endfor %}
-            </p>
-          </section>
+        <section class='info-section'>
+          <h2>{{ page.clients.title }}</h2>
+          <p class="links">
+            {% assign sorted = (site.videos | sort: 'position') %}
+            {% for videos in sorted %}
+            {% if videos.published != false %}
+            {% if videos.language == page.language and videos.pages %}
+            {% for item in videos.pages %}
+            {% if item == page.title %}
+            <a href="{{ videos.url }}">{{ videos.client }}</a>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </p>
+        </section>
 
-        </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    {% include portfolio.html %}
+  {% include portfolio.html %}
 
-    <script type="text/javascript" src="../../source/body.js"></script>
+  <script type="text/javascript" src="../source/body.min.js"></script>
 
-  </BODY>
+  <script type="text/javascript">
+  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+  cl.responsive();
+  </script>
+
+</BODY>
 
 </HTML>

@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
       $('html.portfolio-open .portfolio-content').animate({ opacity: 0 }, 1000);
       $('html.portfolio-open .portfolio-wrapper').animate({
         scrollTop: $('.portfolio-wrapper').scrollTop() + ($('.portfolio').offset().top - $('.portfolio-wrapper').offset().top)
-      }, 300);
+      }, 400);
       return $(this.oldContainer).animate({ opacity: 0 }, 1000).promise();
     },
     fadeIn: function() {
@@ -40,15 +40,15 @@ document.addEventListener("DOMContentLoaded", function() {
       // Fade carousel
       var intro = $(".index-intro > h1").hide(), i = 0;
       (function cycle() {
-        intro.eq(i).fadeIn(400)
-        .delay(5000)
-        .fadeOut(400, cycle);
+        intro.eq(i).fadeIn(1000)
+        .delay(4500)
+        .fadeOut(1000, cycle);
         i = ++i % intro.length;
       })();
 
       $('html#video .return-button').css({ opacity : 0 });
       $('html#video .return-button').animate({ opacity: 1 }, 1000);
-      $('html.portfolio-open .portfolio-wrapper').delay(700).animate({ scrollTop: $('body').scrollTop() }, 300);
+      $('html.portfolio-open .portfolio-wrapper').delay(600).animate({ scrollTop: $('body').scrollTop() }, 400);
       $('html.portfolio-open .portfolio-content').animate({ opacity: 1 }, 1000);
       $el.css({ visibility : 'visible', opacity : 0 });
       $el.animate({ opacity: 1 }, 1000, function() { _this.done(); });
@@ -65,4 +65,5 @@ document.addEventListener("DOMContentLoaded", function() {
   Barba.Pjax.getTransition = function() {
     return FadeTransition;
   };
+
 });

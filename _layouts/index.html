@@ -7,11 +7,11 @@ pageid: index
 {% if page.language == 'Dutch' %}lang="nl"{% endif %}
 {% if page.language == 'English' %}lang="en"{% endif %}>
 
-  <HEAD>
-    <title>{{ page.page.title }}</title>
-    {% include meta.html %}
-    <link rel="stylesheet" href="../../source/main.css">
-    <script src="../../source/head.js"></script>
+<HEAD>
+  <title>{{ page.page.title }}</title>
+  {% include meta.html %}
+  <link rel="stylesheet" href="../source/main.min.css">
+  <script src="../source/head.min.js"></script>
 </HEAD>
 
 <BODY>
@@ -31,7 +31,7 @@ pageid: index
         <section class="index-img">
           <figure>
             <div class='content'>
-              <img src="{{ page.image.image }}" alt=""/>
+              <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,q_80/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" />
             </div>
           </figure>
         </section>
@@ -52,26 +52,17 @@ pageid: index
           </div>
         </a>
 
-        <footer>
-        </footer>
-
       </div>
     </div>
   </main>
 
   {% include portfolio.html %}
 
-  <script type="text/javascript" src="../../source/body.js"></script>
+  <script type="text/javascript" src="../source/body.min.js"></script>
 
-  <script>
-  // Fade carousel
-  var intro = $(".index-intro > h1").hide(), i = 0;
-  (function cycle() {
-    intro.eq(i).fadeIn(400)
-    .delay(5000)
-    .fadeOut(400, cycle);
-    i = ++i % intro.length;
-  })();
+  <script type="text/javascript">
+  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+  cl.responsive();
   </script>
 
 </BODY>

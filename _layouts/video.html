@@ -10,8 +10,8 @@ pageid: video
 <HEAD>
   <title>{{ page.name }}</title>
   {% include meta.html %}
-  <link rel="stylesheet" href="../../source/main.css">
-  <script src="../../source/head.js"></script>
+  <link rel="stylesheet" href="../source/main.min.css">
+  <script src="../source/head.min.js"></script>
 </HEAD>
 
 <BODY>
@@ -41,7 +41,12 @@ pageid: video
 
   {% include portfolio.html %}
 
-  <script type="text/javascript" src="../../source/body.js"></script>
+  <script type="text/javascript" src="../source/body.min.js"></script>
+
+  <script type="text/javascript">
+  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+  cl.responsive();
+  </script>
 
 </BODY>
 
