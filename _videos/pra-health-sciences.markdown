@@ -1,5 +1,5 @@
 ---
-title: pra-health-sciences
+title: PRA Health Sciences
 date: 2017-08-30 12:32:00 +02:00
 position: 2
 language: Dutch
