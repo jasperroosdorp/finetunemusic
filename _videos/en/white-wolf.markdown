@@ -1,5 +1,5 @@
 ---
-title: en/white-wolf
+title: White Wolf
 date: 2017-08-30 12:39:00 +02:00
 position: 9
 language: English
