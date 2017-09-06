@@ -1,5 +1,5 @@
 ---
-title: Han Koning
+title: Han Koning (EN)
 date: 2017-08-30 12:38:00 +02:00
 position: 17
 language: English
@@ -18,4 +18,3 @@ pages:
 - Finetunemusic.nl/en/production
 - Finetunemusic.nl/en/studio
 ---
-

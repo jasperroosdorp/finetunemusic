@@ -1,5 +1,5 @@
 ---
-title: LearningSpaces
+title: LearningSpaces (EN)
 date: 2017-08-30 12:41:00 +02:00
 position: 15
 language: English
@@ -13,4 +13,3 @@ summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, in
 audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
   sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 ---
-
