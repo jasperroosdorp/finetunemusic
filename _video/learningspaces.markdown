@@ -1,7 +1,7 @@
 ---
 title: LearningSpaces
 date: 2017-08-30 12:41:00 +02:00
-position: 2
+position: 3
 language: Dutch
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/adMgJXYjnOA?rel=0&amp;controls=0&amp;showinfo=0"
   frameborder="0" allowfullscreen></iframe>
