@@ -1,6 +1,6 @@
 ---
 title: Finetunemusic.nl/en/about-us
-position: 3
+position: 1
 language: English
 page:
   title: Finetunemusic
