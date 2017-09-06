@@ -22,18 +22,22 @@
       <a href="javascript:void(0)" class='close-portfolio'></a>
 
       <div id='tab-1'>
-        {% assign sorted = (site.videos | sort: 'position') %}
-        {% for videos in sorted %}
-        {% if videos.published != false %}
-        {% if videos.language == page.language %}
-        <a class="video" href="{{ videos.url | replace: ".html", "" }}{{ site.urlext }}">
+        {% if page.language == 'Dutch' %}
+        {% assign sorted = (site.video | sort: 'position') %}
+        {% endif %}
+        {% if page.language == 'English' %}
+        {% assign sorted = (site.en | sort: 'position') %}
+        {% endif %}
+        {% for video in sorted %}
+        {% if video.published != false %}
+        <a class="video" href="{{ video.url }}">
           <figure>
             <div class='content'>
-              <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_3:2,c_fill,q_90/{{ site.host }}{{ videos.image | replace: "../uploads", "uploads" }}" />
+              <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_3:2,c_fill,q_90/{{ site.host }}{{ video.image | replace: "../uploads", "uploads" }}" />
             </div>
           </figure>
+          <span>{{ video.title }}</span>
         </a>
-        {% endif %}
         {% endif %}
         {% endfor %}
       </div>

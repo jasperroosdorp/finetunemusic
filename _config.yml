@@ -2,12 +2,6 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  nl:
-    title: Dutch videos
-    output: true
-  en:
-    title: English videos
-    output: true
   posts:
     title: Languages
     output: true
@@ -17,49 +11,63 @@ collections:
   uploads:
     title: Uploads
     output: true
-  videos:
-    title: Videos
-    output: true
-  videos_nl:
-    title: Videos (NL)
-    output: true
   voice-overs:
     title: Voice-overs
     output: false
+  video:
+    title: Dutch videos
+    output: true
+  en:
+    title: English videos
+    output: true
 defaults:
 - scope:
     path: ''
-    type: videos
+    type: video
   values:
-    language: Dutch
-    name: White Wolf
     client: Migloko
     embed: Insert iframe code
-    image: 
+    image:
     summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
       interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
       massa vel, egestas nisi nam ac velit mauris.
     audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
       sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
     pages:
-    - 
+    -
+    layout: video
+- scope:
+    path: ''
+    type: en
+  values:
+    client: Migloko
+    embed: Insert iframe code
+    image:
+    summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
+      interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
+      massa vel, egestas nisi nam ac velit mauris.
+    audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+    pages:
+    -
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file: 
+    file:
     client: Hanze Hogeschool
     pages:
-    - 
+    -
 - scope:
     path: ''
     type: voice-overs
   values:
-    file: 
+    file:
 cdn: http://res.cloudinary.com/roosdorp/image/fetch
 host: http://finetunemusic.jasperroosdorp.nl/
-urlext: 
+basehref: http://finetunemusic.jasperroosdorp.nl
+urlext:
 exclude:
 - node_modules
 - gulpfile.js
