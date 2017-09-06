@@ -1,5 +1,5 @@
 ---
-title: white-wolf
+title: White Wolf
 date: 2017-08-30 12:39:00 +02:00
 position: 0
 language: Dutch
