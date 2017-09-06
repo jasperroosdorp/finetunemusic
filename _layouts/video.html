@@ -3,9 +3,7 @@ pageid: video
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1 portfolio-open"
-{% if page.language == 'Dutch' %}lang="nl"{% endif %}
-{% if page.language == 'English' %}lang="en"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1 portfolio-open" {% if page.path contains 'en' %}lang="en"{% else %}lang="nl"{% endif %}>
 
 <HEAD>
   <title>{{ page.name }}</title>
@@ -28,12 +26,17 @@ pageid: video
         </section>
 
         <section class='project-info'>
-          {% if page.language == 'Dutch' %}<h2>Samenvatting</h2>{% endif %}
-          {% if page.language == 'English' %}<h2>Summary</h2>{% endif %}
+          {% if page.path contains 'en' %}
+          <h2>Summary</h2>
           <p>{{ page.summary }}</p>
-          {% if page.language == 'Dutch' %}<h2>Geluid</h2>{% endif %}
-          {% if page.language == 'English' %}<h2>Audio</h2>{% endif %}
+          <h2>Audio</h2>
           <p>{{ page.audio }}</p>
+          {% else %}
+          <h2>Samenvatting</h2>
+          <p>{{ page.summary }}</p>
+          <h2>Geluid</h2>
+          <p>{{ page.audio }}</p>
+          {% endif %}
         </section>
 
       </div>

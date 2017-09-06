@@ -1,7 +1,6 @@
 ---
 title: Finetunemusic.nl/muziekproductie
 position: 2
-language: Dutch
 page:
   title: Finetunemusic
   google: Muziekproductiebedrijf Fine Tune Music produceert muziek, sounds en voice
@@ -16,4 +15,3 @@ clients:
   title: Opdrachtgevers
 layout: info
 ---
-

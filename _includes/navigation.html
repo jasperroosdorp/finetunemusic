@@ -7,11 +7,10 @@
       <span class='trigger-name unfold-nav'>Menu</span>
       <span class='trigger-name fold-nav'>Menu</span>
     </a>
-    {% if page.language == 'Dutch' %}
-    <a class="return-button" href="/">Terug</a>
-    {% endif %}
-    {% if page.language == 'English' %}
+    {% if page.path contains 'en' %}
     <a class="return-button" href="/en{{ site.urlext }}">Back</a>
+    {% else %}
+    <a class="return-button" href="/">Terug</a>
     {% endif %}
     <a class='current-track'>
       <svg class="music-bar" onclick="openPortfolio()" viewBox="0 0 20 20">
@@ -20,19 +19,31 @@
         <use class="bar" xlink:href="#def-rect" x="9" />
         <use class="bar" xlink:href="#def-rect" x="18" />
       </svg>
-      {% if page.language == 'Dutch' %}
-      <span class='placeholder' onclick="openPortfolio()">Beluister</span>
-      {% endif %}
-      {% if page.language == 'English' %}
+      {% if page.path contains 'en' %}
       <span class='placeholder' onclick="openPortfolio()">Listen</span>
+      {% else %}
+      <span class='placeholder' onclick="openPortfolio()">Beluister</span>
       {% endif %}
       <span class='audio-player-title music voice-overs' onclick="openPortfolio()">&nbsp;</span>
     </a>
   </nav>
 
   <nav class='lower'>
-
-    {% if page.language == 'Dutch' %}
+    
+    {% if page.path contains 'en' %}
+    <ul>
+      <li><a href="/en">Home</a></li>
+    </ul>
+    <ul>
+      <li><a href="/en/production{{ site.urlext }}">Production</a></li>
+      <li><a href="/en/voice-overs{{ site.urlext }}">Voice-overs</a></li>
+      <li><a href="/en/studio{{ site.urlext }}">Studio</a></li>
+    </ul>
+    <ul>
+      <li><a href="/en/about-us{{ site.urlext }}">About us</a></li>
+      <li><a>Contact</a></li>
+    </ul>
+    {% else %}
     <ul>
       <li><a href="/">Home</a></li>
     </ul>
@@ -46,22 +57,6 @@
       <li><a>Contact</a></li>
     </ul>
     {% endif %}
-
-    {% if page.language == 'English' %}
-    <ul>
-      <li><a href="/en">Home</a></li>
-    </ul>
-    <ul>
-      <li><a href="/en/production{{ site.urlext }}">Production</a></li>
-      <li><a href="/en/voice-overs{{ site.urlext }}">Voice-overs</a></li>
-      <li><a href="/en/studio{{ site.urlext }}">Studio</a></li>
-    </ul>
-    <ul>
-      <li><a href="/en/about-us{{ site.urlext }}">About us</a></li>
-      <li><a>Contact</a></li>
-    </ul>
-    {% endif %}
-
     <ul>
       <li><a class="no-barba en" href="/en{{ site.urlext }}">English</a></li>
       <li><a class="no-barba nl" href="/">Nederlands</a></li>

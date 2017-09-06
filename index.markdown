@@ -1,7 +1,6 @@
 ---
 title: Finetunemusic.nl
 position: 0
-language: Dutch
 page:
   title: Finetunemusic
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
@@ -30,4 +29,3 @@ information:
     voice-overs en verzorgen audio branding.
 layout: index
 ---
-

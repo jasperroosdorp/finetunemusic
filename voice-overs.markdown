@@ -1,7 +1,6 @@
 ---
 title: Finetunemusic.nl/voice-overs
 position: 3
-language: Dutch
 page:
   title: Finetunemusic
   google: Voice overs voor o.a. radio en tv commercials en luisterboeken. Fine Tune
@@ -16,4 +15,3 @@ clients:
   title: Opdrachtgevers
 layout: info
 ---
-

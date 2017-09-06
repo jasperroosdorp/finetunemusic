@@ -3,69 +3,66 @@ pageid: index
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1"
-{% if page.language == 'Dutch' %}lang="nl"{% endif %}
-{% if page.language == 'English' %}lang="en"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains 'en' %}lang="en"{% else %}lang="nl"{% endif %}>
 
-<HEAD>
-  <title>{{ page.page.title }}</title>
-  <link rel="canonical" href="{{ site.host | replace: ".nl/", ".nl" }}{{ page.title | replace: "Finetunemusic.nl", "" }}"/>
-  {% include meta.html %}
-  <link rel="stylesheet" href="{{ site.basehref }}/source/main.min.css">
-  <script src="{{ site.basehref }}/source/head.min.js"></script>
-</HEAD>
+  <HEAD>
+    <title>{{ page.page.title }}</title>
+    <link rel="canonical" href="{{ site.host | replace: ".nl/", ".nl" }}{{ page.title | replace: "Finetunemusic.nl", "" }}"/>
+    {% include meta.html %}
+    <link rel="stylesheet" href="{{ site.basehref }}/source/main.min.css">
+    <script src="{{ site.basehref }}/source/head.min.js"></script>
+  </HEAD>
 
-<BODY>
+  <BODY>
 
-  {% include navigation.html %}
+    {% include navigation.html %}
 
-  <main id="barba-wrapper">
-    <div class="barba-container" data-pageid="index">
-      <div class="barba-content">
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="index">
+        <div class="barba-content">
 
-        <section class="index-intro">
-          {% for introduction in page.introduction %}
-          <h1>{{ introduction }}</h1>
-          {% endfor %}
-        </section>
+          <section class="index-intro">
+            {% for introduction in page.introduction %}
+            <h1>{{ introduction }}</h1>
+            {% endfor %}
+          </section>
 
-        <section class="index-img">
-          <figure>
-            <div class='content'>
-              <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_2:1,c_fill,q_80/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" />
+          <section class="index-img">
+            <figure>
+              <div class='content'>
+                <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_2:1,c_fill,q_80/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" />
+              </div>
+            </figure>
+          </section>
+
+          <section class="index-description">
+            <h2>{{ page.information.title }}</h2>
+            <p>{{ page.information.paragraph }}</p>
+          </section>
+
+          <a class="full-width-button" onclick="openPortfolio()">
+            <div class="wrapper">
+              {% if page.path contains 'en' %}
+              <span>Listen to our portfolio</span>
+              {% else %}
+              <span>Beluister ons portfolio</span>
+              {% endif %}
             </div>
-          </figure>
-        </section>
+          </a>
 
-        <section class="index-description">
-          <h2>{{ page.information.title }}</h2>
-          <p>{{ page.information.paragraph }}</p>
-        </section>
-
-        <a class="full-width-button" onclick="openPortfolio()">
-          <div class="wrapper">
-            {% if page.language == 'Dutch' %}
-            <span>Beluister ons portfolio</span>
-            {% endif %}
-            {% if page.language == 'English' %}
-            <span>Listen to our portfolio</span>
-            {% endif %}
-          </div>
-        </a>
-
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  {% include portfolio.html %}
+    {% include portfolio.html %}
 
-  <script type="text/javascript" src="{{ site.basehref }}/source/body.min.js"></script>
+    <script type="text/javascript" src="{{ site.basehref }}/source/body.min.js"></script>
 
-  <script type="text/javascript">
-  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
-  cl.responsive();
-  </script>
+    <script type="text/javascript">
+    var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+    cl.responsive();
+    </script>
 
-</BODY>
+  </BODY>
 
 </HTML>

@@ -1,7 +1,6 @@
 ---
 title: Finetunemusic.nl/en/production
 position: 0
-language: English
 page:
   title: Finetunemusic
   google: Sed pellentesque, dolor vitae porttitor auctor, nisi nisi iaculis nisi,
@@ -16,4 +15,3 @@ clients:
   title: Opdrachtgevers
 layout: info
 ---
-

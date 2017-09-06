@@ -3,93 +3,90 @@ pageid: about
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1"
-{% if page.language == 'Dutch' %}lang="nl"{% endif %}
-{% if page.language == 'English' %}lang="en"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains 'en' %}lang="en"{% else %}lang="nl"{% endif %}>
 
-<HEAD>
-  <title>{{ page.page.title }}</title>
-  <link rel="canonical" href="{{ site.host}}{{ page.title | replace: "Finetunemusic.nl/", "" }}"/>
-  {% include meta.html %}
-  <link rel="stylesheet" href="{{ site.basehref }}/source/main.min.css">
-  <script src="{{ site.basehref }}/source/head.min.js"></script>
-</HEAD>
+  <HEAD>
+    <title>{{ page.page.title }}</title>
+    <link rel="canonical" href="{{ site.host}}{{ page.title | replace: "Finetunemusic.nl/", "" }}"/>
+    {% include meta.html %}
+    <link rel="stylesheet" href="{{ site.basehref }}/source/main.min.css">
+    <script src="{{ site.basehref }}/source/head.min.js"></script>
+  </HEAD>
 
-<BODY>
+  <BODY>
 
-  {% include navigation.html %}
+    {% include navigation.html %}
 
-  <main id="barba-wrapper">
-    <div class="barba-container" data-pageid="about">
-      <div class="barba-content">
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="about">
+        <div class="barba-content">
 
-        <section class="about-description">
-          <h2>{{ page.information.title }}</h2>
-          <p>{{ page.information.paragraph }}</p>
-        </section>
+          <section class="about-description">
+            <h2>{{ page.information.title }}</h2>
+            <p>{{ page.information.paragraph }}</p>
+          </section>
 
-        <section class="people">
-          <figure>
-            <div class='content'>
-              <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_2:1,c_fill,q_80/{{ site.host }}{{ page.image | replace: "../uploads", "uploads" }}" />
+          <section class="people">
+            <figure>
+              <div class='content'>
+                <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_2:1,c_fill,q_80/{{ site.host }}{{ page.image | replace: "../uploads", "uploads" }}" />
+              </div>
+            </figure>
+            {% for person in page.people %}
+            <div class="person">
+              <div class='description'>
+                <h2>{{ person.name }}</h2>
+                {{ person.text | markdownify }}
+              </div>
             </div>
-          </figure>
-          {% for person in page.people %}
-          <div class="person">
-            <div class='description'>
-              <h2>{{ person.name }}</h2>
-              {{ person.text | markdownify }}
+            {% endfor %}
+          </section>
+          
+
+          <a class="full-width-button" onclick="openPortfolio()">
+            <div class="wrapper">
+              {% if page.path contains 'en' %}
+              <span>Listen to our portfolio</span>
+              {% else %}
+              <span>Beluister ons portfolio</span>
+              {% endif %}
             </div>
-          </div>
-          {% endfor %}
-        </section>
+          </a>
 
-
-        <a class="full-width-button" onclick="openPortfolio()">
-          <div class="wrapper">
-            {% if page.language == 'Dutch' %}
-            <span>Beluister ons portfolio</span>
-            {% endif %}
-            {% if page.language == 'English' %}
-            <span>Listen to our portfolio</span>
-            {% endif %}
-          </div>
-        </a>
-
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  {% include portfolio.html %}
+    {% include portfolio.html %}
 
-  <script type="text/javascript" src="{{ site.basehref }}/source/body.min.js"></script>
+    <script type="text/javascript" src="{{ site.basehref }}/source/body.min.js"></script>
 
-  <script type="text/javascript">
-  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
-  cl.responsive();
-  </script>
+    <script type="text/javascript">
+    var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+    cl.responsive();
+    </script>
 
-  <script>
-  // function myFunction() {
-  //   alert('test!');
-  // }
+    <script>
+    // function myFunction() {
+    //   alert('test!');
+    // }
 
-  // function readMore() {
-  //   // $('.full-description-link.Paul').trigger('click');
-  //   // alert('test!');
-  //   $(this).addClass('test');
-  // }
+    // function readMore() {
+    //   // $('.full-description-link.Paul').trigger('click');
+    //   // alert('test!');
+    //   $(this).addClass('test');
+    // }
 
-  // $(document).ready(function() {
-  //   $('.full-description-wrapper').tabslet({
-  //     mouseevent: 'click',
-  //     attribute: 'href',
-  //     animation: true,
-  //     active: false
-  //   });
-  // });
-  </script>
+    // $(document).ready(function() {
+    //   $('.full-description-wrapper').tabslet({
+    //     mouseevent: 'click',
+    //     attribute: 'href',
+    //     animation: true,
+    //     active: false
+    //   });
+    // });
+    </script>
 
-</BODY>
+  </BODY>
 
 </HTML>
