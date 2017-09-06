@@ -1,5 +1,5 @@
 ---
-title: scansource
+title: ScanSource
 date: 2017-08-30 12:34:00 +02:00
 position: 3
 language: Dutch
