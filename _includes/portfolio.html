@@ -28,7 +28,7 @@
         {% endif %}
         {% for video in sorted %}
         {% if video.published != false %}
-        <a class="video" href="{{ video.url }}">
+        <a class="video" href="{{ video.url | replace: ".html", "" }}{{ site.urlext }}">
           <figure>
             <div class='content'>
               <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_3:2,c_fill,q_90/{{ site.host }}{{ video.image | replace: "../uploads", "uploads" }}" />
