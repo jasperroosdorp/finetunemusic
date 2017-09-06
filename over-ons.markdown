@@ -1,6 +1,6 @@
 ---
 title: Finetunemusic.nl/over-ons
-position: 3
+position: 1
 language: Dutch
 page:
   title: Finetunemusic
