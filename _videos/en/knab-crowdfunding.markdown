@@ -1,5 +1,5 @@
 ---
-title: Knab Crowdfunding (EN)
+title: Knab Crowdfunding
 date: 2017-08-30 12:40:00 +02:00
 position: 11
 language: English
@@ -18,3 +18,4 @@ pages:
 - Finetunemusic.nl/en/voice-overs
 - Finetunemusic.nl/en/production
 ---
+
