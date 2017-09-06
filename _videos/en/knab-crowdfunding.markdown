@@ -1,7 +1,7 @@
 ---
 title: Knab Crowdfunding
 date: 2017-08-30 12:40:00 +02:00
-position: 10
+position: 11
 language: English
 name: Knab Crowdfunding
 client: Knab Bank
