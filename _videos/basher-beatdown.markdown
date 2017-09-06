@@ -1,5 +1,5 @@
 ---
-title: basher-beatdown
+title: Basher Beatdown
 date: 2017-08-30 12:36:00 +02:00
 position: 5
 language: Dutch
