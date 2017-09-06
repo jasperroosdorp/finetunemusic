@@ -26,7 +26,7 @@
         {% for videos in sorted %}
         {% if videos.published != false %}
         {% if videos.language == page.language %}
-        <a class="video" href="{{ videos.url }}">
+        <a class="video" href="{{ videos.url | replace: ".html", "" }}{{ site.urlext }}">
           <figure>
             <div class='content'>
               <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_3:2,c_fill,q_90/{{ site.host }}{{ videos.image | replace: "../uploads", "uploads" }}" />
