@@ -1,5 +1,5 @@
 ---
-title: en/learningspaces
+title: LearningSpaces
 date: 2017-08-30 12:41:00 +02:00
 position: 15
 language: English
