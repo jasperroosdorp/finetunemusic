@@ -20,6 +20,9 @@ collections:
   en:
     title: English videos
     output: true
+  videos_nl:
+    title: Videos (NL)
+    output: true
   voice-overs:
     title: Voice-overs
     output: false
