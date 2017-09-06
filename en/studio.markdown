@@ -1,6 +1,6 @@
 ---
 title: Finetunemusic.nl/en/studio
-position: 7
+position: 2
 language: English
 page:
   title: Finetunemusic
