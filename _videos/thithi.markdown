@@ -1,5 +1,5 @@
 ---
-title: thithi
+title: THITHI
 date: 2017-08-30 12:35:00 +02:00
 position: 4
 language: Dutch
