@@ -8,10 +8,10 @@
       <span class='trigger-name fold-nav'>Menu</span>
     </a>
     {% if page.language == 'Dutch' %}
-    <a class="return-button" href="/pages/index.html">Terug</a>
+    <a class="return-button" href="/">Terug</a>
     {% endif %}
     {% if page.language == 'English' %}
-    <a class="return-button" href="/pages/index_en.html">Back</a>
+    <a class="return-button" href="/en{{ site.urlext }}">Back</a>
     {% endif %}
     <a class='current-track'>
       <svg class="music-bar" onclick="openPortfolio()" viewBox="0 0 20 20">
@@ -34,37 +34,37 @@
 
     {% if page.language == 'Dutch' %}
     <ul>
-      <li><a href="/pages/index.html">Home</a></li>
+      <li><a href="/">Home</a></li>
     </ul>
     <ul>
-      <li><a href="/pages/production_nl.html">Muziekproductie</a></li>
-      <li><a href="/pages/voice-overs_nl.html">Voice-overs</a></li>
-      <li><a href="/pages/studio_nl.html">Studio</a></li>
+      <li><a href="/muziekproductie{{ site.urlext }}">Muziekproductie</a></li>
+      <li><a href="/voice-overs{{ site.urlext }}">Voice-overs</a></li>
+      <li><a href="/studio{{ site.urlext }}">Studio</a></li>
     </ul>
     <ul>
-      <li><a href="/pages/about_nl.html">Over ons</a></li>
+      <li><a href="/over-ons{{ site.urlext }}">Over ons</a></li>
       <li><a>Contact</a></li>
     </ul>
     {% endif %}
 
     {% if page.language == 'English' %}
     <ul>
-      <li><a href="/pages/index_en.html">Home</a></li>
+      <li><a href="/en">Home</a></li>
     </ul>
     <ul>
-      <li><a href="/pages/production_en.html">Production</a></li>
-      <li><a href="/pages/voice-overs_en.html">Voice-overs</a></li>
-      <li><a href="/pages/studio_en.html">Studio</a></li>
+      <li><a href="/en/production{{ site.urlext }}">Production</a></li>
+      <li><a href="/en/voice-overs{{ site.urlext }}">Voice-overs</a></li>
+      <li><a href="/en/studio{{ site.urlext }}">Studio</a></li>
     </ul>
     <ul>
-      <li><a href="/pages/about_en.html">About us</a></li>
+      <li><a href="/en/about-us{{ site.urlext }}">About us</a></li>
       <li><a>Contact</a></li>
     </ul>
     {% endif %}
 
     <ul>
-      <li><a class="no-barba en" href="/pages/index_en.html">English</a></li>
-      <li><a class="no-barba nl" href="/pages/index.html">Nederlands</a></li>
+      <li><a class="no-barba en" href="/en{{ site.urlext }}">English</a></li>
+      <li><a class="no-barba nl" href="/">Nederlands</a></li>
     </ul>
 
   </nav>

@@ -127,7 +127,6 @@ gulp.task('browser-sync', function() {
     notify: true,
     open: true,
     reloadOnRestart: true,
-    startPath: "/pages/index.html",
     server: {
       baseDir: '_site'
     }
