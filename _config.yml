@@ -14,11 +14,11 @@ collections:
   videos:
     title: Videos
     output: true
-  videos_nl:
-    title: Videos (NL)
+  nl:
+    title: Dutch videos
     output: true
-  videos_en:
-    title: Videos (EN)
+  en:
+    title: English videos
     output: true
   voice-overs:
     title: Voice-overs
