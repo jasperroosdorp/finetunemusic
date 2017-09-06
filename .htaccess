@@ -1,14 +1,19 @@
 AddDefaultCharset UTF-8
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^$ /pages/index.html [L]
+RewriteRule ^en$ /pages/index_en.html [L]
+RewriteRule ^over-ons$ /pages/about_nl.html [L]
+RewriteRule ^en/about-us$ /pages/about_en.html [L]
+RewriteRule ^muziekproductie$ /pages/production_nl.html [L]
+RewriteRule ^en/production$ /pages/production_en.html [L]
+RewriteRule ^voice-overs$ /pages/voice-overs_nl.html [L]
+RewriteRule ^en/voice-overs$ /pages/voice-overs_en.html [L]
+RewriteRule ^studio$ /pages/studio_nl.html [L]
+RewriteRule ^en/studio$ /pages/studio_en.html [L]
+RewriteRule ^video/(.*) /videos/$1 [R=301,L]
+
 RewriteEngine on
-
-RewriteCond %{HTTP_HOST} ^(www.)?finetunemusic.jasperroosdorp.nl$
-RewriteCond %{REQUEST_URI} !^/pages/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /pages/$1
-RewriteCond %{HTTP_HOST} ^(www.)?finetunemusic.jasperroosdorp.nl$
-RewriteRule ^(/)?$ pages/index_nl.html [L]
-
 RewriteCond %{HTTP_HOST} ^www\.
 RewriteCond %{HTTPS}s ^on(s)|off
 RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
