@@ -6,7 +6,7 @@ page:
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
 introduction:
 - |-
-  Wij zijn de eerste zangvogel als je opstaat.
+  Wij zijn de eerste zangvogel als je opstaat
   Het geluid van regen na droogte.
   De echo in de bergen.
 - |-
