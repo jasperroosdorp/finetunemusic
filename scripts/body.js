@@ -1,3 +1,5 @@
+// @codekit-prepend "../node_modules/barba.js/dist/barba.min.js", "barba.js", "../node_modules/gsap/src/minified/TweenMax.min.js", "../node_modules/fluidvids.js/dist/fluidvids.min.js", "portfolio.js", "equalizer.js";
+
 document.addEventListener("DOMContentLoaded", function() {
 
   // Fade carousel
@@ -16,7 +18,7 @@ Barba.Dispatcher.on('linkClicked', function() {
 });
 
 Barba.Dispatcher.on('newPageReady', function() {
-  
+
   // Responsive images
   var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
   cl.responsive();

@@ -9,8 +9,8 @@ pageid: info
   <title>{{ page.page.title }}</title>
   <link rel="canonical" href="{{ site.host}}{{ page.title | replace: "Finetunemusic.nl/", "" }}"/>
   {% include meta.html %}
-  <link rel="stylesheet" href="{{ site.basehref }}/source/main.min.css">
-  <script src="{{ site.basehref }}/source/head.min.js"></script>
+  <link rel="stylesheet" href="{{ site.basehref }}/dist/main.min.css">
+  <script src="{{ site.basehref }}/dist/head.min.js"></script>
 </HEAD>
 
 <BODY>
@@ -51,7 +51,7 @@ pageid: info
 
   {% include portfolio.html %}
 
-  <script type="text/javascript" src="{{ site.basehref }}/source/body.min.js"></script>
+  <script type="text/javascript" src="{{ site.basehref }}/dist/body.min.js"></script>
 
   <script type="text/javascript">
   var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});

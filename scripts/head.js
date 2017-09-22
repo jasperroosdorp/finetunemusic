@@ -1,3 +1,9 @@
+// @codekit-prepend '../node_modules/jquery/dist/jquery.min.js'
+// @codekit-prepend '../node_modules/cloudinary-core/cloudinary-core-shrinkwrap.min.js'
+// @codekit-prepend '../node_modules/moveto/dist/moveTo.min.js'
+// @codekit-prepend 'mediaelement-and-player.js'
+// @codekit-prepend 'mep-feature-playlist.js'
+
 // Animation for MoveTo.js
 document.addEventListener('DOMContentLoaded', function(){
   const easeFunctions = {

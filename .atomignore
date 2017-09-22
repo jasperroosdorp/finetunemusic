@@ -12,4 +12,7 @@ _config.yml
 _layouts/core/compress.html
 _layouts/*_en.html
 _layouts/*_nl.html
-source
+gulpfile.js
+.config.codekit3
+dist
+.atomignore
