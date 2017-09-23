@@ -67,7 +67,7 @@ defaults:
 cdn: http://res.cloudinary.com/roosdorp/image/fetch
 host: http://finetunemusic.jasperroosdorp.nl/
 basehref: http://finetunemusic.jasperroosdorp.nl
-urlext: 
+urlext:
 exclude:
 - node_modules
 - gulpfile.js
@@ -78,4 +78,3 @@ exclude:
 - CNAME
 - package-lock.json
 - _uploads/backup
-- dist
