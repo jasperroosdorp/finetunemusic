@@ -17270,7 +17270,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 528114501
+	"lastBuiltDate": 529059631
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -19239,7 +19239,6 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "\/",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, _site",
 	"sourceFolderName": "source",
 	"susyVersion": 2,
@@ -19411,7 +19410,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/_site"
 	},
 "settingsFileVersion": "3"
 }
