@@ -17276,7 +17276,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 529059631
+	"lastBuiltDate": 529060803
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -19245,7 +19245,6 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "\/_site",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, _site",
 	"sourceFolderName": "source",
 	"susyVersion": 2,
