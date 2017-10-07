@@ -129,6 +129,12 @@
 		"oAP": "\/_layouts\/video.html",
 		"oF": 1
 		},
+	"\/_local.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_local.yml",
+		"oF": 0
+		},
 	"\/_music\/andromeda-express.markdown": {
 		"ft": 8192,
 		"oA": 1,
@@ -19239,6 +19245,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "\/_site",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, _site",
 	"sourceFolderName": "source",
 	"susyVersion": 2,
