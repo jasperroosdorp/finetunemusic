@@ -7,6 +7,7 @@ package-lock.json
 package.json
 README.md
 _config.yml
+_local.yml
 .gitignore
 *.backup*
 _layouts/core/compress.html
@@ -16,3 +17,8 @@ gulpfile.js
 .config.codekit3
 dist
 .atomignore
+*.min.*
+_posts
+_en
+en
+en.markdown
