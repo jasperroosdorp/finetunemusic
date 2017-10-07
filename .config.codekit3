@@ -19245,6 +19245,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "\/",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, _site",
 	"sourceFolderName": "source",
 	"susyVersion": 2,
