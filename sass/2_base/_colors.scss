@@ -1,8 +1,9 @@
 html#index,
 html#about,
 html#info {
-  background-color: #fff;
-  &.top-out-of-viewport { background-color: $footer-bg-color; }
+  // background-color: #fff;
+  // &.top-out-of-viewport { background-color: $footer-bg-color; }
+  background: linear-gradient(to top, #FFF 50%, $portfolio-button-color 50%);
 }
 
 html#video {

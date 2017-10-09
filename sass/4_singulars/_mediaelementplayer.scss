@@ -14,6 +14,12 @@ $audio-bar-height: 30px;
 	text-indent: 0;
   width: 100%;
   .mejs-clear { clear: both; }
+  // background-color: pink;
+}
+
+.mejs-playlist {
+  overflow-x: hidden;
+  // background-color: pink;
 }
 
 .mejs-controls {
@@ -224,7 +230,7 @@ $audio-bar-height: 30px;
     }
     &:hover { color: rgba(255, 255, 255, 0.7); }
     &.current {
-      color: $audio-player-title-color; 
+      color: $audio-player-title-color;
       pointer-events: none; }
   }
 }
