@@ -3,9 +3,9 @@
   @include span(12 of 12 no-gutters);
   @include for-tablet-portrait-up {
     @include span(11 of 36 no-gutters);
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
     &:nth-child(-n+3) { margin-top: 7.5rem; }
-    &:nth-last-child(-n+3) { margin-bottom: 14rem; }
+    &:nth-last-child(-n+3) { margin-bottom: 12rem; }
     &:nth-child(3n+2), &:nth-child(3n+3) { @include push(1.5 of 36); }
   }
   figure {

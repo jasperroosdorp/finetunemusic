@@ -1,24 +1,29 @@
 .portfolio-wrapper {
   pointer-events: none;
+  // transform: rotate(0.001deg);
   @include for-tablet-landscape-up {
     position: fixed;
-    overflow: hidden;
-    height: 100vh;
-    top: 0; left: 0; right: 0;
-    &::before {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      height: 50%;
-      background-color: $portfolio-bg-color;
-      pointer-events: none;
-      display: block;
-      visibility: hidden;
-      transition: visibility 0s 0.4s;
-      // opacity: 0;
-      content: '';
-      // transition: display 0s 0.4s;
-    }
+    // overflow: hidden;
+    // height: 100vh;
+    top: 0; left: 0; right: 0; bottom: -50vh;
+    // background-color: rgba(57, 12, 184, 0.58);
+    // margin-bottom: 0;
+    // padding-bottom: 0;
+    // &::before {
+    //   position: fixed;
+    //   bottom: 0;
+    //   width: 100%;
+    //   height: 50%;
+    //   background-color: $portfolio-bg-color;
+    //   pointer-events: none;
+    //   display: block;
+    //   // visibility: hidden;
+    //   opacity: 0;
+    //   transition: opacity 0s 0.4s;
+    //   // opacity: 0;
+    //   content: '';
+    //   // transition: display 0s 0.4s;
+    // }
   }
   .portfolio-overlay {
     position: fixed;
@@ -29,15 +34,18 @@
     transition: opacity 0.3s ease-out;
     opacity: 0;
     will-change: opacity;
-    overflow: hidden;
+    // overflow: hidden;
   }
   .portfolio {
     position: fixed;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
     top: 0; left: 0; right: 0;
+    padding-bottom: 50vh;
     background: $portfolio-bg-color;
+    // background: pink;
     @include for-tablet-landscape-up {
+      backface-visibility: hidden;
       position: absolute;
       transition: transform 0.4s ease-in;
       top: 100vh;
@@ -51,6 +59,8 @@
   @include container;
   @include responsive-width;
   position: relative;
+  // margin-bottom: 0;
+  // padding-bottom: 0;
   // transition: opacity 1s ease;
   // opacity: 1;
   will-change: opacity;
@@ -78,7 +88,7 @@
     width: 2.2rem;
     right: gutters(20);
     top: 7.7rem;
-    overflow: hidden;
+    // overflow: hidden;
     transform: rotate(45deg);
     &::before, &::after {
       position: absolute;
@@ -98,8 +108,8 @@
 
 html.portfolio-open {
   background-color: $portfolio-overlay-color;
-  overflow: hidden;
-  &#video { overflow: auto; }
+  // overflow: hidden;
+  // &#video { overflow: auto; }
   .portfolio-wrapper { pointer-events: auto; }
   .portfolio-overlay { opacity: 1; }
   .portfolio {
@@ -115,9 +125,55 @@ html.portfolio-open {
 
 #tab-1 {
   @include container;
+  // margin-bottom: 0;
+  // padding-bottom: 0;
 }
 
 #tab-2 {
   @include container;
   @include gutters();
+}
+
+
+// Scrollbars
+
+.portfolio-wrapper {
+  @include for-tablet-landscape-up {
+    overflow: hidden;
+  }
+  .portfolio-overlay {
+    overflow: hidden;
+  }
+  .portfolio {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
+
+.portfolio-content {
+  .close-portfolio {
+    overflow: hidden;
+  }
+}
+
+html.portfolio-open {
+  overflow: hidden;
+  &#video { overflow: auto; }
+  &.portfolio-tab-1 .portfolio-wrapper {
+    @include for-tablet-landscape-up {
+      overflow-y: scroll;
+      // &::before {
+      //   // visibility: visible;
+      //   opacity: 1;
+      // }
+    }
+  }
+}
+
+html.portfolio-closing .portfolio-wrapper {
+  @include for-tablet-landscape-up {
+    // &::before {
+    //   display: none;
+    // }
+  }
 }

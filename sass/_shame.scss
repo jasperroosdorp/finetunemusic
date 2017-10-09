@@ -131,26 +131,21 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
   }
 }
 
-html.portfolio-open.portfolio-tab-1 .portfolio-wrapper {
-  @include for-tablet-landscape-up {
-    overflow-y: scroll;
-    &::before {
-      // display: block;
-      // display: block;
-      visibility: visible;
-    }
-  }
-}
+// html.portfolio-open.portfolio-tab-1 .portfolio-wrapper {
+//   @include for-tablet-landscape-up {
+//     overflow-y: scroll;
+//     &::before {
+//       // display: block;
+//       // display: block;
+//       visibility: visible;
+//     }
+//   }
+// }
 
-html.portfolio-closing .portfolio-wrapper {
-  @include for-tablet-landscape-up {
-    &::before {
-      display: none;
-    }
-  }
-}
-
-
-// html {
-//   background: linear-gradient(to top, #FFF 50%, $portfolio-button-color 50%);
+// html.portfolio-closing .portfolio-wrapper {
+//   @include for-tablet-landscape-up {
+//     &::before {
+//       display: none;
+//     }
+//   }
 // }
