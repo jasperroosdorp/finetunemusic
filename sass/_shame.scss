@@ -96,7 +96,8 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
   }
   .mejs-playlist ul {
     margin-top: 0;
-    padding-top: 5.8rem;
+    padding-top: 2rem;
+    // padding-top: 5.8rem;
     // padding-top: 3.5rem;
   }
 }
@@ -105,10 +106,6 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
   .mejs-controls {
     pointer-events: auto;
     margin-top: 0;
-    top: 7rem;
-    // background-color: transparent;
-    // width: auto;
-    // overflow: auto;
     &::after {
       opacity: 0;
       pointer-events: none;
@@ -125,8 +122,7 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
   }
   .mejs-playlist ul {
     margin-top: $audio-bar-height;
-    padding-top: 11rem;
-    padding-top: 14rem;
+    padding-top: 4rem;
     transition: padding-top 0.3s ease-out;
   }
 }

@@ -1,10 +1,18 @@
 section.about-description {
   @include container;
   @include responsive-width;
-  h2 { @include span(4 of 12); }
+  h2 {
+    @include span(12 of 12);
+    @include for-tablet-landscape-up {
+      @include span(4 of 12);
+    }
+  }
   p {
-    @include span(8 of 12);
+    @include span(12 of 12);
     max-width: 100rem;
+    @include for-tablet-landscape-up {
+      @include span(8 of 12);
+    }
   }
 }
 
@@ -13,22 +21,33 @@ section.people {
   @include responsive-width;
   margin-top: 10rem;
   figure {
-  @include span(6 of 6 no-gutters);
-  @include aspect-ratio(2, 1);
+    @include span(6 of 6 no-gutters);
+    @include aspect-ratio(2, 1);
     background-color: rgba(0, 0, 0, 0.05);
     margin-bottom: 10rem;
   }
   .person {
-    @include span(6 of 12 no-gutters);
+    @include span(12 of 12 no-gutters);
+    @include for-phone-only {
+      + .person { margin-top: 6rem; }
+    }
+    @include for-tablet-landscape-up {
+      @include span(6 of 12 no-gutters);
+    }
   }
   .description {
-    @include span(6 of 6);
+    @include span(12 of 12);
+    @include for-tablet-landscape-up {
+      @include span(6 of 6);
+    }
   }
   h2 {
     margin-bottom: 4rem;
   }
   p {
-    padding-right: 7rem;
     + p { margin-top: 3rem; }
+    @include for-tablet-landscape-up {
+      padding-right: 7rem;
+    }
   }
 }

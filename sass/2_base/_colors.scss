@@ -6,7 +6,7 @@ html#info {
   background: linear-gradient(to top, #FFF 50%, $portfolio-button-color 50%);
 }
 
-html#video {
+html#video,
+html#video body {
   background-color: $video-bg-color;
-  body { background-color: $video-bg-color; }
 }

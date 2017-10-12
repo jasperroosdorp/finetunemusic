@@ -1,56 +1,34 @@
 .portfolio-wrapper {
   pointer-events: none;
-  // transform: rotate(0.001deg);
+  position: fixed;
+  // overflow: visible;
+  top: 0; left: 0; right: 0; bottom: 0;
   @include for-tablet-landscape-up {
-    position: fixed;
-    // overflow: hidden;
-    // height: 100vh;
-    top: 0; left: 0; right: 0; bottom: -50vh;
-    // background-color: rgba(57, 12, 184, 0.58);
-    // margin-bottom: 0;
-    // padding-bottom: 0;
-    // &::before {
-    //   position: fixed;
-    //   bottom: 0;
-    //   width: 100%;
-    //   height: 50%;
-    //   background-color: $portfolio-bg-color;
-    //   pointer-events: none;
-    //   display: block;
-    //   // visibility: hidden;
-    //   opacity: 0;
-    //   transition: opacity 0s 0.4s;
-    //   // opacity: 0;
-    //   content: '';
-    //   // transition: display 0s 0.4s;
-    // }
+    bottom: -50vh;
   }
   .portfolio-overlay {
+    background: $portfolio-overlay-color;
     position: fixed;
+    overflow: hidden;
     top: 0; bottom: 0; left: 0; right: 0;
     display: block;
     content: '';
-    background: $portfolio-overlay-color;
     transition: opacity 0.3s ease-out;
     opacity: 0;
     will-change: opacity;
-    // overflow: hidden;
   }
   .portfolio {
-    position: fixed;
-    // overflow-x: hidden;
-    // overflow-y: hidden;
-    top: 0; left: 0; right: 0;
-    padding-bottom: 50vh;
     background: $portfolio-bg-color;
-    // background: pink;
+    top: 0; left: 0; right: 0;
+    backface-visibility: hidden;
+    position: absolute;
+    // overflow: visible;
+    transition: transform 0.4s ease-in;
+    top: 100vh;
+    transform: translateY(0);
+    will-change: transform;
     @include for-tablet-landscape-up {
-      backface-visibility: hidden;
-      position: absolute;
-      transition: transform 0.4s ease-in;
-      top: 100vh;
-      transform: translateY(0);
-      will-change: transform;
+      padding-bottom: 50vh;
     }
   }
 }
@@ -59,121 +37,62 @@
   @include container;
   @include responsive-width;
   position: relative;
-  // margin-bottom: 0;
-  // padding-bottom: 0;
-  // transition: opacity 1s ease;
-  // opacity: 1;
   will-change: opacity;
-  // &.hidden { opacity: 0; }
-  > ul {
+  .portfolio-nav {
     position: relative;
-    padding-top: 7rem;
     @include container;
     @include gutters();
+    padding-top: 7rem;
     .portfolio-nav-a {
       display: inline-block;
       user-select: none;
-      padding: 0 3rem;
+      padding: 0 2rem;
       float: left;
       transition: color 0.3s ease;
+      @include for-tablet-landscape-up { padding: 0 3rem; }
       &:first-child { padding-left: 0; margin-left: 0; }
       &.active-window { pointer-events: none; }
-    }
-  }
-  .close-portfolio {
-    position: absolute;
-    display: block;
-    content: '';
-    height: 2.2rem;
-    width: 2.2rem;
-    right: gutters(20);
-    top: 7.7rem;
-    // overflow: hidden;
-    transform: rotate(45deg);
-    &::before, &::after {
-      position: absolute;
-      display: block;
-      content: '';
-      width: 0.2rem;
-      height: 100%;
-      background-color: #fff;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    &::before {
-      transform: translateX(-50%) rotate(90deg);
     }
   }
 }
 
 html.portfolio-open {
   background-color: $portfolio-overlay-color;
-  // overflow: hidden;
-  // &#video { overflow: auto; }
+  overflow: hidden;
+  body { overflow-y: scroll; }
+  &#video { overflow: auto; }
+  &.portfolio-tab-1 .portfolio-wrapper {
+    overflow-y: scroll;
+    // @include for-tablet-landscape-up { overflow-y: scroll; }
+  }
   .portfolio-wrapper { pointer-events: auto; }
   .portfolio-overlay { opacity: 1; }
   .portfolio {
-    @include for-tablet-landscape-up {
-      transition: transform 0.4s ease-out;
-      transform: translateY(-56rem);
-    }
-    @include for-big-desktop-up {
-      transform: translateY(-65rem);
-    }
+    transition: transform 0.4s ease-out;
+    transform: translateY(-85vh);
+    @include for-tablet-landscape-up { transform: translateY(-56rem); }
+    @include for-big-desktop-up { transform: translateY(-65rem); }
   }
 }
 
 #tab-1 {
   @include container;
-  // margin-bottom: 0;
-  // padding-bottom: 0;
+  margin-top: 4.7rem;
 }
 
 #tab-2 {
   @include container;
   @include gutters();
+  margin-top: 4rem;
 }
 
-
-// Scrollbars
-
-.portfolio-wrapper {
-  @include for-tablet-landscape-up {
-    overflow: hidden;
-  }
-  .portfolio-overlay {
-    overflow: hidden;
-  }
-  .portfolio {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-}
-
-.portfolio-content {
-  .close-portfolio {
-    overflow: hidden;
-  }
-}
-
-html.portfolio-open {
-  overflow: hidden;
-  &#video { overflow: auto; }
-  &.portfolio-tab-1 .portfolio-wrapper {
-    @include for-tablet-landscape-up {
-      overflow-y: scroll;
-      // &::before {
-      //   // visibility: visible;
-      //   opacity: 1;
-      // }
+#tab-1, #tab-2 {
+  @include for-tablet-landscape-max {
+      min-height: 100vh !important;
+      height: auto !important;
     }
-  }
 }
 
-html.portfolio-closing .portfolio-wrapper {
-  @include for-tablet-landscape-up {
-    // &::before {
-    //   display: none;
-    // }
-  }
+::-webkit-scrollbar {
+    display: none;
 }

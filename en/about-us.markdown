@@ -6,7 +6,7 @@ page:
   google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
 information:
 - text: |-
-    ## Our team
+    # Our team
 
     Integer rutrum ligula leo, vitae pellentesque nulla vehicula eu. Vivamus ut risus arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Stibulum lobortis faucibus venenatis. Nunc laoreet dui posuere faucibus tempor. Morbi turpis sem, eleifend sed mi sit amet, porta pulvinar nisl. Etiam ac ullamcorper massa, sed pellentesque massa.
 image: "../uploads/rawpixel-com-310777.jpg"
@@ -30,4 +30,3 @@ people:
     De afgelopen jaren schreef en produceerde hij muziek voor een groot aantal voorstellingen als huiscomponist van Theater Young Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen van verhalen in zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. Dit zie je ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven, zowel binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi en The Cool Quest.
 layout: about
 ---
-

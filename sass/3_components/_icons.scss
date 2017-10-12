@@ -1,6 +1,51 @@
-// .svg-wrapper svg {
-//   position: absolute;
-//   margin: auto;
-//   width: inherit;
-//   height: inherit;
-// }
+.portfolio-overlay .icon {
+  @include for-phone-only {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-left: 50%;
+    margin-top: 7.5vh;
+    transform: translate(-50%, -50%) rotate(45deg);
+    &::before, &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 0.2rem;
+      height: 100%;
+      background-color: #fff;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &::before {
+      transform: translateX(-50%) rotate(90deg);
+    }
+  }
+}
+
+.portfolio-content .close-portfolio {
+  @include for-tablet-landscape-up {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 2.2rem;
+    width: 2.2rem;
+    right: gutters(20);
+    top: 7.7rem;
+    transform: rotate(45deg);
+    &::before, &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 0.2rem;
+      height: 100%;
+      background-color: #fff;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &::before {
+      transform: translateX(-50%) rotate(90deg);
+    }
+  }
+}

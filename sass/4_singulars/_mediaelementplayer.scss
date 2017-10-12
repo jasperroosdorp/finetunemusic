@@ -1,25 +1,21 @@
 $audio-bar-height: 30px;
 
 .portfolio .audio-player-title {
-  // margin: 4rem 0;
   opacity: 0;
 }
 
 .mejs-container {
-	position: relative;
+  position: relative;
   height: $audio-bar-height !important;
-	// font-family: Helvetica, Arial;
-	text-align: left;
-	vertical-align: top;
-	text-indent: 0;
+  text-align: left;
+  vertical-align: top;
+  text-indent: 0;
   width: 100%;
   .mejs-clear { clear: both; }
-  // background-color: pink;
 }
 
 .mejs-playlist {
   overflow-x: hidden;
-  // background-color: pink;
 }
 
 .mejs-controls {
@@ -29,74 +25,69 @@ $audio-bar-height: 30px;
   padding: 0;
   bottom: 0;
   left: 0;
-  // background-color: $portfolio-bg-color;
   height: $audio-bar-height;
   width: 100%;
   div {
-  	list-style-type: none;
-  	background-image: none;
-  	display: block;
-  	float: left;
-  	margin: 0;
-  	padding: 0;
+    list-style-type: none;
+    background-image: none;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
     width: $audio-bar-height;
     height: $audio-bar-height;
-  	font-size: 11px;
-  	line-height: 11px;
-  	// font-family: Helvetica, Arial, sans-serif;
-    // font-family: Arial, sans-serif;
-    // font-size: 2.8rem !important;
-  	border: 0;
+    font-size: 11px;
+    line-height: 11px;
+    border: 0;
   }
   .mejs-button {
-    margin-right: 4rem;
-    padding-left: 0.2rem;
+    margin-right: 0.4rem;
+    @include for-tablet-landscape-up {
+      margin-right: 4rem;
+      padding-left: 0.2rem;
+    }
   }
   .mejs-button button {
-  	cursor: pointer;
-  	display: block;
-  	font-size: 0;
-  	line-height: 0;
-  	text-decoration: none;
-  	padding: 0;
-  	position: absolute;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+    padding: 0;
+    position: absolute;
     height: $audio-bar-height;
     width: $audio-bar-height;
-  	border: 0;
-  	background: transparent url(controls.svg) no-repeat;
+    border: 0;
+    background: transparent url(controls.svg) no-repeat;
     &:focus { outline: none; }
   }
   .mejs-time {
-  	color: #fff;
-  	display: block;
-  	width: auto;
+    color: #fff;
+    display: block;
+    width: auto;
     padding: 0;
-  	overflow: hidden;
-  	-moz-box-sizing: content-box;
-  	-webkit-box-sizing: content-box;
-  	box-sizing: content-box;
+    overflow: hidden;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
     height: $audio-bar-height !important;
     position: relative;
     width: 5rem;
     left: 0;
   }
   .mejs-time span {
-  	color: #fff;
-  	// font-size: 11px;
+    color: #fff;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-  	display: block;
-  	width: 100%;
+    display: block;
+    width: 100%;
     text-align: left;
     font-family: Arial, sans-serif;
     font-size: 1.5rem;
-    &.mejs-duration {
-      text-align: right;
-    }
+    &.mejs-duration { text-align: right; }
   }
   .mejs-play button {
-    // background: green;
     overflow: hidden;
     &::after {
       position: absolute;
@@ -111,7 +102,6 @@ $audio-bar-height: 30px;
     }
   }
   .mejs-pause button {
-    // background: orange;
     &::before, &::after {
       position: absolute;
       display: block;
@@ -129,20 +119,19 @@ $audio-bar-height: 30px;
   }
   div.mejs-time-rail {
     position: relative;
-  	direction: ltr;
-  	width: 200px;
+    direction: ltr;
+    width: 200px;
     margin: 0 1.2rem;
     height: $audio-bar-height;
-    // margin-left: 1.5rem;
   }
 }
 
 .mejs-controls .mejs-time-rail {
   span {
-  	display: block;
-  	position: absolute;
+    display: block;
+    position: absolute;
     height: $audio-bar-height;
-  	cursor: pointer;
+    cursor: pointer;
   }
   .mejs-time-total {
     &::after {
@@ -160,8 +149,8 @@ $audio-bar-height: 30px;
   .mejs-time-buffering { width: 100%; }
   .mejs-time-loaded { width: 0; }
   .mejs-time-current {
-      position: absolute;
-  	width: 0;
+    position: absolute;
+    width: 0;
     transition: width 0.3s ease;
     &::after {
       position: absolute;
@@ -184,15 +173,11 @@ $audio-bar-height: 30px;
 }
 
 .mejs-playlist {
-  // padding-top: $audio-bar-height;
   left: 0;
   width: 100% !important;
   height: auto !important;
   overflow-y: auto;
   ul {
-    // padding-top: 4rem;
-    // margin: 0 -3rem;
-    width: 100%;
     width: calc(100% + 6rem);
   }
   ul li {
@@ -202,59 +187,52 @@ $audio-bar-height: 30px;
     line-height: 5.5rem;
     cursor: pointer;
     transition: color 0.3s ease;
-    float: left;
-    width: calc(50% - 3rem);
-    margin: 0 1.5rem;
-    left: -1.5rem;
-    // margin: 0 1.5rem;
     white-space: nowrap;
     position: relative;
-    // height: 3rem;
     overflow: hidden;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-    // &:nth-child(odd) { margin-right: 3rem; }
-    // &:nth-child(even) { margin-left: 3rem; }
-    // &:nth-last-child(-n+2) { border-color: transparent; }
-    // &:first-child() {
-    //   background-color: pink !important;
-    // }
+    @include for-tablet-landscape-up {
+      float: left;
+      width: calc(50% - 3rem);
+      margin: 0 1.5rem;
+      left: -1.5rem;
+    }
     &::after {
       position: absolute;
       top: 0;
       right: 0;
       height: 100%;
-      width: 5rem;
+      width: 14rem;
       display: block;
       content: '';
-      background: linear-gradient(to left, $portfolio-bg-color 0%,rgba(0,0,0,0) 100%);
+      background: orange;
+      background: linear-gradient(to left, $portfolio-bg-color 60%, rgba(0,0,0,0) 100%);
     }
     &:hover { color: rgba(255, 255, 255, 0.7); }
     &.current {
       color: $audio-player-title-color;
       pointer-events: none; }
+    }
   }
-}
 
-.mejs-playlist ul li:nth-child(1),
-.mejs-playlist ul li:nth-child(2),
-.mejs-playlist ul li.music + li.voice-over,
-.mejs-playlist ul li.music + li.voice-over + li.voice-over {
-  border-color: transparent;
-}
+  .mejs-playlist ul li {
+    &:nth-child(1),
+    &.music + li.voice-over {
+      border-color: transparent;
+    }
+    @include for-tablet-landscape-up {
+      &:nth-child(2),
+      &.music + li.voice-over + li.voice-over {
+        border-color: transparent;
+      }
+    }
+  }
 
-// li[title="index.html"] {
-//   background-color: pink !important;
-//   display: none;
-//   ~ li {
-//     opacity: 0;
-//   }
-// }
-
-.portfolio-content > ul.muziek ~ #tab-2 .mejs-playlist ul li.voice-over,
-.portfolio-content > ul.voice-overs ~ #tab-2 .mejs-playlist ul li.music {
-  height: 0;
-  width: 0;
-  pointer-events: 0;
-  opacity: 0;
-  margin: 0;
-}
+  .portfolio-content > ul.muziek ~ #tab-2 .mejs-playlist ul li.voice-over,
+  .portfolio-content > ul.voice-overs ~ #tab-2 .mejs-playlist ul li.music {
+    height: 0;
+    width: 0;
+    pointer-events: 0;
+    opacity: 0;
+    margin: 0;
+  }

@@ -1,15 +1,28 @@
 section.info-section {
   @include container;
   @include responsive-width;
-  + .info-section {
-    margin-top: 8rem;
+  // + .info-section {
+  //   margin-top: 8rem;
+  // }
+  h1, h2 {
+    @include span(12 of 12);
+    @include for-tablet-landscape-up {
+      position: absolute;
+      @include span(4 of 12);
+    }
   }
-  h2 { @include span(4 of 12); }
   p {
-    @include span(8 of 12);
-    padding-top: 0.4rem;
-    float: right;
-    + p { padding-top: 4rem; }
+    @include span(12 of 12);
+    // padding-top: 0.4rem;
+    // float: right !important;
+    + p {
+      padding-top: 4rem;
+      float: right;
+    }
+    @include for-tablet-landscape-up {
+      @include push(4 of 12);
+      @include span(8 of 12);
+    }
   }
   a {
     padding: 0.4rem 0 0 0;
@@ -20,6 +33,25 @@ section.info-section {
     &:nth-last-child(n+2)::after {
       content:',\00a0';
       background-color: #fff;
+    }
+  }
+}
+
+section.info-img {
+  @include container;
+  @include responsive-width;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  figure {
+    @include aspect-ratio(2, 1);
+    @include span(12 of 12);
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+    .content {
+      background-color: rgba(0, 0, 0, 0.1);
     }
   }
 }

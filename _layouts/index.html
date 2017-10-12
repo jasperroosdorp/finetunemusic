@@ -23,7 +23,7 @@ pageid: index
 
           <section class="index-intro">
             {% for introduction in page.introduction %}
-            <h1>{{ introduction }}</h1>
+            <h1 class='index-intro-h1'>{{ introduction }}</h1>
             {% endfor %}
           </section>
 
@@ -37,15 +37,15 @@ pageid: index
 
           <section class="index-description">
             <h2>{{ page.information.title }}</h2>
-            <p>{{ page.information.paragraph }}</p>
+            <p class='heading'>{{ page.information.paragraph }}</p>
           </section>
 
           <a class="full-width-button" onclick="openPortfolio()">
             <div class="wrapper">
               {% if page.path contains 'en' %}
-              <span>Listen to our portfolio</span>
+              <span class='heading'>Listen to our portfolio</span>
               {% else %}
-              <span>Beluister ons portfolio</span>
+              <span class='heading'>Beluister ons portfolio</span>
               {% endif %}
             </div>
           </a>

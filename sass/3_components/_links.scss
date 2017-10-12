@@ -69,7 +69,11 @@ html .full-width-button {
     @include responsive-width;
   }
   span {
-    line-height: inherit;
     @include span(12 of 12);
+    line-height: 13rem;
   }
+}
+
+p > a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 }

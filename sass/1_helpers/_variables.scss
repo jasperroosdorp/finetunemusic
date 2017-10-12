@@ -16,8 +16,6 @@ toggle: top right,
 
 $container-style: fluid;
 
-// FONTS
-
 @import url('https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Hind:300,400,500,600,700|Shanti');
 
 $def-font: 'Hind', sans-serif;
@@ -34,18 +32,11 @@ $color002: #FD6D00;
 // $color002: #1C6A54;
 // $color003: #FD6D00;
 
-
-
 // PORTFOLIO
-// $portfolio-button-color: #c3af8f;
 $portfolio-button-color: lighten(#000, 80%);
 $portfolio-text-color: #fff;
-// $audio-player-title-color: #ff8383;
 $audio-player-title-color: $color002;
-// $portfolio-bg-color: #434355;
-// $portfolio-bg-color: #262325;
 $portfolio-bg-color: darken(#171717, 5%);
-// $portfolio-bg-color: olive;
 $portfolio-overlay-color: rgba(0, 0, 0, 0.5);
 
 // PROJECT

@@ -16,11 +16,6 @@ introduction:
   Phasellus elementum nisi sed orci porttitor, et elementum.
   Duis eleifend convallis finibus praesent non ligula mollis,
   nmalesuada ante id, rutrum arcu.
-short introduction: Aenean rutrum dolor nec ligula consectetur aliquet. Maecenas dignissim
-  nunc eget dolor vehicula, eget euismod nibh facilisis. Suspendisse ultricies dapibus
-  aliquam. Nam at turpis at metus dapibus auctor eget at orci. In commodo turpis at
-  porta malesuada. Aenean sagittis pellentesque lacus at consequat. Vestibulum orci
-  lorem, pellentesque eu tempor hendrerit, varius a diam.
 image:
   image: "/uploads/rawpixel-com-296613.jpg"
 information:
@@ -29,4 +24,3 @@ information:
     eros vehicula vestibulum ac pharetra nibh.
 layout: index
 ---
-

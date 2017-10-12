@@ -3,12 +3,20 @@ section.index-intro {
   @include responsive-width;
   @include gutters;
   position: relative;
-  height: 13rem;
+  @include for-tablet-portrait-up { height: 13rem; }
   h1 {
-    white-space: pre-line;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     display: none;
+    @include for-phone-only {
+      display: none !important;
+      &:nth-child(1), &:nth-child(2) { display: block !important; }
+      opacity: 1 !important;
+    }
+    @include for-tablet-portrait-up {
+      position: absolute;
+      white-space: pre-line;
+      bottom: 0;
+    }
   }
 }
 
@@ -34,6 +42,16 @@ section.index-description {
   @include container;
   @include responsive-width;
   margin-top: 70px;
-  h2, p { @include span(6 of 12); }
-  p { max-width: 55rem; }
+  h2, p {
+    @include span(12 of 12);
+    @include for-tablet-landscape-up {
+      @include span(6 of 12);
+    }
+  }
+  h2 {
+    // display: none;    
+  }
+  p {
+    max-width: 55rem;
+  }
 }
