@@ -1,9 +1,6 @@
 section.info-section {
   @include container;
   @include responsive-width;
-  // + .info-section {
-  //   margin-top: 8rem;
-  // }
   h1, h2 {
     @include span(12 of 12);
     @include for-tablet-landscape-up {
@@ -13,8 +10,6 @@ section.info-section {
   }
   p {
     @include span(12 of 12);
-    // padding-top: 0.4rem;
-    // float: right !important;
     + p {
       padding-top: 4rem;
       float: right;

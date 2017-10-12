@@ -1,9 +1,10 @@
 section.about-description {
   @include container;
   @include responsive-width;
-  h2 {
+  h1, h2 {
     @include span(12 of 12);
     @include for-tablet-landscape-up {
+      position: absolute;
       @include span(4 of 12);
     }
   }
@@ -11,6 +12,7 @@ section.about-description {
     @include span(12 of 12);
     max-width: 100rem;
     @include for-tablet-landscape-up {
+      @include push(4 of 12);
       @include span(8 of 12);
     }
   }
