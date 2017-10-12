@@ -5,6 +5,6 @@ position: 7
 embed: <iframe src="https://player.vimeo.com/video/149964228?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-image: "/uploads/lung.jpg"
+image: "/uploads/lung2.jpg"
 ---
 
