@@ -9,7 +9,7 @@ information:
     # Ons team
 
     We zijn een collectief van getalenteerde musici die zij aan zij werken. Bestaande uit David en Paul, beide componist en muziekproducent. Diversiteit zit in ons DNA, en dat hoor je terug in ons portfolio. Ons team bestaat uit vakgekken. We zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw wensen.
-image: "../uploads/rawpixel-com-310777.jpg"
+image: "/uploads/FTM-34111.jpg"
 people:
   description:
   - |-
