@@ -22,7 +22,7 @@ short introduction: Wij zijn de eerste zangvogel als je opstaat. Het geluid van 
   laten lachen en laten huilen. Wij zijn die melodie die maar niet uit je hoofd gaat,
   maar ook dat ene liedje waar je de naam niet meer van weet.
 image:
-  image: "/uploads/rawpixel-com-296621.jpg"
+  image: "/uploads/WhatsApp%20Image%202017-10-11%20at%2015.47.12.jpeg"
 information:
   title: Dit zijn wij
   paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
