@@ -17,7 +17,7 @@ introduction:
   Duis eleifend convallis finibus praesent non ligula mollis,
   nmalesuada ante id, rutrum arcu.
 image:
-  image: "/uploads/rawpixel-com-296613.jpg"
+  image: "/uploads/FTM-34241.jpg"
 information:
   title: Sed quis justo
   paragraph: Praesent suscipit purus in diam semper fermentum. In laoreet tortor id
