@@ -17,7 +17,7 @@ introduction:
   Wij zijn die melodie die maar niet uit je hoofd gaat,
   maar ook dat ene liedje waar je de naam niet meer van weet.
 image:
-  image: "/uploads/rawpixel-com-296621.jpg"
+  image: "/uploads/FTM-34241.jpg"
 information:
   title: Dit zijn wij
   paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
