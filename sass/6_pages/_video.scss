@@ -28,30 +28,36 @@ html#video .portfolio-wrapper {
 section.video-container{
   @include container;
   @include responsive-width;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  // background-color: pink;
+  // @include margin(top, 1);
+  // margin-top: 6rem;
+  // margin-bottom: 3rem;
 }
 
 section.project-info {
   @include container;
   @include responsive-width;
-  margin-bottom: 15rem;
+  // background-color: pink;
+  // margin-bottom: 15rem;
+  @include margin(bottom, 2);
   h2, p {
-    margin-top: 6rem;
+    // margin-top: 6rem;
   }
   h2 {
     @include span(12 of 12);
+    @include margin(top, 1);
     @include for-tablet-landscape-up {
     @include span(4 of 12);
   }
   }
   p {
+    max-width: 90rem;
     @include span(12 of 12);
     @include for-tablet-landscape-up {
       @include span(8 of 12);
+      @include margin(top, 1);
+      padding-top: 0.3rem;
     }
-    padding-top: 0.3rem;
-    max-width: 90rem;
   }
 }
 

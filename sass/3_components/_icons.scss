@@ -25,7 +25,7 @@
 }
 
 .portfolio-content .close-portfolio {
-  @include for-tablet-landscape-up {
+  @include for-tablet-portrait-up {
     position: absolute;
     display: block;
     content: '';

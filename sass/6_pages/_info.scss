@@ -1,6 +1,7 @@
 section.info-section {
   @include container;
   @include responsive-width;
+  &:last-child { @include margin(bottom, 1); }
   h1, h2 {
     @include span(12 of 12);
     @include for-tablet-landscape-up {
@@ -11,7 +12,8 @@ section.info-section {
   p {
     @include span(12 of 12);
     + p {
-      padding-top: 4rem;
+      // padding-top: 4rem;
+      @include margin(top, 0.5);
       float: right;
     }
     @include for-tablet-landscape-up {
@@ -35,8 +37,10 @@ section.info-section {
 section.info-img {
   @include container;
   @include responsive-width;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  @include margin(top, 1);
+  @include margin(bottom, 1);
+  // margin-top: 70px;
+  // margin-bottom: 70px;
   figure {
     @include aspect-ratio(2, 1);
     @include span(12 of 12);
@@ -52,5 +56,6 @@ section.info-img {
 }
 
 html#info main {
-  margin-bottom: 15rem;
+  // margin-bottom: 15rem;
+  // @include margin(bottom, 2);
 }

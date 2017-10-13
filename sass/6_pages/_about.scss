@@ -10,7 +10,7 @@ section.about-description {
   }
   p {
     @include span(12 of 12);
-    max-width: 100rem;
+    max-width: 80rem;
     @include for-tablet-landscape-up {
       @include push(4 of 12);
       @include span(8 of 12);
@@ -21,30 +21,33 @@ section.about-description {
 section.people {
   @include container;
   @include responsive-width;
-  margin-top: 10rem;
-  figure {
-    @include span(6 of 6 no-gutters);
-    @include aspect-ratio(2, 1);
-    background-color: rgba(0, 0, 0, 0.05);
-    margin-bottom: 10rem;
-  }
+  @include margin(top, 1);
+  @include margin(bottom, 1);
   .person {
     @include span(12 of 12 no-gutters);
-    @include for-phone-only {
-      + .person { margin-top: 6rem; }
+    @include for-tablet-landscape-max {
+      &:nth-child(2) { @include margin(top, 1); }
     }
     @include for-tablet-landscape-up {
       @include span(6 of 12 no-gutters);
+      &:nth-child(2) figure { @include push(2 of 54); }
     }
+  }
+  figure {
+    // @include span(6 of 6 no-gutters);
+    @include span(52 of 54 no-gutters);
+    @include aspect-ratio(2, 1);
+    background-color: rgba(0, 0, 0, 0.05);
   }
   .description {
     @include span(12 of 12);
+    @include margin(top, 1);
     @include for-tablet-landscape-up {
       @include span(6 of 6);
     }
   }
   h2 {
-    margin-bottom: 4rem;
+    // margin-bottom: 4rem;
   }
   p {
     + p { margin-top: 3rem; }

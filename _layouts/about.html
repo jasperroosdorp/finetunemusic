@@ -28,15 +28,15 @@ pageid: about
           </section>
 
           <section class="people">
-            <figure>
-              <div class='content'>
-                <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_2:1,c_fill,q_80/{{ site.host }}{{ page.image | replace: "../uploads", "uploads" }}" />
-              </div>
-            </figure>
-            {% for item in page.people.description %}
+            {% for person in page.people %}
             <div class="person">
+              <figure>
+                <div class='content'>
+                  <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_2:1,c_fill,q_80/{{ site.host }}{{ person.image | replace: "../uploads", "uploads" }}" />
+                </div>
+              </figure>
               <div class='description'>
-                {{ item | markdownify }}
+                {{ person.description | markdownify }}
               </div>
             </div>
             {% endfor %}

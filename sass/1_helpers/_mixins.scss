@@ -4,8 +4,8 @@
 }
 
 @mixin box-sizing($value) {
-    -moz-box-sizing: $value;
-         box-sizing: $value;
+  -moz-box-sizing: $value;
+  box-sizing: $value;
 }
 
 @mixin aspect-ratio($width, $height) {
@@ -27,6 +27,20 @@
   }
 }
 
+@mixin margin($position, $factor) {
+  // background-color: pink !important;
+  // border: 1px solid red !important;
+  @include for-phone-only {
+    margin-#{$position}: $factor * 3.5rem; }
+  @include for-tablet-portrait-up {
+    margin-#{$position}: $factor * 5.5rem; }
+  @include for-tablet-landscape-up {
+    margin-#{$position}: $factor * 7rem; }
+  @include for-desktop-up {
+    margin-#{$position}: $factor * 7rem; }
+  @include for-big-desktop-up {
+    margin-#{$position}: $factor * 7rem; }
+}
 // @mixin center($xy:xy) {
 //   @if $xy == xy {
 //     left: 50%;
