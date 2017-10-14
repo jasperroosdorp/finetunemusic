@@ -4,7 +4,7 @@ position: 1
 page:
   title: Finetunemusic
   google: Music production company Fine Tune Music produces music, sound and voice-over
-    for radio and TV-commercials, films and games. Check out our portfolio.
+    for radio and TV-commercials, films and games. Listen to our portfolio.
 text: |-
   # Music production
 
