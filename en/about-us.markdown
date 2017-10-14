@@ -22,8 +22,7 @@ people:
     to dynamic classical music.\n\nBeing David, he knows how to convey emotions in
     music and sound. He uses this effectively as a communication tool when turning
     identity into sound and taking the listener on a journey. David worked with, among
-    other parties, Bert Visscher, Club Guy and Roni, Productiehuis Spinbarg, Van Engelenburg
-    Theaterproducties and De Noorderlingen."
+    other parties, Bert Visscher, Club Guy and Roni and Van Engelenburg Theaterproducties."
   image: "/uploads/FTM-34185.jpg"
 - description: |-
     ## Paul
