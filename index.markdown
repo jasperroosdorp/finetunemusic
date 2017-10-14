@@ -3,7 +3,8 @@ title: Finetunemusic.nl
 position: 0
 page:
   title: Finetunemusic
-  google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
+  google: Muziekproductiebedrijf Fine Tune Music produceert muziek, sounds en voice-overs
+    voor o.a. radio- en tv-commercials, films en games. Beluister ons portfolio.
 introduction:
 - |-
   Wij zijn de eerste zangvogel als je opstaat.
