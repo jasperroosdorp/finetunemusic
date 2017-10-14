@@ -3,19 +3,19 @@ title: Finetunemusic.nl/en
 position: 5
 page:
   title: Finetunemusic
-  google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
+  google: Music production company Fine Tune Music produces music, sound and voice-over
+    for radio and TV-commercials, films and games. Listen to our portfolio.
 introduction:
 - |-
-  Phasellus neque elit, ultrices sed orci.
-  Sed eu urna et metus varius dictum.
-  Duis ut neque vel ut sit amet.
+  We’re the first songbird in the morning.
+  The sound of rain after drought.
+  The echo in the mountains.
 - |-
-  Suspendisse sem lorem, molestie a iaculis eget egestas.
-  Donec vulputate elit a turpis vestibulum.
-- |-
-  Phasellus elementum nisi sed orci porttitor, et elementum.
-  Duis eleifend convallis finibus praesent non ligula mollis,
-  nmalesuada ante id, rutrum arcu.
+  You will find us everywhere, but we are always invisible.
+  We travel at tremendous speed.
+- "We can scare you, make you laugh and make you cry.\nWe’re that melody that will
+  just not leave your mind, \nbut also that one song you no longer remember the name
+  to."
 image:
   image: "/uploads/FTM-34241.jpg"
 information:
