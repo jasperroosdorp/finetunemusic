@@ -18,7 +18,7 @@ people:
 
     David is een ondernemend visionair en houdt van uitdagingen, uiteenlopend van grote commerciële projecten tot experimentele samenwerkingen met andere kunstenaars. Als muzikale duizendpoot brengt hij naast Fine Tune Music onder verschillende alter ego’s muziek uit: van harde elektronica en donkere soul tot dynamische klassieke muziek.
 
-    Als geen ander weet David emoties in muziek en sound design uit te drukken. Dit zet hij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar. David werkte onder meer samen met Bert Visscher, Club Guy and Roni, Productiehuis Spinbarg, Van Engelenburg Theaterproducties en De Noorderlingen.
+    Als geen ander weet David emoties in muziek en sound design uit te drukken. Dit zet hij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar. David werkte onder meer samen met Bert Visscher, Club Guy and Roni en Van Engelenburg Theaterproducties.
   image: "/uploads/FTM-34185.jpg"
 - description: "## Paul\n\nPaul’s brede achtergrond maakt dat hij thuis is in uiteenlopende
     stijlen. Zijn werk als songwriter en producer variëert van het schrijven van catchy
