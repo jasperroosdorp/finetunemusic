@@ -3,18 +3,18 @@ title: Finetunemusic.nl/en/production
 position: 1
 page:
   title: Finetunemusic
-  google: Sed pellentesque, dolor vitae porttitor auctor, nisi nisi iaculis nisi,
-    vel maximus odio massa quis ante.
+  google: Music production company Fine Tune Music produces music, sound and voice-over
+    for radio and TV-commercials, films and games. Check out our portfolio.
 text: |-
-  # Production
+  # Music production
 
-  Verklanken van identiteit is onze passie. Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek, van interactief sound design voor games tot theatervoorstellingen. We houden van de verbazing van klanten die ontdekken dat muziek het imago van een bedrijf of product hoorbaar kan maken.
+  Turning identity into sound is our passion. Our music productions are custom-made for all kinds of projects. From radio and TV commercials to film music, from interactive sound design for games to theatre plays. We love to surprise our clients by showing them how the image of their company or product can be translated into sound.
 
-  Wij werken veel samen met andere creatieve partijen om zo een geheel te creëren waarin het visuele en het auditieve elkaar versterken. We werkten onder andere met G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones en Sword GC.
+  We often collaborate with other creative parties to create a product in which the visual and the auditory elements reinforce each other. Among other parties, we worked with G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones and Sword GC.
 image:
   image: "/uploads/FTM-34257.jpg"
 clients:
-  title: Opdrachtgevers
+  title: Clients
 layout: info
 ---
 
