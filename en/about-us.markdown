@@ -3,30 +3,36 @@ title: Finetunemusic.nl/en/about-us
 position: 0
 page:
   title: Finetunemusic
-  google: Lorem ipsum dolor sit amet, consectetur adipiscing elit unde omnis.
+  google: Music production company Fine Tune Music produces Music, Sound and Voice-overs
+    and is owned by producers/composers David de Jong and Paul Maaswinkel.
 information:
 - text: |-
     # Our team
 
-    Integer rutrum ligula leo, vitae pellentesque nulla vehicula eu. Vivamus ut risus arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Stibulum lobortis faucibus venenatis. Nunc laoreet dui posuere faucibus tempor. Morbi turpis sem, eleifend sed mi sit amet, porta pulvinar nisl. Etiam ac ullamcorper massa, sed pellentesque massa.
+    We are a collective of talented musicians, consisting of David and Paul, who are both composers and music producers and who work as a team. Diversity is in our DNA, as you can hear from our portfolio. Our team consists of committed professionals. Our job is to create something unique, using our knowledge to comply with your wishes.
 people:
-- description: |-
-    ## David
-
-    Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is. Oor voor detail hoor je terug in zijn muziek; onder andere in de bedrevenheid waarmee hij rijke, gedetailleerde mixes maakt voor diverse muziekstijlen.
-
-    David is een ondernemend visionair en houdt van uitdagingen, uiteenlopend van grote commerciële projecten tot experimentele samenwerkingen met andere kunstenaars. Als muzikale duizendpoot brengt hij naast Fine Tune Music onder verschillende alter ego’s muziek uit: van harde elektronica en donkere soul tot dynamische klassieke muziek.
-
-    Als geen ander weet David emoties in muziek en sound design uit te drukken. Dit zet hij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar. David werkte onder meer samen met Bert Visscher, Club Guy and Roni en De Noorderlingen.
+- description: "## David\n\nFrom his early childhood, David has had an extraordinary
+    fascination for music and sound. Curiosity is one of his driving forces when creating
+    unique compositions, for which his background as a classical pianist is of great
+    value. A keen ear for detail can be heard in his music, for example in the rich,
+    detailed mixes he produces for various music styles. \n\nDavid is an enterprising
+    visionary and loves challenges, varying from big commercial projects to experimental
+    collaborations with other artists. As a musical jack-of-all-trades and using several
+    egos, he releases all kinds of music: from heavy electronic music and dark soul
+    to dynamic classical music.\n\nBeing David, he knows how to convey emotions in
+    music and sound. He uses this effectively as a communication tool when turning
+    identity into sound and taking the listener on a journey. David worked with, among
+    other parties, Bert Visscher, Club Guy and Roni, Productiehuis Spinbarg, Van Engelenburg
+    Theaterproducties and De Noorderlingen."
   image: "/uploads/FTM-34185.jpg"
 - description: |-
     ## Paul
 
-    Paul’s brede achtergrond maakt dat hij thuis is in uiteenlopende stijlen. Zijn werk als songwriter en producer variëert van het schrijven van catchy popsongs tot het maken van vuige, brutale beats, waarbij een uitgesproken groove altijd voorop staat.
+    Paul’s wide background makes him feel at home with a great range of styles. His work as a songwriter and producer varies from writing catchy pop songs to making bold, dirty beats, in which distinct grooves always stand out.
 
-    Paul is een bekwaam arrangeur en weet instrumenten hun eigen plek te geven binnen orkestraal-filmische partijen, swingende jazz-harmonieën, maar ook binnen compacte songstructuren. Deze ambacht verfijnde hij onder andere door zijn ervaring in het schrijven van vocale arrangementen, waarvoor hij diverse internationale prijzen ontving.
+    Paul is a skilled arranger and knows how to give instruments their own space in orchestral cinematic scores, swinging jazz harmonies, as well as in compact song structures. He refined this craft, writing vocal arrangements, which have won him several international awards.
 
-    De afgelopen jaren schreef en produceerde hij muziek voor een groot aantal voorstellingen als huiscomponist van Theater Young Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen van verhalen in zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. Dit zie je ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven, zowel binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi en The Cool Quest.
+    In recent years he composed and produced music for a great number of theatre plays as in-house composer for Theater Young Ones. Here he developed a keen sense for telling stories through music, in a way that really moves the listener. This is also reflected in Paul’s enthusiastic way of communicating with other artists, both in and outside the studio. Typhoon, Akwasi and The Cool Quest are among the artists he worked with.
   image: "/uploads/FTM-34111.jpg"
 layout: about
 ---
