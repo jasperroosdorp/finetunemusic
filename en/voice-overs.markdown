@@ -3,18 +3,20 @@ title: Finetunemusic.nl/en/voice-overs
 position: 2
 page:
   title: Finetunemusic
-  google: Sed pellentesque, dolor vitae porttitor auctor, nisi nisi iaculis nisi,
-    vel maximus odio massa quis ante.
+  google: Voice-overs for radio and TV commercials and audiobooks. Fine Tune Music
+    delivers top quality within 24 hours. Check out our portfolio.
 text: |-
   # Voice-overs
 
-  Verklanken van identiteit is onze passie. Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek, van interactief sound design voor games tot theatervoorstellingen. We houden van de verbazing van klanten die ontdekken dat muziek het imago van een bedrijf of product hoorbaar kan maken.
+  We of all people, know that the right voice-over is an important part of any radio or TV commercial. Our coaching and our choice of the most suitable voice from our pool of voice actors will get the message across effectively to viewers and listeners. We work with more than 150 voice actors from different countries, all with their very own personality. Whether you’re looking for a fresh commercial voice, or a warm narrative voice, we select the perfect voice for every project.
 
-  Wij werken veel samen met andere creatieve partijen om zo een geheel te creëren waarin het visuele en het auditieve elkaar versterken. We werkten onder andere met G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones en Sword GC.
+  Besides recording we provide post production for voice-overs, like editing and mixing. On request, we compose matching music and finalize productions by adding sound design.
+
+  We also do audio book recordings, making sure the stories are told as they were meant to be told.
 image:
   image: "/uploads/FTM-34374.jpg"
 clients:
-  title: Opdrachtgevers
+  title: Clients
 layout: info
 ---
 
