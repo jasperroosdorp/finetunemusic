@@ -6,10 +6,11 @@ client: Migloko
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/W_mZdIBP8Lg?rel=0&amp;controls=0&amp;showinfo=0"
   frameborder="0" allowfullscreen></iframe>
 image: "/uploads/basherbeatdown2.jpg"
-summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
-  eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
-  egestas nisi nam ac velit mauris.
-audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+summary: Basher Beatdown is een multiplayer game, ontwikkeld door Sword GC. Het spel
+  is beschikbaar op Air Console, en verschijnt binnenkort op Steam.
+audio: Voor deze game namen we de hoge energie en brute impact van de gameplay als
+  inspiratie voor de vijf electronische muziektracks die we produceerden voor het
+  menu en de verschillende levels. We creëerden meer dan 130 geluidseffecten, en namen
+  een stemacteur op om de karakters een eigen persoonlijkheid te geven.
 ---
 
