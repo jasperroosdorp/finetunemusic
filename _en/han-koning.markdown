@@ -6,12 +6,12 @@ client: Han Koning
 embed: <iframe src="https://player.vimeo.com/video/139374972?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-image: "/uploads/9_hankoning.jpg"
-summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
-  eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
-  egestas nisi nam ac velit mauris.
-audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+image: "/uploads/hankoning2.jpg"
+summary: Industrial designer Han Koning creates products in which experimenting with
+  material and shape is a leading motif. Director Joshua Maldonado captured his way
+  of designing in this video.
+audio: For this trailer we produced a detailed sound design, playing with contrast
+  and various sound textures, in order to intensify the impact of the video.
 pages:
 - Finetunemusic.nl/en/production
 - Finetunemusic.nl/en/studio
