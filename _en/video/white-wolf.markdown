@@ -6,12 +6,12 @@ client: Migloko
 embed: <iframe src="https://player.vimeo.com/video/202741792?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-image: "/uploads/whitewolf.jpeg"
-summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
-  eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
-  egestas nisi nam ac velit mauris.
-audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+image: "/uploads/whitewolf.jpg"
+summary: In collaboration with director Joshua Maldonado we produced the music video
+  ‘White Wolf’. The white wolf and the black wolf symbolize the good and evil side
+  of mankind. With this duality in mind, we created both the visuals and the music.
+audio: Fine Tune Music produced the music, supervised by Marcel Davids. The lyrics
+  and vocals were created together with singer/songwriter Migloko from Lithuania.
 pages:
 - Finetunemusic.nl/en/voice-overs
 - Finetunemusic.nl/en/studio
