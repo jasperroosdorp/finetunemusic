@@ -2,15 +2,15 @@
 title: PRA Health Sciences
 date: 2017-08-30 12:32:00 +02:00
 position: 1
-client: Migloko
 embed: <iframe src="https://player.vimeo.com/video/130797565?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-image: "/uploads/2_prahealthsciences.jpg"
-summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
-  eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
-  egestas nisi nam ac velit mauris.
-audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+image: "/uploads/pra.jpg"
+summary: PRA Health Sciences involves volunteers in their drug research. Together
+  with G2K x PIT, we developed a cinema- and radio commercial to inform people about
+  this.
+audio: The music is part of the sonic branding of PRA. We captured their identity
+  in the sound logo at the end of the commercial. The campaign was broadcast on national
+  radio and shown at multiple Pathé Cinemas.
 ---
 
