@@ -1,6 +1,7 @@
 ---
 title: Wat wil je nou?
 date: 2017-10-16 21:33:00 +02:00
+position: 9
 embed: <iframe src="https://player.vimeo.com/video/168559351?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
