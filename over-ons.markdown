@@ -25,7 +25,7 @@ people:
     popsongs tot het maken van vuige, brutale beats, waarbij een uitgesproken groove
     altijd voorop staat.\n \nPaul is een bekwaam arrangeur en weet instrumenten hun
     eigen plek te geven binnen orkestraal-filmische partijen, swingende jazz-harmonieën,
-    maar ook binnen compacte songstructuren. Deze ambacht verfijnde hij onder andere
+    maar ook binnen compacte songstructuren. Dit ambacht verfijnde hij onder andere
     door zijn ervaring in het schrijven van vocale arrangementen, waarvoor hij diverse
     internationale prijzen ontving.\n\nDe afgelopen jaren schreef en produceerde hij
     muziek voor een groot aantal voorstellingen als huiscomponist van Theater Young
