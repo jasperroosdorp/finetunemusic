@@ -6,5 +6,12 @@ embed: <iframe src="https://player.vimeo.com/video/149964228?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/lung2.jpg"
+summary: Industrieel ontwerper Han Koning maakte deze kunstmatige ‘long’, een installatie
+  die op een vervreemdende manier de suggestie wekt van een organisch wezen. Geregisseerd
+  door Joshua Maldonado.
+audio: De kalme, bijna hypnotiserende beweging van de long diende als inspiratie voor
+  de muziek die we produceerden voor deze video. Door organische en kunstmatige elementen
+  te combineren, creëerden we een eigen geluidsindentiteit, passend bij de algehele
+  audio-huisstijl die we voor Han Koning ontwikkelden.
 ---
 
