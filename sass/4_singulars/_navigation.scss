@@ -60,6 +60,7 @@ nav.upper {
     transition: opacity 0.5s ease;
     // margin-left: 20px;
     margin-left: 25px;
+    margin-top: -2px;
     // background-color: orange;
     display: inline-block;
     line-height: 70px;
@@ -171,7 +172,6 @@ html {
   }
   &.audio-playing  {
     nav.upper .current-track {
-      margin-top: -2px;
       > .placeholder {
         // display: none;
         pointer-events: none;
@@ -268,3 +268,23 @@ body {
 //     opacity: 1;
 //   }
 // }
+
+html#video nav.upper {
+  a.current-track {
+    display: none;
+  }
+  a.nav-trigger {
+    // color: #fff;
+    width: 0;
+    pointer-events: none;
+    opacity: 0;
+  }
+  a.return-button {
+    display: inline-block;
+    color: #fff;
+    // margin-left: -0.5rem;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+  }
+}

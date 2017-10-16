@@ -49,7 +49,7 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
   })
 
   // Stop audio when video is clicked
-  $('#tab-1 .video').click(function() {
+  $('#tab-1 .video, .info-section .links a').click(function() {
     var currentpath = window.location.pathname;
     $('nav.upper .return-button').attr("href", currentpath);
     $('audio').each(function() { $(this)[0].pause(); });
