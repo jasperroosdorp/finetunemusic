@@ -6,10 +6,8 @@ embed: <iframe src="https://player.vimeo.com/video/205011232?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/indi.jpg"
-summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
-  eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
-  egestas nisi nam ac velit mauris.
-audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+summary: In deze animatie licht INDI de werkwijze van Mijn Account toe aan haar klanten.
+audio: We componeerden een luchtige soundtrack en kozen een jonge, vriendelijke stem
+  als voice-over, om het gebruiksgemak van de dienst te benadrukken.
 ---
 
