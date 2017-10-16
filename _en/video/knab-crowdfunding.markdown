@@ -9,8 +9,8 @@ embed: <iframe src="https://player.vimeo.com/video/235326871?color=ffffff&title=
 image: "/uploads/knab.jpg"
 summary: In this animation, Knab informs its clients about the financing platform,
   that makes crowdfunding for entrepreneurs possible.
-audio: We used primary colors and a schematic animation style as an inspiration for
-  our sound design, to create a matching palette of round, colorful sounds.
+audio: We used the primary colors and schematic animation style as an inspiration
+  for our sound design, to create a matching palette of round, colorful sounds.
 pages:
 - Finetunemusic.nl/en/voice-overs
 - Finetunemusic.nl/en/production
