@@ -19,28 +19,6 @@
   background-color: #000;
 }
 
-.current-track {
-  // background-color: pink;
-}
-
-.music-bar {
-  overflow: hidden;
-  cursor:pointer;
-  height: 20px;
-  width: 0;
-  margin: 0;
-  opacity: 0;
-  margin: 0 1rem;
-}
-
-html.audio-playing {
-  .music-bar {
-    width: 20px;
-    margin-left: 2.5rem;
-    opacity: 1;
-  }
-}
-
 html.portfolio-tab-1 .portfolio-wrapper .portfolio-nav-a.tab-1,
 html.portfolio-tab-2a .portfolio-wrapper .portfolio-nav-a.tab-2a,
 html.portfolio-tab-2b .portfolio-wrapper .portfolio-nav-a.tab-2b {
