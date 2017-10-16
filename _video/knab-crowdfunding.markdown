@@ -7,11 +7,10 @@ embed: <iframe src="https://player.vimeo.com/video/235326871?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/1_knab.jpg"
-summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim, interdum
-  eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend massa vel,
-  egestas nisi nam ac velit mauris.
-audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+summary: In deze animatie vertelt Knab over het financieringsplatform wat zij hun
+  klanten bieden, om crowdfunding voor ondernemers mogelijk te maken.
+audio: 'We gebruikten de primaire kleuren en de schematische animatiestijl als inspiratie
+  voor ons sounddesign, om zo een passend palet aan kleurrijke, ronde sounds te creëren. '
 pages:
 - Finetunemusic.nl/voice-overs
 - Finetunemusic.nl/muziekproductie
