@@ -1,9 +1,13 @@
-html#video .portfolio-wrapper {
-  opacity: 0;
-  // width: 0;
-  // overflow-x: hidden;
-  pointer-events: none;
+html#video {
+  overflow: auto;
+  body { overflow-y: overlay; }
+  .portfolio-wrapper {
+    visibility: hidden;
+    overflow-y: hidden;
+  }
 }
+
+// .portfoli::-webkit-scrollbar { display: none }
 
 section.video-container{
   @include container;
@@ -20,23 +24,27 @@ section.project-info {
   // background-color: pink;
   // margin-bottom: 15rem;
   @include margin(bottom, 2);
-  h2, p {
-    // margin-top: 6rem;
-  }
   h2 {
     @include span(12 of 12);
     @include margin(top, 1);
     @include for-tablet-landscape-up {
-    @include span(4 of 12);
-  }
+      // float: left;
+      // display: inline-block;
+      // display: none;
+      height: 0;
+      // @include span(4 of 12);
+    }
   }
   p {
     max-width: 90rem;
     @include span(12 of 12);
     @include for-tablet-landscape-up {
+      // float: right;
+      // display: inline-block;
+      @include push(4 of 12);
       @include span(8 of 12);
-      @include margin(top, 1);
-      padding-top: 0.3rem;
+      // @include margin(top, 1);
+      // padding-top: 0.3rem;
     }
   }
 }

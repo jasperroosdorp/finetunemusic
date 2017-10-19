@@ -17,6 +17,9 @@
   .portfolio {
     position: absolute;
     top: 100vh; left: 0; right: 0;
+    // height: 200vh;
+    // min-height: 200vh;
+    // bottom: -100vh;
     backface-visibility: hidden;
     background: $portfolio-bg-color;
     transition: transform 0.4s ease-in;
@@ -48,32 +51,51 @@
   }
 }
 
+html.portfolio-opening,
 html.portfolio-open {
   overflow: hidden;
   background-color: $portfolio-overlay-color;
   body { overflow-y: scroll; }
-  &#video { overflow: auto; }
   &.portfolio-tab-1 .portfolio-wrapper { overflow-y: scroll; }
+  &.portfolio-tab-2a .portfolio-wrapper, &.portfolio-tab-2b .portfolio-wrapper { @include for-tablet-landscape-max { overflow-y: scroll; } }
   .portfolio-wrapper { pointer-events: auto; }
   .portfolio-overlay { opacity: 1; }
   .portfolio {
     transition: transform 0.4s ease-out;
-    transform: translateY(-85vh);
+    // transform: translateY(-85vh);
+    transform: translateY(-100vh);
     @include for-tablet-portrait-up { transform: translateY(-70rem); }
     @include for-tablet-landscape-up { transform: translateY(-56rem); }
     @include for-big-desktop-up { transform: translateY(-65rem); }
   }
 }
 
+html.portfolio-open {
+  @include for-tablet-landscape-max {
+    &#index, &#about, &#info {
+      background-color: $portfolio-bg-color;
+      body {
+        background-color: $portfolio-bg-color;
+        > header, > main {
+          visibility: hidden;
+          max-height: 0;
+        }
+      }
+    }
+  }
+}
+
 #tab-1 {
   @include container;
-  margin-top: 4.7rem;
+  // margin-top: 4.7rem;
+  padding-top: 4.7rem;
 }
 
 #tab-2 {
   @include container;
   @include gutters();
-  margin-top: 4rem;
+  // margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 #tab-1, #tab-2 {

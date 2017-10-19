@@ -157,7 +157,7 @@ nav.lower {
 }
 
 html {
-  &.portfolio-open {
+  &.portfolio-opening, &.portfolio-open {
     nav.upper .current-track {
       > .placeholder,
       > .audio-player-title,

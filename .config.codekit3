@@ -479,11 +479,11 @@
 		"oAP": "\/_uploads\/jasper.mp3",
 		"oF": 1
 		},
-	"\/_uploads\/knab.jpg": {
+	"\/_uploads\/knab2.jpg": {
 		"ft": 16384,
-		"iS": 100486,
+		"iS": 106124,
 		"oA": 1,
-		"oAP": "\/_uploads\/knab.jpg",
+		"oAP": "\/_uploads\/knab2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17547,6 +17547,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/scripts\/vimeo-api.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/vimeo-api.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/studio.markdown": {
 		"ft": 8192,
 		"oA": 1,
@@ -17569,7 +17579,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 529877432
+	"lastBuiltDate": 530117720
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

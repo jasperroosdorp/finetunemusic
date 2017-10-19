@@ -1,7 +1,10 @@
 // OPEN PORTFOLIO
 function openPortfolio() {
   if (!$('html').hasClass('portfolio-open')) {
-    $('html').addClass('portfolio-open');
+    $('html').addClass('portfolio-opening');
+    setTimeout(function(){
+      $('html').removeClass('portfolio-opening').addClass('portfolio-open');
+    }, 400);
   }
   if ($('html').hasClass('audio-playing music')) {
     $('html').removeClass('portfolio-tab-1 portfolio-tab-2b');

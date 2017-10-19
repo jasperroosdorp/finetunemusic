@@ -2,6 +2,7 @@ html#index,
 html#about,
 html#info {
   &.top-out-of-viewport { background-color: $portfolio-button-color }
+  &.portfolio-opening.top-out-of-viewport { background-color: $portfolio-bg-color }
   &.portfolio-open.top-out-of-viewport { background-color: $portfolio-bg-color }
   background: linear-gradient(to top, #FFF 50%, $portfolio-button-color 50%);
 }

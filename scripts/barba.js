@@ -22,6 +22,11 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     fadeOut: function() {
       this.closeWindows();
+      if ($('html').is('html#video')) {
+        var iframe = document.querySelector('.video-container iframe');
+        var player = new Vimeo.Player(iframe);
+        player.setVolume(0);
+      }
       $('html#video .return-button').css({ opacity : 1 });
       $('html#video .return-button').animate({ opacity: 0 }, 1000);
       $('html.portfolio-open .portfolio-content').animate({ opacity: 0 }, 1000);

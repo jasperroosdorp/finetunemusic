@@ -5,16 +5,18 @@ section.info-section {
   h1, h2 {
     @include span(12 of 12);
     @include for-tablet-landscape-up {
-      position: absolute;
-      @include span(4 of 12);
+      // position: absolute;
+      height: 0;
+      // @include span(4 of 12);
     }
   }
   p {
+    max-width: 90rem;
     @include span(12 of 12);
     + p {
       // padding-top: 4rem;
       @include margin(top, 0.5);
-      float: right;
+      // float: right;
     }
     @include for-tablet-landscape-up {
       @include push(4 of 12);

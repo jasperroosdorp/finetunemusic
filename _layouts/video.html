@@ -27,14 +27,14 @@ pageid: video
 
         <section class='project-info'>
           {% if page.path contains 'en' %}
-          <h2>Summary</h2>
+          <h2>Project</h2>
           <p>{{ page.summary }}</p>
           <h2>Audio</h2>
           <p>{{ page.audio }}</p>
           {% else %}
-          <h2>Samenvatting</h2>
+          <h2>Project</h2>
           <p>{{ page.summary }}</p>
-          <h2>Geluid</h2>
+          <h2>Audio</h2>
           <p>{{ page.audio }}</p>
           {% endif %}
         </section>
@@ -44,6 +44,8 @@ pageid: video
   </main>
 
   {% include portfolio.html %}
+
+  <script src="https://player.vimeo.com/api/player.js"></script>
 
   <script type="text/javascript" src="{{ site.basehref }}/body.min.js"></script>
 
