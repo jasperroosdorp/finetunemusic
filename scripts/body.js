@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", function() {
     i = ++i % intro.length;
   })();
 
+  // Language switch in navigation
+  // $('.language-switch').on('click', function() {
+  //   var newUrl = $('')
+  //   window.location.href = "http://www.google.nl";
+  // });
+
 });
 
 Barba.Dispatcher.on('linkClicked', function() {
