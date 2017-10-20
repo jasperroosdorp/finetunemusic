@@ -5,9 +5,6 @@ collections:
   music:
     title: Music
     output: false
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true
@@ -20,6 +17,9 @@ collections:
   voice-overs:
     title: Voice-overs
     output: false
+  posts:
+    title: _
+    output: true
 defaults:
 - scope:
     path: ''
