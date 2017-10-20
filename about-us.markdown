@@ -1,6 +1,6 @@
 ---
 title: Finetunemusic.nl/en/about-us
-position: 0
+position: 5
 page:
   title: Finetunemusic
   google: Music production company Fine Tune Music produces Music, Sound and Voice-overs
