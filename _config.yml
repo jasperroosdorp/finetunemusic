@@ -2,9 +2,6 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  en:
-    title: English videos
-    output: true
   music:
     title: Music
     output: false
@@ -13,6 +10,9 @@ collections:
     output: true
   uploads:
     title: Uploads
+    output: true
+  en:
+    title: Videos (EN)
     output: true
   video:
     title: Videos (NL)
