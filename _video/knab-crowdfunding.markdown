@@ -1,6 +1,8 @@
 ---
 title: Knab Crowdfunding
 date: 2017-08-30 12:40:00 +02:00
+tags:
+- Deutsch
 position: 2
 client: Knab Bank
 embed: <iframe src="https://player.vimeo.com/video/235326871?color=ffffff&title=0&byline=0&portrait=0"
