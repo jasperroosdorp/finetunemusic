@@ -2,14 +2,14 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
+  posts:
+    title: "&nbsp;"
+    output: true
   video:
     title: Dutch videos
     output: true
   en:
     title: English videos
-    output: true
-  posts:
-    title: Languages
     output: true
   music:
     title: Music
