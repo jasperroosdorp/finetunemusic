@@ -3,7 +3,7 @@ title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
   posts:
-    title: "*"
+    title: Languages
     output: true
   music:
     title: Music
