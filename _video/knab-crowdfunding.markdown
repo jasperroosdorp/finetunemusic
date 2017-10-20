@@ -1,7 +1,7 @@
 ---
 title: Knab Crowdfunding
 date: 2017-08-30 12:40:00 +02:00
-tags:
+categories:
 - Deutsch
 position: 2
 client: Knab Bank
