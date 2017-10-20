@@ -815,16 +815,16 @@
 		"oAP": "\/CNAME",
 		"oF": 1
 		},
-	"\/en.markdown": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/en.markdown",
-		"oF": 1
-		},
 	"\/en\/about-us.markdown": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/en\/about-us.markdown",
+		"oF": 1
+		},
+	"\/en\/index.markdown": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/en\/index.markdown",
 		"oF": 1
 		},
 	"\/en\/production.markdown": {
