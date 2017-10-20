@@ -5,19 +5,31 @@ pageid: info
 <!DOCTYPE html>
 <HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains 'en' %}lang="en"{% else %}lang="nl"{% endif %}>
 
-<HEAD>
-  <title>{{ page.page.title }}</title>
-  {% include meta.html %}
-  <link rel="stylesheet" href="{{ site.basehref }}/main.min.css">
-  <script src="{{ site.basehref }}/head.min.js"></script>
-</HEAD>
+  <HEAD>
+    <title>{{ page.page.title }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" href="{{ site.basehref }}/main.min.css">
+    <script src="{{ site.basehref }}/head.min.js"></script>
+  </HEAD>
 
-<BODY>
+  <BODY>
 
-  {% include navigation.html %}
+    {% include navigation.html %}
 
-  <main id="barba-wrapper">
-    <div class="barba-container" data-pageid="info">
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="info"
+      {% if page.url contains 'muziekproductie' or page.url contains 'production' %}
+      data-url-nl="/muziekproductie{{ site.urlext }}"
+      data-url-en="/en/production{{ site.urlext }}"
+      {% endif %}
+      {% if page.url contains 'voice-overs' %}
+      data-url-nl="/voice-overs{{ site.urlext }}"
+      data-url-en="/en/voice-overs{{ site.urlext }}"
+      {% endif %}
+      {% if page.url contains 'studio' %}
+      data-url-nl="/studio{{ site.urlext }}"
+      data-url-en="/en/studio{{ site.urlext }}"
+      {% endif %}>
       <div class="barba-content">
 
         <section class='info-section'>

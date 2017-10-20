@@ -12,10 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
   })();
 
   // Language switch in navigation
-  // $('.language-switch').on('click', function() {
-  //   var newUrl = $('')
-  //   window.location.href = "http://www.google.nl";
-  // });
+  $('.language-switch').on('click', function() {
+    if($(this).hasClass('nl')) { var newUrl = $('.barba-container').attr('data-url-nl'); }
+    if($(this).hasClass('en')) { var newUrl = $('.barba-container').attr('data-url-en'); }
+    window.location.href = newUrl;
+  });
 
 });
 
