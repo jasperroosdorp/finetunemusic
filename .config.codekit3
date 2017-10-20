@@ -817,9 +817,9 @@
 		},
 	"\/en\/about-us.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/en\/about-us.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/en\/index.markdown": {
 		"ft": 8192,
@@ -829,9 +829,9 @@
 		},
 	"\/en\/production.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/en\/production.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/en\/studio.markdown": {
 		"ft": 8192,
