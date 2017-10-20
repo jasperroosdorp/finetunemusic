@@ -2,9 +2,6 @@
 title: Finetunemusic
 timezone: Europe/Amsterdam
 collections:
-  posts:
-    title: Admin
-    output: true
   video:
     title: Dutch videos
     output: true
@@ -14,6 +11,9 @@ collections:
   music:
     title: Music
     output: false
+  posts:
+    title: Siteleaf
+    output: true
   uploads:
     title: Uploads
     output: true
