@@ -6,6 +6,7 @@ pageid: about
 <HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.language == 'English' %}lang="en"{% elsif page.language == 'German' %}lang="de"{% else %}lang="nl"{% endif %}>
 
   <HEAD>
+    {% include analytics.html %}
     <title>{{ page.page.title }}</title>
     <link rel="canonical" href="{{ site.host}}{{ page.title | replace: "Finetunemusic.nl/", "" }}"/>
     {% include meta.html %}
@@ -66,8 +67,6 @@ pageid: about
     var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
     cl.responsive();
     </script>
-
-    {% include analytics.html %}
 
   </BODY>
 

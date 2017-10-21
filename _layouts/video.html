@@ -5,61 +5,60 @@ pageid: video
 <!DOCTYPE html>
 <HTML id="{{ layout.pageid }}" class="portfolio-tab-1 portfolio-open" {% if page.language == 'English' %}lang="en"{% elsif page.language == 'German' %}lang="de"{% else %}lang="nl"{% endif %}>
 
-<HEAD>
-  <title>{{ page.name }}</title>
-  {% include meta.html %}
-  <link rel="stylesheet" href="{{ site.basehref }}/main.min.css">
-  <script src="{{ site.basehref }}/head.min.js"></script>
-</HEAD>
+  <HEAD>
+    {% include analytics.html %}
+    <title>{{ page.name }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" href="{{ site.basehref }}/main.min.css">
+    <script src="{{ site.basehref }}/head.min.js"></script>
+  </HEAD>
 
-<BODY>
+  <BODY>
 
-  {% include navigation.html %}
+    {% include navigation.html %}
 
-  <main id="barba-wrapper">
-    <div class="barba-container" data-pageid="video">
-      <div class="barba-content">
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="video">
+        <div class="barba-content">
 
-        <section class='video-container'>
-          {{ page.embed }}
-        </section>
+          <section class='video-container'>
+            {{ page.embed }}
+          </section>
 
-        <section class='project-info'>
-          {% if page.language == 'English' %}
-          <h2>Project</h2>
-          <p>{{ page.summary }}</p>
-          <h2>Audio</h2>
-          <p>{{ page.audio }}</p>
-          {% elsif page.language == 'German' %}
-          <h2>Project</h2>
-          <p>{{ page.summary }}</p>
-          <h2>Audio</h2>
-          <p>{{ page.audio }}</p>
-          {% else %}
-          <h2>Project</h2>
-          <p>{{ page.summary }}</p>
-          <h2>Audio</h2>
-          <p>{{ page.audio }}</p>
-          {% endif %}
-        </section>
+          <section class='project-info'>
+            {% if page.language == 'English' %}
+            <h2>Project</h2>
+            <p>{{ page.summary }}</p>
+            <h2>Audio</h2>
+            <p>{{ page.audio }}</p>
+            {% elsif page.language == 'German' %}
+            <h2>Project</h2>
+            <p>{{ page.summary }}</p>
+            <h2>Audio</h2>
+            <p>{{ page.audio }}</p>
+            {% else %}
+            <h2>Project</h2>
+            <p>{{ page.summary }}</p>
+            <h2>Audio</h2>
+            <p>{{ page.audio }}</p>
+            {% endif %}
+          </section>
 
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  {% include portfolio.html %}
+    {% include portfolio.html %}
 
-  <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 
-  <script type="text/javascript" src="{{ site.basehref }}/body.min.js"></script>
+    <script type="text/javascript" src="{{ site.basehref }}/body.min.js"></script>
 
-  <script type="text/javascript">
-  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
-  cl.responsive();
-  </script>
+    <script type="text/javascript">
+    var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+    cl.responsive();
+    </script>
 
-  {% include analytics.html %}
-
-</BODY>
+  </BODY>
 
 </HTML>
