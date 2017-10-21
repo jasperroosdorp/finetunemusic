@@ -11,11 +11,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-  en:
-    title: Videos (EN)
-    output: true
   de:
     title: Videos (DE)
+    output: true
+  en:
+    title: Videos (EN)
     output: true
   video:
     title: Videos (NL)
