@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
     lastElementClicked = el;
   });
 
+  Barba.Dispatcher.on('initStateChange', function() {
+    if (typeof ga === 'function') {
+      ga('send', 'pageview', location.pathname);
+    }
+  });
+
   Barba.Dispatcher.on('newPageReady', function(current, prev, container) {
     history.scrollRestoration = 'manual';
   });
