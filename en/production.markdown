@@ -1,6 +1,7 @@
 ---
 title: Finetunemusic.nl/en/production
 position: 7
+language: English
 page:
   title: Finetunemusic
   google: Music production company Fine Tune Music produces music, sound and voice-over
@@ -17,4 +18,3 @@ clients:
   title: Clients
 layout: info
 ---
-

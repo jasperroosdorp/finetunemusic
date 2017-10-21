@@ -1,6 +1,7 @@
 ---
 title: Finetunemusic.nl
 position: 0
+language: Dutch
 page:
   title: Finetunemusic
   google: Muziekproductiebedrijf Fine Tune Music produceert muziek, sounds en voice-overs
@@ -25,4 +26,3 @@ information:
     voice-overs en verzorgen audio branding.
 layout: index
 ---
-

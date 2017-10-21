@@ -1,6 +1,7 @@
 ---
 title: Finetunemusic.nl/en
 position: 5
+language: English
 page:
   title: Finetunemusic
   google: Music production company Fine Tune Music produces music, sound and voice-over
@@ -24,4 +25,3 @@ information:
     eros vehicula vestibulum ac pharetra nibh.
 layout: index
 ---
-

@@ -3,7 +3,7 @@ pageid: info
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains '/en' %}lang="en"{% elsif page.path contains '/de' %}lang="de"{% else %}lang="nl"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.language == 'English' %}lang="en"{% elsif page.language == 'German' %}lang="de"{% else %}lang="nl"{% endif %}>
 
   <HEAD>
     <title>{{ page.page.title }}</title>
@@ -50,9 +50,9 @@ pageid: info
         <section class='info-section'>
           <h2>{{ page.clients.title }}</h2>
           <p class="links">
-            {% if page.path contains '/en' %}
+            {% if page.language == 'English' %}
             {% assign sorted = (site.en | sort: 'position') %}
-            {% elsif page.path contains '/de' %}
+            {% elsif page.language == 'German' %}
             {% assign sorted = (site.de | sort: 'position') %}
             {% else %}
             {% assign sorted = (site.video | sort: 'position') %}

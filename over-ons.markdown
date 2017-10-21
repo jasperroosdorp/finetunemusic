@@ -1,6 +1,7 @@
 ---
 title: Finetunemusic.nl/over-ons
 position: 1
+language: Dutch
 page:
   title: Finetunemusic
   google: Muziekproductiebedrijf Fine Tune Music maakt Muziek, Sounds en Voice overs
@@ -37,4 +38,3 @@ people:
   image: "/uploads/FTM-34111.jpg"
 layout: about
 ---
-

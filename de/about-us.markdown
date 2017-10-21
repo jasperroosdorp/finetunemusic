@@ -1,6 +1,7 @@
 ---
 title: Finetunemusic.nl/de/about-us
 position: 11
+language: German
 page:
   title: Finetunemusic
   google: Music production company Fine Tune Music produces Music, Sound and Voice-overs
@@ -35,4 +36,3 @@ people:
   image: "/uploads/FTM-34111.jpg"
 layout: about
 ---
-

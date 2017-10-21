@@ -3,7 +3,7 @@ pageid: index
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains '/en' %}lang="en"{% elsif page.path contains '/de' %}lang="de"{% else %}lang="nl"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.language == 'English' %}lang="en"{% elsif page.language == 'German' %}lang="de"{% else %}lang="nl"{% endif %}>
 
   <HEAD>
     <title>{{ page.page.title }}</title>
@@ -42,9 +42,9 @@ pageid: index
 
           <a class="full-width-button" onclick="openPortfolio()">
             <div class="wrapper">
-              {% if page.path contains '/en' %}
+              {% if page.language == 'English' %}
               <span class='heading'>Listen to our portfolio</span>
-              {% elsif page.path contains '/de' %}
+              {% elsif page.language == 'German' %}
               <span class='heading'>Listen to our portfolio</span>
               {% else %}
               <span class='heading'>Beluister ons portfolio</span>
