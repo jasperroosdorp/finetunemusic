@@ -1,6 +1,6 @@
 ---
-title: Finetunemusic.nl/en/studio
-position: 9
+title: Finetunemusic.nl/de/studio
+position: 13
 page:
   title: Finetunemusic
   google: Our music studio in Haren, Groningen is a comfortable multifunctional workspace
@@ -15,4 +15,3 @@ clients:
   title: Clients
 layout: info
 ---
-
