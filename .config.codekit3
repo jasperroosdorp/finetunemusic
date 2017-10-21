@@ -27,6 +27,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 1
 		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
 	"\/_de\/basher-beatdown.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -254,6 +260,24 @@
 		"oA": 1,
 		"oAP": "\/_music\/the-wonderful-tale-of-madame-cambre.markdown",
 		"oF": 1
+		},
+	"\/_posts\/2017-10-21-deutsch.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-10-21-deutsch.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-10-21-english.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-10-21-english.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-10-21-nederlands.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-10-21-nederlands.markdown",
+		"oF": 0
 		},
 	"\/_site": {
 		"ft": 65536,
