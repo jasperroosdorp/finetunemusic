@@ -3,7 +3,7 @@ pageid: info
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains 'en' %}lang="en"{% else %}lang="nl"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains '/en' %}lang="en"{% elsif page.path contains '/de' %}lang="de"{% else %}lang="nl"{% endif %}>
 
   <HEAD>
     <title>{{ page.page.title }}</title>
@@ -19,16 +19,19 @@ pageid: info
     <main id="barba-wrapper">
       <div class="barba-container" data-pageid="info"
       {% if page.url contains 'muziekproductie' or page.url contains 'production' %}
-      data-url-nl="/muziekproductie{{ site.urlext }}"
       data-url-en="/en/production{{ site.urlext }}"
+      data-url-de="/de/production{{ site.urlext }}"
+      data-url-nl="/muziekproductie{{ site.urlext }}"
       {% endif %}
       {% if page.url contains 'voice-overs' %}
-      data-url-nl="/voice-overs{{ site.urlext }}"
       data-url-en="/en/voice-overs{{ site.urlext }}"
+      data-url-de="/de/voice-overs{{ site.urlext }}"
+      data-url-nl="/voice-overs{{ site.urlext }}"
       {% endif %}
       {% if page.url contains 'studio' %}
-      data-url-nl="/studio{{ site.urlext }}"
       data-url-en="/en/studio{{ site.urlext }}"
+      data-url-de="/de/studio{{ site.urlext }}"
+      data-url-nl="/studio{{ site.urlext }}"
       {% endif %}>
       <div class="barba-content">
 
@@ -47,8 +50,10 @@ pageid: info
         <section class='info-section'>
           <h2>{{ page.clients.title }}</h2>
           <p class="links">
-            {% if page.path contains 'en' %}
+            {% if page.path contains '/en' %}
             {% assign sorted = (site.en | sort: 'position') %}
+            {% elsif page.path contains '/de' %}
+            {% assign sorted = (site.de | sort: 'position') %}
             {% else %}
             {% assign sorted = (site.video | sort: 'position') %}
             {% endif %}

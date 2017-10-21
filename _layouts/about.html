@@ -3,7 +3,7 @@ pageid: about
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains 'en' %}lang="en"{% else %}lang="nl"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains '/en' %}lang="en"{% elsif page.path contains '/de' %}lang="de"{% else %}lang="nl"{% endif %}>
 
   <HEAD>
     <title>{{ page.page.title }}</title>
@@ -18,7 +18,7 @@ pageid: about
     {% include navigation.html %}
 
     <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="about" data-url-nl="/over-ons{{ site.urlext }}" data-url-en="/en/about-us{{ site.urlext }}">
+      <div class="barba-container" data-pageid="about" data-url-en="/en/about-us{{ site.urlext }}" data-url-de="/de/about-us{{ site.urlext }}" data-url-nl="/over-ons{{ site.urlext }}">
         <div class="barba-content">
 
           <section class="about-description">
@@ -44,7 +44,9 @@ pageid: about
 
           <a class="full-width-button" onclick="openPortfolio()">
             <div class="wrapper">
-              {% if page.path contains 'en' %}
+              {% if page.path contains '/en' %}
+              <span class='heading'>Listen to our portfolio</span>
+              {% elsif page.path contains '/de' %}
               <span class='heading'>Listen to our portfolio</span>
               {% else %}
               <span class='heading'>Beluister ons portfolio</span>

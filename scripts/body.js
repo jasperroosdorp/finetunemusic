@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Language switch in navigation
   $('.language-switch').on('click', function() {
-    if($(this).hasClass('nl')) { var newUrl = $('.barba-container').attr('data-url-nl'); }
     if($(this).hasClass('en')) { var newUrl = $('.barba-container').attr('data-url-en'); }
+    if($(this).hasClass('de')) { var newUrl = $('.barba-container').attr('data-url-de'); }
+    if($(this).hasClass('nl')) { var newUrl = $('.barba-container').attr('data-url-nl'); }
     window.location.href = newUrl;
   });
 

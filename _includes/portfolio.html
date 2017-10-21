@@ -9,7 +9,11 @@
     <div class="portfolio-content">
 
       <ul class="portfolio-nav">
-        {% if page.path contains 'en' %}
+        {% if page.path contains '/en' %}
+        <li><a class='portfolio-nav-a tab-1'>Videos</a></li>
+        <li><a class='portfolio-nav-a tab-2a'>Music</a></li>
+        <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
+        {% elsif page.path contains '/de' %}
         <li><a class='portfolio-nav-a tab-1'>Videos</a></li>
         <li><a class='portfolio-nav-a tab-2a'>Music</a></li>
         <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
@@ -23,8 +27,10 @@
       <a href="javascript:void(0)" class='close-portfolio'></a>
 
       <div id='tab-1'>
-        {% if page.path contains 'en' %}
+        {% if page.path contains '/en' %}
         {% assign sorted = (site.en | sort: 'position') %}
+        {% elsif page.path contains '/de' %}
+        {% assign sorted = (site.de | sort: 'position') %}
         {% else %}
         {% assign sorted = (site.video | sort: 'position') %}
         {% endif %}

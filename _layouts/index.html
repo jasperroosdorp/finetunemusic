@@ -3,7 +3,7 @@ pageid: index
 ---
 
 <!DOCTYPE html>
-<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains 'en' %}lang="en"{% else %}lang="nl"{% endif %}>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1" {% if page.path contains '/en' %}lang="en"{% elsif page.path contains '/de' %}lang="de"{% else %}lang="nl"{% endif %}>
 
   <HEAD>
     <title>{{ page.page.title }}</title>
@@ -18,7 +18,7 @@ pageid: index
     {% include navigation.html %}
 
     <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="index" data-url-nl="{{ site.basehref | replace: "/_site", "" }}" data-url-en="/en">
+      <div class="barba-container" data-pageid="index" data-url-en="/en" data-url-de="/de" data-url-nl="{{ site.basehref | replace: "/_site", "" }}">
         <div class="barba-content">
 
           <section class="index-intro">
@@ -37,12 +37,14 @@ pageid: index
 
           <section class="index-description">
             <h2>{{ page.information.title }}</h2>
-            <p class='heading'>{{ page.information.paragraph }}</p>
+            <p class='heading'>{{ page.url }}</p>
           </section>
 
           <a class="full-width-button" onclick="openPortfolio()">
             <div class="wrapper">
-              {% if page.path contains 'en' %}
+              {% if page.path contains '/en' %}
+              <span class='heading'>Listen to our portfolio</span>
+              {% elsif page.path contains '/de' %}
               <span class='heading'>Listen to our portfolio</span>
               {% else %}
               <span class='heading'>Beluister ons portfolio</span>
