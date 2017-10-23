@@ -11,6 +11,7 @@ pageid: video
     {% include meta.html %}
     <link rel="stylesheet" href="{{ site.basehref }}/main.min.css">
     <script src="{{ site.basehref }}/head.min.js"></script>
+
   </HEAD>
 
   <BODY>
@@ -58,6 +59,22 @@ pageid: video
     var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
     cl.responsive();
     </script>
+
+    <!-- <script>
+      // Find all video iframes on the page:
+      var iframes = $(".video-container").find("iframe[src*="youtube.com"]");
+
+      // For each of them:
+      for (var i = 0; i < iframes.length; i++) {
+        // If "enablejsapi" is not set on the iframe's src, set it:
+        if (iframes[i].src.indexOf("enablejsapi") === -1) {
+          // ...check whether there is already a query string or not:
+          // (ie. whether to prefix "enablejsapi" with a "?" or an "&")
+          var prefix = (iframes[i].src.indexOf("?") === -1) ? "?" : "&amp;";
+          iframes[i].src += prefix + "enablejsapi=true";
+        }
+      }
+    </script> -->
 
   </BODY>
 

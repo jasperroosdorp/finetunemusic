@@ -29,9 +29,24 @@ document.addEventListener("DOMContentLoaded", function() {
     fadeOut: function() {
       this.closeWindows();
       if ($('html').is('html#video')) {
-        var iframe = document.querySelector('.video-container iframe');
-        var player = new Vimeo.Player(iframe);
-        player.setVolume(0);
+        if ($('.video-container iframe').is('iframe[src*="vimeo.com"]')) {
+          var vimeo = document.querySelector('.video-container iframe[src*="vimeo.com"]');
+          new Vimeo.Player(vimeo).setVolume(0);
+        }
+        // if ($('.video-container iframe').is('iframe[src*="youtube.com"]')) {
+        //       // function onYouTubeIframeAPIReady() {
+        //   //   player = new YT.Player('player', {});
+        //   // }
+        //   // var player = new YT.Player(document.querySelector('.video-container iframe'));
+        //   // var player = YT.get('youtube-iframe');
+        //
+        //   // youtube.stopVideo()
+        //   // $('iframe').css("display", "none");
+        //   // setTimeout(function(){
+        //   //   $('iframe').css("display", "block")
+        //   // }, 1);
+        //   // alert(youtube);
+        // }
       }
       $('html#video .return-button').css({ opacity : 1 });
       $('html#video .return-button').animate({ opacity: 0 }, 1000);
