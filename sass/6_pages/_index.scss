@@ -8,9 +8,9 @@ section.index-intro {
     position: relative;
     display: none;
     @include for-phone-only {
-      display: none !important;
-      &:nth-child(1) { display: block !important; }
-      opacity: 1 !important;
+      // display: none !important;
+      // &:nth-child(1) { display: block !important; }
+      // opacity: 1 !important;
     }
     @include for-tablet-portrait-up {
       position: absolute;
