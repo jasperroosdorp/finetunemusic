@@ -21,9 +21,11 @@ introduction:
 image:
   image: "/uploads/FTM-34241.jpg"
 information:
-  title: Dit zijn wij
-  paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing. We maken muziek,
-    voice-overs en verzorgen audio branding.
+  title: Wij zijn Fine Tune Music
+  paragraph: Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Beluister
+    onze audio voor <video's> (link naar Portfolio, tabblad Video's), onze <muziek>
+    (link naar Portfolio, tabblad Muziek) en <voice-overs> (link naar Portfolio, tabblad
+    Voice-overs).
 layout: index
 ---
 
