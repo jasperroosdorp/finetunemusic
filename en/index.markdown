@@ -20,9 +20,11 @@ introduction:
 image:
   image: "/uploads/FTM-34241.jpg"
 information:
-  title: Sed quis justo
-  paragraph: Praesent suscipit purus in diam semper fermentum. In laoreet tortor id
-    eros vehicula vestibulum ac pharetra nibh.
+  title: We are Fine Tune Music
+  paragraph: Our music productions are custom-made for all kinds of projects. Listen
+    to our audio for <videos> (link naar Portfolio, tabblad Video's), our <music>
+    (link naar Portfolio, tabblad Muziek) and <voice-overs> (link naar Portfolio,
+    tabblad Voice-overs).
 layout: index
 ---
 
