@@ -11,9 +11,11 @@ header {
   @include container;
   @include responsive-width;
   @include gutters;
+  @include padding(top, 1);
+  // @include margin
   // margin-top: 7rem;
   // position: relative;
-  padding-top: 7rem;
+  // padding-top: 7rem;
   // margin-bottom: -12rem;
   // margin-bottom: -100%;
   // overflow: hidden !important;
@@ -41,11 +43,17 @@ nav.upper {
   // position: relative;
   // vertical-align: top;
   overflow-x: hidden;
+  .nav-trigger,
+  .return-button,
+  .current-track {
+    // line-height: 70px;
+  }
   .nav-trigger {
     // background-color: orange;
     // display: inline-block;
     // vertical-align: top;
-    line-height: 70px;
+    // line-height: 70px;
+    // line-height: 35px;
     // padding-top: 2px;
     float: left;
     // display: block;
@@ -55,6 +63,7 @@ nav.upper {
   }
   .return-button {
     display: none;
+    // line-height: 70px;
   }
   .current-track {
     transition: opacity 0.5s ease;
@@ -63,7 +72,7 @@ nav.upper {
     margin-top: -2px;
     // background-color: orange;
     display: inline-block;
-    line-height: 70px;
+    // line-height: 70px;
     position: relative;
     // overflow-x: visible;
     // padding: 0;
@@ -72,7 +81,7 @@ nav.upper {
       // position: absolute;
       // bottom: 0;
       float: left;
-      transition: opacity 1s ease;
+      transition: opacity 0.3s ease;
       // position: absolute;
     }
     .audio-player-title {
@@ -90,7 +99,7 @@ nav.upper {
       font-weight: inherit;
       pointer-events: none;
       opacity: 0;
-      transition: opacity 1s ease;
+      transition: opacity 0.3s ease;
     }
   }
 }
@@ -193,6 +202,14 @@ html {
     nav.upper {
       // .current-track .placeholder,
       // .current-track .audio-player-title,
+      // .current-track,
+      .current-track {
+        > * {
+          // display: none;
+          pointer-events: none;
+          opacity: 0;
+        }
+      }
       .nav-trigger {
         .unfold-nav {
           opacity: 0;
@@ -258,7 +275,7 @@ body {
   // margin: 0 1rem;
   width: 20px;
   // margin-left: 2.5rem;
-  transition: opacity 1s ease;
+  transition: opacity 0.3s ease;
 }
 //
 // html.audio-playing {

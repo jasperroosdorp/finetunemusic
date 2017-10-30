@@ -1,5 +1,23 @@
 // @codekit-prepend "vimeo-api.min.js", "../node_modules/barba.js/dist/barba.min.js", "barba.js", "../node_modules/gsap/src/minified/TweenMax.min.js", "../node_modules/fluidvids.js/dist/fluidvids.min.js", "portfolio.js", "equalizer.js";
 
+// $(document).ready(function() {
+//   // run test on initial page load
+//   // checkSize();
+//
+//   // run test on resize of the window
+//   // $(window).resize(checkSize);
+//
+//   $('.portfolio-nav-a').on('click', function(event) {
+//     if ($(".portfolio-wrapper").css("float") == "none" ){
+//       // $('body').animate({ scrollTop: 0}, 300, 'swing');
+//       alert('yes!');
+//     }
+//   });
+// });
+
+// $('nav.upper a').on('click', checkSize());
+
+
 document.addEventListener("DOMContentLoaded", function() {
 
   // Fade carousel

@@ -1,8 +1,17 @@
+.testdiv {
+  float: none;
+  @include for-tablet-portrait-up { float: left !important; }
+}
+
 .portfolio-wrapper {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   overflow: hidden;
   pointer-events: none;
+  // float: left;
+  // @include for-phone-only { float: none; }
+  // float: none;
+  // @include for-tablet-portrait-up { float: left !important; }
   .portfolio-overlay {
     position: fixed;
     top: 0; bottom: 0; left: 0; right: 0;
@@ -36,15 +45,19 @@
   .portfolio-nav {
     position: relative;
     @include container;
+    // @include gutters(4);
     @include gutters();
-    padding-top: 7rem;
+    @include padding(top, 1);
+    // padding-top: 7rem;
     .portfolio-nav-a {
-      display: inline-block;
-      float: left;
       user-select: none;
       padding: 0 2rem;
       transition: color 0.3s ease;
-      @include for-tablet-landscape-up { padding: 0 3rem; }
+      @include for-tablet-landscape-up {
+        padding: 0 3rem;
+        display: inline-block;
+        float: left;
+      }
       &:first-child { padding-left: 0; margin-left: 0; }
       &.active-window { pointer-events: none; }
     }
@@ -70,6 +83,7 @@ html.portfolio-open {
   }
 }
 
+// html.portfolio-opening,
 html.portfolio-open {
   @include for-tablet-landscape-max {
     &#index, &#about, &#info {
@@ -101,6 +115,11 @@ html.portfolio-open {
 #tab-1, #tab-2 {
   @include for-tablet-landscape-max {
     min-height: 100vh !important;
+    // margin: 0 !important;
+    // padding: 0 !important;
+    // top: 0;
+    // bottom: 0;
+    // position: absolute;
     height: auto !important;
   }
 }

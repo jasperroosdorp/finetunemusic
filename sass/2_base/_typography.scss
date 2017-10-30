@@ -36,9 +36,22 @@ p, .paragraph {
   padding-top: 0.25rem;
 }
 
-nav {
+header nav,
+.portfolio-nav {
   font-size: 2rem;
   font-weight: 400;
+}
+
+.nav-trigger,
+.return-button,
+.current-track,
+.portfolio-nav-a,
+nav.lower ul li a {
+  // line-height: 70px;
+  line-height: 3.6rem;
+}
+
+nav {
   &.upper, &.lower { color: rgba(0, 0, 0, 0.8); }
   &.upper {
     .current-track {
@@ -54,7 +67,7 @@ nav {
   }
   &.lower {
     ul li a {
-      line-height: 3.6rem;
+      // line-height: 3.6rem;
       opacity: 0.4;
     }
   }
@@ -79,11 +92,11 @@ html[lang="en"] nav.lower a.en {
 }
 
 .portfolio-nav-a {
-  line-height: 4rem;
-  font-size: 1.7rem;
-  font-weight: 400;
+  // line-height: 4rem;
+  // font-size: 1.7rem;
+  // font-weight: 400;
   color: rgba(255, 255, 255, 1);
-  letter-spacing: 0.003rem;
+  // letter-spacing: 0.003rem;
   @include for-tablet-landscape-up {
     font-size: 2rem;
     font-weight: 100;

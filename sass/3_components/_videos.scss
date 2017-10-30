@@ -37,9 +37,13 @@
     }
   }
   span {
-    padding-left: gutters(4);
+    // padding-left: gutters(4);
+    @include gutters();
     opacity: 1;
     transition: opacity 0.3s ease;
+    @include for-tablet-landscape-up {
+      padding-left: gutters(3);
+    }
     // background-color: pink;
     // margin-bottom: 4rem;
   }
