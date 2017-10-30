@@ -83,8 +83,8 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
   })
 
   // Extend footer background color to html background
-  $(window).scroll(function () {
-    $('html').toggleClass("top-out-of-viewport", ($(window).scrollTop() > 100));
-  });
+  // $(window).scroll(function () {
+  //   $('html').toggleClass("top-out-of-viewport", ($(window).scrollTop() > 100));
+  // });
 
 });
