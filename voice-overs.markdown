@@ -18,7 +18,7 @@ text: "# Voice-overs\n\nAls geen ander weten we dat de juiste voice-over een bel
   van luisterboeken kun je ook bij ons terecht. Wij zorgen ervoor dat het verhaal
   met de juiste intentie wordt verteld."
 image:
-  image: "/uploads/FTM-34374.jpg"
+  image: "/uploads/FTM_bew-34374.jpg"
 clients:
   title: Opdrachtgevers
 layout: info

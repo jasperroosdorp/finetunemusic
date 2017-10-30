@@ -15,7 +15,7 @@ text: |-
 
   We also do audio book recordings, making sure the stories are told as they were meant to be told.
 image:
-  image: "/uploads/FTM-34374.jpg"
+  image: "/uploads/FTM_bew-34374.jpg"
 clients:
   title: Clients
 layout: info

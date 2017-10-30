@@ -24,7 +24,7 @@ people:
     music and sound. He uses this effectively as a communication tool when turning
     identity into sound and taking the listener on a journey. David worked with, among
     other parties, Bert Visscher, Club Guy and Roni and Van Engelenburg Theaterproducties."
-  image: "/uploads/FTM-34185.jpg"
+  image: "/uploads/FTM_bew-34185.jpg"
 - description: |-
     ## Paul
 
@@ -33,7 +33,7 @@ people:
     Paul is a skilled arranger and knows how to give instruments their own space in orchestral cinematic scores, swinging jazz harmonies, as well as in compact song structures. He refined this craft, writing vocal arrangements, which have won him several international awards.
 
     In recent years he composed and produced music for a great number of theatre plays as in-house composer for Theater Young Ones. Here he developed a keen sense for telling stories through music, in a way that really moves the listener. This is also reflected in Paul’s enthusiastic way of communicating with other artists, both in and outside the studio. Typhoon, Akwasi and The Cool Quest are among the artists he worked with.
-  image: "/uploads/FTM-34111.jpg"
+  image: "/uploads/FTM_bew-34111.jpg"
 layout: about
 ---
 

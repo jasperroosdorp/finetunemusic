@@ -56,8 +56,8 @@ Barba.Dispatcher.on('newPageReady', function() {
   });
 
   // Set portfolio tab 2 to the size of tab 1
-  var tabheight = $('#tab-1').height();
-  $('#tab-2').css('height', tabheight);
+  // var tabheight = $('#tab-1').height();
+  // $('#tab-2').css('height', tabheight);
 
 });
 

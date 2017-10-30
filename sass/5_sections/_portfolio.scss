@@ -8,15 +8,10 @@
   top: 0; left: 0; right: 0; bottom: 0;
   overflow: hidden;
   pointer-events: none;
-  // float: left;
-  // @include for-phone-only { float: none; }
-  // float: none;
-  // @include for-tablet-portrait-up { float: left !important; }
   .portfolio-overlay {
     position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
+    top: -50vh; bottom: 0; left: 0; right: 0;
     display: block;
-    // display: none !important;
     content: '';
     overflow: hidden;
     background: $portfolio-overlay-color;
@@ -27,15 +22,20 @@
   .portfolio {
     position: absolute;
     top: 100vh; left: 0; right: 0;
-    // overflow-y: overlay;
-    // height: 200vh;
-    // min-height: 200vh;
-    // bottom: -100vh;
     backface-visibility: hidden;
     background: $portfolio-bg-color;
     transition: transform 0.4s ease-in;
     transform: translateY(0);
     will-change: transform;
+    &::after {
+      position: fixed;
+      bottom: -50vh;
+      height: 50vh;
+      width: 100%;
+      display: block;
+      content: '';
+      background-color: $portfolio-bg-color;
+    }
   }
 }
 
@@ -47,10 +47,8 @@
   .portfolio-nav {
     position: relative;
     @include container;
-    // @include gutters(4);
     @include gutters();
     @include padding(top, 1);
-    // padding-top: 7rem;
     .portfolio-nav-a {
       user-select: none;
       padding: 0 2rem;
@@ -70,19 +68,23 @@ html.portfolio-opening,
 html.portfolio-open {
   overflow: hidden;
   background-color: $portfolio-overlay-color;
-  body { overflow-y: scroll; }
-  &.portfolio-tab-1 .portfolio-wrapper {
-    overflow-y: overlay;
-    // overflow-y: scroll;
+  body {
+    overflow-y: scroll;
   }
-  &.portfolio-tab-2a .portfolio-wrapper, &.portfolio-tab-2b .portfolio-wrapper {
-    @include for-tablet-landscape-max { overflow-y: scroll; }
+  // &.portfolio-tab-1 .portfolio-wrapper { overflow-y: scroll; }
+  // &.portfolio-tab-2a .portfolio-wrapper, &.portfolio-tab-2b .portfolio-wrapper {
+  //   overflow-y: scroll;
+  //   @include for-tablet-landscape-max { overflow-y: scroll; }
+  // }
+  .portfolio-wrapper {
+    pointer-events: auto;
+    overflow-y: scroll;
   }
-  .portfolio-wrapper { pointer-events: auto; }
-  .portfolio-overlay { opacity: 1; }
+  .portfolio-overlay {
+    opacity: 1;
+  }
   .portfolio {
     transition: transform 0.4s ease-out;
-    // transform: translateY(-85vh);
     transform: translateY(-100vh);
     @include for-tablet-portrait-up { transform: translateY(-70rem); }
     @include for-tablet-landscape-up { transform: translateY(-56rem); }
@@ -106,31 +108,51 @@ html.portfolio-open {
   }
 }
 
-html.portfolio-closing {
-  overflow: hidden;
-}
-
 #tab-1 {
   @include container;
-  // margin-top: 4.7rem;
   padding-top: 4.7rem;
 }
 
 #tab-2 {
   @include container;
   @include gutters();
-  // margin-top: 4rem;
   padding-top: 4rem;
+  .mejs { padding-bottom: 4rem; }
 }
 
-#tab-1, #tab-2 {
-  @include for-tablet-landscape-max {
-    min-height: 100vh !important;
-    // margin: 0 !important;
-    // padding: 0 !important;
-    // top: 0;
-    // bottom: 0;
-    // position: absolute;
-    height: auto !important;
+html.portfolio-tab-2a,
+html.portfolio-tab-2b {
+  .portfolio {
+    // height: 56rem; max-height: 56rem;
+    height: 100vh;
+    @include for-tablet-portrait-up {
+      overflow: hidden;
+      height: 70rem;
+      max-height: 70rem;
+    }
+    @include for-tablet-landscape-up {
+      height: 56rem;
+      max-height: 56rem;
+    }
+    @include for-big-desktop-up {
+      height: 65rem;
+      max-height: 65rem;
+    }
   }
 }
+
+// @include for-tablet-portrait-up { transform: translateY(-70rem); }
+// @include for-tablet-landscape-up { transform: translateY(-56rem); }
+// @include for-big-desktop-up { transform: translateY(-65rem); }
+
+// #tab-1, #tab-2 {
+//   @include for-tablet-landscape-max {
+//     min-height: 100vh !important;
+//     // margin: 0 !important;
+//     // padding: 0 !important;
+//     // top: 0;
+//     // bottom: 0;
+//     // position: absolute;
+//     height: auto !important;
+//   }
+// }

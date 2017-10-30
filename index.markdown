@@ -19,7 +19,7 @@ introduction:
   Wij zijn die melodie die maar niet uit je hoofd gaat,
   maar ook dat ene liedje waar je de naam niet meer van weet.
 image:
-  image: "/uploads/FTM-34241.jpg"
+  image: "/uploads/FTM_bew-34241.jpg"
 information:
   title: Wij zijn Fine Tune Music
   paragraph: Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Beluister
