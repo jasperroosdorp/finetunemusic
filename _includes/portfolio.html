@@ -38,7 +38,7 @@
         <a class="video" href="{{ video.url | replace: ".html", "" }}{{ site.urlext }}">
           <figure>
             <div class='content'>
-              <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_16:9,c_fill,q_90/{{ site.host }}{{ video.image | replace: "../uploads", "uploads" }}" />
+              <img class='cld-responsive' data-src="{{ site.cdn }}/c_fill,w_auto,ar_16:9,dpr_2.0/{{ site.host }}{{ video.image | replace: "../uploads", "uploads" }}" />
             </div>
           </figure>
           <span>{{ video.title }}</span>
