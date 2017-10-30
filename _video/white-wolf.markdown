@@ -7,13 +7,15 @@ embed: <iframe src="https://player.vimeo.com/video/202741792?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/whitewolf.jpg"
-summary: Samen met regisseur Joshua Maldonado produceerden we de muziekvideo ‘White
-  Wolf’. De witte en de zwarte wolf symboliseren het goede en het kwade van de mens,
-  vanuit dit concept gaven we zowel het beeld als de muziek vorm.
-audio: Fine Tune Music produceerde de muziek onder leiding van Marcel Davids. In samenwerking
-  met de Litouwse zangeres en songwriter Migloko kwamen de lyrics en vocalen tot stand.
+description: |-
+  ## Project
+
+  Samen met regisseur Joshua Maldonado produceerden we de muziekvideo ‘White Wolf’. De witte en de zwarte wolf symboliseren het goede en het kwade van de mens, vanuit dit concept gaven we zowel het beeld als de muziek vorm.
+
+  ## Audio
+
+  Fine Tune Music produceerde de muziek onder leiding van Marcel Davids. In samenwerking met de Litouwse zangeres en songwriter Migloko kwamen de lyrics en vocalen tot stand.
 pages:
 - Finetunemusic.nl/voice-overs
 - Finetunemusic.nl/studio
 ---
-

@@ -6,8 +6,12 @@ embed: <iframe src="https://player.vimeo.com/video/205011232?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/indi.jpg"
-summary: In deze animatie licht INDI de werkwijze van Mijn Account toe aan haar klanten.
-audio: We componeerden een luchtige soundtrack en kozen een jonge, vriendelijke stem
-  als voice-over, om het gebruiksgemak van de dienst te benadrukken.
----
+description: |-
+  ## Project
 
+  In deze animatie licht INDI de werkwijze van Mijn Account toe aan haar klanten.
+
+  ## Audio
+
+  We componeerden een luchtige soundtrack en kozen een jonge, vriendelijke stem als voice-over, om het gebruiksgemak van de dienst te benadrukken.
+---

@@ -31,14 +31,17 @@ defaults:
     language: Dutch
     client: Migloko
     embed: Insert iframe code
-    image: 
-    summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
-      interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
-      massa vel, egestas nisi nam ac velit mauris.
-    audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+    image:
+    description: |-
+      ## Project
+
+      Samen met regisseur Joshua Maldonado produceerden we de muziekvideo ‘White Wolf’. De witte en de zwarte wolf symboliseren het goede en het kwade van de mens, vanuit dit concept gaven we zowel het beeld als de muziek vorm.
+
+      ## Audio
+
+      Fine Tune Music produceerde de muziek onder leiding van Marcel Davids. In samenwerking met de Litouwse zangeres en songwriter Migloko kwamen de lyrics en vocalen tot stand.
     pages:
-    - 
+    -
     layout: video
 - scope:
     path: ''
@@ -48,14 +51,17 @@ defaults:
     language: English
     client: Migloko
     embed: Insert iframe code
-    image: 
-    summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
-      interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
-      massa vel, egestas nisi nam ac velit mauris.
-    audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+    image:
+    description: |-
+      ## Project
+
+      In collaboration with director Joshua Maldonado we produced this music video, titled ‘White Wolf’. The white wolf and the black wolf symbolize the good and evil side of mankind. With this duality in mind, we created both the visuals and the music.
+
+      ## Audio
+
+      Fine Tune Music produced the music, supervised by Marcel Davids. The lyrics and vocals were created together with singer/songwriter Migloko from Lithuania.
     pages:
-    - 
+    -
     layout: video
 - scope:
     path: ''
@@ -65,32 +71,35 @@ defaults:
     language: German
     client: Migloko
     embed: Insert iframe code
-    image: 
-    summary: Maecenas consequat lacus a felis dapibus egestas. Vivamus urna enim,
-      interdum eu tempor eu, posuere quis diam. Quisque quis orci dignissim, eleifend
-      massa vel, egestas nisi nam ac velit mauris.
-    audio: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+    image:
+    description: |-
+      ## Project
+
+      In collaboration with director Joshua Maldonado we produced this music video, titled ‘White Wolf’. The white wolf and the black wolf symbolize the good and evil side of mankind. With this duality in mind, we created both the visuals and the music.
+
+      ## Audio
+
+      Fine Tune Music produced the music, supervised by Marcel Davids. The lyrics and vocals were created together with singer/songwriter Migloko from Lithuania.
     pages:
-    - 
+    -
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file: 
+    file:
     client: Hanze Hogeschool
     pages:
-    - 
+    -
 - scope:
     path: ''
     type: voice-overs
   values:
-    file: 
+    file:
 cdn: http://res.cloudinary.com/roosdorp/image/fetch
 host: http://finetunemusic.jasperroosdorp.nl/
 basehref: http://finetunemusic.jasperroosdorp.nl
-urlext: 
+urlext:
 exclude:
 - node_modules
 - gulpfile.js

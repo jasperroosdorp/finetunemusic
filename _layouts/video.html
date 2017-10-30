@@ -27,7 +27,7 @@ pageid: video
           </section>
 
           <section class='project-info'>
-            {% if page.language == 'English' %}
+            <!-- {% if page.language == 'English' %}
             <h2>Project</h2>
             <p>{{ page.summary }}</p>
             <h2>Audio</h2>
@@ -42,7 +42,8 @@ pageid: video
             <p>{{ page.summary }}</p>
             <h2>Audio</h2>
             <p>{{ page.audio }}</p>
-            {% endif %}
+            {% endif %} -->
+            {{ page.description | markdownify }}
           </section>
 
         </div>

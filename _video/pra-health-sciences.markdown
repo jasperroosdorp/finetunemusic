@@ -6,11 +6,12 @@ embed: <iframe src="https://player.vimeo.com/video/130797565?color=ffffff&title=
   width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/pra.jpg"
-summary: PRA Health Sciences vraagt vrijwilligers deel te nemen aan onderzoek naar
-  geneesmiddelen. Wij ontwikkelden samen met G2K x PIT een bioscoop- en radiocommercial
-  om mensen hierover te informeren.
-audio: De muziek is onderdeel van de sonic branding van PRA. Deze identiteit vatten
-  we samen in het soundlogo aan het eind van de commercial. De campagne was te horen
-  op nationale radio en te zien in diverse Pathé Bioscopen.
----
+description: |-
+  ## Project
 
+  PRA Health Sciences vraagt vrijwilligers deel te nemen aan onderzoek naar geneesmiddelen. Wij ontwikkelden samen met G2K x PIT een bioscoop- en radiocommercial om mensen hierover te informeren.
+
+  ## Audio
+
+  De muziek is onderdeel van de sonic branding van PRA. Deze identiteit vatten we samen in het soundlogo aan het eind van de commercial. De campagne was te horen op nationale radio en te zien in diverse Pathé Bioscopen.
+---

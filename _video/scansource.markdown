@@ -6,12 +6,12 @@ embed: <iframe src="https://player.vimeo.com/video/135062943?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/scansource3.jpg"
-summary: Wat nou als je alle informatie en hulpmiddelen voor je werk altijd en overal
-  voor handen zou hebben? In deze video vertelt ScanSource over haar nieuwe technologie
-  PartnerPAD.
-audio: Voor de productie van deze voice-over werkten we samen met een Amerikaanse
-  stem-acteur om de internationale doelgroep van het bedrijf aan te spreken. Bij het
-  componeren van de muziek zijn we op zoek gegaan naar een zakelijke, moderne sound,
-  die toch warm en menselijk voelt.
----
+description: |-
+  ## Project
 
+  Wat nou als je alle informatie en hulpmiddelen voor je werk altijd en overal voor handen zou hebben? In deze video vertelt ScanSource over haar nieuwe technologie PartnerPAD.
+
+  ## Audio
+
+  Voor de productie van deze voice-over werkten we samen met een Amerikaanse stem-acteur om de internationale doelgroep van het bedrijf aan te spreken. Bij het componeren van de muziek zijn we op zoek gegaan naar een zakelijke, moderne sound, die toch warm en menselijk voelt.
+---
