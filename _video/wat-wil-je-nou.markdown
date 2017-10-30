@@ -15,3 +15,4 @@ description: |-
 
   David produceerde de muziek voor de documentaire en de trailer van deze film. Bij het componeren van de onconventionele soundtrack hanteerde hij strenge regels; zo werkte hij de hele film met één muzikaal thema gebaseerd op het intro van “Le Sacre Du Printemps” van Igor Stravinsky. Hij gebruikte een piano als slaginstrument, als een van de middelen om een eigenzinnig geluid te creëren.
 ---
+

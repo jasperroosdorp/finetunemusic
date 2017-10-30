@@ -15,3 +15,4 @@ description: |-
 
   Voor deze game namen we de hoge energie en brute impact van de gameplay als inspiratie voor de vijf electronische muziektracks die we produceerden voor het menu en de verschillende levels. We creëerden meer dan 130 geluidseffecten, en namen een stemacteur op om de karakters een eigen persoonlijkheid te geven.
 ---
+
