@@ -6,9 +6,13 @@ embed: <iframe src="https://player.vimeo.com/video/205011232?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/indi.jpg"
-summary: In this animation, INDI explains the ins and outs of Mijn Account to its
-  clients.
-audio: We composed a playful, easy-going soundtrack and selected a kind, young voice
-  as our voice-over, to underline how customer-friendly this service really is.
+description: |-
+  ## Project
+
+  In this animation, INDI explains the ins and outs of Mijn Account to its clients.
+
+  ## Audio
+
+  We composed a playful, easy-going soundtrack and selected a kind, young voice as our voice-over, to underline how customer-friendly this service really is.
 ---
 

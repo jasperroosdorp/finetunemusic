@@ -125,9 +125,9 @@
 		},
 	"\/_en\/knab-crowdfunding.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_en\/knab-crowdfunding.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_en\/lung.markdown": {
 		"ft": 8192,
@@ -155,9 +155,9 @@
 		},
 	"\/_en\/scansource.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_en\/scansource.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_en\/thithi.markdown": {
 		"ft": 8192,
@@ -173,9 +173,9 @@
 		},
 	"\/_en\/white-wolf.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_en\/white-wolf.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_includes\/analytics.html": {
 		"ft": 8192,
@@ -657,15 +657,15 @@
 		},
 	"\/_video\/basher-beatdown.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/basher-beatdown.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_video\/han-koning.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/han-koning.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_video\/indi.markdown": {
 		"ft": 8192,
@@ -675,9 +675,9 @@
 		},
 	"\/_video\/knab-crowdfunding.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/knab-crowdfunding.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_video\/lung.markdown": {
 		"ft": 8192,
@@ -693,9 +693,9 @@
 		},
 	"\/_video\/pra-health-sciences.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/pra-health-sciences.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_video\/reishub.markdown": {
 		"ft": 8192,
@@ -705,27 +705,27 @@
 		},
 	"\/_video\/scansource.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/scansource.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_video\/thithi.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/thithi.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_video\/wat-wil-je-nou.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/wat-wil-je-nou.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_video\/white-wolf.markdown": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_video\/white-wolf.markdown",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_voice-overs\/bert-visscher.markdown": {
 		"ft": 8192,

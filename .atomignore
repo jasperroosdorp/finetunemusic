@@ -19,6 +19,3 @@ dist
 .atomignore
 *.min.*
 _posts
-_en
-en
-en.markdown
