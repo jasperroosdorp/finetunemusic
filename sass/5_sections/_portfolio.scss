@@ -13,9 +13,10 @@
   // float: none;
   // @include for-tablet-portrait-up { float: left !important; }
   .portfolio-overlay {
-    position: fixed;
+    position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     display: block;
+    // display: none !important;
     content: '';
     overflow: hidden;
     background: $portfolio-overlay-color;
@@ -70,7 +71,10 @@ html.portfolio-open {
   overflow: hidden;
   background-color: $portfolio-overlay-color;
   body { overflow-y: scroll; }
-  &.portfolio-tab-1 .portfolio-wrapper { overflow-y: overlay; }
+  &.portfolio-tab-1 .portfolio-wrapper {
+    overflow-y: overlay;
+    // overflow-y: scroll;
+  }
   &.portfolio-tab-2a .portfolio-wrapper, &.portfolio-tab-2b .portfolio-wrapper {
     @include for-tablet-landscape-max { overflow-y: scroll; }
   }
