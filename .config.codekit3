@@ -779,6 +779,12 @@
 		"oAP": "\/CNAME",
 		"oF": 1
 		},
+	"\/contact.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.markdown",
+		"oF": 0
+		},
 	"\/de\/about-us.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -17573,7 +17579,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 531046063
+	"lastBuiltDate": 531137537
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
