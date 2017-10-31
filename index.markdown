@@ -27,18 +27,18 @@ information:
     (link naar Portfolio, tabblad Muziek) en <voice-overs> (link naar Portfolio, tabblad
     Voice-overs).
 contact:
-- |-
-  +31633666809
-  info@finetunemusic.nl
-- |-
-  Fine Tune Music
-  Kerklaan 30
-  9751NN Haren
-- |-
-  KvK 58025057
-  BTW NL205095999B01
-  Algemene Voorwaarden
-  Copyright
+  text: |-
+    +31633666809
+    [info@finetunemusic.nl](info@finetunemusic.nl)
+
+    Fine Tune Music
+    Kerklaan 30
+    9751NN Haren
+
+    KvK 58025057
+    BTW NL205095999B01
+    [Algemene Voorwaarden](http://www.google.nl)
+    Copyright
 layout: index
 ---
 
