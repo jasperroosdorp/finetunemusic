@@ -1,5 +1,6 @@
 ---
 title: Contact
+published: false
 position: 15
 language: Dutch
 page:
