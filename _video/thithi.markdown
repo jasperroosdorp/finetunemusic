@@ -15,3 +15,4 @@ description: |-
 
   Voor deze film produceerden wij de trailer-muziek. In nauw contact met de regisseur componeerden we een soundtrack die zo goed mogelijk aansluit bij de karakters en sfeer van de film. Hierbij maakten we onder andere gebruik van opnames van lokale musici uit Nodekoppalu, het dorp waarin het verhaal zich afspeelt.
 ---
+
