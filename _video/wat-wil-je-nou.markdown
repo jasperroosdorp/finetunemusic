@@ -9,10 +9,9 @@ image: "/uploads/watwiljenou2.jpg"
 description: |-
   ## Project
 
-  We doen er alles aan om authentiek te zijn. We kijken reality TV met echte mensen, we laten op Facebook zien hoe uniek we zijn en willen boven alles vooral onszelf zijn. We denken hierbij volledig vrij te zijn, maar is dat wel zo? Kunnen we spreken van authenticiteit als iedereen het nastreeft? ‘Wat wil je nou?’ onderzoekt met film, interviews en essays de obsessie naar één van de meest uitgeholde begrippen van deze tijd: Authenticiteit. De film werd genomineerd voor beste Groninger Film 2016 en was onder andere te zien op het Noordelijk Filmfestival in Leeuwarden. Bekijk de volledige film op de <website> (http://www.watwiljenou.nl/).
+  We doen er alles aan om authentiek te zijn. We kijken reality TV met echte mensen, we laten op Facebook zien hoe uniek we zijn en willen boven alles vooral onszelf zijn. We denken hierbij volledig vrij te zijn, maar is dat wel zo? Kunnen we spreken van authenticiteit als iedereen het nastreeft? ‘Wat wil je nou?’ onderzoekt met film, interviews en essays de obsessie naar één van de meest uitgeholde begrippen van deze tijd: Authenticiteit. De film werd genomineerd voor beste Groninger Film 2016 en was onder andere te zien op het Noordelijk Filmfestival in Leeuwarden. Bekijk de volledige film op de [website](http://www.watwiljenou.nl).
 
   ## Audio
 
   David produceerde de muziek voor de documentaire en de trailer van deze film. Bij het componeren van de onconventionele soundtrack hanteerde hij strenge regels; zo werkte hij de hele film met één muzikaal thema gebaseerd op het intro van “Le Sacre Du Printemps” van Igor Stravinsky. Hij gebruikte een piano als slaginstrument, als een van de middelen om een eigenzinnig geluid te creëren.
 ---
-

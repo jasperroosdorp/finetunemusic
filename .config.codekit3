@@ -7,279 +7,332 @@
 		"uuidString": "A806EE8B-ABCD-459E-B457-6A82B769C3C7"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.atomignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.atomignore",
 		"oF": 1
 		},
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.htaccess",
 		"oF": 1
 		},
 	"\/_config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
 	"\/_de\/basher-beatdown.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/basher-beatdown.markdown",
 		"oF": 0
 		},
 	"\/_de\/han-koning.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/han-koning.markdown",
 		"oF": 0
 		},
 	"\/_de\/indi.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/indi.markdown",
 		"oF": 0
 		},
 	"\/_de\/knab-crowdfunding.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/knab-crowdfunding.markdown",
 		"oF": 0
 		},
 	"\/_de\/lung.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/lung.markdown",
 		"oF": 0
 		},
 	"\/_de\/mijnzzp.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/mijnzzp.markdown",
 		"oF": 0
 		},
 	"\/_de\/pra-health-sciences.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/pra-health-sciences.markdown",
 		"oF": 0
 		},
 	"\/_de\/reishub.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/reishub.markdown",
 		"oF": 0
 		},
 	"\/_de\/scansource.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/scansource.markdown",
 		"oF": 0
 		},
 	"\/_de\/thithi.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/thithi.markdown",
 		"oF": 0
 		},
 	"\/_de\/wat-wil-je-nou.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/wat-wil-je-nou.markdown",
 		"oF": 0
 		},
 	"\/_de\/white-wolf.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_de\/white-wolf.markdown",
 		"oF": 0
 		},
 	"\/_en\/basher-beatdown.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/basher-beatdown.markdown",
 		"oF": 0
 		},
 	"\/_en\/han-koning.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/han-koning.markdown",
 		"oF": 0
 		},
 	"\/_en\/indi.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/indi.markdown",
 		"oF": 0
 		},
 	"\/_en\/knab-crowdfunding.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/knab-crowdfunding.markdown",
 		"oF": 0
 		},
 	"\/_en\/lung.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/lung.markdown",
 		"oF": 0
 		},
 	"\/_en\/mijnzzp.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/mijnzzp.markdown",
 		"oF": 0
 		},
 	"\/_en\/pra-health-sciences.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/pra-health-sciences.markdown",
 		"oF": 0
 		},
 	"\/_en\/reishub.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/reishub.markdown",
 		"oF": 0
 		},
 	"\/_en\/scansource.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/scansource.markdown",
 		"oF": 0
 		},
 	"\/_en\/thithi.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/thithi.markdown",
 		"oF": 0
 		},
 	"\/_en\/wat-wil-je-nou.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/wat-wil-je-nou.markdown",
 		"oF": 0
 		},
 	"\/_en\/white-wolf.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_en\/white-wolf.markdown",
 		"oF": 0
 		},
 	"\/_includes\/analytics.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
+	"\/_includes\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/contact.html",
+		"oF": 0
+		},
 	"\/_includes\/meta.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_includes\/meta.html",
 		"oF": 1
 		},
 	"\/_includes\/navigation.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_includes\/navigation.html",
 		"oF": 1
 		},
 	"\/_includes\/portfolio.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_includes\/portfolio.html",
 		"oF": 1
 		},
 	"\/_layouts\/about.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_layouts\/about.html",
 		"oF": 1
 		},
 	"\/_layouts\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_layouts\/index.html",
 		"oF": 1
 		},
 	"\/_layouts\/info.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_layouts\/info.html",
 		"oF": 1
 		},
 	"\/_layouts\/video.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_layouts\/video.html",
 		"oF": 1
 		},
 	"\/_local.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_local.yml",
 		"oF": 0
 		},
 	"\/_music\/andromeda-express.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_music\/andromeda-express.markdown",
 		"oF": 1
 		},
 	"\/_music\/brammetje-baas.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_music\/brammetje-baas.markdown",
 		"oF": 1
 		},
 	"\/_music\/de-verhalen-van-groningen.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_music\/de-verhalen-van-groningen.markdown",
 		"oF": 1
 		},
 	"\/_music\/het-nieuwe-schilderij.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_music\/het-nieuwe-schilderij.markdown",
 		"oF": 1
 		},
 	"\/_music\/muddy-roads.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_music\/muddy-roads.markdown",
 		"oF": 1
 		},
 	"\/_music\/the-wonderful-tale-of-madame-cambre.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_music\/the-wonderful-tale-of-madame-cambre.markdown",
 		"oF": 1
 		},
 	"\/_posts\/2017-10-21-deutsch.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_posts\/2017-10-21-deutsch.markdown",
 		"oF": 0
 		},
 	"\/_posts\/2017-10-21-english.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_posts\/2017-10-21-english.markdown",
 		"oF": 0
 		},
 	"\/_posts\/2017-10-21-nederlands.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_posts\/2017-10-21-nederlands.markdown",
@@ -292,6 +345,7 @@
 		"oF": 0
 		},
 	"\/_uploads\/andromeda.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/andromeda.mp3",
@@ -318,24 +372,28 @@
 		"q": 100
 		},
 	"\/_uploads\/bertvisscher.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/bertvisscher.mp3",
 		"oF": 1
 		},
 	"\/_uploads\/brammetjebaas.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/brammetjebaas.mp3",
 		"oF": 1
 		},
 	"\/_uploads\/chad.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/chad.mp3",
 		"oF": 1
 		},
 	"\/_uploads\/deverhalenvangroningen.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/deverhalenvangroningen.mp3",
@@ -422,6 +480,7 @@
 		"q": 100
 		},
 	"\/_uploads\/hetnieuweschilderij.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/hetnieuweschilderij.mp3",
@@ -438,6 +497,7 @@
 		"q": 100
 		},
 	"\/_uploads\/jasper.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/jasper.mp3",
@@ -454,6 +514,7 @@
 		"q": 100
 		},
 	"\/_uploads\/leonieke.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/leonieke.mp3",
@@ -480,12 +541,14 @@
 		"q": 100
 		},
 	"\/_uploads\/margriet.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/margriet.mp3",
 		"oF": 1
 		},
 	"\/_uploads\/max.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/max.mp3",
@@ -502,12 +565,14 @@
 		"q": 100
 		},
 	"\/_uploads\/muddyroads.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/muddyroads.mp3",
 		"oF": 1
 		},
 	"\/_uploads\/mystruggle.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/mystruggle.mp3",
@@ -594,12 +659,14 @@
 		"q": 100
 		},
 	"\/_uploads\/smiletoday.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/smiletoday.mp3",
 		"oF": 1
 		},
 	"\/_uploads\/stringquartet.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_uploads\/stringquartet.mp3",
@@ -656,108 +723,126 @@
 		"q": 100
 		},
 	"\/_video\/basher-beatdown.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/basher-beatdown.markdown",
 		"oF": 0
 		},
 	"\/_video\/han-koning.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/han-koning.markdown",
 		"oF": 0
 		},
 	"\/_video\/indi.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/indi.markdown",
 		"oF": 0
 		},
 	"\/_video\/knab-crowdfunding.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/knab-crowdfunding.markdown",
 		"oF": 0
 		},
 	"\/_video\/lung.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/lung.markdown",
 		"oF": 0
 		},
 	"\/_video\/mijnzzp.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/mijnzzp.markdown",
 		"oF": 0
 		},
 	"\/_video\/pra-health-sciences.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/pra-health-sciences.markdown",
 		"oF": 0
 		},
 	"\/_video\/reishub.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/reishub.markdown",
 		"oF": 0
 		},
 	"\/_video\/scansource.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/scansource.markdown",
 		"oF": 0
 		},
 	"\/_video\/thithi.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/thithi.markdown",
 		"oF": 0
 		},
 	"\/_video\/wat-wil-je-nou.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/wat-wil-je-nou.markdown",
 		"oF": 0
 		},
 	"\/_video\/white-wolf.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_video\/white-wolf.markdown",
 		"oF": 0
 		},
 	"\/_voice-overs\/bert-visscher.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_voice-overs\/bert-visscher.markdown",
 		"oF": 1
 		},
 	"\/_voice-overs\/stemacteur-chad.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_voice-overs\/stemacteur-chad.markdown",
 		"oF": 1
 		},
 	"\/_voice-overs\/stemacteur-jasper.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_voice-overs\/stemacteur-jasper.markdown",
 		"oF": 1
 		},
 	"\/_voice-overs\/stemacteur-leonieke.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_voice-overs\/stemacteur-leonieke.markdown",
 		"oF": 1
 		},
 	"\/_voice-overs\/stemacteur-margriet.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_voice-overs\/stemacteur-margriet.markdown",
 		"oF": 1
 		},
 	"\/_voice-overs\/stemacteur-max.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_voice-overs\/stemacteur-max.markdown",
@@ -774,66 +859,77 @@
 		"tS": 0
 		},
 	"\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/CNAME",
 		"oF": 1
 		},
 	"\/de\/about-us.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/de\/about-us.markdown",
 		"oF": 0
 		},
 	"\/de\/index.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/de\/index.markdown",
 		"oF": 0
 		},
 	"\/de\/production.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/de\/production.markdown",
 		"oF": 0
 		},
 	"\/de\/studio.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/de\/studio.markdown",
 		"oF": 0
 		},
 	"\/de\/voice-overs.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/de\/voice-overs.markdown",
 		"oF": 0
 		},
 	"\/en\/about-us.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/en\/about-us.markdown",
 		"oF": 0
 		},
 	"\/en\/index.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/en\/index.markdown",
 		"oF": 1
 		},
 	"\/en\/production.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/en\/production.markdown",
 		"oF": 0
 		},
 	"\/en\/studio.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/en\/studio.markdown",
 		"oF": 1
 		},
 	"\/en\/voice-overs.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/en\/voice-overs.markdown",
@@ -860,6 +956,7 @@
 		"tS": 0
 		},
 	"\/index.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/index.markdown",
@@ -876,24 +973,28 @@
 		"oS": 3
 		},
 	"\/muziekproductie.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/muziekproductie.markdown",
 		"oF": 1
 		},
 	"\/node_modules\/barba.js\/.editorConfig": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/barba.js\/.editorConfig",
 		"oF": 0
 		},
 	"\/node_modules\/barba.js\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/barba.js\/.npmignore",
 		"oF": 0
 		},
 	"\/node_modules\/barba.js\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/barba.js\/.travis.yml",
@@ -910,6 +1011,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/barba.js\/dist\/barba.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/barba.js\/dist\/barba.js.map",
@@ -944,6 +1046,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/barba.js\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/barba.js\/LICENSE",
@@ -966,10 +1069,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/barba.js\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1130,12 +1233,14 @@
 		"tS": 0
 		},
 	"\/node_modules\/barba.js\/tests\/e2e\/test-1\/about.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/barba.js\/tests\/e2e\/test-1\/about.html",
 		"oF": 0
 		},
 	"\/node_modules\/barba.js\/tests\/e2e\/test-1\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/barba.js\/tests\/e2e\/test-1\/index.html",
@@ -1212,12 +1317,14 @@
 		"tS": 0
 		},
 	"\/node_modules\/cloudinary-core\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/cloudinary-core\/.npmignore",
 		"oF": 0
 		},
 	"\/node_modules\/cloudinary-core\/blank.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/cloudinary-core\/blank.html",
@@ -1252,6 +1359,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/cloudinary-core\/cloudinary-core-shrinkwrap.min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/cloudinary-core\/cloudinary-core-shrinkwrap.min.js.map",
@@ -1295,12 +1403,14 @@
 		"tS": 0
 		},
 	"\/node_modules\/cloudinary-core\/cloudinary-core.min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/cloudinary-core\/cloudinary-core.min.js.map",
 		"oF": 0
 		},
 	"\/node_modules\/cloudinary-core\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/cloudinary-core\/LICENSE",
@@ -1315,10 +1425,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/cloudinary-core\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1333,6 +1443,7 @@
 		"uCM": 0
 		},
 	"\/node_modules\/dom-walk\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/dom-walk\/.npmignore",
@@ -1359,6 +1470,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/dom-walk\/example\/static\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/dom-walk\/example\/static\/index.html",
@@ -1375,12 +1487,14 @@
 		"tS": 0
 		},
 	"\/node_modules\/dom-walk\/LICENCE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/dom-walk\/LICENCE",
 		"oF": 0
 		},
 	"\/node_modules\/dom-walk\/Makefile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/dom-walk\/Makefile",
@@ -1395,10 +1509,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/dom-walk\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1413,24 +1527,28 @@
 		"uCM": 0
 		},
 	"\/node_modules\/fluidvids.js\/.editorconfig": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/fluidvids.js\/.editorconfig",
 		"oF": 0
 		},
 	"\/node_modules\/fluidvids.js\/.jshintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/fluidvids.js\/.jshintrc",
 		"oF": 0
 		},
 	"\/node_modules\/fluidvids.js\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/fluidvids.js\/.npmignore",
 		"oF": 0
 		},
 	"\/node_modules\/fluidvids.js\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/fluidvids.js\/.travis.yml",
@@ -1467,6 +1585,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/fluidvids.js\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/fluidvids.js\/LICENSE",
@@ -1481,10 +1600,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/fluidvids.js\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1529,12 +1648,14 @@
 		"tS": 0
 		},
 	"\/node_modules\/global\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/global\/.npmignore",
 		"oF": 0
 		},
 	"\/node_modules\/global\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/global\/.travis.yml",
@@ -1561,6 +1682,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/global\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/global\/LICENSE",
@@ -1585,10 +1707,10 @@
 		"tS": 0
 		},
 	"\/node_modules\/global\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1613,6 +1735,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/gsap\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/gsap\/.npmignore",
@@ -1775,10 +1898,10 @@
 		"tS": 0
 		},
 	"\/node_modules\/gsap\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2303,6 +2426,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/jquery\/AUTHORS.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/jquery\/AUTHORS.txt",
@@ -2347,6 +2471,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/jquery\/dist\/jquery.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/jquery\/dist\/jquery.min.map",
@@ -2373,6 +2498,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/jquery\/dist\/jquery.slim.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/jquery\/dist\/jquery.slim.min.map",
@@ -2399,18 +2525,21 @@
 		"tS": 0
 		},
 	"\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
 		"oF": 0
 		},
 	"\/node_modules\/jquery\/external\/sizzle\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/jquery\/external\/sizzle\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/node_modules\/jquery\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/jquery\/LICENSE.txt",
@@ -2425,10 +2554,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/jquery\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -12251,6 +12380,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/lodash\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/lodash\/LICENSE",
@@ -12875,10 +13005,10 @@
 		"tS": 0
 		},
 	"\/node_modules\/lodash\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -13993,36 +14123,42 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/.babelrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/.babelrc",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/.eslintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/.eslintrc",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/.gitattributes": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/.gitattributes",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/.npmignore",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/.travis.yml",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/.versions": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/.versions",
@@ -14277,30 +14413,35 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/build\/mediaelement-flash-audio-ogg.swf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/build\/mediaelement-flash-audio-ogg.swf",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/build\/mediaelement-flash-audio.swf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/build\/mediaelement-flash-audio.swf",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/build\/mediaelement-flash-video-hls.swf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/build\/mediaelement-flash-video-hls.swf",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/build\/mediaelement-flash-video-mdash.swf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/build\/mediaelement-flash-video-mdash.swf",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/build\/mediaelement-flash-video.swf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/build\/mediaelement-flash-video.swf",
@@ -14508,10 +14649,10 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/changelog.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -14526,12 +14667,14 @@
 		"uCM": 0
 		},
 	"\/node_modules\/mediaelement\/compile_swf.sh": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/compile_swf.sh",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/demo\/chapters.vtt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/demo\/chapters.vtt",
@@ -14548,28 +14691,31 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/demo\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/demo\/favicon.ico",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/demo\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/demo\/index.html",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/demo\/mediaelement.vtt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/demo\/mediaelement.vtt",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/docs\/api.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -14584,10 +14730,10 @@
 		"uCM": 0
 		},
 	"\/node_modules\/mediaelement\/docs\/guidelines.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -14602,10 +14748,10 @@
 		"uCM": 0
 		},
 	"\/node_modules\/mediaelement\/docs\/installation.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -14620,10 +14766,10 @@
 		"uCM": 0
 		},
 	"\/node_modules\/mediaelement\/docs\/resources.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -14638,10 +14784,10 @@
 		"uCM": 0
 		},
 	"\/node_modules\/mediaelement\/docs\/usage.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -14676,6 +14822,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/media\/README": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/media\/README",
@@ -14710,10 +14857,10 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -14748,6 +14895,7 @@
 		"oS": 3
 		},
 	"\/node_modules\/mediaelement\/src\/css\/mejs-controls.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/css\/mejs-controls.ai",
@@ -14775,498 +14923,581 @@
 		"prP": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/AudioDecoder.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/AudioDecoder.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/AudioInfo.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/AudioInfo.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/IDecoder.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/IDecoder.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/OggVorbisDecoder.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/OggVorbisDecoder.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/WAVDecoder.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/decoders\/WAVDecoder.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/events\/AudioDecoderEvent.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/audio\/audiodecoder\/events\/AudioDecoderEvent.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/data\/riff\/RIFFChunkInfo.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/data\/riff\/RIFFChunkInfo.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/data\/riff\/RIFFParser.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/com\/automatastudios\/data\/riff\/RIFFParser.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/flacc\/oggvorbis.c": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/flacc\/oggvorbis.c",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/OggMediaElement.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/OggMediaElement.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/oggvorbis.swc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio-ogg\/oggvorbis.swc",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-audio\/AudioMediaElement.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-audio\/AudioMediaElement.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/Box.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/Box.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/FLVTag.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/FLVTag.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/FullBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/FullBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/HandlerReferenceBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/HandlerReferenceBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MediaBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MediaBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MediaHeaderBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MediaHeaderBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MediaInformationBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MediaInformationBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MovieBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MovieBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MovieExtendsBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MovieExtendsBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MovieFragmentBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/MovieFragmentBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/Muxer.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/Muxer.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/NalUnit.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/NalUnit.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/SampleDescriptionBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/SampleDescriptionBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/SampleEntry.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/SampleEntry.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/SampleTableBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/SampleTableBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackExtendsBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackExtendsBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackFragmentBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackFragmentBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackFragmentHeaderBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackFragmentHeaderBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackFragmentRunBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackFragmentRunBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackHeaderBox.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/boxes\/TrackHeaderBox.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashContext.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashContext.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashNetLoader.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashNetLoader.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashNetStream.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashNetStream.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashPlugin.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashPlugin.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashPluginInfo.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashPluginInfo.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashSeekTrait.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashSeekTrait.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashTimeTrait.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/DashTimeTrait.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentIndex.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentIndex.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentIndexFactory.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentIndexFactory.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentList.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentList.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentRange.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentRange.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentTemplate.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentTemplate.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentTimeline.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/index\/SegmentTimeline.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/Representation.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/Representation.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/DataSegment.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/DataSegment.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/MediaDataSegment.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/MediaDataSegment.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/NullSegment.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/NullSegment.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/ReflexiveSegment.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/ReflexiveSegment.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/Segment.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/Segment.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/WaitSegment.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/descriptors\/segments\/WaitSegment.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/FragmentEvent.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/FragmentEvent.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/ManifestEvent.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/ManifestEvent.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/SegmentEvent.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/SegmentEvent.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/StreamEvent.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/events\/StreamEvent.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/AudioSegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/AudioSegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/IndexSegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/IndexSegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/InitializationAudioSegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/InitializationAudioSegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/InitializationSegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/InitializationSegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/InitializationVideoSegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/InitializationVideoSegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/ManifestHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/ManifestHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/MediaSegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/MediaSegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/SegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/SegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/VideoSegmentHandler.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/handlers\/VideoSegmentHandler.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/DataSegmentLoader.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/DataSegmentLoader.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/FragmentLoader.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/FragmentLoader.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/ManifestLoader.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/ManifestLoader.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/NullSegmentLoader.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/NullSegmentLoader.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/ReflexiveSegmentLoader.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/ReflexiveSegmentLoader.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/SegmentLoader.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/loaders\/SegmentLoader.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/AdaptiveSegmentDispatcher.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/AdaptiveSegmentDispatcher.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/BandwidthMonitor.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/BandwidthMonitor.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/Bytes.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/Bytes.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/Console.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/Console.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/Manifest.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/Manifest.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/SmoothMonitor.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/com\/castlabs\/dash\/utils\/SmoothMonitor.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/DashMediaElement.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/DashMediaElement.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/OSMF.swc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-dash\/OSMF.swc",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-hls\/flashls.swc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-hls\/flashls.swc",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video-hls\/HlsMediaElement.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video-hls\/HlsMediaElement.as",
 		"oF": 0
 		},
 	"\/node_modules\/mediaelement\/src\/flash\/flash-video\/VideoMediaElement.as": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/src\/flash\/flash-video\/VideoMediaElement.as",
@@ -15793,6 +16024,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/test\/player.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/mediaelement\/test\/player.html",
@@ -15839,10 +16071,10 @@
 		"tS": 0
 		},
 	"\/node_modules\/mediaelement\/TODO.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -15857,12 +16089,14 @@
 		"uCM": 0
 		},
 	"\/node_modules\/min-document\/.jshintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/min-document\/.jshintrc",
 		"oF": 0
 		},
 	"\/node_modules\/min-document\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/min-document\/.npmignore",
@@ -15877,16 +16111,17 @@
 		"oS": 0
 		},
 	"\/node_modules\/min-document\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/min-document\/.travis.yml",
 		"oF": 0
 		},
 	"\/node_modules\/min-document\/CONTRIBUTION.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -15901,6 +16136,7 @@
 		"uCM": 0
 		},
 	"\/node_modules\/min-document\/docs.mli": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/min-document\/docs.mli",
@@ -16007,6 +16243,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/min-document\/LICENCE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/min-document\/LICENCE",
@@ -16021,10 +16258,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/min-document\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -16069,6 +16306,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/min-document\/test\/static\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/min-document\/test\/static\/index.html",
@@ -16115,12 +16353,14 @@
 		"tS": 0
 		},
 	"\/node_modules\/moveto\/.babelrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/.babelrc",
 		"oF": 0
 		},
 	"\/node_modules\/moveto\/.editorconfig": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/.editorconfig",
@@ -16135,18 +16375,21 @@
 		"oS": 0
 		},
 	"\/node_modules\/moveto\/.gitattributes": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/.gitattributes",
 		"oF": 0
 		},
 	"\/node_modules\/moveto\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/.npmignore",
 		"oF": 0
 		},
 	"\/node_modules\/moveto\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/.travis.yml",
@@ -16171,6 +16414,7 @@
 		"oS": 3
 		},
 	"\/node_modules\/moveto\/demo\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/demo\/index.html",
@@ -16207,6 +16451,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/moveto\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/LICENSE",
@@ -16221,10 +16466,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/moveto\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -16259,6 +16504,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/moveto\/yarn.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/moveto\/yarn.lock",
@@ -16285,6 +16531,7 @@
 		"tS": 0
 		},
 	"\/node_modules\/process\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/process\/LICENSE",
@@ -16299,10 +16546,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/process\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -16317,10 +16564,10 @@
 		"uCM": 0
 		},
 	"\/node_modules\/susy\/CODE_OF_CONDUCT.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -16335,10 +16582,10 @@
 		"uCM": 0
 		},
 	"\/node_modules\/susy\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -16363,30 +16610,35 @@
 		"tS": 0
 		},
 	"\/node_modules\/susy\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/susy\/Gemfile",
 		"oF": 0
 		},
 	"\/node_modules\/susy\/Gemfile.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/susy\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/node_modules\/susy\/lib\/compass-susy.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/susy\/lib\/compass-susy.rb",
 		"oF": 0
 		},
 	"\/node_modules\/susy\/lib\/susy.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/susy\/lib\/susy.rb",
 		"oF": 0
 		},
 	"\/node_modules\/susy\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/susy\/LICENSE.txt",
@@ -16401,10 +16653,10 @@
 		"oS": 0
 		},
 	"\/node_modules\/susy\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -17134,6 +17386,7 @@
 		"uL": 1
 		},
 	"\/node_modules\/susy\/templates\/project\/manifest.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/susy\/templates\/project\/manifest.rb",
@@ -17153,12 +17406,14 @@
 		"uL": 1
 		},
 	"\/node_modules\/susy\/VERSION": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/susy\/VERSION",
 		"oF": 0
 		},
 	"\/over-ons.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/over-ons.markdown",
@@ -17181,10 +17436,10 @@
 		"oS": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -17363,6 +17618,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_navigation.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/sass\/5_sections\/_contact.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_contact.min.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -17552,12 +17820,14 @@
 		"tS": 0
 		},
 	"\/studio.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/studio.markdown",
 		"oF": 1
 		},
 	"\/voice-overs.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/voice-overs.markdown",
@@ -17573,7 +17843,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 531137537
+	"lastBuiltDate": 531233066
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -18109,6 +18379,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -18173,9 +18447,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -18205,6 +18479,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -18214,14 +18492,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -19325,7 +19595,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -19358,6 +19629,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -19399,7 +19671,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -19431,13 +19704,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 9,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -19446,7 +19719,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -19466,7 +19740,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -19494,7 +19769,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

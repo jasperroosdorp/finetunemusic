@@ -1,0 +1,19 @@
+{% for item in site.pages %}
+{% if item.layout == 'index' %}
+{% if item.language == page.language %}
+<footer>
+  <div class='wrapper'>
+    <div class='contact-details'>
+      {{ item.contact.text | markdownify }}
+    </div>
+    <div class='description'>
+      {{ item.contact.description | markdownify }}
+    </div>
+    <div class='information'>
+      {{ item.contact.information | markdownify }}
+    </div>
+  </div>
+</footer>
+{% endif %}
+{% endif %}
+{% endfor %}

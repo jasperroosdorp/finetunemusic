@@ -136,3 +136,22 @@ body {
 ::-webkit-scrollbar {
   // display: none;
 }
+
+html#index,
+html#about {
+  &::after {
+    position: fixed;
+    bottom: -50vh; left: 0; right: 0;
+    height: 50vh;
+    // background-color: $portfolio-button-color;
+    background-color: $portfolio-bg-color;
+    // background-color: orange;
+    display: block;
+    content: '';
+  }
+}
+
+html#video,
+html#video body {
+  background-color: $video-bg-color;
+}

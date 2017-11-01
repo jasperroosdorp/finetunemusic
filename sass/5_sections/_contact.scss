@@ -1,0 +1,81 @@
+footer {
+  // white-space: pre-line;
+  // background-color: orange;
+  background-color: $portfolio-bg-color;
+  padding: 0;
+  @include padding(top, 1);
+  @include padding(bottom, 2);
+  // height: 0;
+  // display: none;
+  p {
+    color: #fff;
+  }
+  .wrapper {
+    @include container;
+    @include responsive-width;
+    position: relative;
+  }
+  .contact-details {
+    @include span(12 of 12);
+    // display: block;
+    // float: right;
+    > p {
+      white-space: pre-line;
+      padding: 0;
+      display: inline-block;
+      // background-color: pink;
+      // top: 0;
+      vertical-align: top;
+      // float: right;
+      + p {
+        // @include for-phone-only {
+        //   @include margin(top, 1);
+        // }
+        @include for-tablet-portrait-up {
+          @include margin(left, 1);
+        }
+      }
+    }
+  }
+  .description {
+    @include margin(top, 1);
+    // @include margin(bottom, 1);
+    @include span(6 of 12);
+    @include for-phone-only { display: none; }
+    // display: block;
+    > p {
+      // @include span (8 of 12);
+      white-space: pre-line;
+      max-width: 60rem;
+    }
+  }
+  .information {
+    @include span(12 of 12);
+    @include for-phone-only {
+      @include margin(top, 1);
+    }
+    @include for-tablet-portrait-up {
+    @include span(4 of 12);
+    @include push(8 of 12);
+  }
+    // @include margin(top, -1);
+    // display: block;
+    // position: absolute;
+    // bottom: 0;
+    // right: 0;
+    > p {
+      white-space: pre-line;
+      @include for-tablet-portrait-up {
+      float: right;
+      text-align: right;
+    }
+    }
+  }
+  // figure {
+  //   // @include span(6 of 6 no-gutters);
+  //   @include span(6 of 12 no-gutters);
+  //   @include push(6 of 12);
+  //   @include aspect-ratio(4, 3);
+  //   // background-color: rgba(0, 0, 0, 0.05);
+  // }
+}

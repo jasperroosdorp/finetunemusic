@@ -7,20 +7,20 @@
 //   background: linear-gradient(to top, #FFF 50%, $portfolio-button-color 50%);
 // }
 
-html#index,
-html#about {
-  &::after {
-    position: fixed;
-    bottom: -50vh; left: 0; right: 0;
-    height: 50vh;
-    background-color: $portfolio-button-color;
-    // background-color: orange;
-    display: block;
-    content: '';
-  }
-}
-
-html#video,
-html#video body {
-  background-color: $video-bg-color;
-}
+// html#index,
+// html#about {
+//   &::after {
+//     position: fixed;
+//     bottom: -50vh; left: 0; right: 0;
+//     height: 50vh;
+//     background-color: $portfolio-button-color;
+//     // background-color: orange;
+//     display: block;
+//     content: '';
+//   }
+// }
+//
+// html#video,
+// html#video body {
+//   background-color: $video-bg-color;
+// }

@@ -23,10 +23,12 @@
       </svg>
       {% if page.language == 'English' %}
       <span class='placeholder' onclick="openPortfolio()">Listen</span>
-      {% elsif page.language == 'German' %}
-      <span class='placeholder' onclick="openPortfolio()">Listen</span>
-      {% else %}
+      {% endif %}
+      {% if page.language == 'Dutch' %}
       <span class='placeholder' onclick="openPortfolio()">Beluister</span>
+      {% endif %}
+      {% if page.language == 'German' %}
+      <span class='placeholder' onclick="openPortfolio()">Listen</span>
       {% endif %}
       <span class='audio-player-title music voice-overs' onclick="openPortfolio()">Lorem ipsum</span>
     </a>
