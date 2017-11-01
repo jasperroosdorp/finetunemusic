@@ -20,6 +20,8 @@ people:
     David is een ondernemend visionair en houdt van uitdagingen, uiteenlopend van grote commerciële projecten tot experimentele samenwerkingen met andere kunstenaars. Als muzikale duizendpoot brengt hij naast Fine Tune Music onder verschillende alter ego’s muziek uit: van harde elektronica en donkere soul tot dynamische klassieke muziek.
 
     Als geen ander weet David emoties in muziek en sound design uit te drukken. Dit zet hij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar. David werkte onder meer samen met Bert Visscher, Club Guy and Roni en Van Engelenburg Theaterproducties.
+
+    David's [LinkedIn](https://www.linkedin.com/in/finetunemusic/)
   image: "/uploads/FTM_bew-34185.jpg"
 - description: "## Paul\n\nPaul’s brede achtergrond maakt dat hij thuis is in uiteenlopende
     stijlen. Zijn werk als songwriter en producer variëert van het schrijven van catchy
@@ -34,7 +36,7 @@ people:
     zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. Dit zie je
     ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven, zowel
     binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi en
-    The Cool Quest."
+    The Cool Quest.\n\nPaul's [LinkedIn](https://www.linkedin.com/in/paulmaaswinkel/)"
   image: "/uploads/FTM_bew-34111.jpg"
 layout: about
 ---
