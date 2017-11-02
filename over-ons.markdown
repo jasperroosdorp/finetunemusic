@@ -33,7 +33,7 @@ people:
     internationale prijzen ontving.\n\nDe afgelopen jaren schreef en produceerde hij
     muziek voor een groot aantal voorstellingen als huiscomponist van Theater Young
     Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen van verhalen in
-    zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. Dit zie je
+    zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. D zie je
     ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven, zowel
     binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi en
     The Cool Quest.\n\nPaul's [LinkedIn](https://www.linkedin.com/in/paulmaaswinkel/)"
