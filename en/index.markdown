@@ -18,7 +18,7 @@ introduction:
   just not leave your mind, \nbut also that one song you no longer remember the name
   to."
 image:
-  image: "/uploads/FTM_bew-34241.jpg"
+  image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: We are Fine Tune Music
   paragraph: Our music productions are custom-made for all kinds of projects. Listen
