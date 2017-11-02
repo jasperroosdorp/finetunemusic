@@ -15,7 +15,7 @@ text: "# Muziekproductie\n\nVerklanken van identiteit is onze passie. Onze muzie
   werkten onder andere met G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents
   for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones en Sword GC."
 image:
-  image: "/uploads/FTM_bew-34257.jpg"
+  image: "/uploads/FTM-34257-crop%2016-9%203200px.jpg"
 clients:
   title: Opdrachtgevers
 layout: info
