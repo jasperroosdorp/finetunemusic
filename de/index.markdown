@@ -18,7 +18,7 @@ introduction:
   just not leave your mind, \nbut also that one song you no longer remember the name
   to."
 image:
-  image: "/uploads/FTM_bew-34241.jpg"
+  image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: Sed quis justo
   paragraph: Praesent suscipit purus in diam semper fermentum. In laoreet tortor id
