@@ -40,15 +40,6 @@ pageid: info
           {{ page.text | markdownify }}
         </section>
 
-        <section class="info-img">
-          <figure>
-            <div class='content'>
-              <!-- <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_4:3,c_fill,q_80/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" /> -->
-              <img class='cld-responsive' data-src="{{ site.cdn }}/c_fill,w_auto,ar_16:9,dpr_2.0/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" />
-            </div>
-          </figure>
-        </section>
-
         <section class='info-section'>
           <h2>{{ page.clients.title }}</h2>
           <p class="links">
@@ -69,6 +60,15 @@ pageid: info
             {% endif %}
             {% endfor %}
           </p>
+        </section>
+
+        <section class="info-img">
+          <figure>
+            <div class='content'>
+              <!-- <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_4:3,c_fill,q_80/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" /> -->
+              <img class='cld-responsive' data-src="{{ site.cdn }}/c_fill,w_auto,ar_16:9,dpr_2.0/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" />
+            </div>
+          </figure>
         </section>
 
       </div>
