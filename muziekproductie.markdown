@@ -8,7 +8,7 @@ page:
     voor o.a. radio- en tv-commercials, films en games. Beluister ons portfolio.
 text: "# Muziekproductie\n\nVerklanken van identiteit is onze passie. Onze muziekproducties
   zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek,
-  van interactief sound design voor games tot theatervoorstellingen. We houden van
+  van interactief sounddesign voor games tot theatervoorstellingen. We houden van
   de verbazing van klanten die ontdekken dat muziek het imago van hun bedrijf of product
   hoorbaar kan maken.\n \nWe werken veel samen met andere creatieve partijen om zo
   een geheel te creëren waarin het visuele en het auditieve elkaar versterken. We
