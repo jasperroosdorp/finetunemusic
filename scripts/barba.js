@@ -48,6 +48,9 @@ document.addEventListener("DOMContentLoaded", function() {
         //   // alert(youtube);
         // }
       }
+      if (!$('html').hasClass("portfolio-open")) {
+        $('html, body').animate({ scrollTop: 0 }, 400);
+      }
       $('html#video .return-button').css({ opacity : 1 });
       $('html#video .return-button').animate({ opacity: 0 }, 1000);
       $('html.portfolio-open .portfolio-content').animate({ opacity: 0 }, 1000);
@@ -60,8 +63,14 @@ document.addEventListener("DOMContentLoaded", function() {
       var _this = this;
       var $el = $(this.newContainer);
       $(this.oldContainer).hide();
-      document.body.scrollTop = 0;
+      // $('html, body').scrollTop();
+      $('html, body').animate({ scrollTop: 0 }, 0);
       this.updatePageID();
+      // $('body').scrollTop(0);
+      // $(document).scrollTop(0);
+      // $("html, body").animate({ scrollTop: "0" }, 300);
+      // $('html, body').animate({ scrollTop: 0 }, 400);
+      // alert('test!');
 
       // Fade carousel
       var intro = $(".index-intro > h1").hide(), i = 0;

@@ -17,6 +17,17 @@
 
 // $('nav.upper a').on('click', checkSize());
 
+// Show contact segment
+function showContact() {
+  if (!$('html').hasClass('contact-visible')) {
+    $('html').addClass('contact-visible');
+    // setTimeout(function(){
+    //   $('html').removeClass('portfolio-opening').addClass('portfolio-open');
+    // }, 400);
+  }
+  
+};
+
 
 document.addEventListener("DOMContentLoaded", function() {
 

@@ -257,9 +257,9 @@
 	"\/_layouts\/info.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/_layouts\/info.html",
-		"oF": 1
+		"oF": 0
 		},
 	"\/_layouts\/info2.html": {
 		"cB": 0,
@@ -17897,7 +17897,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 531233066
+	"lastBuiltDate": 531420668
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

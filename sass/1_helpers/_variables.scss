@@ -32,6 +32,16 @@ $color002: #FD6D00;
 // $color002: #1C6A54;
 // $color003: #FD6D00;
 
+// BODY
+$body-color001: #FFF;
+$footer-color001: #313131;
+$footer-color001: #1A1A1A;
+$footer-color001: #1A1718;
+$footer-color001: #1D1A1B;
+$footer-color001: darken(desaturate(#636571, 100%), 10%);
+$full-button-color001: #1F1F1F;
+$full-button-color001: desaturate(#636571, 100%);
+
 // PORTFOLIO
 $portfolio-button-color: darken(#fff, 20%);
 $portfolio-text-color: #fff;
@@ -43,4 +53,5 @@ $portfolio-overlay-color: rgba(0, 0, 0, 0.5);
 $video-bg-color: $portfolio-bg-color;
 
 // FOOTER
-$footer-bg-color: #404040;
+// $footer-bg-color: #404040;
+// $footer-bg-color: #1A1A1A;

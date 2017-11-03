@@ -56,12 +56,13 @@ html .full-width-button {
   //   50%{background-position: 100% 100%}
   //   100%{background-position:0% 0%}
   // }
-  background-color: $portfolio-button-color;
-  color: $portfolio-text-color;
+  background-color: $full-button-color001;
+  // color: $portfolio-text-color !important;
+  // color: pink !important;
   transition: color 0.3s ease, background-color 0.3s ease;
   &:hover {
     cursor: pointer;
-    background-color: lighten($portfolio-button-color, 20%);
+    // background-color: lighten($portfolio-button-color, 20%);
     color: rgba(0, 0, 0, 0.8);
   }
   .wrapper {
@@ -69,6 +70,7 @@ html .full-width-button {
     @include responsive-width;
   }
   span {
+    color: #fff;
     @include span(12 of 12);
     line-height: 10rem;
     @include for-tablet-portrait-up {
@@ -78,5 +80,5 @@ html .full-width-button {
 }
 
 p > a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 }
