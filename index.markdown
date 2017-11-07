@@ -32,15 +32,12 @@ contact:
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
     +31(0)633666809
 
-    facebook.com/finetunemusic
+    [Facebook.com/Finetunemusic.nl](https://www.Facebook.com/Finetunemusic.nl.nl/)
   description: Wil je met ons samenwerken of de mogelijkheden bespreken onder het
     genot van een kop koffie of een biertje, neem dan contact met ons op.
   information: |-
     KvK 58025057
     BTW NL205095999B01
-    Algemene voorwaarden
-    Copyright
   image: "/uploads/FTM_bew-34185.jpg"
 layout: index
 ---
-

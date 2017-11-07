@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
       $('html').attr('id', newID);
     },
     closeWindows: function() {
-      $('html').removeClass('nav-unfolded');
+      $('html').removeClass('nav-unfolded contact-visible');
     }
   });
 

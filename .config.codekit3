@@ -895,6 +895,13 @@
 		"oAP": "\/_voice-overs\/stemacteur-max.markdown",
 		"oF": 1
 		},
+	"\/algemene_voorwaarden.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/algemene_voorwaarden.pdf",
+		"oF": 0
+		},
 	"\/body.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -17897,7 +17904,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 531420668
+	"lastBuiltDate": 531761363
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -19,13 +19,13 @@
 
 // Show contact segment
 function showContact() {
+  $('html, body').animate({
+    scrollTop: $('footer').offset().top
+  }, 400, 'swing');
+  $('html').removeClass('nav-unfolded');
   if (!$('html').hasClass('contact-visible')) {
     $('html').addClass('contact-visible');
-    // setTimeout(function(){
-    //   $('html').removeClass('portfolio-opening').addClass('portfolio-open');
-    // }, 400);
   }
-  
 };
 
 

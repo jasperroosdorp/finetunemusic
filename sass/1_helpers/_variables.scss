@@ -19,38 +19,57 @@ $container-style: fluid;
 @import url('https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700|Hind:300,400,500,600,700|Shanti');
 
 $def-font: 'Hind', sans-serif;
+// $def-font: "Source Sans Pro";
+// $def-font: 'Asap';
+// $def-font: 'Ubuntu';
 $alt-font: 'Shanti', sans-serif;
+// $alt-font: 'Asap';
 
 // BRAND COLORS
 // $color001: #1C6A54;
-// $color002: #4500EE;
 // $color002: #7437FF;
-// $color002: #0496FF;
-// $color002: #6236db;
 $color002: #FD6D00;
-// $color002: #4500EE;
-// $color002: #1C6A54;
-// $color003: #FD6D00;
+// $color002: #C8974B;
+// $color002: #B39F7F;
+// $color002: #0E7276;
+// $color002: #0e774b;
 
 // BODY
-$body-color001: #FFF;
-$footer-color001: #313131;
-$footer-color001: #1A1A1A;
-$footer-color001: #1A1718;
-$footer-color001: #1D1A1B;
-$footer-color001: darken(desaturate(#636571, 100%), 10%);
-$full-button-color001: #1F1F1F;
-$full-button-color001: desaturate(#636571, 100%);
+$body-color001: #fff;
+// $footer-color001: #313131;
+// $footer-color001: #1A1A1A;
+// $footer-color001: #1A1718;
+// $footer-color001: #1D1A1B;
+// $footer-color001: darken(desaturate(#636571, 100%), 10%);
+// $footer-color001: darken(#F5F5F5, 20%);
+// $footer-color001: darken(#CBCACB, 30%);
+$footer-color001: #050505;
+// $full-button-color001: #1F1F1F;
+// $full-button-color001: desaturate(#636571, 100%);
+// $full-button-color001: #B4A69D;
+// $full-button-color001: #BABABA;
+// $full-button-color001: darken(#F9F9F9, 1%);
+// $full-button-color001: darken(#F5F5F5, 2%);
+// $full-button-color001: #CBCACB;
+$full-button-color001: #1a1919;
 
 // PORTFOLIO
 $portfolio-button-color: darken(#fff, 20%);
-$portfolio-text-color: #fff;
+$portfolio-text-color: #000;
 $audio-player-title-color: $color002;
-$portfolio-bg-color: darken(#171717, 5%);
+// $portfolio-bg-color: darken(#171717, 5%);
+// $portfolio-bg-color: darken(#BDB893, 50%);
+// $portfolio-bg-color: #BEC2C2;
+// $portfolio-bg-color: darken(#F9F9F9, 25%);
+// $portfolio-bg-color: darken(#F9F9F9, 55%);
+// $portfolio-bg-color: #000;
+// $portfolio-bg-color: #FFF45C;
+// $portfolio-bg-color: darken(#F5F5F5, 85%);
+$portfolio-bg-color: $footer-color001;
 $portfolio-overlay-color: rgba(0, 0, 0, 0.5);
 
 // PROJECT
-$video-bg-color: $portfolio-bg-color;
+$video-bg-color: $footer-color001;
 
 // FOOTER
 // $footer-bg-color: #404040;

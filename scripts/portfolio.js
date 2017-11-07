@@ -15,7 +15,7 @@ function openPortfolio() {
     $('html').addClass('portfolio-tab-2b');
   }
   if ($(".testdiv").css("float") == "none" ){
-    $('html').animate({ scrollTop: 0}, 300, 'swing');
+    // $('html').animate({ scrollTop: 0}, 300, 'swing');
     // alert('mobile!');
   }
 };
