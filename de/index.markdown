@@ -4,19 +4,20 @@ position: 10
 language: German
 page:
   title: Finetunemusic
-  google: Music production company Fine Tune Music produces music, sound and voice-over
-    for radio and TV-commercials, films and games. Listen to our portfolio.
+  google: Musikproduzent Fine Tune Music Produkt Musik, Sounds und Voice-overs für  Radio-TV-Spots,
+    Filme, Spiele und weiteres. Ein Einblick in unser Portfolio.
 introduction:
 - |-
-  We’re the first songbird in the morning.
-  The sound of rain after drought.
-  The echo in the mountains.
+  Wir sind das erste Vogelzwitschern am Morgen.
+  Das Geräusch von Regen nach Dürre.
+  Das Echo in den Bergen.
 - |-
-  You will find us everywhere, but we are always invisible.
-  We travel at tremendous speed.
-- "We can scare you, make you laugh and make you cry.\nWe’re that melody that will
-  just not leave your mind, \nbut also that one song you no longer remember the name
-  to."
+  Du findest uns überall, aber wir sind immer unsichtbar.
+  Wir bewegen uns mit enormer Geschwindigkeit.
+- |-
+  Wir können dich erschrecken, lachen und weinen lassen.
+  Wir sind diese Melodie, die dir nicht aus dem Kopf geht,
+  ebenso wie dieses eine Lied, dessen Namen du nicht mehr weißt.
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
