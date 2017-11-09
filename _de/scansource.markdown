@@ -8,12 +8,12 @@ embed: <iframe src="https://player.vimeo.com/video/135062943?color=ffffff&title=
   allowfullscreen></iframe>
 image: "/uploads/scansource3.jpg"
 description: |-
-  ## Project
+  ## Projekt
 
-  What if you could have all the information and tools you needed to help you stand out in your job? In this video, Scansource introduces its new technology ParterPAD.
+  Was wäre, wenn Sie alle Informationen und Hilfsmittel für Ihre Arbeit immer und überall hätten? In diesem Video erzählt ScanSource von seiner neuen Technologie PartnerPAD.
 
   ## Audio
 
-  For the production of this voice-over we employed an American voice actor in order to appeal to the international target audience of the company. For the music we aimed for a corporate, modern sound, that feels warm and human at the same time.
+  Für die Sprachaufnahme arbeiteten wir mit einem amerikanischen Synchronsprecher zusammen, ausgerichtet auf das internationale Publikum und die internationalen Kunden des Unternehmens. Beim Komponieren der Musik haben wir nach einem modernen Business-Ton gesucht, der sich warm und menschlich anfühlt.
 ---
 
