@@ -4,35 +4,31 @@ position: 11
 language: German
 page:
   title: Finetunemusic
-  google: Music production company Fine Tune Music produces Music, Sound and Voice-overs
-    and is owned by producers/composers David de Jong and Paul Maaswinkel.
+  google: Die Musikproduzentin Fine Tune Music produziert Musik, Sound und Voice-overs
+    und gehört den Produzenten / Komponisten David de Jong und Paul Maaswinkel.
 information:
 - text: |-
-    # Our team
+    # Unser Team
 
-    We are a collective of talented musicians, consisting of David and Paul, who are both composers and music producers and who work as a team. Diversity is in our DNA, as you can hear from our portfolio. Our team consists of committed professionals. Our job is to create something unique, using our knowledge to comply with your wishes.
+    Wir sind ein Kollektiv von talentierten Musikern, bestehend aus David und Paul, die sowohl Komponisten als auch Musikproduzenten sind und als Team arbeiten. Vielfalt ist in unserer DNA, wie Sie aus unserem Portfolio hören können. Unser Team besteht aus engagierten Profis. Unsere Aufgabe ist es, etwas Einzigartiges zu schaffen, indem wir unser Wissen nutzen, um Ihren Wünschen zu entsprechen.
 people:
-- description: "## David\n\nFrom his early childhood, David has had an extraordinary
-    fascination for music and sound. Curiosity is one of his driving forces when creating
-    unique compositions, for which his background as a classical pianist is of great
-    value. A keen ear for detail can be heard in his music, for example in the rich,
-    detailed mixes he produces for various music styles. \n\nDavid is an enterprising
-    visionary and loves challenges, varying from big commercial projects to experimental
-    collaborations with other artists. As a musical jack-of-all-trades and using several
-    egos, he releases all kinds of music: from heavy electronic music and dark soul
-    to dynamic classical music.\n\nBeing David, he knows how to convey emotions in
-    music and sound. He uses this effectively as a communication tool when turning
-    identity into sound and taking the listener on a journey. David worked with, among
-    other parties, Bert Visscher, Club Guy and Roni and Van Engelenburg Theaterproducties."
+- description: |-
+    ## David Marcel de Jong
+
+    Seit seiner frühen Kindheit hat David eine außergewöhnliche Faszination für Musik und Klang. Neugier ist eine seiner treibenden Kräfte bei der Schaffung einzigartiger Kompositionen, wobei sein Hintergrund als klassischer Pianist von großem Wert ist. Ein scharfes Ohr für Details ist in seiner Musik zu hören, Wie etwa in den reichen, detaillierten Mixen, die er für verschiedene Musikstile produziert.
+
+    David ist ein unternehmerischer Visionär und liebt Herausforderungen, die von großen kommerziellen Projekten bis hin zu experimentellen Kollaborationen mit anderen Künstlern reichen. Als musikalischer Alleskönner setzt er unter Verwendung mehrerer Alter Egos alle Arten von Musik frei: schwere elektronische Musik, düsterer Soul ebenso wie dynamische klassische Musik.
+
+    Wie kein anderer versteht er die Kunst, Emotionen in Musik und Klang zu integrieren. Er nutzt dies effektiv als Kommunikationsinstrument, wenn es darum geht, Identität in Klang umzuwandeln und den Hörer auf eine Reise zu bringen. David arbeitete unter anderem bereits mit Cabaretier Bert Visscher, Club Guy and Roni und der niederländischen Theaterfirma Van Engelenburg Theaterproducties.
   image: "/uploads/FTM_bew-34185.jpg"
 - description: |-
-    ## Paul
+    ## Paul Maaswinkel
 
-    Paul’s wide background makes him feel at home with a great range of styles. His work as a songwriter and producer varies from writing catchy pop songs to making bold, dirty beats, in which distinct grooves always stand out.
+    Pauls breiter Hintergrund lässt ihn sich in einer großen Auswahl von Stilen heimisch fühlen. Seine Arbeit als Songwriter und Produzent variiert vom Schreiben eingängiger Popsongs bis hin zu bösen, schmutzigen Beats, bei denen immer wieder unterschiedliche Grooves auftreten.
 
-    Paul is a skilled arranger and knows how to give instruments their own space in orchestral cinematic scores, swinging jazz harmonies, as well as in compact song structures. He refined this craft, writing vocal arrangements, which have won him several international awards.
+    Paul ist ein geschickter Arrangeur und versteht es, Instrumenten ihren eigenen Raum in orchestralen Filmmusik-Partituren, swingenden Jazz-Harmonien sowie kompakten Songstrukturen zu geben. Er verfeinerte dieses Handwerk und schrieb Vocal-Arrangements, die ihm mehrere internationale Auszeichnungen einbrachten.
 
-    In recent years he composed and produced music for a great number of theatre plays as in-house composer for Theater Young Ones. Here he developed a keen sense for telling stories through music, in a way that really moves the listener. This is also reflected in Paul’s enthusiastic way of communicating with other artists, both in and outside the studio. Typhoon, Akwasi and The Cool Quest are among the artists he worked with.
+    In den letzten Jahren komponierte und produzierte er Musik für eine Vielzahl von Theaterstücken als Inhouse-Komponist für das Theater Young Ones. Hier entwickelte er einen scharfen Sinn dafür, Geschichten durch Musik zu erzählen, so dass der Zuhörer wirklich bewegt wird. Dies spiegelt sich auch in Pauls enthusiastischer Art wider, mit anderen Künstlern innerhalb und außerhalb des Studios zu kommunizieren. Typhoon, Akwasi und The Cool Quest gehören zu den Künstlern, mit denen er bereits zusammengearbeitet hat.
   image: "/uploads/FTM_bew-34111.jpg"
 layout: about
 ---
