@@ -7,13 +7,13 @@ embed: <iframe src="https://player.vimeo.com/video/149964228?color=ffffff&title=
   allowfullscreen></iframe>
 image: "/uploads/lung2.jpg"
 description: |-
-  ## Project
+  ## Projekt
 
-  Industrial designer Han Koning crafted this artificial ‘long’, an installation that calls up the idea of an organic creature, in an alienating way. This project was directed by Joshua Maldonado.
+  Industriedesigner Han Koning fertige diese künstliche “Lunge”, eine Installation, die auf befremdliche Art und Weise an eine organische Kreatur erinnert. Regie führte Joshua Maldonado.
 
   ## Audio
 
-  The calm, almost hypnotic movement of the lung inspired us in producing the music for this video. By combining both organic and artificial elements, we created a unique sound identity, matching the over-all audio house style we developed for Han Koning.
+  Die ruhige, fast hypnotische Bewegung der Lunge diente als Inspiration für die Musik, die wir für dieses Video produzierten. Durch die Kombination von organischen und künstlichen Elementen haben wir eine eigene Klangidentität geschaffen, die mit dem gesamten Audio-House-Stil übereinstimmt, den wir für Han King entwickelt haben.
 pages:
 - Finetunemusic.nl/en/production
 - Finetunemusic.nl/en/studio
