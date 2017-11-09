@@ -7,12 +7,12 @@ embed: <iframe src="https://player.vimeo.com/video/168559351?color=ffffff&title=
   allowfullscreen></iframe>
 image: "/uploads/watwiljenou2.jpg"
 description: |-
-  ## Project
+  ## Projekt
 
-  We will do anything to appear authentic. We watch reality TV, featuring real people, and on Facebook we present ourselves as unique personalities because being authentic is what it is all about. We think we are completely free in doing so, but are we? Can we still call it authenticity if everybody is trying for the same thing? ‘Wat wil je nou?’ (‘What is it you want?’) uses film, interviews and essays to explore an obsession with one of the emptiest concepts of today: Authenticity. The film was nominated for best Groninger Film 2016 and the Noordelijke Filmfestival in Leeuwarden was one of the many events where it was presented. Watch the complete film on the [website](http://www.watwiljenou.nl).
+  Jeder von uns möchte authentisch erscheinen. Wir schauen Reality-TV mit echten Menschen statt Schauspielern, wir zeigen uns von unserer einzigartigen Seite auf Facebook und wollen dabei ebenso authentisch sein. Wir glauben daran, dass wir das aus freier Entscheidung heraus tun, aber ist das wirklich so? Können wir noch von Authentizität sprechen, wenn jeder nach dem gleichen strebt? “Wat Wil Je Nou?” (zu deutsch: “Was willst du?”) nähert sich mittels Film, Interviews und Essays der Besessenheit mit einem der unklarsten Konzepte unserer Zeit: Authentizität. Der Film wurde für den Best Groninger Film 2016 nominiert und war u.a. beim Northern Film Festival in Leeuwarden zu sehen. Sehen Sie den ganzen Film auf der [Website](http://www.watwiljenou.nl).
 
   ## Audio
 
-  David produced the music for the documentary and trailer of this film. For the composition of the unconventional soundtrack he used strict rules: He opted, for instance, for using one single musical theme throughout the film, based on the intro of Igor Stravinsky’s “Le Sacre Du Printemps”. He used a piano as a percussion instrument, as a way of creating a unique and bold sound.
+  David produzierte die Musik für den Dokumentarfilm und den Trailer des Films. Beim Komponieren des unkonventionellen Soundtracks verwendete er strenge Regeln; so arbeitete er den ganzen Film mit einem musikalischen Thema, das auf dem Intro von Igor Strawinskys "Le Sacre du Printemps" basiert ist. Der Einsatz eines Klavier als Schlaginstrument war dabei eines der Mittel, um einen unverwechselbaren Klang zu erzeugen.
 ---
 
