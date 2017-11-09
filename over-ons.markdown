@@ -13,7 +13,7 @@ information:
     We zijn een collectief van getalenteerde musici die zij aan zij werken, bestaande uit David en Paul, beide componist en muziekproducent. Diversiteit zit in ons DNA, en dat hoor je terug in ons portfolio. Ons team bestaat uit vakgekken. We zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw wensen.
 people:
 - description: |-
-    ## David
+    ## David Marcel de Jong
 
     Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is. Oor voor detail hoor je terug in zijn muziek; onder andere in de bedrevenheid waarmee hij rijke, gedetailleerde mixes maakt voor diverse muziekstijlen.
 
@@ -23,20 +23,20 @@ people:
 
     David's [LinkedIn](https://www.linkedin.com/in/finetunemusic/)
   image: "/uploads/FTM_bew-34185.jpg"
-- description: "## Paul\n\nPaul’s brede achtergrond maakt dat hij thuis is in uiteenlopende
-    stijlen. Zijn werk als songwriter en producer variëert van het schrijven van catchy
-    popsongs tot het maken van vuige, brutale beats, waarbij een uitgesproken groove
-    altijd voorop staat.\n \nPaul is een bekwaam arrangeur en weet instrumenten hun
-    eigen plek te geven binnen orkestraal-filmische partijen, swingende jazz-harmonieën,
-    maar ook binnen compacte songstructuren. Dit ambacht verfijnde hij onder andere
-    door zijn ervaring in het schrijven van vocale arrangementen, waarvoor hij diverse
-    internationale prijzen ontving.\n\nDe afgelopen jaren schreef en produceerde hij
-    muziek voor een groot aantal voorstellingen als huiscomponist van Theater Young
-    Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen van verhalen in
-    zijn muziek, op een manier die iets teweeg brengt bij de luisteraar. D zie je
-    ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven, zowel
-    binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi en
-    The Cool Quest.\n\nPaul's [LinkedIn](https://www.linkedin.com/in/paulmaaswinkel/)"
+- description: "## Paul Maaswinkel\n\nPaul’s brede achtergrond maakt dat hij thuis
+    is in uiteenlopende stijlen. Zijn werk als songwriter en producer variëert van
+    het schrijven van catchy popsongs tot het maken van vuige, brutale beats, waarbij
+    een uitgesproken groove altijd voorop staat.\n \nPaul is een bekwaam arrangeur
+    en weet instrumenten hun eigen plek te geven binnen orkestraal-filmische partijen,
+    swingende jazz-harmonieën, maar ook binnen compacte songstructuren. Dit ambacht
+    verfijnde hij onder andere door zijn ervaring in het schrijven van vocale arrangementen,
+    waarvoor hij diverse internationale prijzen ontving.\n\nDe afgelopen jaren schreef
+    en produceerde hij muziek voor een groot aantal voorstellingen als huiscomponist
+    van Theater Young Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen
+    van verhalen in zijn muziek, op een manier die iets teweeg brengt bij de luisteraar.
+    D zie je ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven,
+    zowel binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi
+    en The Cool Quest.\n\nPaul's [LinkedIn](https://www.linkedin.com/in/paulmaaswinkel/)"
   image: "/uploads/FTM_bew-34111.jpg"
 layout: about
 ---
