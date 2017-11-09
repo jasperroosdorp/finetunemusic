@@ -7,12 +7,12 @@ embed: <iframe src="https://player.vimeo.com/video/196471638?color=ffffff&title=
   allowfullscreen></iframe>
 image: "/uploads/mijnzzp.jpg"
 description: |-
-  ## Project
+  ## Projekt
 
-  MijnZZP makes bookkeeping more efficient through digital applications. With this animation, they give a concise explanation of the ins and outs.
+  MijnZZP macht Buchhaltung durch digitale Anwendungen effizienter. Wie das funktioniert, erklären sie in dieser Animation.
 
   ## Audio
 
-  For this project we selected a young voice actor for an energetic and charismatic voice-over. For the music and sound design we opted for a modern sound scheme, agreeing with the company’s core values and its target audience.
+  In diesem Projekt haben wir mit einem jungen Synchronsprecher zusammengearbeitet, um eine charismatische, energische Stimme zu finden. Die Musik und das Sounddesign stellen die Verbindung zu den modernen Grundwerten und der Zielgruppe des Unternehmens her.
 ---
 
