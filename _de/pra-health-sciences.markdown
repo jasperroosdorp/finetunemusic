@@ -6,13 +6,13 @@ embed: <iframe src="https://player.vimeo.com/video/130797565?color=ffffff&title=
   width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/pra.jpg"
-description: |-
-  ## Project
+description: |
+  ## Projekt
 
-  PRA Health Sciences involves volunteers in their drug research. Together with G2K x PIT, we developed a cinema- and radio commercial to inform people about this.
+  PRA Health Sciences betreibt grundlegende Wirkstoffforschung unter der Mitarbeit von Freiwilligen. Gemeinsam mit G2K x PIT haben wir einen Kino- und Radio-Spot entwickelt, um Menschen darüber zu informieren.
 
   ## Audio
 
-  The music is part of the sonic branding of PRA. We captured their identity in the sound logo at the end of the commercial. The campaign was broadcast on national radio and shown at multiple Pathé Cinemas.
+  Die Musik gehört zum sonic-branding von PRA. Wir fangen diese Identität mit unserem Soundlogo am Ende des Werbespots ein. Die Kampagne wurde im nationalen Radio ausgestrahlt und in verschiedenen Pathé-Kinos gezeigt.
 ---
 
