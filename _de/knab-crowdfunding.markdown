@@ -7,7 +7,7 @@ embed: <iframe src="https://player.vimeo.com/video/235326871?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/knab2.jpg"
-description: |
+description: |-
   ## Projekt
 
   In dieser Animation informiert die Niederländische Bank Knab über die Finanzierungsplattformen, die sie ihren Kunden anbieten, um Crowdfunding für Unternehmer zu ermöglichen.
