@@ -6,7 +6,7 @@ embed: <iframe src="https://player.vimeo.com/video/130797565?color=ffffff&title=
   width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/pra.jpg"
-description: |
+description: |-
   ## Projekt
 
   PRA Health Sciences betreibt grundlegende Wirkstoffforschung unter der Mitarbeit von Freiwilligen. Gemeinsam mit G2K x PIT haben wir einen Kino- und Radio-Spot entwickelt, um Menschen darüber zu informieren.
