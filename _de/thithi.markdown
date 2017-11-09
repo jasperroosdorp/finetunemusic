@@ -8,12 +8,12 @@ embed: <iframe src="https://player.vimeo.com/video/168672342?color=ffffff&title=
   allowfullscreen></iframe>
 image: "/uploads/thithi.jpg"
 description: |-
-  ## Project
+  ## Projekt
 
-  Thithi is a film by director Raam Reddy, which tells the story of how three generations of men in a remote village in South-India, react to the death of their 101-year-old patriarch. The film was reviewed favorably and has won awards at various international film festivals. Watch [the full movie](https://www.netflix.com/title/80107370) on Netflix.
+  Thithi ist ein Film von Regisseur Raam Reddy und erzählt die Geschichte, wie drei Generationen in einem Dorf in Südindien auf den Tod ihres Familienoberhaupts, des 101-jährigen Century Gowda, reagieren. Der Film wurde positiv aufgenommen und seit seiner Veröffentlichung auf verschiedenen internationalen Filmfestivals ausgezeichnet. Sehen Sie [den vollständigen Film](https://www.netflix.com/title/80107370) auf Netflix.
 
   ## Audio
 
-  For this film we produced the trailer music. Closely involving the director, we composed a soundtrack, matching the characters and mood of the film as accurately as possible. In order to do so, we used all kinds of instruments, as well as recordings of local musicians from Nodekoppalu, the village where the story is set.
+  Für diesen Film haben wir die Trailer-Musik produziert. In engem Kontakt mit dem Regisseur haben wir einen Soundtrack komponiert, genauestens abgestimmt auf die Charaktere und die Atmosphäre des Films. Unter anderem nutzten wir dabei Aufnahmen lokaler Musiker aus dem südindischen Dorf Nodekoppalu, dem Schauplatz der Geschichte.
 ---
 
