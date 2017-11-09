@@ -21,9 +21,8 @@ introduction:
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
-  title: Sed quis justo
-  paragraph: Praesent suscipit purus in diam semper fermentum. In laoreet tortor id
-    eros vehicula vestibulum ac pharetra nibh.
+  title: Wir sind Fine Tune Music
+  paragraph: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. .......
 contact:
   text: |-
     Kerklaan 30
