@@ -6,13 +6,13 @@ embed: <iframe src="https://player.vimeo.com/video/205011232?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/indi.jpg"
-description: |-
-  ## Project
+description: |
+  ## Projekt
 
-  In this animation, INDI explains the ins and outs of Mijn Account to its clients.
+  In dieser Animation stellt INDI ihren Kunden die My-Account-Methode vor.
 
   ## Audio
 
-  We composed a playful, easy-going soundtrack and selected a kind, young voice as our voice-over, to underline how customer-friendly this service really is.
+  Wir haben einen spielerischen, leichtfüßigen Soundtrack geschrieben und wählten eine junge, freundliche Stimme, um die tatsächliche Nutzerfreundlichkeit dieses Service noch zu unterstreichen.
 ---
 
