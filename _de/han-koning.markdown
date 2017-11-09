@@ -7,7 +7,7 @@ embed: <iframe src="https://player.vimeo.com/video/139374972?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/hankoning2.jpg"
-description: |
+description: |-
   ## Projekt
 
   Der Industriedesigner Han Koning fertigt Produkte, bei denen das Experiment mit Material und Form im Vordergrund steht. Regisseur Joshua Maldonado hat seine Arbeitsweise in diesem Video eingefangen.
