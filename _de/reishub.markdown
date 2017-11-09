@@ -7,12 +7,12 @@ embed: <iframe src="https://player.vimeo.com/video/223024207?color=ffffff&title=
   allowfullscreen></iframe>
 image: "/uploads/reishub.jpg"
 description: |-
-  ## Project
+  ## Projekt
 
-  The ways we travel are changing. With this video, OV-Bureau Q-link introduces ReisHUBs, a network in Groningen and Drenthe that makes traveling easier.
+  Die Art, wie wir reisen, ändert sich. Mit diesem Video führt OV Bureau Q-link ReisHUBs ein, ein Netzwerk in Groningen und Drenthe, um Reisen zu erleichtern.
 
   ## Audio
 
-  The sound design and music we made for this animation are closely interlinked: a dynamic, colorful background of sound supports the lively voice-over, without distracting from the message.
+  Das Sounddesign und die Musik, die wir für diese Animation produziert haben, gehen Hand in Hand: eine dynamische, farbenfrohe Klangbasis, die die frische Stimme ohne ohne Ablenkung unterstützt.
 ---
 
