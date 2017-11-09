@@ -7,14 +7,14 @@ embed: <iframe src="https://player.vimeo.com/video/235326871?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/knab2.jpg"
-description: |-
-  ## Project
+description: |
+  ## Projekt
 
-  In this animation, Knab informs its clients about the financing platform, that makes crowdfunding for entrepreneurs possible.
+  In dieser Animation informiert die Niederländische Bank Knab über die Finanzierungsplattformen, die sie ihren Kunden anbieten, um Crowdfunding für Unternehmer zu ermöglichen.
 
   ## Audio
 
-  We used the primary colors and schematic animation style as an inspiration for our sound design, to create a matching palette of round, colorful sounds.
+  Die Grundfarben und der schematische Animationsstil dienten als Inspiration für unser Sounddesign, um eine passende Palette an bunten, runden Klängen zu kreieren.
 pages:
 - Finetunemusic.nl/en/voice-overs
 - Finetunemusic.nl/en/production
