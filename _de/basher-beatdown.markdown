@@ -6,13 +6,13 @@ client: Migloko
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/W_mZdIBP8Lg?rel=0&amp;controls=0&amp;showinfo=0"
   frameborder="0" allowfullscreen></iframe>
 image: "/uploads/basherbeatdown2.jpg"
-description: |-
-  ## Project
+description: |
+  ## Projekt
 
-  Basher Beatdown is a multiplayer game, developed by Sword GC. The game is available on Air Console, and will be released soon on Steam.
+  Basher Beatdown ist ein Multiplayer-Spiel, und wurde von Sword GC entwickelt. Das Spiel ist auf der Air Console verfügbar und wird bald auf Steam veröffentlicht.
 
   ## Audio
 
-  For this game we let the high energy and brutal impact of the gameplay inspire us to produce five electronic music tracks for the menu and levels. We created more than 130 sound effects, and recorded a voice actor to give the characters featuring in this game, a personality of their own.
+  Die Energie und der brachiale Einfluss des Gameplays, die dieses Spiel definieren, dienten uns als Inspiration für die fünf elektronischen Musikstücke, die wir für das Spielmenü und die einzelnen Levels produziert haben. Dabei kreierten wir über 130 neue Soundeffekte und arbeiteten mit einem Synchronsprecher, um jedem der Charaktere eine eigene, vollständige Persönlichkeit zu verleihen.
 ---
 
