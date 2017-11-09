@@ -6,7 +6,7 @@ embed: <iframe src="https://player.vimeo.com/video/205011232?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/indi.jpg"
-description: |
+description: |-
   ## Projekt
 
   In dieser Animation stellt INDI ihren Kunden die My-Account-Methode vor.
