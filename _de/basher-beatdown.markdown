@@ -6,7 +6,7 @@ client: Migloko
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/W_mZdIBP8Lg?rel=0&amp;controls=0&amp;showinfo=0"
   frameborder="0" allowfullscreen></iframe>
 image: "/uploads/basherbeatdown2.jpg"
-description: |
+description: |-
   ## Projekt
 
   Basher Beatdown ist ein Multiplayer-Spiel, und wurde von Sword GC entwickelt. Das Spiel ist auf der Air Console verfügbar und wird bald auf Steam veröffentlicht.
