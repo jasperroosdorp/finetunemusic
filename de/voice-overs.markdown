@@ -4,20 +4,20 @@ position: 13
 language: German
 page:
   title: Finetunemusic
-  google: Voice-overs for radio and TV commercials and audiobooks. Fine Tune Music
-    delivers top quality within 24 hours. Check out our portfolio.
+  google: Voice-over für Radio- und Fernsehwerbung und Hörbücher. Fine Tune Music
+    liefert höchste Qualität innerhalb von 24 Stunden. Ein Einblick in unser Portfolio.
 text: |-
   # Voice-overs
 
-  We of all people, know that the right voice-over is an important part of any radio or TV commercial. Our coaching and our choice of the most suitable voice from our pool of voice actors will get the message across effectively to viewers and listeners. We work with more than 150 voice actors from different countries, all with their very own personality. Whether you’re looking for a fresh commercial voice, or a warm narrative voice, we select the perfect voice for every project.
+  Wir alle wissen, die richtige Stimme ist ein zentraler Bestandteil jeder Jingle, Radio- oder Fernsehwerbung. Unser Coaching sowie die fachmännische Auswahl der am besten geeigneten Stimme aus unserem Pool von Synchronsprechern ermöglichen die effektive Weitergabe Ihrer Botschaft an Zuschauer und Zuhörer. Wir arbeiten mit mehr als 150 professionellen Synchronsprechern/innen aus verschiedenen Ländern - jede/r einzelne mit individuellem Charakter und Persönlichkeit. Ob frische kommerzielle Stimme oder warme Erzählstimme - wir bieten für jedes Projekt die perfekte Stimme.
 
-  Besides recording we provide post production for voice-overs, like editing and mixing. On request, we compose matching music and finalize productions by adding sound design.
+  Neben Sprachaufnahmen bieten wir Postproduktion für Voice-Over, Editing und Mixing an. Wir bieten die passende Overvoice Lösung für Ihre Audiovisuelle Produktion. Auf Wunsch komponieren wir passende Musik und fertigen Produktionen durch Sounddesign an. Von der Aufnahme zum fertigen Mix - alles aus einer Hand.
 
-  We also do audio book recordings, making sure the stories are told as they were meant to be told.
+  Wir führen auch Hörbuch Aufzeichnungen durch und stellen sicher, dass die Geschichten erzählt werden, wie sie erzählt werden sollten.
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 clients:
-  title: Clients
+  title: Unsere Kunden
 layout: info
 ---
 
