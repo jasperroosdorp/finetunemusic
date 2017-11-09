@@ -7,14 +7,14 @@ embed: <iframe src="https://player.vimeo.com/video/139374972?color=ffffff&title=
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/hankoning2.jpg"
-description: |-
-  ## Project
+description: |
+  ## Projekt
 
-  Industrial designer Han Koning creates products in which experimenting with material and shape is a leading motif. Director Joshua Maldonado captured his way of designing in this video.
+  Der Industriedesigner Han Koning fertigt Produkte, bei denen das Experiment mit Material und Form im Vordergrund steht. Regisseur Joshua Maldonado hat seine Arbeitsweise in diesem Video eingefangen.
 
   ## Audio
 
-  For this trailer we produced a detailed sound design, playing with contrast and various sound textures, in order to intensify the impact of the video.
+  Für diesen Trailer haben wir ein detailgetreues Sounddesign erstellt, das mit Kontrast und verschiedenen Klangstrukturen spielt, um die Wirkung der Bilder zu intensivieren.
 pages:
 - Finetunemusic.nl/en/production
 - Finetunemusic.nl/en/studio
