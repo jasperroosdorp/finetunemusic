@@ -28,6 +28,7 @@ contact:
   text: |-
     Kerklaan 30
     9751NN Haren
+    The Netherlands
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
     +31(0)633666809
