@@ -23,9 +23,7 @@ image:
 information:
   title: Wij zijn Fine Tune Music
   paragraph: Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Beluister
-    onze audio voor -videos- (link naar Portfolio, tabblad Video's), onze -muziek-
-    (link naar Portfolio, tabblad Muziek) en -voice-overs- (link naar Portfolio, tabblad
-    Voice-overs).
+    ons portfolio of neem direct contact met ons op om de mogelijkheden te bespreken.
 contact:
   text: |-
     Kerklaan 30
