@@ -7,7 +7,7 @@
 		"uuidString": "A806EE8B-ABCD-459E-B457-6A82B769C3C7"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/.atomignore": {
 		"cB": 0,
@@ -1599,13 +1599,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/node_modules\/fluidvids.js\/.jshintrc",
-		"oF": 0
-		},
-	"\/node_modules\/fluidvids.js\/.npmignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/node_modules\/fluidvids.js\/.npmignore",
 		"oF": 0
 		},
 	"\/node_modules\/fluidvids.js\/.travis.yml": {
@@ -17904,7 +17897,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 531761363
+	"lastBuiltDate": 532970819
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
