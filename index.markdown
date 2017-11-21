@@ -32,7 +32,7 @@ contact:
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
     +31(0)633666809
 
-    [Facebook.com/Finetunemusic.nl](https://www.Facebook.com/Finetunemusic.nl.nl/)
+    [Volg ons op Facebook](https://www.Facebook.com/Finetunemusic.nl.nl/)
   description: Wil je met ons samenwerken of de mogelijkheden bespreken onder het
     genot van een kop koffie of een biertje, neem dan contact met ons op.
   information: |-
