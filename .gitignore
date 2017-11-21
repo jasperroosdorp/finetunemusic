@@ -6,3 +6,4 @@ node_modules
 other
 *backup*
 *.codekit*
+*.codekit3

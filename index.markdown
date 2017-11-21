@@ -22,17 +22,19 @@ image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: Wij zijn Fine Tune Music
-  paragraph: Onze muziekproducties zijn maatwerk voor uiteenlopende projecten. Beluister
-    onze audio voor video's, onze muziek en voice-overs.
+  paragraph: Onze producties zijn maatwerk voor uiteenlopende projecten.  Wij leveren
+    muziek, sounddesign en voice-overs voor film, animaties, games en reclames. [Bel](callto:00310633666809)
+    of [mail](mailto:info@finetunemusic.nl) ons om de mogelijkheden te bespreken.
 contact:
   text: |-
     Kerklaan 30
     9751NN Haren
+    The Netherlands
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
-    +31(0)633666809
+    [+31(0)633666809](callto:00310633666809)
 
-    [Facebook.com/Finetunemusic.nl](https://www.Facebook.com/Finetunemusic.nl.nl/)
+    [Volg ons op Facebook](https://www.Facebook.com/Finetunemusic.nl.nl/)
   description: Wil je met ons samenwerken of de mogelijkheden bespreken onder het
     genot van een kop koffie of een biertje, neem dan contact met ons op.
   information: |-

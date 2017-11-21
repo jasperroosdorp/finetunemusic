@@ -7,7 +7,7 @@ page:
   google: Unser Musikstudio in Haren, Groningen, ist ein komfortabler multifunktionaler
     Arbeitsplatz mit modernster Ausstattung und mehreren Aufnahmeräumen.
 text: |-
-  # Tonstudio
+  # Musikstudio
 
   Sie werden sich in unserem Musikstudio wie zu Hause fühlen. Es ist ein multifunktionaler Arbeitsplatz mit hochmoderner Ausstattung und mehreren Aufnahmeräumen auf über 150 Quadratmetern. Wir bieten ganze Bandaufnahmen ebenso wie kleinere Aufnahmesitzungen an. Es wird uns eine Freude sein, Ihre Musik zu mischen und Ihnen die Musikproduktion als solche anzubieten. Darüberhinaus können wir Ihnen helfen, Ihre Kompositionen zu erarbeiten und den richtigen Sound für Ihre Songs zu finden. Ob cineastische Arrangements, gefühlvolle R’n’B-Produktionen oder experimentelle Beats - Vielseitigkeit ist eine unserer Qualitäten.
 image:

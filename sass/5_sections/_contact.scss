@@ -53,6 +53,17 @@ footer {
   .information {
     @include span(12 of 12);
     @include margin(bottom, 1.5);
+    p {
+      // background-color: pink;
+      // display: block;
+      width: 100%;
+      a {
+        // background-color: orange;
+        // margin: 0 !important;
+        // padding: 0 !important;
+        // line-height: inherit !important;
+      }
+    }
     @include for-phone-only {
       @include margin(top, 1);
     }

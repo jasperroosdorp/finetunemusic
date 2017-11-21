@@ -22,8 +22,8 @@ image:
 information:
   title: We are Fine Tune Music
   paragraph: Our music productions are custom-made for all kinds of projects. Listen
-    to our audio for <videos> (link naar Portfolio, tabblad Video's), our <music>
-    (link naar Portfolio, tabblad Muziek) and <voice-overs> (link naar Portfolio,
+    to our audio for -videos- (link naar Portfolio, tabblad Video's), our -music-
+    (link naar Portfolio, tabblad Muziek) and -voice-overs- (link naar Portfolio,
     tabblad Voice-overs).
 contact:
   text: |-
