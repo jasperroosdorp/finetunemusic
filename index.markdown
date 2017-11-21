@@ -23,8 +23,8 @@ image:
 information:
   title: Wij zijn Fine Tune Music
   paragraph: Onze producties zijn maatwerk voor uiteenlopende projecten.  Wij leveren
-    muziek, sounddesign en voice-overs voor film, animaties, games en reclames. Bel
-    of mail ons om de mogelijkheden te bespreken.
+    muziek, sounddesign en voice-overs voor film, animaties, games en reclames. [Bel](callto:00310633666809)
+    of [mail](mailto:info@finetunemusic.nl) ons om de mogelijkheden te bespreken.
 contact:
   text: |-
     Kerklaan 30
