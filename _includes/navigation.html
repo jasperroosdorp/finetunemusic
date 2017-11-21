@@ -10,7 +10,7 @@
     {% if page.language == 'English' %}
     <a class="return-button" href="/en">Back</a>
     {% elsif page.language == 'German' %}
-    <a class="return-button" href="/de">Back</a>
+    <a class="return-button" href="/de">Zurück</a>
     {% else %}
     <a class="return-button" href="/">Terug</a>
     {% endif %}
@@ -28,7 +28,7 @@
       <span class='placeholder' onclick="openPortfolio()">Beluister</span>
       {% endif %}
       {% if page.language == 'German' %}
-      <span class='placeholder' onclick="openPortfolio()">Listen</span>
+      <span class='placeholder' onclick="openPortfolio()">Zuhören</span>
       {% endif %}
       <span class='audio-player-title music voice-overs' onclick="openPortfolio()">Lorem ipsum</span>
     </a>
@@ -51,16 +51,16 @@
     </ul>
     {% elsif page.language == 'German' %}
     <ul>
-      <li><a href="/de">Home</a></li>
+      <li><a href="/de">Startseite</a></li>
     </ul>
     <ul>
-      <li><a href="/de/production{{ site.urlext }}">Production</a></li>
+      <li><a href="/de/musikproduktion{{ site.urlext }}">Musikproduktion</a></li>
       <li><a href="/de/voice-overs{{ site.urlext }}">Voice-overs</a></li>
-      <li><a href="/de/studio{{ site.urlext }}">Studio</a></li>
+      <li><a href="/de/studio{{ site.urlext }}">Musikstudio</a></li>
     </ul>
     <ul>
-      <li><a href="/de/about-us{{ site.urlext }}">About us</a></li>
-      <li><a onclick="showContact()">Contact</a></li>
+      <li><a href="/de/uber-uns{{ site.urlext }}">Über Uns</a></li>
+      <li><a onclick="showContact()">Kontakt</a></li>
     </ul>
     {% else %}
     <ul>
