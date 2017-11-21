@@ -17897,7 +17897,11 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
+<<<<<<< HEAD
 	"lastBuiltDate": 532970819
+=======
+	"lastBuiltDate": 532904034
+>>>>>>> 6e9f91b17a66a5a7899878d78385d636b8f93a49
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
