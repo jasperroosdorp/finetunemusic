@@ -20,7 +20,7 @@ people:
     David ist ein unternehmerischer Visionär und liebt Herausforderungen, die von großen kommerziellen Projekten bis hin zu experimentellen Kollaborationen mit anderen Künstlern reichen. Als musikalischer Alleskönner setzt er unter Verwendung mehrerer Alter Egos alle Arten von Musik frei: schwere elektronische Musik, düsterer Soul ebenso wie dynamische klassische Musik.
 
     Wie kein anderer versteht er die Kunst, Emotionen in Musik und Klang zu integrieren. Er nutzt dies effektiv als Kommunikationsinstrument, wenn es darum geht, Identität in Klang umzuwandeln und den Hörer auf eine Reise zu bringen. David arbeitete unter anderem bereits mit Cabaretier Bert Visscher, Club Guy and Roni und der niederländischen Theaterfirma Van Engelenburg Theaterproducties.
-  image: "/uploads/FTM_bew-34185.jpg"
+  image: "/uploads/FTM-34185%202400px.jpg"
 - description: |-
     ## Paul Maaswinkel
 
@@ -29,7 +29,7 @@ people:
     Paul ist ein geschickter Arrangeur und versteht es, Instrumenten ihren eigenen Raum in orchestralen Filmmusik-Partituren, swingenden Jazz-Harmonien sowie kompakten Songstrukturen zu geben. Er verfeinerte dieses Handwerk und schrieb Vocal-Arrangements, die ihm mehrere internationale Auszeichnungen einbrachten.
 
     In den letzten Jahren komponierte und produzierte er Musik für eine Vielzahl von Theaterstücken als Inhouse-Komponist für das Theater Young Ones. Hier entwickelte er einen scharfen Sinn dafür, Geschichten durch Musik zu erzählen, so dass der Zuhörer wirklich bewegt wird. Dies spiegelt sich auch in Pauls enthusiastischer Art wider, mit anderen Künstlern innerhalb und außerhalb des Studios zu kommunizieren. Typhoon, Akwasi und The Cool Quest gehören zu den Künstlern, mit denen er bereits zusammengearbeitet hat.
-  image: "/uploads/FTM_bew-34111.jpg"
+  image: "/uploads/FTM-34111-2-crop%202400px.jpg"
 layout: about
 ---
 
