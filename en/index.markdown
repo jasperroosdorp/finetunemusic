@@ -21,10 +21,9 @@ image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: We are Fine Tune Music
-  paragraph: Our music productions are custom-made for all kinds of projects. Listen
-    to our audio for -videos- (link naar Portfolio, tabblad Video's), our -music-
-    (link naar Portfolio, tabblad Muziek) and -voice-overs- (link naar Portfolio,
-    tabblad Voice-overs).
+  paragraph: We deliver music, sound design and voice-overs for film, animation, games
+    and commercials. [Call] (callto:00310633666809) or [email](mailto:info@finetunemusic.nl)
+    us to discuss the possibilities.
 contact:
   text: |-
     Kerklaan 30
