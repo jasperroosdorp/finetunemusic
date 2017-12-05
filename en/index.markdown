@@ -21,9 +21,9 @@ image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: We are Fine Tune Music
-  paragraph: We deliver music, sound design and voice-overs for film, animation, games
+  paragraph: We offer music, sound design and voice-overs for film, animation, games
     and commercials. [Call] (callto:00310633666809) or [email](mailto:info@finetunemusic.nl)
-    us to discuss the possibilities.
+    us and find out what we can do for you.
 contact:
   text: |-
     Kerklaan 30
