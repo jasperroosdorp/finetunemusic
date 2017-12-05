@@ -30,14 +30,16 @@ section.people {
     }
     @include for-tablet-landscape-up {
       @include span(6 of 12 no-gutters);
+      &:nth-child(1) { padding-right: gutters(5.5); }
+      &:nth-child(2) { padding-left: gutters(5.5); }
       &:nth-child(2) figure {
-        @include span(54 of 54 no-gutters);
-        @include aspect-ratio(40, 27.75);
+        // @include span(54 of 54 no-gutters);
+        // @include aspect-ratio(40, 27.75);
       }
     }
   }
   figure {
-    @include span(50 of 54 no-gutters);
+    // @include span(50 of 54 no-gutters);
     @include aspect-ratio(4, 3);
     background-color: rgba(0, 0, 0, 0.05);
   }
