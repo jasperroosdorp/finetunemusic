@@ -22,10 +22,7 @@ image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: Wir sind Fine Tune Music
-  paragraph: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. >>
-    ........ -videos- (link naar Portfolio, tabblad Video's), our -music- (link naar
-    Portfolio, tabblad Muziek) and -voice-overs- (link naar Portfolio, tabblad Voice-overs).
-    <<
+  paragraph: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. .....
 contact:
   text: |-
     Kerklaan 30
