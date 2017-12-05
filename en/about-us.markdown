@@ -25,7 +25,7 @@ people:
     tool when turning identity into sound and taking the listener on a journey. David
     worked with, among other parties, Bert Visscher, Club Guy and Roni and Van Engelenburg
     Theaterproducties.\n\nDavid's [LinkedIn](https://www.linkedin.com/in/finetunemusic/)"
-  image: "/uploads/FTM_bew-34185.jpg"
+  image: "/uploads/FTM-34185%202400px.jpg"
 - description: |-
     ## Paul Maaswinkel
 
@@ -36,7 +36,7 @@ people:
     In recent years he composed and produced music for a great number of theatre plays as in-house composer for Theater Young Ones. Here he developed a keen sense for telling stories through music, in a way that really moves the listener. This is also reflected in Paul’s enthusiastic way of communicating with other artists, both in and outside the studio. Typhoon, Akwasi and The Cool Quest are among the artists he worked with.
 
     Paul's [LinkedIn](https://www.linkedin.com/in/paulmaaswinkel/)
-  image: "/uploads/FTM_bew-34111.jpg"
+  image: "/uploads/FTM-34111-2-crop%202400px.jpg"
 layout: about
 ---
 
