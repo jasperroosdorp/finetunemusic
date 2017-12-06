@@ -40,7 +40,6 @@ contact:
   information: |-
     KvK 58025057
     BTW NL205095999B01
-  image: "/uploads/FTM_bew-34185.jpg"
 layout: index
 ---
 
