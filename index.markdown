@@ -36,12 +36,8 @@ address:
     9751NN Haren
     Groningen
 social:
-  text: |-
-    Volg ons
-
-    [Facebook](https://www.Facebook.com/Finetunemusic.nl.nl/)
-    Instagram
-    Twitter    
+  text: "Volg ons\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl.nl/)\nInstagram\nTwitter
+    \   "
 legal:
   text: |-
     Zakelijk
@@ -51,3 +47,4 @@ legal:
     [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
+
