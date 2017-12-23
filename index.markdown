@@ -22,8 +22,8 @@ image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: Wij zijn Fine Tune Music
-  text: Onze producties zijn maatwerk voor uiteenlopende projecten.  Wij leveren
-    muziek, sounddesign en voice-overs voor film, animaties, games en reclames. [Bel](callto:00310633666809)
+  text: Onze producties zijn maatwerk voor uiteenlopende projecten.  Wij leveren muziek,
+    sounddesign en voice-overs voor film, animaties, games en reclames. [Bel](callto:00310633666809)
     of [mail](mailto:info@finetunemusic.nl) ons om de mogelijkheden te bespreken.
 contact:
   text:
@@ -38,12 +38,8 @@ contact:
     Groningen: [+31(0)633666809](callto:00310633666809)
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
-  - |-
-    Volg ons
-
-    [Facebook](https://www.Facebook.com/Finetunemusic.nl/)
-    Instagram
-    Twitter    
+  - "Volg ons\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
+    \   "
   - |-
     Zakelijk
 
@@ -52,3 +48,4 @@ contact:
     [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
+

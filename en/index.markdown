@@ -38,12 +38,8 @@ contact:
     Groningen: [+31(0)633666809](callto:00310633666809)
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
-  - |-
-    Follow us
-
-    [Facebook](https://www.Facebook.com/Finetunemusic.nl/)
-    Instagram
-    Twitter    
+  - "Follow us\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
+    \   "
   - |-
     Legal
 
@@ -52,3 +48,4 @@ contact:
     [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
+
