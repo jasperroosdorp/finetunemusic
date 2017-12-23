@@ -25,21 +25,29 @@ information:
   paragraph: Onze producties zijn maatwerk voor uiteenlopende projecten.  Wij leveren
     muziek, sounddesign en voice-overs voor film, animaties, games en reclames. [Bel](callto:00310633666809)
     of [mail](mailto:info@finetunemusic.nl) ons om de mogelijkheden te bespreken.
-contact:
+address:
   text: |-
-    Kerklaan 30
-    9751NN Haren
-    The Netherlands
+    Bereik ons
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
     [+31(0)633666809](callto:00310633666809)
 
-    [Volg ons op Facebook](https://www.Facebook.com/Finetunemusic.nl.nl/)
-  description: Wil je met ons samenwerken of de mogelijkheden bespreken onder het
-    genot van een kop koffie of een biertje, neem dan contact met ons op.
-  information: |-
+    Kerklaan 30
+    9751NN Haren
+    Groningen
+social:
+  text: |-
+    Volg ons
+
+    [Facebook](https://www.Facebook.com/Finetunemusic.nl.nl/)
+    Instagram
+    Twitter    
+legal:
+  text: |-
+    Zakelijk
+
     KvK 58025057
     BTW NL205095999B01
+    [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
-

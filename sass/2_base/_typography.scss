@@ -33,7 +33,7 @@ h1, h2, .heading {
 p, .paragraph {
   // color: rgba(0, 0, 0, 0.8);
   color: #000;
-  font-weight: 400 !important;
+  // font-weight: 400 !important;
   font-size: 2.3rem;
   font-weight: 300;
   padding-top: 0.25rem;
@@ -149,11 +149,8 @@ section.info-section {
 }
 
 footer {
-  .contact-details,
-  .information {
     p {
       font-size: 2rem;
       // a::after { display: none; }
     }
-  }
 }

@@ -1,0 +1,45 @@
+footer {
+  background-color: $footer-color001;
+  p {
+    color: #fff;
+  }
+  .container {
+    @include container;
+    @include responsive-width;
+    @include padding(top, 1);
+    @include padding(bottom, 1);
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    float: right;
+    right: 0;
+    max-width: 23rem;
+    // display: none;
+    display: block;
+    // background-color: pink;
+    img {
+      transform:translate(20%, -25%);
+    }
+  }
+  .wrapper {
+    position: relative;
+    @include gutters();
+    // float: left;
+  }
+  .address, .social, .legal {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    // background-color: green;
+    margin-right: 10rem;
+    // @include span(2 of 12);
+    > p {
+      white-space: pre-line;
+      padding: 0;
+      vertical-align: top;
+      @include margin(bottom, 0.2);
+      // &:last-child { margin-bottom: 0; }
+    }
+  }
+}

@@ -40,7 +40,7 @@ html.portfolio-closing .portfolio-wrapper {
   #tab-2 .mejs-controls,
   #tab-2 .mejs-playlist li {
     animation-name: fadein;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
   }
@@ -65,6 +65,10 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
   display: block;
 }
 
+// .mejs-controls {
+//   position: absolute;
+// }
+
 #tab-2.player-hidden {
   .mejs-controls {
     pointer-events: none;
@@ -74,8 +78,9 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
     }
   }
   .mejs-playlist ul {
-    margin-top: 0;
+    // margin-top: 0;
     padding-top: 2rem;
+    // padding-top: 4rem;
     // padding-top: 5.8rem;
     // padding-top: 3.5rem;
   }
@@ -96,13 +101,13 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
       display: block;
       content: '';
       background-color: $portfolio-bg-color;
-      transition: opacity 0.5s;
+      transition: opacity 0.5s 0.1s;
     }
   }
   .mejs-playlist ul {
-    margin-top: $audio-bar-height;
-    padding-top: 4rem;
-    transition: padding-top 0.3s ease-out;
+    // margin-top: $audio-bar-height;
+    padding-top: 7rem;
+    transition: padding-top 0.5s ease-out;
   }
 }
 

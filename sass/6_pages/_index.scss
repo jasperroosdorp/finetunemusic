@@ -7,6 +7,7 @@ section.index-intro {
   h1 {
     position: relative;
     display: none;
+    // opacity: 0.9;
     @include for-phone-only {
       display: none !important;
       &:nth-child(1) { display: block !important; }
@@ -59,6 +60,7 @@ section.index-description {
     // display: none;
   }
   p {
-    max-width: 55rem;
+    max-width: 60rem;
+    font-weight: 300 !important;
   }
 }

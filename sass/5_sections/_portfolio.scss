@@ -84,7 +84,7 @@ html.portfolio-open {
     opacity: 1;
   }
   .portfolio {
-    transition: transform 0.4s ease-out;
+    transition: transform 0.5s ease-out;
     transform: translateY(-100vh);
     @include for-tablet-portrait-up { transform: translateY(-70rem); }
     @include for-tablet-landscape-up { transform: translateY(-56rem); }

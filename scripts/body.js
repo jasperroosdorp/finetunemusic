@@ -21,7 +21,7 @@
 function showContact() {
   $('html, body').animate({
     scrollTop: $('footer').offset().top
-  }, 400, 'swing');
+  }, 1000);
   $('html').removeClass('nav-unfolded');
   if (!$('html').hasClass('contact-visible')) {
     $('html').addClass('contact-visible');
@@ -78,11 +78,15 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
   $('html').removeClass('barba-active');
 
   // Fold and unfold navigation
-  $('.unfold-nav').click(function() {
-    $('html').addClass('nav-unfolded');
-  })
-  $('.fold-nav').click(function() {
-    $('html').removeClass('nav-unfolded');
+  // $('.unfold-nav').click(function() {
+  //   $('html').addClass('nav-unfolded');
+  // })
+  // $('.fold-nav').click(function() {
+  //   $('html').removeClass('nav-unfolded');
+  // })
+
+  $('.nav-trigger').click(function() {
+    $('html').toggleClass('nav-unfolded');
   })
 
   // Stop audio when video is clicked

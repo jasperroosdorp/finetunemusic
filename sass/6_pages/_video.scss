@@ -10,8 +10,8 @@ html#video {
 section.video-container{
   @include container;
   @include responsive-width;
-  position: relative !important;
-  iframe { touch-action: pan-y !important; }
+  // position: relative !important;
+  // iframe { touch-action: pan-y !important; }
 }
 
 section.project-info {

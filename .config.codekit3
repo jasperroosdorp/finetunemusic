@@ -217,6 +217,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/contact.html",
+		"oF": 1
+		},
+	"\/_includes\/contact2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/contact2.html",
 		"oF": 0
 		},
 	"\/_includes\/meta.html": {
@@ -232,6 +239,13 @@
 		"oA": 1,
 		"oAP": "\/_includes\/navigation.html",
 		"oF": 1
+		},
+	"\/_includes\/navigation2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/navigation2.html",
+		"oF": 0
 		},
 	"\/_includes\/portfolio.html": {
 		"cB": 0,
@@ -344,6 +358,13 @@
 		"oAP": "\/build\/_site",
 		"oF": 0
 		},
+	"\/_uploads\/algemene_voorwaarden.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/algemene_voorwaarden.pdf",
+		"oF": 0
+		},
 	"\/_uploads\/andromeda.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -398,6 +419,26 @@
 		"oA": 1,
 		"oAP": "\/_uploads\/deverhalenvangroningen.mp3",
 		"oF": 1
+		},
+	"\/_uploads\/FTM-34111-2-crop 2400px.jpg": {
+		"ft": 16384,
+		"iS": 2261073,
+		"oA": 1,
+		"oAP": "\/_uploads\/FTM-34111-2-crop 2400px.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/FTM-34185 2400px.jpg": {
+		"ft": 16384,
+		"iS": 1823577,
+		"oA": 1,
+		"oAP": "\/_uploads\/FTM-34185 2400px.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/FTM-34241-2-crop 16-9 3200px.jpg": {
 		"ft": 16384,
@@ -887,13 +928,6 @@
 		"oA": 1,
 		"oAP": "\/_voice-overs\/stemacteur-max.markdown",
 		"oF": 1
-		},
-	"\/algemene_voorwaarden.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/algemene_voorwaarden.pdf",
-		"oF": 0
 		},
 	"\/body.min.js": {
 		"ft": 64,
@@ -17434,6 +17468,17 @@
 		"oA": 1,
 		"oAP": "\/index.markdown",
 		"oF": 1
+		},
+	"\/logo.png": {
+		"ft": 32768,
+		"iS": 31272,
+		"oA": 0,
+		"oAP": "\/logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/main.min.css": {
 		"aP": 1,
@@ -34088,6 +34133,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/sass\/4_singulars\/_navigation2.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_navigation2.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/sass\/5_sections\/_contact.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -34097,6 +34155,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_contact.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/sass\/5_sections\/_contact2.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_contact2.min.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -34201,7 +34272,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/main.min.css",
-		"oF": 0,
+		"oF": 2,
 		"oS": 3,
 		"uL": 1
 		},
@@ -34309,7 +34380,7 @@
 	"displayValue": "Finetunemusic",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 533474526
+	"lastBuiltDate": 535720702
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

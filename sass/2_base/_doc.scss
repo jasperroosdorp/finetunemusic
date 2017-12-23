@@ -138,7 +138,8 @@ body {
 }
 
 html#index,
-html#about {
+html#about,
+html#info {
   &::after {
     position: fixed;
     bottom: -50vh; left: 0; right: 0;

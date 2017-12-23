@@ -15,7 +15,7 @@ pageid: info
 
   <BODY>
 
-    {% include navigation.html %}
+    {% include navigation2.html %}
 
     <main id="barba-wrapper">
       <div class="barba-container" data-pageid="info"
@@ -71,7 +71,19 @@ pageid: info
           </figure>
         </section>
 
-        {% include contact.html %}
+        <a class="full-width-button" onclick="openPortfolio()">
+          <div class="wrapper">
+            {% if page.language == 'English' %}
+            <span class='heading'>Listen to our portfolio</span>
+            {% elsif page.language == 'German' %}
+            <span class='heading'>Ein Einblick in unser Portfolio</span>
+            {% else %}
+            <span class='heading'>Beluister ons portfolio</span>
+            {% endif %}
+          </div>
+        </a>
+
+        {% include contact2.html %}
 
       </div>
     </div>
