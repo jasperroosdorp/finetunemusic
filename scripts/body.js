@@ -18,15 +18,15 @@
 // $('nav.upper a').on('click', checkSize());
 
 // Show contact segment
-function showContact() {
-  $('html, body').animate({
-    scrollTop: $('footer').offset().top
-  }, 1000);
-  $('html').removeClass('nav-unfolded');
-  if (!$('html').hasClass('contact-visible')) {
-    $('html').addClass('contact-visible');
-  }
-};
+// function showContact() {
+//   $('html, body').animate({
+//     scrollTop: $('footer').offset().top
+//   }, 1000);
+//   $('html').removeClass('nav-unfolded');
+//   if (!$('html').hasClass('contact-visible')) {
+//     $('html').addClass('contact-visible');
+//   }
+// };
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -78,15 +78,13 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
   $('html').removeClass('barba-active');
 
   // Fold and unfold navigation
-  // $('.unfold-nav').click(function() {
-  //   $('html').addClass('nav-unfolded');
-  // })
-  // $('.fold-nav').click(function() {
-  //   $('html').removeClass('nav-unfolded');
-  // })
-
   $('.nav-trigger').click(function() {
     $('html').toggleClass('nav-unfolded');
+  })
+
+  // Reveal mobile navigation
+  $('.mob-nav-toggle').click(function() {
+    $('html').toggleClass('mob-nav-unfolded');
   })
 
   // Stop audio when video is clicked

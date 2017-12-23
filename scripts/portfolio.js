@@ -14,10 +14,10 @@ function openPortfolio() {
     $('html').removeClass('portfolio-tab-1 portfolio-tab-2a');
     $('html').addClass('portfolio-tab-2b');
   }
-  if ($(".testdiv").css("float") == "none" ){
-    // $('html').animate({ scrollTop: 0}, 300, 'swing');
-    // alert('mobile!');
-  }
+  // if ($(".testdiv").css("float") == "none" ){
+  //   // $('html').animate({ scrollTop: 0}, 300, 'swing');
+  //   // alert('mobile!');
+  // }
 };
 
 $(document).ready(function () {

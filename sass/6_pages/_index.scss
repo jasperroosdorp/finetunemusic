@@ -10,8 +10,8 @@ section.index-intro {
     // opacity: 0.9;
     @include for-phone-only {
       display: none !important;
-      &:nth-child(1) { display: block !important; }
-      opacity: 1 !important;
+      // &:nth-child(1) { display: block !important; }
+      // opacity: 1 !important;
     }
     @include for-tablet-portrait-up {
       position: absolute;
