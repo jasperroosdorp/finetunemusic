@@ -27,7 +27,7 @@ footer {
     @include gutters();
     // float: left;
   }
-  .address, .social, .legal {
+  .contact-column {
     float: left;
     display: inline-block;
     vertical-align: top;

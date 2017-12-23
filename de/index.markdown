@@ -22,22 +22,31 @@ image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
   title: Wir sind Fine Tune Music
-  paragraph: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. .....
+  text: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. Wir bieten Musik, Sound Design und Voice-Over für Filme, Animationen, Games und Werbung an. [Rufen](callto:00310633666809) Sie uns an oder [mailen](mailto:info@finetunemusic.nl) Sie uns und Finden Sie heraus, was wir für Sie tun können.
 contact:
-  text: |-
+  text:
+  - |-
+    Kontaktieren Sie uns
+
     Kerklaan 30
     9751NN Haren
+    Groningen
+
+    Amsterdam: [+31(0)633666809](callto:00310633666809)
+    Groningen: [+31(0)633666809](callto:00310633666809)
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
-    +31(0)633666809
+  - |-
+    Folgen Sie uns
 
-    [Facebook.com/Finetunemusic.nl](https://www.Facebook.com/Finetunemusic.nl.nl/)
-  description: Wil je met ons samenwerken of de mogelijkheden bespreken onder het
-    genot van een kop koffie of een biertje, neem dan contact met ons op.
-  information: |-
+    [Facebook](https://www.Facebook.com/Finetunemusic.nl/)
+    Instagram
+    Twitter    
+  - |-
+    Impressum
+
     KvK 58025057
     BTW NL205095999B01
-  image: "/uploads/FTM_bew-34185.jpg"
+    [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
-

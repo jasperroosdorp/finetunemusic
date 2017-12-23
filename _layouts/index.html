@@ -40,7 +40,9 @@ pageid: index
 
           <section class="index-description">
             <h2>{{ page.information.title }}</h2>
-            <p class='heading'>{{ page.information.paragraph }}</p>
+            <p class='heading'>
+              {{ page.information.text | markdownify }}
+            </p>
           </section>
 
           <a class="full-width-button" onclick="openPortfolio()">

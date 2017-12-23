@@ -7,15 +7,11 @@
       <img src='/logo.png'>
     </div>
     <div class='wrapper'>
-      <div class='address no-barba'>
-        {{ item.address.text | markdownify }}
+      {% for item in page.contact.text %}
+      <div class='no-barba contact-column'>
+        {{ item | markdownify }}
       </div>
-      <div class='social no-barba'>
-        {{ item.social.text | markdownify }}
-      </div>
-      <div class='legal no-barba'>
-        {{ item.legal.text | markdownify }}
-      </div>
+      {% endfor %}
     </div>
   </div>
 </footer>
