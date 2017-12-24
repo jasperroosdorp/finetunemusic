@@ -18,6 +18,11 @@ introduction:
   We kunnen je laten schrikken, laten lachen en laten huilen.
   Wij zijn die melodie die maar niet uit je hoofd gaat,
   maar ook dat ene liedje waar je de naam niet meer van weet.
+mobile:
+- |-
+  Wij zijn de eerste zangvogel als je opstaat.
+  Het geluid van regen na droogte.
+  De echo in de bergen.
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
@@ -48,4 +53,3 @@ contact:
     [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
-

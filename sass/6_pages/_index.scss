@@ -4,19 +4,18 @@ section.index-intro {
   @include gutters;
   position: relative;
   @include for-tablet-portrait-up { height: 13rem; }
-  h1 {
-    position: relative;
-    display: none;
-    // opacity: 0.9;
-    @include for-phone-only {
-      display: none !important;
-      // &:nth-child(1) { display: block !important; }
-      // opacity: 1 !important;
-    }
+  h1.index-intro-h1 {
+    @include for-phone-only { display: none !important; }
     @include for-tablet-portrait-up {
       position: absolute;
       white-space: pre-line;
       bottom: 0;
+    }
+  }
+  span.index-intro-h1 {
+    white-space: pre-line;
+    @include for-tablet-portrait-up {
+      display: none;
     }
   }
 }

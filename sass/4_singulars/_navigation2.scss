@@ -2,7 +2,11 @@ main {
   transition: transform 0.5s ease;
   transform: translateY(0);
   will-change: transform;
-  margin-top: -23rem;
+  // margin-top: -23rem;
+  // top: 15rem;
+  margin-top: 5rem;
+  @include padding(top, 1);
+  // padding-top: 10rem;
   @include for-tablet-portrait-up { margin-top: -3rem; }
   @include for-tablet-landscape-up { margin-top: -1rem; }
 }
@@ -210,9 +214,14 @@ html.mob-nav-unfolded {
       padding: 0 0.5rem;
       &::after { display: none; }
       &:last-child { padding-right: 0; }
-      &.active { opacity: 0.4; }
     }
   }
+}
+
+html:lang(nl) a.language-switch.nl,
+html:lang(en) a.language-switch.en,
+html:lang(de) a.language-switch.de {
+  opacity: 0.4;
 }
 
 html.nav-unfolded {

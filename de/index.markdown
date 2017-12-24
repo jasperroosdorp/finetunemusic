@@ -18,6 +18,11 @@ introduction:
   Wir können dich erschrecken, lachen und weinen lassen.
   Wir sind diese Melodie, die dir nicht aus dem Kopf geht,
   ebenso wie dieses eine Lied, dessen Namen du nicht mehr weißt.
+mobile:
+- |-
+  Wir sind das erste Vogelzwitschern am Morgen.
+  Das Geräusch von Regen nach Dürre.
+  Das Echo in den Bergen.
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
@@ -49,4 +54,3 @@ contact:
     [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
-

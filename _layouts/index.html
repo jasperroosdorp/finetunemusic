@@ -28,6 +28,9 @@ pageid: index
             {% for introduction in page.introduction %}
             <h1 class='index-intro-h1'>{{ introduction }}</h1>
             {% endfor %}
+            <span class='index-intro-h1 mobile'>
+              {{ page.mobile }}
+            </span>
           </section>
 
           <section class="index-img">

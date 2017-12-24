@@ -28,18 +28,18 @@ footer {
     // float: left;
   }
   .contact-column {
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    // background-color: green;
-    margin-right: 10rem;
-    // @include span(2 of 12);
+    @include margin(bottom, 0.5);
+    @include for-tablet-landscape-up {
+      float: left;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10rem;
+    }
     > p {
       white-space: pre-line;
       padding: 0;
       vertical-align: top;
-      @include margin(bottom, 0.2);
-      // &:last-child { margin-bottom: 0; }
+      @include margin(bottom, 0.2)
     }
   }
 }

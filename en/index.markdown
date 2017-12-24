@@ -14,9 +14,14 @@ introduction:
 - |-
   You will find us everywhere, but we are always invisible.
   We travel at tremendous speed.
-- "We can scare you, make you laugh and make you cry.\nWe’re that melody that will
-  just not leave your mind, \nbut also that one song you no longer remember the name
-  to."
+- We can scare you, make you laugh and make you cry.
+  We’re that melody that will just not leave your mind,
+  but also that one song you no longer remember the name to.
+mobile:
+- |-
+  We’re the first songbird in the morning.
+  The sound of rain after drought.
+  The echo in the mountains.
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
@@ -48,4 +53,3 @@ contact:
     [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
-
