@@ -7,9 +7,9 @@
       <img src='/logo.png'>
     </div>
     <div class='wrapper'>
-      {% for item in page.contact.text %}
+      {% for text in item.contact.text %}
       <div class='no-barba contact-column'>
-        {{ item | markdownify }}
+        {{ text | markdownify }}
       </div>
       {% endfor %}
     </div>
