@@ -33,7 +33,7 @@ information:
 contact:
   text:
   - |-
-    Bereik ons
+    ### Bereik ons
 
     Kerklaan 30
     9751NN Haren
@@ -43,10 +43,10 @@ contact:
     Groningen: [+31(0)633666809](callto:00310633666809)
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
-  - "Volg ons\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
+  - "### Volg ons\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
     \   "
   - |-
-    Zakelijk
+    ### Zakelijk
 
     KvK 58025057
     BTW NL205095999B01
