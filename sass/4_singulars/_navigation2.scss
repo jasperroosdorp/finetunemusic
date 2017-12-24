@@ -1,14 +1,17 @@
 main {
-  transition: transform 0.5s ease;
-  transform: translateY(0);
-  will-change: transform;
-  // margin-top: -23rem;
-  // top: 15rem;
   margin-top: 5rem;
-  @include padding(top, 1);
-  // padding-top: 10rem;
-  @include for-tablet-portrait-up { margin-top: -3rem; }
-  @include for-tablet-landscape-up { margin-top: -1rem; }
+  // @include padding(top, 1);
+  @include for-tablet-portrait-up {
+    transition: transform 0.5s ease;
+    transform: translateY(0);
+    will-change: transform;
+    margin-top: 0;
+    // margin-top: -3rem;
+    // padding-top: 0;
+  }
+  @include for-tablet-landscape-up {
+    // margin-top: -1rem;
+  }
 }
 
 header {
@@ -89,6 +92,9 @@ header {
       display: none !important;
     }
   }
+  a.return-button {
+    display: none;
+  }
   > nav {
     display: none;
     position: relative;
@@ -139,6 +145,7 @@ html.mob-nav-unfolded {
 }
 
 .nav-center-section {
+  z-index: 999;
   .nav-trigger { display: none; }
   @include for-tablet-portrait-up {
     .nav-trigger {
@@ -152,10 +159,11 @@ html.mob-nav-unfolded {
         border: 0px solid #000;
         border-width: 0.1rem 0.1rem 0 0;
         transform: translateY(-0.35rem) rotate(135deg);
+        // pointer-events: none;
       }
     }
     .hidden-items {
-      opacity: 0.4 !important;
+      // opacity: 0.4 !important;
       pointer-events: none;
       ul {
         display: inline-block;
@@ -171,6 +179,7 @@ html.mob-nav-unfolded {
           }
         }
         li a {
+          color: rgba(0, 0, 0, 0.4);
           transition: opacity 0.5s ease, color 0.5s ease;
           @include for-tablet-portrait-up { padding-right: 1rem; }
           @include for-tablet-landscape-up { padding-right: 2rem; }
@@ -299,6 +308,31 @@ html {
       @include for-tablet-portrait-up {
         transform: translateY(11rem);
       }
+    }
+  }
+}
+
+html#video header {
+  background-color: $video-bg-color;
+  > nav {
+    pointer-events: none;
+    opacity: 0;
+  }
+  > .mobile-nav {
+    // display: none;
+    pointer-events: none;
+    opacity: 0;
+  }
+  a.return-button {
+    display: block;
+    color: #fff;
+    @include for-phone-only {
+      position: absolute;
+      top: 0;
+      line-height: 5rem;
+      @include responsive-width;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 }

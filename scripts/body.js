@@ -48,6 +48,16 @@ document.addEventListener("DOMContentLoaded", function() {
     window.location.href = newUrl;
   });
 
+  // Fold and unfold navigation
+  $('.nav-trigger').click(function() {
+    $('html').toggleClass('nav-unfolded');
+  });
+
+  // Reveal mobile navigation
+  $('.mob-nav-toggle').click(function() {
+    $('html').toggleClass('mob-nav-unfolded');
+  });
+
 });
 
 Barba.Dispatcher.on('linkClicked', function() {
@@ -76,16 +86,6 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
 
   // Barba is done
   $('html').removeClass('barba-active');
-
-  // Fold and unfold navigation
-  $('.nav-trigger').click(function() {
-    $('html').toggleClass('nav-unfolded');
-  })
-
-  // Reveal mobile navigation
-  $('.mob-nav-toggle').click(function() {
-    $('html').toggleClass('mob-nav-unfolded');
-  })
 
   // Stop audio when video is clicked
   $('#tab-1 .video, .info-section .links a').click(function() {

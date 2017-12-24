@@ -1,6 +1,6 @@
 footer {
   background-color: $footer-color001;
-  p {
+  p, h3 {
     color: #fff;
   }
   .container {
@@ -11,15 +11,14 @@ footer {
     position: relative;
   }
   .logo {
-    position: absolute;
-    float: right;
-    right: 0;
-    max-width: 23rem;
-    // display: none;
-    display: block;
-    // background-color: pink;
-    img {
-      transform:translate(20%, -25%);
+    display: none;
+    @include for-tablet-portrait-up {
+      position: absolute;
+      float: right;
+      right: 0;
+      max-width: 23rem;
+      display: block;
+      img { transform:translate(20%, -25%); }
     }
   }
   .wrapper {

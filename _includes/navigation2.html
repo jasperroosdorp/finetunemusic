@@ -5,6 +5,13 @@
       <span class='icon'></span>
     </a>
   </div>
+  {% if page.language == 'English' %}
+  <a class="return-button" href="/en">Back</a>
+  {% elsif page.language == 'German' %}
+  <a class="return-button" href="/de">Zurück</a>
+  {% else %}
+  <a class="return-button" href="/">Terug</a>
+  {% endif %}
   <nav>
     <div class='nav-left-section'>
       <a href="/">Fine Tune Music</a>
