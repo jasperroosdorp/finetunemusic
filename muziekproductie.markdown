@@ -23,4 +23,3 @@ button:
   open: openPortfolio(music)
 layout: info
 ---
-

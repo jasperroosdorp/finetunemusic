@@ -14,10 +14,12 @@ text: |-
   Besides recording we provide post production for voice-overs, like editing and mixing. On request, we compose matching music and finalize productions by adding sound design.
 
   We also do audio book recordings, making sure the stories are told as they were meant to be told.
-image:
-  image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 clients:
   title: Clients
+image:
+  image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
+button:
+  title: Listen to a selection of our voice-overs
+  open: openPortfolio(music)
 layout: info
 ---
-

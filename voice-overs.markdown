@@ -17,10 +17,12 @@ text: "# Voice-overs\n\nAls geen ander weten we dat de juiste voice-over een bel
   muziek, of maken wij met sound design de productie compleet.\n \nVoor het inspreken
   van luisterboeken kun je ook bij ons terecht. Wij zorgen ervoor dat het verhaal
   met de juiste intentie wordt verteld."
-image:
-  image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 clients:
   title: Opdrachtgevers
+image:
+  image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
+button:
+  title: Beluister een selectie van onze voice-overs
+  open: openPortfolio(music)
 layout: info
 ---
-

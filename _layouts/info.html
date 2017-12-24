@@ -19,9 +19,9 @@ pageid: info
 
     <main id="barba-wrapper">
       <div class="barba-container" data-pageid="info"
-      {% if page.url contains 'muziekproductie' or page.url contains 'production' %}
+      {% if page.url contains 'prod' %}
       data-url-en="/en/production{{ site.urlext }}"
-      data-url-de="/de/production{{ site.urlext }}"
+      data-url-de="/de/musikproduktion{{ site.urlext }}"
       data-url-nl="/muziekproductie{{ site.urlext }}"
       {% endif %}
       {% if page.url contains 'voice-overs' %}
@@ -71,7 +71,7 @@ pageid: info
           </figure>
         </section>
 
-        <a class="full-width-button" onclick="openPortfolio()">
+        <!-- <a class="full-width-button" onclick="openPortfolio()">
           <div class="wrapper">
             {% if page.language == 'English' %}
             <span class='heading'>Listen to our portfolio</span>
@@ -80,6 +80,12 @@ pageid: info
             {% else %}
             <span class='heading'>Beluister ons portfolio</span>
             {% endif %}
+          </div>
+        </a> -->
+
+        <a class="full-width-button" onclick="openPortfolio()">
+          <div class="wrapper">
+            <span class='heading'>{{ page.button.title }}</span>
           </div>
         </a>
 

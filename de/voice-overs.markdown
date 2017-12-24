@@ -14,10 +14,12 @@ text: |-
   Neben Sprachaufnahmen bieten wir Postproduktion für Voice-Over, Editing und Mixing an. Wir bieten die passende Overvoice Lösung für Ihre Audiovisuelle Produktion. Auf Wunsch komponieren wir passende Musik und fertigen Produktionen durch Sounddesign an. Von der Aufnahme zum fertigen Mix - alles aus einer Hand.
 
   Wir führen auch Hörbuch Aufzeichnungen durch und stellen sicher, dass die Geschichten erzählt werden, wie sie erzählt werden sollten.
-image:
-  image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 clients:
   title: Unsere Kunden
+image:
+  image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
+button:
+  title: Hören Sie sich eine Auswahl unserer Voice-Overs an
+  open: openPortfolio(music)
 layout: info
 ---
-
