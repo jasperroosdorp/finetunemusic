@@ -14,8 +14,10 @@ introduction:
 - |-
   You will find us everywhere, but we are always invisible.
   We travel at tremendous speed.
-- We can scare you, make you laugh and make you cry. We’re that melody that will just
-  not leave your mind, but also that one song you no longer remember the name to.
+- |-
+  We can scare you, make you laugh and make you cry.
+  We’re that melody that will just not leave your mind,
+  but also that one song you no longer remember the name to.
 mobile:
 - |-
   We’re the first songbird in the morning.
