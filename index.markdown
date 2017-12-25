@@ -43,7 +43,7 @@ contact:
 
     Kerklaan 30
     9751NN Haren
-    Groningen
+    The Netherlands
   - "### Volg ons\n\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
     \   "
   - |-
