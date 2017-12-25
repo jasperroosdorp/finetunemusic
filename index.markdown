@@ -36,7 +36,7 @@ contact:
     ### Bereik ons
     </br></br>
 
-    Amsterdam: [+31(0)6 33 666 809](callto:00310633666809)
+    AMsterdam: [+31(0)6 33 666 809](callto:00310633666809)
     Groningen:   [+31(0)6 33 666 809](callto:00310633666809)
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
