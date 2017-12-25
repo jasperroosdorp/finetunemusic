@@ -35,14 +35,14 @@ contact:
   - |-
     ### Bereik ons
 
+    [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
+
+    Amsterdam: [+31(0)6 33 666 809](callto:00310633666809)
+    Groningen:   [+31(0)6 33 666 809](callto:00310633666809)
+
     Kerklaan 30
     9751NN Haren
     Groningen
-
-    Amsterdam: [+31(0)633666809](callto:00310633666809)
-    Groningen: [+31(0)633666809](callto:00310633666809)
-
-    [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
   - "### Volg ons\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
     \   "
   - |-
