@@ -39,9 +39,9 @@ contact:
     9751NN Haren
     The Netherlands
 
-    [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
     [+31 (0)20 123 45 67](callto:00310633666809) (Amsterdam)
     [+31 (0)50 765 43 21](callto:00310633666809) (Groningen)
+    [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
   - "### Volg ons\n\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
     \   "
   - |-
