@@ -46,7 +46,6 @@ contact:
     \   "
   - |-
     **Legal**
-
     KvK 58025057
     BTW NL205095999B01
     [Terms and Conditions](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
