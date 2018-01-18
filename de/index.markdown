@@ -19,12 +19,9 @@ introduction:
   Wir sind diese Melodie, die dir nicht aus dem Kopf geht,
   ebenso wie dieses eine Lied, dessen Namen du nicht mehr weißt.
 mobile:
-- |-
-  Wir sind das erste Vogelzwitschern am Morgen.
-  Das Geräusch von Regen nach Dürre.
-  Das Echo in den Bergen.
-  Wir sind diese Melodie, die dir nicht aus dem Kopf geht,
-  ebenso wie dieses eine Lied, dessen Namen du nicht mehr weißt.
+- Wir sind das erste Vogelzwitschern am Morgen. Das Echo in den Bergen. Wir sind diese
+  Melodie, die dir nicht aus dem Kopf geht, ebenso wie dieses eine Lied, dessen Namen
+  du nicht mehr weißt.
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
