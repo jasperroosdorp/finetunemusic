@@ -7,7 +7,7 @@ page:
   google: Music production company Fine Tune Music produces music, sound and voice-over
     for radio and TV-commercials, films and games. Listen to our portfolio.
 text: |-
-  # Music production
+  # Music / Sound design
 
   Turning identity into sound is our passion. Our music productions are custom-made for all kinds of projects. From radio and TV commercials to film music, from interactive sound design for games to theatre plays. We love to surprise our clients by showing them how the image of their company or product can be translated into sound.
 
