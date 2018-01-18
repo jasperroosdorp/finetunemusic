@@ -34,7 +34,6 @@ contact:
   text:
   - |
     Bereik ons
-
     Kerklaan 30
     9751NN Haren
     The Netherlands
