@@ -50,7 +50,7 @@ contact:
 
     KvK 58025057
     BTW NL205095999B01
-    [Algemene Voorwaarden](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
+    [Terms and Conditions](http://finetunemusic.jasperroosdorp.nl/uploads/algemene_voorwaarden.pdf)
 layout: index
 ---
 
