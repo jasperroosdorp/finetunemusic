@@ -23,6 +23,8 @@ mobile:
   We’re the first songbird in the morning.
   The sound of rain after drought.
   The echo in the mountains.
+  We’re that melody that will just not leave your mind,
+  but also that one song you no longer remember the name to.
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
