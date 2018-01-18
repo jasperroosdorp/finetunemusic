@@ -23,6 +23,8 @@ mobile:
   Wij zijn de eerste zangvogel als je opstaat.
   Het geluid van regen na droogte.
   De echo in de bergen.
+  Wij zijn die melodie die maar niet uit je hoofd gaat,
+  maar ook dat ene liedje waar je de naam niet meer van weet.
 image:
   image: "/uploads/FTM-34241-2-crop%2016-9%203200px.jpg"
 information:
