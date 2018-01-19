@@ -19,7 +19,7 @@ clients:
 image:
   image: "/uploads/FTM-34257-crop%2016-9%203200px.jpg"
 button:
-  title: Listen to a selection of our music
+  title: Listen to our portfolio
   open: openPortfolio(music)
 layout: info
 ---
