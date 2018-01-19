@@ -12,6 +12,8 @@ text: |-
   Turning identity into sound is our passion. Our music productions are custom-made for all kinds of projects. From radio and TV commercials to film music, from interactive sound design for games to theatre plays. We love to surprise our clients by showing them how the image of their company or product can be translated into sound.
 
   We often collaborate with other creative parties to create a product in which the visual and the auditory elements reinforce each other. Among other parties, we worked with G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones and Sword GC.
+
+  [Listen](openPortfolio(music)) to a selection of our music.
 clients:
   title: Clients
 image:
