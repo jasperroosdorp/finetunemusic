@@ -14,8 +14,6 @@ text: |-
   [Beluister](openPortfolio(music)) een selectie van onze muziek.
 image:
   image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
-clients:
-  title: Opdrachtgevers
 layout: info
 ---
 
