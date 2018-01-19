@@ -16,7 +16,7 @@ description: |-
 
   We used the primary colors and schematic animation style as an inspiration for our sound design, to create a matching palette of round, colorful sounds.
 pages:
-- Finetunemusic.nl/en/voice-overs
-- Finetunemusic.nl/en/production
+- 
+- 
 ---
 
