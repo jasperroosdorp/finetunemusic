@@ -16,13 +16,14 @@ text: "# Voice-overs\n\nAls geen ander weten we dat de juiste voice-over een bel
   van de voice-over, zoals de editing en mixage. Indien gewenst componeren wij passende
   muziek, of maken wij met sound design de productie compleet.\n \nVoor het inspreken
   van luisterboeken kun je ook bij ons terecht. Wij zorgen ervoor dat het verhaal
-  met de juiste intentie wordt verteld."
+  met de juiste intentie wordt verteld.\n\n[Beluister](openPortfolio(voiceovers))
+  een selectie van onze voice-overs."
 clients:
   title: Opdrachtgevers
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 button:
-  title: Beluister een selectie van onze voice-overs
+  title: Beluister ons portfolio
   open: openPortfolio(music)
 layout: info
 ---
