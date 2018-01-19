@@ -14,8 +14,5 @@ description: |-
   ## Audio
 
   Fine Tune Music produzierte die Musik unter der Leitung von Marcel Davids. In Zusammenarbeit mit der litauischen Sängerin und Songschreiberin Migloko entstanden Texte und Gesang.
-pages:
-- 
-- 
 ---
 
