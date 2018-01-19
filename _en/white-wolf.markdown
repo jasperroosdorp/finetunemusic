@@ -14,8 +14,5 @@ description: |-
   ## Audio
 
   Fine Tune Music produced the music, supervised by Marcel Davids. The lyrics and vocals were created together with singer/songwriter Migloko from Lithuania.
-pages:
-- 
-- 
 ---
 
