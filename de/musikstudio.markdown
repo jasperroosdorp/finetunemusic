@@ -14,8 +14,6 @@ text: |-
   [Hören](openPortfolio(music)) Sie sich eine Auswahl unserer Musik an.
 image:
   image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
-clients:
-  title: Unsere Kunden
 layout: info
 ---
 
