@@ -14,8 +14,5 @@ description: |-
   ## Audio
 
   The calm, almost hypnotic movement of the lung inspired us in producing the music for this video. By combining both organic and artificial elements, we created a unique sound identity, matching the over-all audio house style we developed for Han Koning.
-pages:
-- Finetunemusic.nl/en/production
-- Finetunemusic.nl/en/studio
 ---
 
