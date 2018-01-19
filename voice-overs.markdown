@@ -18,8 +18,6 @@ text: "# Voice-overs\n\nAls geen ander weten we dat de juiste voice-over een bel
   van luisterboeken kun je ook bij ons terecht. Wij zorgen ervoor dat het verhaal
   met de juiste intentie wordt verteld.\n\n[Beluister](openPortfolio(voiceovers))
   een selectie van onze voice-overs."
-clients:
-  title: Opdrachtgevers
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 button:
