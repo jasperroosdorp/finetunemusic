@@ -16,7 +16,7 @@ description: |-
 
   Fine Tune Music produceerde de muziek onder leiding van Marcel Davids. In samenwerking met de Litouwse zangeres en songwriter Migloko kwamen de lyrics en vocalen tot stand.
 pages:
-- Finetunemusic.nl/voice-overs
-- Finetunemusic.nl/studio
+- 
+- 
 ---
 
