@@ -16,8 +16,6 @@ text: |-
   We also do audio book recordings, making sure the stories are told as they were meant to be told.
 
   [Listen](openPortfolio(voiceovers)) to a selection of our voice-overs.
-clients:
-  title: Clients
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 button:
