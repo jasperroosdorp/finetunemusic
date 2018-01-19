@@ -16,7 +16,7 @@ description: |-
 
   We gebruikten de primaire kleuren en de schematische animatiestijl als inspiratie voor ons sounddesign, om zo een passend palet aan kleurrijke, ronde sounds te creëren.
 pages:
-- Finetunemusic.nl/voice-overs
-- Finetunemusic.nl/muziekproductie
+- 
+- 
 ---
 
