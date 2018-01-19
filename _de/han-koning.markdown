@@ -16,7 +16,7 @@ description: |-
 
   Für diesen Trailer haben wir ein detailgetreues Sounddesign erstellt, das mit Kontrast und verschiedenen Klangstrukturen spielt, um die Wirkung der Bilder zu intensivieren.
 pages:
-- Finetunemusic.nl/en/production
-- Finetunemusic.nl/en/studio
+- 
+- 
 ---
 
