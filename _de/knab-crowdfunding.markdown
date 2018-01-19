@@ -16,7 +16,7 @@ description: |-
 
   Die Grundfarben und der schematische Animationsstil dienten als Inspiration für unser Sounddesign, um eine passende Palette an bunten, runden Klängen zu kreieren.
 pages:
-- Finetunemusic.nl/en/voice-overs
-- Finetunemusic.nl/en/production
+- 
+- 
 ---
 
