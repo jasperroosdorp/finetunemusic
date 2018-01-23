@@ -40,8 +40,11 @@ contact:
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
     Amsterdam: [+31 (0)20 244 04 77](callto:0031202440477)
     Groningen: [+31 (0)50 211 36 80](callto:0031502113680)
-  - "**Volg ons**\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\nInstagram\nTwitter
-    \   "
+  - |-
+    **Volg ons**
+    [Facebook](https://www.Facebook.com/Finetunemusic.nl/)
+    [Instagram](https://www.instagram.com/fine_tune_music/)
+    [Twitter](https://twitter.com/FineTune_Music)
   - |-
     **Zakelijk**
     KvK 58025057
