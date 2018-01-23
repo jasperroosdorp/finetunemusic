@@ -58,7 +58,8 @@ $audio-bar-height: 30px;
     height: $audio-bar-height;
     width: $audio-bar-height;
     border: 0;
-    background: transparent url(controls.svg) no-repeat;
+    /* background: transparent url(controls.svg) no-repeat; */
+    background: transparent;
     &:focus { outline: none; }
   }
   .mejs-time {
