@@ -153,7 +153,7 @@ html.mob-nav-unfolded {
       &::after {
         display: inline-block;
         content: '';
-        margin-left: 2rem;
+        margin-left: 1.5rem;
         height: 1rem;
         width: 1rem;
         border: 0px solid #000;
@@ -179,12 +179,11 @@ html.mob-nav-unfolded {
           }
         }
         li a {
-          color: rgba(0, 0, 0, 0.4);
-          transition: opacity 0.5s ease, color 0.5s ease;
+          opacity: 0.4;
+          transition: opacity 0.3s ease;
           @include for-tablet-portrait-up { padding-right: 1rem; }
           @include for-tablet-landscape-up { padding-right: 2rem; }
           &:hover {
-            color: $color002;
             opacity: 1;
           }
         }
@@ -223,6 +222,9 @@ html.mob-nav-unfolded {
       padding: 0 0.5rem;
       &::after { display: none; }
       &:last-child { padding-right: 0; }
+      &:hover {
+        color: $color002;
+      }
     }
   }
 }
@@ -231,6 +233,10 @@ html:lang(nl) a.language-switch.nl,
 html:lang(en) a.language-switch.en,
 html:lang(de) a.language-switch.de {
   opacity: 0.4;
+  transition: opacity 0.3s ease;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 html.nav-unfolded {
@@ -251,26 +257,53 @@ html.nav-unfolded {
 
 
 html {
+  header .mobile-nav .current-track > .music-bar {
+    position: absolute;
+    right: 40px;
+    top: 15px;
+  }
+  header .current-track {
+    > .placeholder,
+    > .audio-player-title,
+    > .music-bar {
+      /* pointer-events: none !important;
+      opacity: 0 !important; */
+      display: none;
+      color: $color002;
+      use {
+        fill: $color002;
+      }
+    }
+    > .music-bar {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.8em;
+    }
+  }
   &.portfolio-opening, &.portfolio-open {
     header .current-track {
       > .placeholder,
       > .audio-player-title,
       > .music-bar {
-        pointer-events: none !important;
-        opacity: 0 !important;
+        /* pointer-events: none !important;
+        opacity: 0 !important; */
+        display: none !important;
       }
     }
   }
   &.audio-playing  {
     header .current-track {
       > .placeholder {
+        display: inline;
         pointer-events: none;
         opacity: 0;
       }
       > .music-bar {
+        display: inline;
         opacity: 1;
       }
       > .audio-player-title {
+        display: inline;
         @include for-tablet-portrait-up {
           pointer-events: auto;
           opacity: 1;
