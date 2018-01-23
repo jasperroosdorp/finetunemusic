@@ -25,7 +25,7 @@ collections:
     output: false
   voice-overs-en:
     title: Voice-overs (EN)
-    output: true
+    output: false
   voice-overs:
     title: Voice-overs (NL)
     output: false
