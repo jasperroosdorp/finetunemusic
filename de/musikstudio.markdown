@@ -14,6 +14,9 @@ text: |-
   [Hören](javascript:openPortfolio('tab-2a'))&nbsp;Sie sich eine Auswahl unserer Musik an.
 image:
   image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
+button:
+  title: Ein Einblick in unser Portfolio
+  open: openPortfolio(music)
 layout: info
 ---
 
