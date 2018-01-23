@@ -19,10 +19,10 @@ pageid: info
 
     <main id="barba-wrapper">
       <div class="barba-container" data-pageid="info"
-      {% if page.url contains 'prod' %}
+      {% if page.url contains 'prod' or page.url contains 'sounddesign' %}
       data-url-en="/en/production{{ site.urlext }}"
       data-url-de="/de/musikproduktion{{ site.urlext }}"
-      data-url-nl="/muziekproductie{{ site.urlext }}"
+      data-url-nl="/muziek-sounddesign{{ site.urlext }}"
       {% endif %}
       {% if page.url contains 'voice-overs' %}
       data-url-en="/en/voice-overs{{ site.urlext }}"
@@ -31,35 +31,13 @@ pageid: info
       {% endif %}
       {% if page.url contains 'studio' %}
       data-url-en="/en/studio{{ site.urlext }}"
-      data-url-de="/de/studio{{ site.urlext }}"
+      data-url-de="/de/musikstudio{{ site.urlext }}"
       data-url-nl="/studio{{ site.urlext }}"
       {% endif %}>
       <div class="barba-content">
 
         <section class='info-section'>
           {{ page.text | markdownify }}
-        </section>
-
-        <section class='info-section'>
-          <h2>{{ page.clients.title }}</h2>
-          <p class="links">
-            {% if page.language == 'English' %}
-            {% assign sorted = (site.en | sort: 'position') %}
-            {% elsif page.language == 'German' %}
-            {% assign sorted = (site.de | sort: 'position') %}
-            {% else %}
-            {% assign sorted = (site.video | sort: 'position') %}
-            {% endif %}
-            {% for video in sorted %}
-            {% if video.published != false %}
-            {% for item in video.pages %}
-            {% if item == page.title %}
-            <a href="{{ video.url }}">{{ video.client }}</a>
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-            {% endfor %}
-          </p>
         </section>
 
         <section class="info-img">
