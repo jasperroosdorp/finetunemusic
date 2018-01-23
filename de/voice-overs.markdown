@@ -15,7 +15,7 @@ text: |-
 
   Wir führen auch Hörbuch Aufzeichnungen durch und stellen sicher, dass die Geschichten erzählt werden, wie sie erzählt werden sollten.
 
-  [Hören](openPortfolio(voiceovers)) Sie sich eine Auswahl unserer Voice-overs an.
+  [Hören](javascript:openPortfolio('tab-2b'))&nbsp;Sie sich eine Auswahl unserer Voice-overs an.
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 button:
