@@ -15,7 +15,7 @@ text: |-
 
   We also do audio book recordings, making sure the stories are told as they were meant to be told.
 
-  [Listen](openPortfolio(voiceovers))&nbsp;to a selection of our voice-overs.
+  [Listen](javascript:openPortfolio('tab-2b'))&nbsp;to a selection of our voice-overs.
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 button:
