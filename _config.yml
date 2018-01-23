@@ -23,6 +23,9 @@ collections:
   voice-overs-de:
     title: Voice-overs (DE)
     output: false
+  voice-overs-en:
+    title: Voice-overs (EN)
+    output: true
   voice-overs:
     title: Voice-overs (NL)
     output: false
