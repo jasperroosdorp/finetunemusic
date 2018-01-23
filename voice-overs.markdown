@@ -16,7 +16,7 @@ text: "# Voice-overs\n\nAls geen ander weten we dat de juiste voice-over een bel
   van de voice-over, zoals de editing en mixage. Indien gewenst componeren wij passende
   muziek, of maken wij met sound design de productie compleet.\n \nVoor het inspreken
   van luisterboeken kun je ook bij ons terecht. Wij zorgen ervoor dat het verhaal
-  met de juiste intentie wordt verteld.\n\n[Beluister](openPortfolio(voiceovers))&nbsp;een
+  met de juiste intentie wordt verteld.\n\n[Beluister](javascript:openPortfolio('tab-2b'))&nbsp;een
   selectie van onze voice-overs."
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
