@@ -14,6 +14,9 @@ text: |-
   [Listen](openPortfolio(music))&nbsp;to a selection of our music.
 image:
   image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
+button:
+  title: Listen to our portfolio
+  open: openPortfolio(music)
 layout: info
 ---
 
