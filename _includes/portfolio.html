@@ -57,7 +57,13 @@
             <source class="music" src="{{ music.file }}" title="{{ music.title }}"></source>
             {% endif %}
             {% endfor %}
+            {% if page.language == 'English' %}
+            {% assign sorted = (site.voice-overs-en | sort: 'position') %}
+            {% elsif page.language == 'German' %}
+            {% assign sorted = (site.voice-overs-de | sort: 'position') %}
+            {% else %}
             {% assign sorted = (site.voice-overs | sort: 'position') %}
+            {% endif %}
             {% for voice-overs in sorted %}
             {% if voice-overs.published != false %}
             <source class="voice-over" src="{{ voice-overs.file }}" title="{{ voice-overs.title }}"></source>
