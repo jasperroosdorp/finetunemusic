@@ -1,5 +1,18 @@
 // OPEN PORTFOLIO
-function openPortfolio() {
+function openPortfolio(tab) {
+  if(tab == 'tab-1') {
+    $('html').removeClass('portfolio-tab-2a portfolio-tab-2b');
+    $('html').addClass('portfolio-tab-1');
+  }
+  if(tab == 'tab-2a') {
+    $('html').removeClass('portfolio-tab-1 portfolio-tab-2b');
+    $('html').addClass('portfolio-tab-2a');
+  }
+  if(tab == 'tab-2b') {
+    $('html').removeClass('portfolio-tab-1 portfolio-tab-2a');
+    $('html').addClass('portfolio-tab-2b');
+  }
+
   if (!$('html').hasClass('portfolio-open')) {
     $('html').addClass('portfolio-opening').removeClass('nav-unfolded mob-nav-unfolded');
     setTimeout(function(){

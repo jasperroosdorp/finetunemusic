@@ -18,16 +18,15 @@
 // $('nav.upper a').on('click', checkSize());
 
 // Show contact segment
-// function showContact() {
-//   $('html, body').animate({
-//     scrollTop: $('footer').offset().top
-//   }, 1000);
-//   $('html').removeClass('nav-unfolded');
-//   if (!$('html').hasClass('contact-visible')) {
-//     $('html').addClass('contact-visible');
-//   }
-// };
-
+function showContact() {
+  $('html, body').animate({
+    scrollTop: $('footer').offset().top
+  }, 1000);
+  $('html').removeClass('nav-unfolded');
+  if (!$('html').hasClass('contact-visible')) {
+    $('html').addClass('contact-visible');
+  }
+}
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -42,9 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Language switch in navigation
   $('.language-switch').on('click', function() {
-    if($(this).hasClass('en')) { var newUrl = $('.barba-container').attr('data-url-en'); }
-    if($(this).hasClass('de')) { var newUrl = $('.barba-container').attr('data-url-de'); }
-    if($(this).hasClass('nl')) { var newUrl = $('.barba-container').attr('data-url-nl'); }
+    var newUrl;
+    if($(this).hasClass('en')) { newUrl = $('.barba-container').attr('data-url-en'); }
+    if($(this).hasClass('de')) { newUrl = $('.barba-container').attr('data-url-de'); }
+    if($(this).hasClass('nl')) { newUrl = $('.barba-container').attr('data-url-nl'); }
     window.location.href = newUrl;
   });
 
@@ -93,7 +93,7 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
     $('nav.upper .return-button').attr("href", currentpath);
     $('audio').each(function() { $(this)[0].pause(); });
     $('html').removeClass('audio-playing music voice-over');
-  })
+  });
 
   // Extend footer background color to html background
   // $(window).scroll(function () {
