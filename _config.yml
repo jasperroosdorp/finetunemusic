@@ -20,14 +20,8 @@ collections:
   video:
     title: Videos (NL)
     output: true
-  voice-overs-de:
-    title: Voice-overs (DE)
-    output: false
-  voice-overs-en:
-    title: Voice-overs (EN)
-    output: false
   voice-overs:
-    title: Voice-overs (NL)
+    title: Voice-overs
     output: false
 defaults:
 - scope:

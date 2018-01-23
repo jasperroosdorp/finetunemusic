@@ -13,7 +13,7 @@ text: |-
 
   Wir setzen großen Wert auf die Zusammenarbeit mit anderen Kreativunternehmen, um ein Produkt zu schaffen, in dem sich das Visuelle und das Auditive gegenseitig potenzieren. Zu unseren Partnern gehören dabei u.a. bereits G2KxPIT, Sensu, N = 5, Original Soundtracks, Talents for Brands, Club Guy und Roni, De Noorderlingen, Theater Young Ones und Sword GC.
 
-  [Hören](javascript:openPortfolio('tab-2a'))&nbsp;Sie sich eine Auswahl unserer Musik an.
+  [Hören](openPortfolio(music)) Sie sich eine Auswahl unserer Musik an.
 image:
   image: "/uploads/FTM-34257-crop%2016-9%203200px.jpg"
 button:
