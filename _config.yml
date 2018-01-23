@@ -22,10 +22,10 @@ collections:
     output: true
   voice-overs-de:
     title: Voice-overs (DE)
-    output: true
+    output: false
   voice-overs-en:
     title: Voice-overs (EN)
-    output: true
+    output: false
   voice-overs:
     title: Voice-overs (NL)
     output: false
