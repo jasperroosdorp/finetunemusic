@@ -21,7 +21,7 @@ collections:
     title: Videos (NL)
     output: true
   voice-overs:
-    title: Voice-overs
+    title: Voice-overs (NL)
     output: false
 defaults:
 - scope:
