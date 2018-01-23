@@ -129,3 +129,15 @@ html.portfolio-tab-2b .portfolio-wrapper #tab-2 .mejs-playlist li.voice-over {
 //     }
 //   }
 // }
+
+body {
+  overflow: hidden;
+}
+
+@include for-tablet-landscape-up {
+  footer {
+    .contact-column:nth-child(2) {
+      margin-right: 14rem;
+    }
+  }
+}
