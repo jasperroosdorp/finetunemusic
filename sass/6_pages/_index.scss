@@ -7,9 +7,11 @@ section.index-intro {
   h1.index-intro-h1 {
     @include for-phone-only { display: none !important; }
     @include for-tablet-portrait-up {
+      display: none;
       position: absolute;
       white-space: pre-line;
       bottom: 0;
+      opacity: 1;
     }
   }
   span.index-intro-h1 {
