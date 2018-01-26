@@ -28,7 +28,7 @@ information:
   title: Wir sind Fine Tune Music
   text: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. Wir bieten
     Musik, Sound Design und Voice-Over für Filme, Animationen, Games und Werbung an.
-    [Rufen](callto:00310633666809) Sie uns an oder [mailen](mailto:info@finetunemusic.nl)
+    [Rufen](callto:00310633666809) Sie uns an oder [mailen](tel:info@finetunemusic.nl)
     Sie uns und Finden Sie heraus, was wir für Sie tun können.
 contact:
   text:
@@ -39,8 +39,8 @@ contact:
     The Netherlands
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
-    Amsterdam: [+31 (0)20 244 04 77](callto:0031202440477)
-    Groningen: [+31 (0)50 211 36 80](callto:0031502113680)
+    Amsterdam: [+31 (0)20 244 04 77](tel:0031202440477)
+    Groningen: [+31 (0)50 211 36 80](tel:0031502113680)
   - "**Folgen Sie uns**\n[Facebook](https://www.Facebook.com/Finetunemusic.nl/)\n[Instagram](https://www.instagram.com/fine_tune_music/)\n[Twitter](https://twitter.com/FineTune_Music)
     \ "
   - |-
