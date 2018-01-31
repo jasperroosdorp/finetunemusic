@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
     $('html').toggleClass('mob-nav-unfolded');
   });
 
-  $('header nav a').click(function() {
+  $('header nav a, header .mobile-nav > a:first-of-type').click(function() {
     $('html').removeClass('mob-nav-unfolded');
   });
 
