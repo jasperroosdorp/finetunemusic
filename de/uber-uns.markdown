@@ -21,7 +21,7 @@ people:
 
     Wie kein anderer versteht er die Kunst, Emotionen in Musik und Klang zu integrieren. Er nutzt dies effektiv als Kommunikationsinstrument, wenn es darum geht, Identität in Klang umzuwandeln und den Hörer auf eine Reise zu bringen. David arbeitete unter anderem bereits mit Cabaretier Bert Visscher, Club Guy and Roni und der niederländischen Theaterfirma Van Engelenburg Theaterproducties.
 
-    David's [LinkedIn](https://www.linkedin.com/in/finetunemusic/)
+    David's <a href="https://www.linkedin.com/in/finetunemusic/" target="_blank">LinkedIn</a>
   image: "/uploads/FTM-34185%202400px.jpg"
 - description: |-
     ## Paul Maaswinkel
@@ -32,7 +32,7 @@ people:
 
     In den letzten Jahren komponierte und produzierte er Musik für eine Vielzahl von Theaterstücken als Inhouse-Komponist für das Theater Young Ones. Hier entwickelte er einen scharfen Sinn dafür, Geschichten durch Musik zu erzählen, so dass der Zuhörer wirklich bewegt wird. Dies spiegelt sich auch in Pauls enthusiastischer Art wider, mit anderen Künstlern innerhalb und außerhalb des Studios zu kommunizieren. Typhoon, Akwasi und The Cool Quest gehören zu den Künstlern, mit denen er bereits zusammengearbeitet hat.
 
-    Paul's [LinkedIn](https://www.linkedin.com/in/paulmaaswinkel/)
+    Paul's <a href="https://www.linkedin.com/in/paulmaaswinkel/" target="_blank">LinkedIn</a>
   image: "/uploads/FTM-34111-2-crop%202400px.jpg"
 layout: about
 ---
