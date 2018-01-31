@@ -39,9 +39,15 @@ a {
     line-height: 2.8rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.6);
   }
+  &::after {
+    transition: border-color 0.3s ease;
+  }
   &:hover {
     color: $color002;
     border-color: $color002;
+    &::after {
+      border-color: $color002 !important;
+    }
   }
 }
 
