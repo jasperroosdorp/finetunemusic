@@ -9,7 +9,7 @@ image: "/uploads/watwiljenou2.jpg"
 description: |-
   ## Projekt
 
-  Jeder von uns möchte authentisch erscheinen. Wir schauen Reality-TV mit echten Menschen statt Schauspielern, wir zeigen uns von unserer einzigartigen Seite auf Facebook und wollen dabei ebenso authentisch sein. Wir glauben daran, dass wir das aus freier Entscheidung heraus tun, aber ist das wirklich so? Können wir noch von Authentizität sprechen, wenn jeder nach dem gleichen strebt? “Wat Wil Je Nou?” (zu deutsch: “Was willst du?”) nähert sich mittels Film, Interviews und Essays der Besessenheit mit einem der unklarsten Konzepte unserer Zeit: Authentizität. Der Film wurde für den Best Groninger Film 2016 nominiert und war u.a. beim Northern Film Festival in Leeuwarden zu sehen. Sehen Sie den ganzen Film auf der [Website](http://www.watwiljenou.nl).
+  Jeder von uns möchte authentisch erscheinen. Wir schauen Reality-TV mit echten Menschen statt Schauspielern, wir zeigen uns von unserer einzigartigen Seite auf Facebook und wollen dabei ebenso authentisch sein. Wir glauben daran, dass wir das aus freier Entscheidung heraus tun, aber ist das wirklich so? Können wir noch von Authentizität sprechen, wenn jeder nach dem gleichen strebt? “Wat Wil Je Nou?” (zu deutsch: “Was willst du?”) nähert sich mittels Film, Interviews und Essays der Besessenheit mit einem der unklarsten Konzepte unserer Zeit: Authentizität. Der Film wurde für den Best Groninger Film 2016 nominiert und war u.a. beim Northern Film Festival in Leeuwarden zu sehen. Sehen Sie den ganzen Film auf der <a href="http://www.watwiljenou.nl" target="_blank">Website</a>.
 
   ## Audio
 
