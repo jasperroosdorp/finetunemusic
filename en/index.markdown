@@ -43,9 +43,9 @@ contact:
     Groningen: [+31 (0)50 211 36 80](tel:0031502113680)
   - |-
     **Follow us**
-    [Facebook](https://www.Facebook.com/Finetunemusic.nl/)
-    [Instagram](https://www.instagram.com/fine_tune_music/)
-    [Twitter](https://twitter.com/FineTune_Music)
+    <a href="https://www.Facebook.com/Finetunemusic.nl/" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/fine_tune_music/" target="_blank">Instagram</a>
+    <a href="https://twitter.com/FineTune_Music" target="_blank">Twitter</a>
   - |-
     **Legal**
     KvK 58025057
