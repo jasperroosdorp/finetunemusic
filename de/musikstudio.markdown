@@ -1,5 +1,5 @@
 ---
-title: Finetunemusic.nl/de/studio
+title: Finetunemusic.nl/de/musikstudio
 position: 14
 language: German
 page:
