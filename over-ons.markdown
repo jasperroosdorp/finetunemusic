@@ -21,7 +21,7 @@ people:
 
     Als geen ander weet David emoties in muziek en sound design uit te drukken. Dit zet hij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar. David werkte onder meer samen met Bert Visscher, Club Guy and Roni en Van Engelenburg Theaterproducties.
 
-    David's [LinkedIn](https://www.linkedin.com/in/finetunemusic/)
+    David's <a href="https://www.linkedin.com/in/finetunemusic/" target="_blank">LinkedIn</a>
   image: "/uploads/FTM-34185%202400px.jpg"
 - description: "## Paul Maaswinkel\n\nPaul’s brede achtergrond maakt dat hij thuis
     is in uiteenlopende stijlen. Zijn werk als songwriter en producer variëert van
