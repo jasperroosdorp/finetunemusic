@@ -86,7 +86,7 @@ html.portfolio-open {
   .portfolio {
     transition: transform 0.5s ease-out;
     transform: translateY(-100vh);
-    @include for-tablet-portrait-up { transform: translateY(-70rem); }
+    //@include for-tablet-portrait-up { transform: translateY(-70rem); }
     @include for-tablet-landscape-up { transform: translateY(-56rem); }
     @include for-big-desktop-up { transform: translateY(-65rem); }
   }
@@ -124,9 +124,9 @@ html.portfolio-tab-2a,
 html.portfolio-tab-2b {
   .portfolio {
     // height: 56rem; max-height: 56rem;
-    height: 100vh;
+    // height: 100vh;
     @include for-tablet-portrait-up {
-      overflow: hidden;
+      // overflow: hidden;
       height: 70rem;
       max-height: 70rem;
     }
