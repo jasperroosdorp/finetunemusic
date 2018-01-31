@@ -34,7 +34,7 @@ $(function(){
     playlist: true,
     audioHeight: 30,
     playlistposition: 'bottom',
-    features: ['playlistfeature', 'playpause', 'current', 'progress', 'duration'],
+    features: ['playpause', 'current', 'progress', 'duration', 'playlistfeature'],
     keyActions: []
   });
 });

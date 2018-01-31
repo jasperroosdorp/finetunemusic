@@ -58,6 +58,10 @@ document.addEventListener("DOMContentLoaded", function() {
     $('html').toggleClass('mob-nav-unfolded');
   });
 
+  $('header nav a').click(function() {
+    $('html').removeClass('mob-nav-unfolded');
+  });
+
 });
 
 Barba.Dispatcher.on('linkClicked', function() {
