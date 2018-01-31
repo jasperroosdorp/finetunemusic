@@ -1,5 +1,5 @@
 ---
-title: Finetunemusic.nl/de/about-us
+title: Finetunemusic.nl/de/uber-uns
 position: 11
 language: German
 page:
