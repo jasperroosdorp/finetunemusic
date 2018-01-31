@@ -10,7 +10,7 @@ image: "/uploads/thithi.jpg"
 description: |-
   ## Projekt
 
-  Thithi ist ein Film von Regisseur Raam Reddy und erzählt die Geschichte, wie drei Generationen in einem Dorf in Südindien auf den Tod ihres Familienoberhaupts, des 101-jährigen Century Gowda, reagieren. Der Film wurde positiv aufgenommen und seit seiner Veröffentlichung auf verschiedenen internationalen Filmfestivals ausgezeichnet. Sehen Sie [den vollständigen Film](https://www.netflix.com/title/80107370) auf Netflix.
+  Thithi ist ein Film von Regisseur Raam Reddy und erzählt die Geschichte, wie drei Generationen in einem Dorf in Südindien auf den Tod ihres Familienoberhaupts, des 101-jährigen Century Gowda, reagieren. Der Film wurde positiv aufgenommen und seit seiner Veröffentlichung auf verschiedenen internationalen Filmfestivals ausgezeichnet. Sehen Sie <a href="https://www.netflix.com/title/80107370" target="_blank">den vollständigen Film</a> auf Netflix.
 
   ## Audio
 
