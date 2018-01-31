@@ -146,8 +146,10 @@ html.mob-nav-unfolded {
 
 .nav-center-section {
   z-index: 999;
+  margin-bottom: 1rem;
   .nav-trigger { display: none; }
   @include for-tablet-portrait-up {
+    margin-bottom: 0;
     .nav-trigger {
       display: inline-block;
       &::after {
@@ -196,10 +198,13 @@ html.mob-nav-unfolded {
 }
 
 .nav-right-section {
+  padding-top: 1rem;
+  border-top: 1px solid lighten(#222, 60%);
   a.language-switch {
     display: block;
     position: relative;
     overflow: hidden;
+    /*
     color: rgba(0, 0, 0, 0);
     &::after {
       display: block;
@@ -210,8 +215,11 @@ html.mob-nav-unfolded {
     &.nl::after { content: 'Nederlands' }
     &.en::after { content: 'English' }
     &.de::after { content: 'Deutsch' }
+    */
   }
   @include for-tablet-portrait-up {
+    padding-top: 0;
+    border-top: 0;
     float: right;
     // background-color: green;
     position: absolute;
@@ -223,7 +231,7 @@ html.mob-nav-unfolded {
       color: rgba(0, 0, 0, 1);
       overflow: visible;
       padding: 0 0.5rem;
-      &::after { display: none; }
+      /* &::after { display: none; } */
       &:last-child { padding-right: 0; }
       &:hover {
         color: $color002;
