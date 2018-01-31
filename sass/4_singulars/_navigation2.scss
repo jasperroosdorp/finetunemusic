@@ -179,12 +179,15 @@ html.mob-nav-unfolded {
           }
         }
         li a {
+          /*
           opacity: 0.4;
           transition: opacity 0.3s ease, color 0.3s ease;
+          */
+          color: lighten(#222, 60%);
           @include for-tablet-portrait-up { padding-right: 1rem; }
           @include for-tablet-landscape-up { padding-right: 2rem; }
           &:hover {
-            opacity: 1;
+            color: $color002;
           }
         }
       }
@@ -232,10 +235,9 @@ html.mob-nav-unfolded {
 html:lang(nl) a.language-switch.nl,
 html:lang(en) a.language-switch.en,
 html:lang(de) a.language-switch.de {
-  opacity: 0.4;
-  transition: opacity 0.3s ease;
+  color: lighten(#222, 60%);
   &:hover {
-    opacity: 1;
+    color: $color002;
   }
 }
 
