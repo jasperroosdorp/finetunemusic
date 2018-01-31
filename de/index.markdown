@@ -28,7 +28,7 @@ information:
   title: Wir sind Fine Tune Music
   text: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. Wir bieten
     Musik, Sound Design und Voice-Over für Filme, Animationen, Games und Werbung an.
-    [Rufen](callto:00310633666809) Sie uns an oder [mailen](tel:info@finetunemusic.nl)
+    [Rufen](tel:0031202440477) Sie uns an oder [mailen](tel:info@finetunemusic.nl)
     Sie uns und Finden Sie heraus, was wir für Sie tun können.
 contact:
   text:
