@@ -42,11 +42,13 @@ a {
   &::after {
     transition: border-color 0.3s ease;
   }
-  &:hover {
-    color: $color002;
-    border-color: $color002;
-    &::after {
-      border-color: $color002 !important;
+  @media (hover: hover) {
+    &:hover {
+      color: $color002;
+      border-color: $color002;
+      &::after {
+        border-color: $color002 !important;
+      }
     }
   }
 }
