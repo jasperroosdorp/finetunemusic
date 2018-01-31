@@ -43,9 +43,8 @@ contact:
   - |-
     **Volg ons**
     <a href="https://www.Facebook.com/Finetunemusic.nl/" target="_blank">Facebook</a>
-    [Facebook](https://www.Facebook.com/Finetunemusic.nl/)
-    [Instagram](https://www.instagram.com/fine_tune_music/)
-    [Twitter](https://twitter.com/FineTune_Music)
+    <a href="https://www.instagram.com/fine_tune_music/" target="_blank">Instagram</a>
+    <a href="https://twitter.com/FineTune_Music" target="_blank">Twitter</a>
   - |-
     **Zakelijk**
     KvK 58025057
