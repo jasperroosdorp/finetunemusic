@@ -3,9 +3,13 @@ title: Finetunemusic.nl/studio
 position: 4
 language: Dutch
 page:
-  title: Finetunemusic
+  title: Fine Tune Music
   google: Onze muziekstudio in Haren, Groningen is een sfeervolle multifunctionele
     werkplek met state of the art apparatuur en meerdere opnameruimtes.
+  og_title: Muziek, Sounddesign en Voice-overs
+  og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
+    leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
+    Bel of mail ons om de mogelijkheden te bespreken.
 text: |-
   # Studio
 
