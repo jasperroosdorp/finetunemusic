@@ -3,9 +3,13 @@ title: Finetunemusic.nl/muziekproductie
 position: 2
 language: Dutch
 page:
-  title: Finetunemusic
+  title: Fine Tune Music
   google: Muziekproductiebedrijf Fine Tune Music produceert muziek, sounds en voice-overs
     voor o.a. radio- en tv-commercials, films en games. Beluister ons portfolio.
+  og_title: Muziek, Sounddesign en Voice-overs
+  og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
+    leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
+    Bel of mail ons om de mogelijkheden te bespreken.
 text: "# Muziek / Sounddesign\n\nVerklanken van identiteit is onze passie. Onze muziekproducties
   zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek,
   van interactief sounddesign voor games tot theatervoorstellingen. We houden van
