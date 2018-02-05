@@ -1,0 +1,84 @@
+---
+pageid: video
+---
+
+<!DOCTYPE html>
+<HTML id="{{ layout.pageid }}" class="portfolio-tab-1 portfolio-open" {% if page.language == 'English' %}lang="en"{% elsif page.language == 'German' %}lang="de"{% else %}lang="nl"{% endif %}>
+
+  <HEAD>
+    {% include analytics.html %}
+    <title>{{ page.name }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" href="{{ site.basehref }}/main.min.css">
+    <script src="{{ site.basehref }}/head.min.js"></script>
+    <meta property="og:title" content="{{ page.page.og_title }}" />
+    <meta property="og:description" content="{{ page.page.og_description }}" />
+    <meta property="og:image" content="{{ site.basehref }}/_uploads/og_img.jpg" />
+  </HEAD>
+
+  <BODY>
+
+    {% include navigation2.html %}
+
+    <main id="barba-wrapper">
+      <div class="barba-container" data-pageid="video">
+        <div class="barba-content">
+
+          <section class='video-container'>
+            {{ page.embed }}
+          </section>
+
+          <section class='project-info'>
+            <!-- {% if page.language == 'English' %}
+            <h2>Project</h2>
+            <p>{{ page.summary }}</p>
+            <h2>Audio</h2>
+            <p>{{ page.audio }}</p>
+            {% elsif page.language == 'German' %}
+            <h2>Project</h2>
+            <p>{{ page.summary }}</p>
+            <h2>Audio</h2>
+            <p>{{ page.audio }}</p>
+            {% else %}
+            <h2>Project</h2>
+            <p>{{ page.summary }}</p>
+            <h2>Audio</h2>
+            <p>{{ page.audio }}</p>
+            {% endif %} -->
+            {{ page.description | markdownify }}
+          </section>
+
+        </div>
+      </div>
+    </main>
+
+    {% include portfolio.html %}
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <script type="text/javascript" src="{{ site.basehref }}/body.min.js"></script>
+
+    <script type="text/javascript">
+    var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+    cl.responsive();
+    </script>
+
+    <!-- <script>
+      // Find all video iframes on the page:
+      var iframes = $(".video-container").find("iframe[src*="youtube.com"]");
+
+      // For each of them:
+      for (var i = 0; i < iframes.length; i++) {
+        // If "enablejsapi" is not set on the iframe's src, set it:
+        if (iframes[i].src.indexOf("enablejsapi") === -1) {
+          // ...check whether there is already a query string or not:
+          // (ie. whether to prefix "enablejsapi" with a "?" or an "&")
+          var prefix = (iframes[i].src.indexOf("?") === -1) ? "?" : "&amp;";
+          iframes[i].src += prefix + "enablejsapi=true";
+        }
+      }
+    </script> -->
+
+  </BODY>
+
+</HTML>
