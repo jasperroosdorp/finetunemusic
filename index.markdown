@@ -6,6 +6,8 @@ page:
   title: Finetunemusic
   google: Muziekproductiebedrijf Fine Tune Music produceert muziek, sounds en voice-overs
     voor o.a. radio- en tv-commercials, films en games. Beluister ons portfolio.
+  og_title: 
+  og_description: 
 introduction:
 - |-
   Wij zijn de eerste zangvogel als je opstaat.
