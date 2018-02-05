@@ -3,9 +3,13 @@ title: Finetunemusic.nl/voice-overs
 position: 3
 language: Dutch
 page:
-  title: Finetunemusic
+  title: Fine Tune Music
   google: Voice overs voor o.a. radio en tv commercials en luisterboeken. Fine Tune
     Music levert in 24 uur de allerhoogste kwaliteit. Check gerust ons Portfolio.
+  og_title: Muziek, Sounddesign en Voice-overs
+  og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
+    leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
+    Bel of mail ons om de mogelijkheden te bespreken.
 text: "# Voice-overs\n\nAls geen ander weten we dat de juiste voice-over een belangrijk
   onderdeel is van radio- en tv-commercials. Door een geschikte stem te kiezen uit
   onze pool van stemacteurs en met heldere coaching brengen wij de boodschap effectief
