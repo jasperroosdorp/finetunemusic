@@ -37,7 +37,7 @@ defaults:
     language: Dutch
     client: Migloko
     embed: Insert iframe code
-    image: 
+    image:
     description: |-
       ## Project
 
@@ -47,7 +47,7 @@ defaults:
 
       Fine Tune Music produceerde de muziek onder leiding van Marcel Davids. In samenwerking met de Litouwse zangeres en songwriter Migloko kwamen de lyrics en vocalen tot stand.
     pages:
-    - 
+    -
     layout: video
 - scope:
     path: ''
@@ -57,7 +57,7 @@ defaults:
     language: English
     client: Migloko
     embed: Insert iframe code
-    image: 
+    image:
     description: |-
       ## Project
 
@@ -67,7 +67,7 @@ defaults:
 
       Fine Tune Music produced the music, supervised by Marcel Davids. The lyrics and vocals were created together with singer/songwriter Migloko from Lithuania.
     pages:
-    - 
+    -
     layout: video
 - scope:
     path: ''
@@ -77,7 +77,7 @@ defaults:
     language: German
     client: Migloko
     embed: Insert iframe code
-    image: 
+    image:
     description: |-
       ## Project
 
@@ -87,25 +87,25 @@ defaults:
 
       Fine Tune Music produced the music, supervised by Marcel Davids. The lyrics and vocals were created together with singer/songwriter Migloko from Lithuania.
     pages:
-    - 
+    -
     layout: video
 - scope:
     path: ''
     type: music
   values:
-    file: 
+    file:
     client: Hanze Hogeschool
     pages:
-    - 
+    -
 - scope:
     path: ''
     type: voice-overs
   values:
-    file: 
-cdn: http://res.cloudinary.com/roosdorp/image/fetch
+    file:
+cdn: https://res.cloudinary.com/roosdorp/image/fetch
 host: https://finetunemusic.nl/
 basehref: https://finetunemusic.nl
-urlext: 
+urlext:
 exclude:
 - node_modules
 - gulpfile.js
