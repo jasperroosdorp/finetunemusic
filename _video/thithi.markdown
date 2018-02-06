@@ -5,7 +5,7 @@ position: 3
 embed: <iframe src="https://player.vimeo.com/video/168672342?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-image: "/uploads/5_thithi.jpg"
+image: "/uploads/thithi.jpg"
 description: |-
   ## Project
 
