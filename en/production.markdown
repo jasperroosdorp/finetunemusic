@@ -17,7 +17,7 @@ text: |-
 
   We often collaborate with other creative parties to create a product in which the visual and the auditory elements reinforce each other. Among other parties, we worked with G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones and Sword GC.
 
-  [Listen](javascript:openPortfolio('tab-2a'))&nbsp;to a selection of our music.
+  Listen to a selection of [our music](javascript:openPortfolio('tab-2a')), and [our audio for video](javascript:openPortfolio('tab-1')).
 image:
   image: "/uploads/FTM-34257-crop%2016-9%203200px.jpg"
 button:
