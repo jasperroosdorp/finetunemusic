@@ -19,7 +19,7 @@ text: "# Muziek / Sounddesign\n\nVerklanken van identiteit is onze passie. Onze 
   werkten onder andere met G2KxPIT, Sensu, N=5, Most Original Soundtracks, Talents
   for Brands, Club Guy and Roni, De Noorderlingen, Theater Young Ones en Sword GC.\n\nBeluister
   een selectie van [onze muziek](javascript:openPortfolio('tab-2a')), en [onze audio
-  voor video's](javascript:openPortfolio('tab-1'))."
+  voor video](javascript:openPortfolio('tab-1'))."
 image:
   image: "/uploads/FTM-34257-crop%2016-9%203200px.jpg"
 button:
