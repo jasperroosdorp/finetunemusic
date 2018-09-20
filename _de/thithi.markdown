@@ -6,7 +6,7 @@ client: Migloko
 embed: <iframe src="https://player.vimeo.com/video/168672342?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-image: "/uploads/thithi.jpg"
+image: "/uploads/Thithi2.jpg"
 description: |-
   ## Projekt
 
