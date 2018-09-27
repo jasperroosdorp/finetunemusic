@@ -5,6 +5,7 @@ position: 0
 page:
   og_title: NFK - Fine Tune Music
   og_image: "/uploads/NFK1.jpg"
+  og:title: NFK2 - Fine Tune Music
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/c42pDh25N-E?rel=0&amp;showinfo=0"
   frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 image: "/uploads/NFK1.jpg"
