@@ -3,7 +3,7 @@ title: Finetunemusic.nl/over-ons
 position: 1
 language: Dutch
 page:
-  title: Fine Tune Music
+  title: Over Ons | Fine Tune Music
   google: Muziekproductiebedrijf Fine Tune Music maakt Muziek, Sounds en Voice overs
     en bestaat o.a. uit producers/componisten David de Jong en Paul Maaswinkel.
   og_title: Muziek, Sounddesign en Voice-overs
