@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   We composed a playful, easy-going soundtrack and selected a kind, young voice as our voice-over, to underline how customer-friendly this service really is.
+page:
+  title: INDI | Fine Tune Music
+  og_title: INDI | Fine Tune Music
+  og_description: 
 ---
 
