@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   Die ruhige, fast hypnotische Bewegung der Lunge diente als Inspiration für die Musik, die wir für dieses Video produzierten. Durch die Kombination von organischen und künstlichen Elementen haben wir eine eigene Klangidentität geschaffen, die mit dem gesamten Audio-House-Stil übereinstimmt, den wir für Han King entwickelt haben.
+page:
+  title: Lung | Fine Tune Music
+  og_title: Lung | Fine Tune Music
+  og_description: 
 ---
 
