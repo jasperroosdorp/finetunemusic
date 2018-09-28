@@ -15,5 +15,9 @@ description: |-
   ## Audio
 
   For this film we produced the trailer music. Closely involving the director, we composed a soundtrack, matching the characters and mood of the film as accurately as possible. In order to do so, we used all kinds of instruments, as well as recordings of local musicians from Nodekoppalu, the village where the story is set.
+page:
+  title: Thithi | Fine Tune Music
+  og_title: Thithi | Fine Tune Music
+  og_description: 
 ---
 
