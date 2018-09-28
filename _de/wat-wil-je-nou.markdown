@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   David produzierte die Musik für den Dokumentarfilm und den Trailer des Films. Beim Komponieren des unkonventionellen Soundtracks verwendete er strenge Regeln; so arbeitete er den ganzen Film mit einem musikalischen Thema, das auf dem Intro von Igor Strawinskys "Le Sacre du Printemps" basiert ist. Der Einsatz eines Klavier als Schlaginstrument war dabei eines der Mittel, um einen unverwechselbaren Klang zu erzeugen.
+page:
+  title: Wat wil je nou? | Fine Tune Music
+  og_title: Wat wil je nou? | Fine Tune Music
+  og_description: 
 ---
 
