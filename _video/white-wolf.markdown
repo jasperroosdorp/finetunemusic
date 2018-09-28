@@ -2,6 +2,10 @@
 title: White Wolf
 date: 2017-08-30 12:39:00 +02:00
 position: 2
+page:
+  title: White Wolf | Fine Tune Music
+  og_title: White Wolf | Fine Tune Music
+  og_description: 
 embed: <iframe src="https://player.vimeo.com/video/202741792?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
