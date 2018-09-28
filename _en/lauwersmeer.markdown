@@ -11,5 +11,9 @@ description: |
   Music and voice-over by Fine Tune Music.
 
   ## Audio
+page:
+  title: Lauwersmeer | Fine Tune Music
+  og_title: Lauwersmeer | Fine Tune Music
+  og_description: 
 ---
 
