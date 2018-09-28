@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   The music is part of the sonic branding of PRA. We captured their identity in the sound logo at the end of the commercial. The campaign was broadcast on national radio and shown at multiple Pathé Cinemas.
+page:
+  title: PRA Health Sciences | Fine Tune Music
+  og_title: PRA Health Sciences | Fine Tune Music
+  og_description: 
 ---
 
