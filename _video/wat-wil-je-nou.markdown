@@ -2,10 +2,6 @@
 title: Wat wil je nou?
 date: 2017-08-30 12:37:00 +02:00
 position: 12
-page:
-  title: Wat Wil Je Nou? | Fine Tune Music
-  og_title: Wat Wil Je Nou? | Fine Tune Music
-  og_description: 
 embed: <iframe src="https://player.vimeo.com/video/168559351?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
@@ -18,5 +14,9 @@ description: |-
   ## Audio
 
   David produceerde de muziek voor de documentaire en de trailer van deze film. Bij het componeren van de onconventionele soundtrack hanteerde hij strenge regels; zo werkte hij de hele film met één muzikaal thema gebaseerd op het intro van “Le Sacre Du Printemps” van Igor Stravinsky. Hij gebruikte een piano als slaginstrument, als een van de middelen om een eigenzinnig geluid te creëren.
+page:
+  title: Wat wil je nou? | Fine Tune Music
+  og_title: Wat wil je nou? | Fine Tune Music
+  og_description: 
 ---
 
