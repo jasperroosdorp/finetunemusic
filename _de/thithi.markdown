@@ -2,6 +2,10 @@
 title: Thithi
 date: 2017-08-30 12:35:00 +02:00
 position: 6
+page:
+  title: Thithi | Fine Tune Music
+  og_title: Thithi | Fine Tune Music
+  og_description: 
 client: Migloko
 embed: <iframe src="https://player.vimeo.com/video/168672342?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
