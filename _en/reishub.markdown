@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   The sound design and music we made for this animation are closely interlinked: a dynamic, colorful background of sound supports the lively voice-over, without distracting from the message.
+page:
+  title: ReisHUB | Fine Tune Music
+  og_title: ReisHUB | Fine Tune Music
+  og_description: 
 ---
 
