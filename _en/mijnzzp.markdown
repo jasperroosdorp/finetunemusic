@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   For this project we selected a young voice actor for an energetic and charismatic voice-over. For the music and sound design we opted for a modern sound scheme, agreeing with the company’s core values and its target audience.
+page:
+  title: MijnZZP | Fine Tune Music
+  og_title: MijnZZP | Fine Tune Music
+  og_description: 
 ---
 
