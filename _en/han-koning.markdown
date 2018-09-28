@@ -18,5 +18,9 @@ description: |-
 pages:
 - 
 - 
+page:
+  title: Han Koning | Fine Tune Music
+  og_title: Han Koning | Fine Tune Music
+  og_description: 
 ---
 
