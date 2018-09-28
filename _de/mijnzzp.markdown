@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   In diesem Projekt haben wir mit einem jungen Synchronsprecher zusammengearbeitet, um eine charismatische, energische Stimme zu finden. Die Musik und das Sounddesign stellen die Verbindung zu den modernen Grundwerten und der Zielgruppe des Unternehmens her.
+page:
+  title: MijnZZP | Fine Tune Music
+  og_title: MijnZZP | Fine Tune Music
+  og_description: 
 ---
 
