@@ -15,5 +15,9 @@ description: |-
   ## Audio
 
   For the production of this voice-over we employed an American voice actor in order to appeal to the international target audience of the company. For the music we aimed for a corporate, modern sound, that feels warm and human at the same time.
+page:
+  title: ScanSource | Fine Tune Music
+  og_title: ScanSource | Fine Tune Music
+  og_description: 
 ---
 
