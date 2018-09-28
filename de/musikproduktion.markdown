@@ -3,7 +3,7 @@ title: Finetunemusic.nl/de/musikproduktion
 position: 12
 language: German
 page:
-  title: Fine Tune Music
+  title: Musik / Sounddesign | Fine Tune Music
   google: Musikproduzent Fine Tune Music Produkt Musik, Sounds und Voice-overs für  Radio-TV-Spots,
     Filme, Spiele und weiteres. Ein Einblick in unser Portfolio.
   og_title: Musik, Sound Design und Voice-Over
