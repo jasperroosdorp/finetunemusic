@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   Das Sounddesign und die Musik, die wir für diese Animation produziert haben, gehen Hand in Hand: eine dynamische, farbenfrohe Klangbasis, die die frische Stimme ohne ohne Ablenkung unterstützt.
+page:
+  title: ReisHUB | Fine Tune Music
+  og_title: ReisHUB | Fine Tune Music
+  og_description: 
 ---
 
