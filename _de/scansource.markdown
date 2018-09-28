@@ -15,5 +15,9 @@ description: |-
   ## Audio
 
   Für die Sprachaufnahme arbeiteten wir mit einem amerikanischen Synchronsprecher zusammen, ausgerichtet auf das internationale Publikum und die internationalen Kunden des Unternehmens. Beim Komponieren der Musik haben wir nach einem modernen Business-Ton gesucht, der sich warm und menschlich anfühlt.
+page:
+  title: ScanSource | Fine Tune Music
+  og_title: ScanSource | Fine Tune Music
+  og_description: 
 ---
 
