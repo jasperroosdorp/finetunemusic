@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   Wir haben einen spielerischen, leichtfüßigen Soundtrack geschrieben und wählten eine junge, freundliche Stimme, um die tatsächliche Nutzerfreundlichkeit dieses Service noch zu unterstreichen.
+page:
+  title: INDI | Fine Tune Music
+  og_title: INDI | Fine Tune Music
+  og_description: 
 ---
 
