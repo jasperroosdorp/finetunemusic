@@ -3,7 +3,7 @@ title: Finetunemusic.nl/de/voice-overs
 position: 13
 language: German
 page:
-  title: Fine Tune Music
+  title: Voice-overs | Fine Tune Music
   google: Voice-over für Radio- und Fernsehwerbung und Hörbücher. Fine Tune Music
     liefert höchste Qualität innerhalb von 24 Stunden. Ein Einblick in unser Portfolio.
   og_title: Musik, Sound Design und Voice-Over
