@@ -18,5 +18,9 @@ description: |-
 pages:
 - 
 - 
+page:
+  title: Knab Crowdfunding | Fine Tune Music
+  og_title: Knab Crowdfunding | Fine Tune Music
+  og_description: 
 ---
 
