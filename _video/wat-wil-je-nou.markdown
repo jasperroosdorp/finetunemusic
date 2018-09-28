@@ -2,6 +2,10 @@
 title: Wat wil je nou?
 date: 2017-08-30 12:37:00 +02:00
 position: 12
+page:
+  title: Wat Wil Je Nou? | Fine Tune Music
+  og_title: Wat Wil Je Nou? | Fine Tune Music
+  og_description: 
 embed: <iframe src="https://player.vimeo.com/video/168559351?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
