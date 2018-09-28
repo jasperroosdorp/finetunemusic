@@ -14,5 +14,9 @@ description: |-
   ## Audio
 
   For this game we let the high energy and brutal impact of the gameplay inspire us to produce five electronic music tracks for the menu and levels. We created more than 130 sound effects, and recorded a voice actor to give the characters featuring in this game, a personality of their own.
+page:
+  title: Basher Beatdown | Fine Tune Music
+  og_title: Basher Beatdown | Fine Tune Music
+  og_description: 
 ---
 
