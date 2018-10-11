@@ -9,7 +9,7 @@ page:
     en bestaat o.a. uit producers/componisten David de Jong en Paul Maaswinkel.
   og_title: Over Ons | Fine Tune Music
   og_description: test og_description Over Ons
-  og_image: 
+  og_image: "/uploads/og_img_overons.jpg"
 information:
 - text: |-
     # Ons team
