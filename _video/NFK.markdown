@@ -19,3 +19,7 @@ page:
   og_image: "/uploads/NFK1.jpg"
 ---
 
+<head>
+<meta name='title' content='{{ NFK title test }}'>
+<meta name='description' content='{{ NFK description test }}'>
+</head>
