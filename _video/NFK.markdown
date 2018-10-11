@@ -21,5 +21,6 @@ page:
 
 <head>
 <meta name='title' content='{{ NFK title test }}'>
-<meta name='description' content='{{ NFK description test }}'>
+<meta name="description" content="NFK description test">
 </head>
+
