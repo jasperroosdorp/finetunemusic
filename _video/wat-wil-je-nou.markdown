@@ -17,6 +17,8 @@ description: |-
 page:
   title: Wat wil je nou? | Fine Tune Music
   og_title: Wat wil je nou? | Fine Tune Music
-  og_description: 
+  og_description: Muziek door Fine Tune Music.
+  description: Muziek door Fine Tune Music.
+  og_image: "/uploads/watwiljenou2.jpg"
 ---
 
