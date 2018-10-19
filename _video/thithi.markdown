@@ -2,10 +2,6 @@
 title: Thithi
 date: 2017-08-30 12:35:00 +02:00
 position: 6
-page:
-  title: Thithi | Fine Tune Music
-  og_title: Thithi | Fine Tune Music
-  og_description: 
 embed: <iframe src="https://player.vimeo.com/video/168672342?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
@@ -18,5 +14,11 @@ description: |-
   ## Audio
 
   Voor deze film produceerden wij de trailer-muziek. In nauw contact met de regisseur componeerden we een soundtrack die zo goed mogelijk aansluit bij de karakters en sfeer van de film. Hierbij maakten we onder andere gebruik van opnames van lokale musici uit Nodekoppalu, het dorp waarin het verhaal zich afspeelt.
+page:
+  title: Thithi | Fine Tune Music
+  og_title: Thithi | Fine Tune Music
+  og_description: Trailermuziek door Fine Tune Music.
+  description: Trailermuziek door Fine Tune Music.
+  og_image: "/uploads/Thithi2.jpg"
 ---
 
