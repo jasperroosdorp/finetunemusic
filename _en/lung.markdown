@@ -17,6 +17,8 @@ description: |-
 page:
   title: Lung | Fine Tune Music
   og_title: Lung | Fine Tune Music
-  og_description: 
+  og_description: Music and sound design by Fine Tune Music.
+  description: Music and sound design by Fine Tune Music.
+  og_image: "/uploads/lung2.jpg"
 ---
 
