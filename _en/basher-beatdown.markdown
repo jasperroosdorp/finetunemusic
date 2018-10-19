@@ -17,6 +17,8 @@ description: |-
 page:
   title: Basher Beatdown | Fine Tune Music
   og_title: Basher Beatdown | Fine Tune Music
-  og_description: 
+  og_description: Music and sound design by Fine Tune Music.
+  description: Music and sound design by Fine Tune Music.
+  og_image: "/uploads/basherbeatdown2.jpg"
 ---
 
