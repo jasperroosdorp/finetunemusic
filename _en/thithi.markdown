@@ -18,6 +18,8 @@ description: |-
 page:
   title: Thithi | Fine Tune Music
   og_title: Thithi | Fine Tune Music
-  og_description: 
+  og_description: Trailer music by Fine Tune Music.
+  description: Trailer music by Fine Tune Music.
+  og_image: "/uploads/Thithi2.jpg"
 ---
 
