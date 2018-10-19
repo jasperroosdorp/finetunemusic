@@ -14,6 +14,8 @@ description: |
 page:
   title: Miller & Monroe | Fine Tune Music
   og_title: Miller & Monroe | Fine Tune Music
-  og_description: 
+  og_description: Music, sound design and voice-over by Fine Tune Music.
+  description: Music, sound design and voice-over by Fine Tune Music.
+  og_image: "/uploads/Miller%20&%20Monroe1.jpg"
 ---
 
