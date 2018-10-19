@@ -2,10 +2,6 @@
 title: White Wolf
 date: 2017-08-30 12:39:00 +02:00
 position: 2
-page:
-  title: White Wolf | Fine Tune Music
-  og_title: White Wolf | Fine Tune Music
-  og_description: 
 embed: <iframe src="https://player.vimeo.com/video/202741792?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
@@ -18,5 +14,9 @@ description: |-
   ## Audio
 
   Fine Tune Music produceerde de muziek onder leiding van Marcel Davids. In samenwerking met de Litouwse zangeres en songwriter Migloko kwamen de lyrics en vocalen tot stand.
+page:
+  title: White Wolf | Fine Tune Music
+  og_title: White Wolf | Fine Tune Music
+  og_description: 
 ---
 
