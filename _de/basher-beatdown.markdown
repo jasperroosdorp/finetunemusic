@@ -2,10 +2,6 @@
 title: Basher Beatdown
 date: 2017-08-30 12:36:00 +02:00
 position: 4
-page:
-  title: Basher Beatdown | Fine Tune Music
-  og_title: Basher Beatdown | Fine Tune Music
-  og_description: 
 client: Migloko
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/W_mZdIBP8Lg?rel=0&amp;controls=0&amp;showinfo=0"
   frameborder="0" allowfullscreen></iframe>
@@ -18,5 +14,11 @@ description: |-
   ## Audio
 
   Die Energie und der brachiale Einfluss des Gameplays, die dieses Spiel definieren, dienten uns als Inspiration für die fünf elektronischen Musikstücke, die wir für das Spielmenü und die einzelnen Levels produziert haben. Dabei kreierten wir über 130 neue Soundeffekte und arbeiteten mit einem Synchronsprecher, um jedem der Charaktere eine eigene, vollständige Persönlichkeit zu verleihen.
+page:
+  title: Basher Beatdown | Fine Tune Music
+  og_title: Basher Beatdown | Fine Tune Music
+  og_description: Musik und Sounddesign von Fine Tune Music.
+  description: Musik und Sounddesign von Fine Tune Music.
+  og_image: "/uploads/basherbeatdown2.jpg"
 ---
 
