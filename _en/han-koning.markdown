@@ -21,6 +21,8 @@ pages:
 page:
   title: Han Koning | Fine Tune Music
   og_title: Han Koning | Fine Tune Music
-  og_description: 
+  og_description: Sound design by Fine Tune Music.
+  description: Sound design by Fine Tune Music.
+  og_image: "/uploads/hankoning2.jpg"
 ---
 
