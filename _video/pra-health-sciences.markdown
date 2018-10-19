@@ -17,12 +17,8 @@ description: |-
 page:
   title: PRA Health Sciences | Fine Tune Music
   og_tite: PRA Health Sciences | Fine Tune Music
-  og_description: PRA Health Sciences vraagt vrijwilligers deel te nemen aan onderzoek
-    naar geneesmiddelen. Wij ontwikkelden samen met G2K x PIT een bioscoop- en radiocommercial
-    om mensen hierover te informeren.
-  description: PRA Health Sciences vraagt vrijwilligers deel te nemen aan onderzoek
-    naar geneesmiddelen. Wij ontwikkelden samen met G2K x PIT een bioscoop- en radiocommercial
-    om mensen hierover te informeren.
+  og_description: Muziek, sounddesign en voice-over door Fine Tune Music.
+  description: Muziek, sounddesign en voice-over door Fine Tune Music.
   og_image: "/uploads/pra.jpg"
 ---
 
