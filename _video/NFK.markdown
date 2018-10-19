@@ -13,9 +13,9 @@ description: |-
   ## Audio
 page:
   title: NFK | Fine Tune Music
-  description: TEST-description-NFK
+  description: Muziek, sounddesign en voice-over door Fine Tune Music.
   og_title: NFK | Fine Tune Music
-  og_description: TEST-og_description-NFK
+  og_description: Muziek, sounddesign en voice-over door Fine Tune Music.
   og_image: "/uploads/NFK1.jpg"
 ---
 
