@@ -2,10 +2,6 @@
 title: MijnZZP
 date: 2017-10-12 09:14:00 +02:00
 position: 13
-page:
-  title: MijnZZP | Fine Tune Music
-  og_title: MijnZZP | Fine Tune Music
-  og_description: 
 embed: <iframe src="https://player.vimeo.com/video/196471638?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
@@ -18,5 +14,11 @@ description: |-
   ## Audio
 
   Voor dit project werkten met een jonge stemacteur voor een energieke, charismatische voice-over. Voor de muziek en het sounddesign kozen we voor een moderne sound, passend bij de kernwaarden en doelgroep van het bedrijf.
+page:
+  title: MijnZZP | Fine Tune Music
+  og_title: MijnZZP | Fine Tune Music
+  og_description: Muziek, sounddesign en voice-over door Fine Tune Music.
+  description: Muziek, sounddesign en voice-over door Fine Tune Music.
+  og_image: "/uploads/mijnzzp.jpg"
 ---
 
