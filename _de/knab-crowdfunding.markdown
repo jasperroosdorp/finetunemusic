@@ -2,10 +2,6 @@
 title: Knab Crowdfunding
 date: 2017-08-30 12:40:00 +02:00
 position: 7
-page:
-  title: Knab Crowdfunding | Fine Tune Music
-  og_title: Knab Crowdfunding | Fine Tune Music
-  og_description: 
 client: Knab Bank
 embed: <iframe src="https://player.vimeo.com/video/235326871?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -22,5 +18,11 @@ description: |-
 pages:
 - 
 - 
+page:
+  title: Knab Crowdfunding | Fine Tune Music
+  og_title: Knab Crowdfunding | Fine Tune Music
+  og_description: Musik und Sounddesign von Fine Tune Music.
+  description: Musik und Sounddesign von Fine Tune Music.
+  og_image: "/uploads/knab2.jpg"
 ---
 
