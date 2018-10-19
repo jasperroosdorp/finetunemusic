@@ -17,8 +17,8 @@ description: |-
 page:
   title: PRA Health Sciences | Fine Tune Music
   og_tite: PRA Health Sciences | Fine Tune Music
-  og_description: Muziek, sounddesign en voice-over door Fine Tune Music.
-  description: Muziek, sounddesign en voice-over door Fine Tune Music.
+  og_description: Muziek door Fine Tune Music.
+  description: Muziek door Fine Tune Music.
   og_image: "/uploads/pra.jpg"
 ---
 
