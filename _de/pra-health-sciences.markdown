@@ -2,10 +2,6 @@
 title: PRA Health Sciences
 date: 2017-08-30 12:32:00 +02:00
 position: 3
-page:
-  title: PRA Health Sciences | Fine Tune Music
-  og_title: PRA Health Sciences | Fine Tune Music
-  og_description: 
 embed: <iframe src="https://player.vimeo.com/video/130797565?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
@@ -18,5 +14,11 @@ description: |-
   ## Audio
 
   Die Musik gehört zum sonic-branding von PRA. Wir fangen diese Identität mit unserem Soundlogo am Ende des Werbespots ein. Die Kampagne wurde im nationalen Radio ausgestrahlt und in verschiedenen Pathé-Kinos gezeigt.
+page:
+  title: PRA Health Sciences | Fine Tune Music
+  og_title: PRA Health Sciences | Fine Tune Music
+  og_description: Musik von Fine Tune Music.
+  description: Musik von Fine Tune Music.
+  og_image: "/uploads/pra.jpg"
 ---
 
