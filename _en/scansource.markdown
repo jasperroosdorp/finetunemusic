@@ -18,6 +18,8 @@ description: |-
 page:
   title: ScanSource | Fine Tune Music
   og_title: ScanSource | Fine Tune Music
-  og_description: 
+  og_description: Music and voice-over by Fine Tune Music.
+  description: Music and voice-over by Fine Tune Music.
+  og_image: "/uploads/scansource3.jpg"
 ---
 
