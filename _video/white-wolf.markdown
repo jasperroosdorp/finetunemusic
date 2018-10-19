@@ -16,9 +16,9 @@ description: |-
   Fine Tune Music produceerde de muziek onder leiding van Marcel Davids. In samenwerking met de Litouwse zangeres en songwriter Migloko kwamen de lyrics en vocalen tot stand.
 page:
   title: White Wolf | Fine Tune Music
-  description: 
+  description: Muziek door Fine Tune Music.
   og_title: White Wolf | Fine Tune Music
-  og_description: 
+  og_description: Muziek door Fine Tune Music.
   og_image: "/uploads/whitewolf.jpg"
 ---
 
