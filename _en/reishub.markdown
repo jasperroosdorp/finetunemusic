@@ -17,6 +17,8 @@ description: |-
 page:
   title: ReisHUB | Fine Tune Music
   og_title: ReisHUB | Fine Tune Music
-  og_description: 
+  og_description: Music, sound design and voice-over by Fine Tune Music.
+  description: Music, sound design and voice-over by Fine Tune Music.
+  og_image: "/uploads/ReisHUB5.jpg"
 ---
 
