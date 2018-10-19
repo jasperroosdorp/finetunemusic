@@ -14,6 +14,8 @@ description: |
 page:
   title: Lauwersmeer | Fine Tune Music
   og_title: Lauwersmeer | Fine Tune Music
-  og_description: 
+  og_description: Music and voice-over by Fine Tune Music.
+  description: Music and voice-over by Fine Tune Music.
+  og_image: "/uploads/Lauwersmeer3.jpg"
 ---
 
