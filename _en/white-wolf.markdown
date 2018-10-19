@@ -17,6 +17,8 @@ description: |-
 page:
   title: White Wolf | Fine Tune Music
   og_title: White Wolf | Fine Tune Music
-  og_description: 
+  og_description: Music by Fine Tune Music.
+  description: Music by Fine Tune Music.
+  og_image: "/uploads/whitewolf.jpg"
 ---
 
