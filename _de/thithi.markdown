@@ -2,10 +2,6 @@
 title: Thithi
 date: 2017-08-30 12:35:00 +02:00
 position: 6
-page:
-  title: Thithi | Fine Tune Music
-  og_title: Thithi | Fine Tune Music
-  og_description: 
 client: Migloko
 embed: <iframe src="https://player.vimeo.com/video/168672342?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -19,5 +15,11 @@ description: |-
   ## Audio
 
   Für diesen Film haben wir die Trailer-Musik produziert. In engem Kontakt mit dem Regisseur haben wir einen Soundtrack komponiert, genauestens abgestimmt auf die Charaktere und die Atmosphäre des Films. Unter anderem nutzten wir dabei Aufnahmen lokaler Musiker aus dem südindischen Dorf Nodekoppalu, dem Schauplatz der Geschichte.
+page:
+  title: Thithi | Fine Tune Music
+  og_title: Thithi | Fine Tune Music
+  og_description: Trailer-Musik von Fine Tune Music.
+  description: Trailer-Musik von Fine Tune Music.
+  og_image: "/uploads/Thithi2.jpg"
 ---
 
