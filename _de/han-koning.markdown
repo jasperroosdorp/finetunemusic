@@ -2,10 +2,6 @@
 title: Han Koning
 date: 2017-08-30 12:38:00 +02:00
 position: 8
-page:
-  title: Han Koning | Fine Tune Music
-  og_title: Han Koning | Fine Tune Music
-  og_description: 
 client: Han Koning
 embed: <iframe src="https://player.vimeo.com/video/139374972?color=ffffff&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -22,5 +18,11 @@ description: |-
 pages:
 - 
 - 
+page:
+  title: Han Koning | Fine Tune Music
+  og_title: Han Koning | Fine Tune Music
+  og_description: Sounddesign von Fine Tune Music.
+  description: Sounddesign von Fine Tune Music.
+  og_image: "/uploads/hankoning2.jpg"
 ---
 
