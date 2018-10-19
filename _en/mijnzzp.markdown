@@ -17,6 +17,8 @@ description: |-
 page:
   title: MijnZZP | Fine Tune Music
   og_title: MijnZZP | Fine Tune Music
-  og_description: 
+  og_description: Music, sound design and voice-over by Fine Tune Music.
+  description: Music, sound design and voice-over by Fine Tune Music.
+  og_image: "/uploads/mijnzzp.jpg"
 ---
 
