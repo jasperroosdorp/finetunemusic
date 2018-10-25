@@ -4,8 +4,8 @@ position: 6
 language: English
 page:
   title: About Us  | Fine Tune Music
-  google: Music production company Fine Tune Music produces Music, Sound and Voice-overs
-    and is owned by producers/composers David de Jong and Paul Maaswinkel.
+  description: Music production company Fine Tune Music produces Music, Sound and
+    Voice-overs and is owned by producers/composers David de Jong and Paul Maaswinkel.
   og_title: Music, Sound Design and Voice-overs
   og_description: Our music productions are custom-made for all kinds of projects.
     We offer music, sound design and voice-overs for film, animation, games and commercials.
