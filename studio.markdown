@@ -4,12 +4,13 @@ position: 4
 language: Dutch
 page:
   title: Studio | Fine Tune Music
-  google: Onze muziekstudio in Haren, Groningen is een sfeervolle multifunctionele
+  description: Onze muziekstudio in Haren, Groningen is een sfeervolle multifunctionele
     werkplek met state of the art apparatuur en meerdere opnameruimtes.
-  og_title: Muziek, Sounddesign en Voice-overs
+  og_title: Studio | Fine Tune Music
   og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
     leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
     Bel of mail ons om de mogelijkheden te bespreken.
+  og_image: "/uploads/og_img_studio.jpg"
 text: |-
   # Studio
 
