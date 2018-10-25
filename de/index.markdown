@@ -6,7 +6,7 @@ page:
   title: Fine Tune Music
   description: Musikproduzent Fine Tune Music Produkt Musik, Sounds und Voice-overs
     für  Radio-TV-Spots, Filme, Spiele und weiteres. Ein Einblick in unser Portfolio.
-  og_title: Musik, Sound Design und Voice-Over
+  og_title: Fine Tune Music
   og_description: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten.
     Wir bieten Musik, Sound Design und Voice-Over für Filme, Animationen, Games und
     Werbung an. Rufen Sie uns an oder mailen Sie uns und Finden Sie heraus, was wir
