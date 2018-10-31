@@ -12,7 +12,7 @@ description: |-
 
 
   ## Audio
-pages:
+page:
   title: Boehringer Ingelheim | Fine Tune Music
   description: Musik und Sounddesign von Fine Tune Music.
   og_title: Boehringer Ingelheim | Fine Tune Music
