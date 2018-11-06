@@ -4,7 +4,7 @@ date: 2017-08-30 12:40:00 +02:00
 position: 7
 client: Knab Bank
 embed: <iframe src="https://player.vimeo.com/video/235326871?color=ffffff&title=0&byline=0&portrait=0"
-  width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+  width="640" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 image: "/uploads/knab2.jpg"
 description: |-
