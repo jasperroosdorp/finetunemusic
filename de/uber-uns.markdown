@@ -35,7 +35,7 @@ people:
 
     Paul ist ein geschickter Arrangeur und versteht es, Instrumenten ihren eigenen Raum in orchestralen Filmmusik-Partituren, swingenden Jazz-Harmonien sowie kompakten Songstrukturen zu geben. Er verfeinerte dieses Handwerk und schrieb Vocal-Arrangements, die ihm mehrere internationale Auszeichnungen einbrachten.
 
-    In den letzten Jahren komponierte und produzierte er Musik für eine Vielzahl von Theaterstücken als Inhouse-Komponist für das Theater Young Ones. Hier entwickelte er einen scharfen Sinn dafür, Geschichten durch Musik zu erzählen, so dass der Zuhörer wirklich bewegt wird. Dies spiegelt sich auch in Pauls enthusiastischer Art wider, mit anderen Künstlern innerhalb und außerhalb des Studios zu kommunizieren. Typhoon, Akwasi und The Cool Quest gehören zu den Künstlern, mit denen er bereits zusammengearbeitet hat.
+    In den letzten Jahren komponierte und produzierte er Musik für eine Vielzahl von Theaterstücken als Inhouse-Komponist für das Theater Young Ones. Hier entwickelte er einen scharfen Sinn dafür, Geschichten durch Musik zu erzählen, so dass der Zuhörer wirklich bewegt wird. Dies spiegelt sich auch in Pauls enthusiastischer Art wider, mit anderen Künstlern innerhalb und außerhalb des Studios zu kommunizieren.
 
     Paul's <a href="https://www.linkedin.com/in/paulmaaswinkel/" target="_blank">LinkedIn</a>
   image: "/uploads/FTM-34111-2-crop%202400px.jpg"
