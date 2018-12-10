@@ -38,8 +38,7 @@ people:
     van Theater Young Ones. Hier ontwikkelde hij een sterk gevoel voor het vertellen
     van verhalen in zijn muziek, op een manier die iets teweeg brengt bij de luisteraar.
     Dit zie je ook terug in de gedrevenheid waarmee Paul communiceert met mede-creatieven,
-    zowel binnen als buiten de studio. Hij werkte onder meer samen met Typhoon, Akwasi
-    en The Cool Quest.\n\nPaul's <a href=\"https://www.linkedin.com/in/paulmaaswinkel/\"
+    zowel binnen als buiten de studio.\n\nPaul's <a href=\"https://www.linkedin.com/in/paulmaaswinkel/\"
     target=\"_blank\">LinkedIn</a>"
   image: "/uploads/FTM-34111-2-crop%202400px.jpg"
 layout: about
