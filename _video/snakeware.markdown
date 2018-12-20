@@ -1,11 +1,10 @@
 ---
-title: Boehringer Ingelheim
+title: Snakeware
 date: 2018-10-31 14:14:00 +01:00
 position: 14
-embed: <iframe src="https://player.vimeo.com/video/271657651?color=ffffff&title=0&byline=0&portrait=0"
-  width="640" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
-image: "/uploads/Boehringer2%20met%20tekst.jpg"
+embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/C-U3nPh6kgo?rel=0&amp;showinfo=0"
+  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+image: "/uploads/Snakeware.jpg"
 description: |-
   ## Project
 
