@@ -13,10 +13,10 @@ description: |-
 
   ## Audio
 page:
-  title: Boehringer Ingelheim | Fine Tune Music
+  title: Snakeware | Fine Tune Music
   description: Muziek en sounddesign door Fine Tune Music.
-  og_title: Boehringer Ingelheim | Fine Tune Music
+  og_title: Snakeware | Fine Tune Music
   og_description: Muziek en sounddesign door Fine Tune Music.
-  og_image: "/uploads/Boehringer2%20met%20tekst.jpg"
+  og_image: "/uploads/Snakeware.jpg"
 ---
 
