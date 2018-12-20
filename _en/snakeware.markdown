@@ -8,15 +8,15 @@ image: "/uploads/Snakeware.jpg"
 description: |-
   ## Project
 
-  Music and sound design by Fine Tune Music.
+  Music and sound design by Fine Tune Music. Film by 2-inch.
 
 
   ## Audio
 page:
   title: Snakeware | Fine Tune Music
-  description: Music and sound design by Fine Tune Music.
+  description: Music and sound design by Fine Tune Music. Film by 2-inch.
   og_title: Snakeware | Fine Tune Music
-  og_description: Music and sound design by Fine Tune Music.
+  og_description: Music and sound design by Fine Tune Music. Film by 2-inch.
   og_image: "/uploads/Snakeware.jpg"
 ---
 
