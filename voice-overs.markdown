@@ -22,8 +22,8 @@ text: |-
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 button:
-  title: Beluister ons portfolio
-  open: openPortfolio(music)
+  title: Bezoek finetunevoices.nl
+  action: href="https://finetunevoices.nl/"
 layout: info
 ---
 

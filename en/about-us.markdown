@@ -28,7 +28,7 @@ text2: |-
   David's <a href="https://www.linkedin.com/in/finetunemusic/" target="_blank">LinkedIn</a>
 button:
   title: Listen to our portfolio
-  open: openPortfolio(music)
+  action: onclick="openPortfolio()"
 layout: about
 ---
 

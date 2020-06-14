@@ -22,7 +22,7 @@ image:
   image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
 button:
   title: Ein Einblick in unser Portfolio
-  open: openPortfolio(music)
+  action: onclick="openPortfolio()"
 layout: info
 ---
 

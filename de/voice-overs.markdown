@@ -23,8 +23,8 @@ text: |-
 image:
   image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 button:
-  title: Ein Einblick in unser Portfolio
-  open: openPortfolio(music)
+  title: Besuch finetunevoices.nl
+  action: href="https://finetunevoices.nl/"
 layout: info
 ---
 

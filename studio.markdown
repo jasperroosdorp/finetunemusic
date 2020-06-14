@@ -21,7 +21,7 @@ image:
   image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
 button:
   title: Beluister ons portfolio
-  open: openPortfolio(music)
+  action: onclick="openPortfolio()"
 layout: info
 ---
 
