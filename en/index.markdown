@@ -27,13 +27,13 @@ mobile:
   that will just not leave your mind, but also that one song you no longer remember
   the name to.
 image:
-  image: "/uploads/FTM-34255.jpg"
+  image: "/uploads/Home.jpg"
 information:
   title: We are Fine Tune Music
-  text: Our music productions are custom-made for all kinds of projects. We offer
-    music, sound design and voice-overs for film, animation, games and commercials.
-    [Call](tel:0031202440477) or [email](mailto:info@finetunemusic.nl) us and find
-    out what we can do for you.
+  text: Our music productions are custom-made for all kinds of projects. We are a
+    full service audio post production company. We offer music, sound design and [voice-overs](https://finetunevoices.nl/)
+    for film, animation, games and commercials. [Call](tel:0031202440477) or [email](mailto:info@finetunemusic.nl)
+    us and find out what we can do for you.
 contact:
   text:
   - |-
