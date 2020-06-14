@@ -23,7 +23,7 @@ function openPortfolio(tab) {
     $('html').removeClass('portfolio-tab-1 portfolio-tab-2b');
     $('html').addClass('portfolio-tab-2a');
   }
-  if ($('html').hasClass('audio-playing voice-over')) {
+  if ($('html').hasClass('audio-playing sound_logo')) {
     $('html').removeClass('portfolio-tab-1 portfolio-tab-2a');
     $('html').addClass('portfolio-tab-2b');
   }

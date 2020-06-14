@@ -15,24 +15,24 @@ pageid: info
 
   <BODY>
 
-    {% include navigation2.html %}
+    {% include navigation.html %}
 
     <main id="barba-wrapper">
       <div class="barba-container" data-pageid="info"
       {% if page.url contains 'prod' or page.url contains 'sounddesign' %}
-      data-url-en="/en/production{{ site.urlext }}"
-      data-url-de="/de/musikproduktion{{ site.urlext }}"
-      data-url-nl="/muziek-sounddesign{{ site.urlext }}"
+      data-url-en="{{ site.basehref }}/en/production{{ site.urlext }}"
+      data-url-de="{{ site.basehref }}/de/musikproduktion{{ site.urlext }}"
+      data-url-nl="{{ site.basehref }}/muziek-sounddesign{{ site.urlext }}"
       {% endif %}
       {% if page.url contains 'voice-overs' %}
-      data-url-en="/en/voice-overs{{ site.urlext }}"
-      data-url-de="/de/voice-overs{{ site.urlext }}"
-      data-url-nl="/voice-overs{{ site.urlext }}"
+      data-url-en="{{ site.basehref }}/en/voice-overs{{ site.urlext }}"
+      data-url-de="{{ site.basehref }}/de/voice-overs{{ site.urlext }}"
+      data-url-nl="{{ site.basehref }}/voice-overs{{ site.urlext }}"
       {% endif %}
       {% if page.url contains 'studio' %}
-      data-url-en="/en/studio{{ site.urlext }}"
-      data-url-de="/de/musikstudio{{ site.urlext }}"
-      data-url-nl="/studio{{ site.urlext }}"
+      data-url-en="{{ site.basehref }}/en/studio{{ site.urlext }}"
+      data-url-de="{{ site.basehref }}/de/musikstudio{{ site.urlext }}"
+      data-url-nl="{{ site.basehref }}/studio{{ site.urlext }}"
       {% endif %}>
       <div class="barba-content">
 
@@ -67,7 +67,7 @@ pageid: info
           </div>
         </a>
 
-        {% include contact2.html %}
+        {% include contact.html %}
 
       </div>
     </div>

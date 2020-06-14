@@ -96,7 +96,7 @@ Barba.Dispatcher.on('transitionCompleted', function(current, prev, newContainer)
     var currentpath = window.location.pathname;
     $('nav.upper .return-button').attr("href", currentpath);
     $('audio').each(function() { $(this)[0].pause(); });
-    $('html').removeClass('audio-playing music voice-over');
+    $('html').removeClass('audio-playing music sound_logo');
   });
 
   // Extend footer background color to html background

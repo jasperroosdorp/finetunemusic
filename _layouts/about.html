@@ -1,5 +1,5 @@
 ---
-pageid: about
+pageid: info
 ---
 
 <!DOCTYPE html>
@@ -16,60 +16,62 @@ pageid: about
 
   <BODY>
 
-    {% include navigation2.html %}
+    {% include navigation.html %}
 
     <main id="barba-wrapper">
-      <div class="barba-container" data-pageid="about" data-url-en="/en/about-us{{ site.urlext }}" data-url-de="/de/uber-uns{{ site.urlext }}" data-url-nl="/over-ons{{ site.urlext }}">
-        <div class="barba-content">
+      <div class="barba-container" data-pageid="about" data-url-en="{{ site.basehref }}/en/about-us{{ site.urlext }}" data-url-de="{{ site.basehref }}/de/uber-uns{{ site.urlext }}" data-url-nl="{{ site.basehref }}/over-ons{{ site.urlext }}">
+      <div class="barba-content">
 
-          <section class="about-description">
-            {% for item in page.information %}
-            {{ item.text | markdownify }}
-            {% endfor %}
-          </section>
+        <section class='info-section'>
+          {{ page.text1 | markdownify }}
+        </section>
 
-          <section class="people">
-            {% for person in page.people %}
-            <div class="person">
-              <figure>
-                <div class='content'>
-                  <img class='cld-responsive' data-src="{{ site.cdn }}/c_fill,w_auto,ar_4:3,dpr_2.0/{{ site.host }}{{ person.image | replace: "../uploads", "uploads" }}" />
-                </div>
-              </figure>
-              <div class='description'>
-                {{ person.description | markdownify }}
-              </div>
+        <section class='info-section'>
+          {{ page.text2 | markdownify }}
+        </section>
+
+        <section class="info-img">
+          <figure>
+            <div class='content'>
+              <!-- <img class='cld-responsive' data-src="{{ site.cdn }}/w_auto,ar_4:3,c_fill,q_80/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" /> -->
+              <img class='cld-responsive' data-src="{{ site.cdn }}/c_fill,w_auto,ar_16:9,dpr_2.0/{{ site.host }}{{ page.image.image | replace: "../uploads", "uploads" }}" />
             </div>
-            {% endfor %}
-          </section>
+          </figure>
+        </section>
 
-          <a class="full-width-button" onclick="openPortfolio()">
-            <div class="wrapper">
-              {% if page.language == 'English' %}
-              <span class='heading'>Listen to our portfolio</span>
-              {% elsif page.language == 'German' %}
-              <span class='heading'>Ein Einblick in unser Portfolio</span>
-              {% else %}
-              <span class='heading'>Beluister ons portfolio</span>
-              {% endif %}
-            </div>
-          </a>
+        <!-- <a class="full-width-button" onclick="openPortfolio()">
+          <div class="wrapper">
+            {% if page.language == 'English' %}
+            <span class='heading'>Listen to our portfolio</span>
+            {% elsif page.language == 'German' %}
+            <span class='heading'>Ein Einblick in unser Portfolio</span>
+            {% else %}
+            <span class='heading'>Beluister ons portfolio</span>
+            {% endif %}
+          </div>
+        </a> -->
 
-          {% include contact2.html %}
+        <a class="full-width-button" onclick="openPortfolio()">
+          <div class="wrapper">
+            <span class='heading'>{{ page.button.title }}</span>
+          </div>
+        </a>
 
-        </div>
+        {% include contact.html %}
+
       </div>
-    </main>
+    </div>
+  </main>
 
-    {% include portfolio.html %}
+  {% include portfolio.html %}
 
-    <script type="text/javascript" src="{{ site.basehref }}/body.min.js"></script>
+  <script type="text/javascript" src="{{ site.basehref }}/body.min.js"></script>
 
-    <script type="text/javascript">
-    var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
-    cl.responsive();
-    </script>
+  <script type="text/javascript">
+  var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
+  cl.responsive();
+  </script>
 
-  </BODY>
+</BODY>
 
 </HTML>

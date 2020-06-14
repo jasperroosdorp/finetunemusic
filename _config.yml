@@ -8,6 +8,9 @@ collections:
   music:
     title: Music
     output: false
+  sound_logos:
+    title: Sound logos
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -20,15 +23,6 @@ collections:
   video:
     title: Videos (NL)
     output: true
-  voice-overs-de:
-    title: Voice-overs (DE)
-    output: false
-  voice-overs-en:
-    title: Voice-overs (EN)
-    output: false
-  voice-overs:
-    title: Voice-overs (NL)
-    output: false
 defaults:
 - scope:
     path: ''
@@ -99,7 +93,7 @@ defaults:
     - 
 - scope:
     path: ''
-    type: voice-overs
+    type: sound_logos
   values:
     file: 
 cdn: https://res.cloudinary.com/roosdorp/image/fetch

@@ -246,20 +246,20 @@ $audio-bar-height: 30px;
   /*
   .mejs-playlist ul li {
     &:nth-child(1),
-    &.music + li.voice-over {
+    &.music + li.sound_logo {
       border-color: transparent;
     }
     @include for-tablet-landscape-up {
       &:nth-child(2),
-      &.music + li.voice-over + li.voice-over {
+      &.music + li.sound_logo + li.sound_logo {
         border-color: transparent;
       }
     }
   }
   */
 
-  .portfolio-content > ul.muziek ~ #tab-2 .mejs-playlist ul li.voice-over,
-  .portfolio-content > ul.voice-overs ~ #tab-2 .mejs-playlist ul li.music {
+  .portfolio-content > ul.muziek ~ #tab-2 .mejs-playlist ul li.sound_logo,
+  .portfolio-content > ul.sound_logos ~ #tab-2 .mejs-playlist ul li.music {
     height: 0;
     width: 0;
     pointer-events: 0;

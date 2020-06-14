@@ -11,15 +11,15 @@
         {% if page.language == 'English' %}
         <li><a class='portfolio-nav-a tab-2a'>Music</a></li>
         <li><a class='portfolio-nav-a tab-1'>Videos</a></li>
-        <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
+        <li><a class='portfolio-nav-a tab-2b'>Sound logos</a></li>
         {% elsif page.language == 'German' %}
         <li><a class='portfolio-nav-a tab-2a'>Musik</a></li>
         <li><a class='portfolio-nav-a tab-1'>Videos</a></li>
-        <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
+        <li><a class='portfolio-nav-a tab-2b'>Sound-Logos</a></li>
         {% else %}
         <li><a class='portfolio-nav-a tab-2a'>Muziek</a></li>
         <li><a class='portfolio-nav-a tab-1'>Video's</a></li>
-        <li><a class='portfolio-nav-a tab-2b'>Voice-overs</a></li>
+        <li><a class='portfolio-nav-a tab-2b'>Soundlogo's</a></li>
         {% endif %}
       </ul>
 
@@ -35,7 +35,7 @@
         {% endif %}
         {% for video in sorted %}
         {% if video.published != false %}
-        <a class="video" href="{{ video.url | replace: ".html", "" }}{{ site.urlext }}">
+        <a class="video" href="{{ site.basehref }}{{ video.url | replace: ".html", "" }}{{ site.urlext }}">
           <figure>
             <div class='content'>
               <img class='cld-responsive' data-src="{{ site.cdn }}/c_fill,w_auto,ar_16:9,dpr_2.0/{{ site.host }}{{ video.image | replace: "../uploads", "uploads" }}" />
@@ -51,22 +51,18 @@
         <div class="mediawrapper music">
           <!-- <div class="audio-player-title music">&nbsp;</div> -->
           <audio id="mejs" type="audio/mp3" width="100%" controls="controls">
+            <!-- Music files -->
             {% assign sorted = (site.music | sort: 'position') %}
             {% for music in sorted %}
             {% if music.published != false %}
-            <source class="music" src="{{ music.file }}" title="{{ music.title }}"></source>
+            <source class="music" src="{{ site.basehref }}{{ music.file | }}" title="{{ music.title }}"></source>
             {% endif %}
             {% endfor %}
-            {% if page.language == 'English' %}
-            {% assign sorted = (site.voice-overs-en | sort: 'position') %}
-            {% elsif page.language == 'German' %}
-            {% assign sorted = (site.voice-overs-de | sort: 'position') %}
-            {% else %}
-            {% assign sorted = (site.voice-overs | sort: 'position') %}
-            {% endif %}
-            {% for voice-overs in sorted %}
-            {% if voice-overs.published != false %}
-            <source class="voice-over" src="{{ voice-overs.file }}" title="{{ voice-overs.title }}"></source>
+            <!-- Soundlogo files -->
+            {% assign sorted = (site.sound_logos | sort: 'position') %}
+            {% for sound_logos in sorted %}
+            {% if sound_logos.published != false %}
+            <source class="sound_logo" src="{{ site.basehref }}{{ sound_logos.file | }}" title="{{ sound_logos.title }}"></source>
             {% endif %}
             {% endfor %}
           </audio>

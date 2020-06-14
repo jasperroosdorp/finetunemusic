@@ -3170,12 +3170,12 @@ if (typeof jQuery != 'undefined') {
 						media.play();
             $('html').addClass('audio-playing');
             if($('.mejs-playlist li.current').hasClass('music')) {
-              $('html').removeClass('voice-over');
+              $('html').removeClass('sound_logo');
               $('html').addClass('music');
             }
             else {
               $('html').removeClass('music');
-              $('html').addClass('voice-over');
+              $('html').addClass('sound_logo');
             }
             // if($('.mediawrapper.music .mejs-playpause-button').hasClass('mejs-pause')) {
             //   $('html').removeClass('voice-over');
@@ -3189,7 +3189,7 @@ if (typeof jQuery != 'undefined') {
 						media.pause();
             $('html').removeClass('audio-playing');
             $('html').removeClass('music');
-            $('html').removeClass('voice-over');
+            $('html').removeClass('sound_logo');
             // $('html').removeClass('music');
             // $('html').removeClass('voice-over');
 					}
@@ -3201,12 +3201,12 @@ if (typeof jQuery != 'undefined') {
 				play.removeClass('mejs-play').addClass('mejs-pause');
         $('html').addClass('audio-playing');
         if($('.mejs-playlist li.current').hasClass('music')) {
-          $('html').removeClass('voice-over');
+          $('html').removeClass('sound_logo');
           $('html').addClass('music');
         }
         else {
           $('html').removeClass('music');
-          $('html').addClass('voice-over');
+          $('html').addClass('sound_logo');
         }
         // if($('.mediawrapper.music .mejs-playpause-button').hasClass('mejs-pause')) {
         //   $('html').removeClass('voice-over');
@@ -3221,12 +3221,12 @@ if (typeof jQuery != 'undefined') {
 				play.removeClass('mejs-play').addClass('mejs-pause');
         $('html').addClass('audio-playing');
         if($('.mejs-playlist li.current').hasClass('music')) {
-          $('html').removeClass('voice-over');
+          $('html').removeClass('sound_logo');
           $('html').addClass('music');
         }
         else {
           $('html').removeClass('music');
-          $('html').addClass('voice-over');
+          $('html').addClass('sound_logo');
         }
         // if($('.mediawrapper.music .mejs-playpause-button').hasClass('mejs-pause')) {
         //   $('html').removeClass('voice-over');

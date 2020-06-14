@@ -1,87 +1,114 @@
 <header>
-
-  <nav class='upper'>
-    <a class='nav-trigger'>
-      <!-- <span class='nav-icon-wrapper'>
-      <span class='nav-icon'></span> -->
-      <span class='unfold-nav'>Menu</span>
-      <span class='fold-nav'>Menu</span>
-    </a>
+  <div class='mobile-nav'>
     {% if page.language == 'English' %}
-    <a class="return-button" href="/en">Back</a>
+    <a href="{{ site.basehref }}/en/">Fine Tune Music</a>
     {% elsif page.language == 'German' %}
-    <a class="return-button" href="/de">Zurück</a>
+    <a href="{{ site.basehref }}/de/">Fine Tune Music</a>
     {% else %}
-    <a class="return-button" href="/">Terug</a>
+    <a href="{{ site.basehref }}/">Fine Tune Music</a>
     {% endif %}
     <a class='current-track'>
-      <svg class="music-bar" onclick="openPortfolio()" viewBox="0 0 20 20">
-        <defs><rect id="def-rect" y="10" width="2" height="20" /></defs>
-        <use class="bar" xlink:href="#def-rect" x="0" />
-        <use class="bar" xlink:href="#def-rect" x="9" />
-        <use class="bar" xlink:href="#def-rect" x="18" />
+      <svg class='music-bar' onclick='openPortfolio()' viewBox='0 0 20 20'>
+        <defs><rect id='def-rect' y='10' width='2' height='20' /></defs>
+        <use class='bar' xlink:href='#def-rect' x='0' />
+        <use class='bar' xlink:href='#def-rect' x='9' />
+        <use class='bar' xlink:href='#def-rect' x='18' />
       </svg>
-      {% if page.language == 'English' %}
-      <span class='placeholder' onclick="openPortfolio()">Listen</span>
-      {% endif %}
-      {% if page.language == 'Dutch' %}
-      <span class='placeholder' onclick="openPortfolio()">Beluister</span>
-      {% endif %}
-      {% if page.language == 'German' %}
-      <span class='placeholder' onclick="openPortfolio()">Zuhören</span>
-      {% endif %}
-      <span class='audio-player-title music voice-overs' onclick="openPortfolio()">Lorem ipsum</span>
     </a>
+    <a class='mob-nav-toggle'>
+      <span class='icon'></span>
+    </a>
+  </div>
+  {% if page.language == 'English' %}
+  <a class="return-button" href="{{ site.basehref }}/en">Back</a>
+  {% elsif page.language == 'German' %}
+  <a class="return-button" href="{{ site.basehref }}/de">Zurück</a>
+  {% else %}
+  <a class="return-button" href="{{ site.basehref }}/">Terug</a>
+  {% endif %}
+  <nav>
+    <div class='nav-left-section'>
+      {% if page.language == 'English' %}
+      <a href="{{ site.basehref }}/en/">Fine Tune Music</a>
+      {% elsif page.language == 'German' %}
+      <a href="{{ site.basehref }}/de/">Fine Tune Music</a>
+      {% else %}
+      <a href="{{ site.basehref }}/">Fine Tune Music</a>
+      {% endif %}
+      {% if page.language == 'English' %}
+      <a onclick="openPortfolio()">Listen</a>
+      {% elsif page.language == 'German' %}
+      <a onclick="openPortfolio()">Zuhören</a>
+      {% else %}
+      <a onclick="openPortfolio()">Beluister</a>
+      {% endif %}
+    </div>
+    <div class='nav-center-section'>
+      {% if page.language == 'English' %}
+      <a class='nav-trigger'>More</a>
+      {% elsif page.language == 'German' %}
+      <a class='nav-trigger'>Mehr</a>
+      {% else %}
+      <a class='nav-trigger'>Meer</a>
+      {% endif %}
+      <div class='hidden-items'>
+        <ul>
+          {% if page.language == 'English' %}
+          <li><a href="{{ site.basehref }}/en/production{{ site.urlext }}">Music / Sound design</a></li>
+          {% elsif page.language == 'German' %}
+          <li><a href="{{ site.basehref }}/de/musikproduktion{{ site.urlext }}">Musik / Sounddesign</a></li>
+          {% else %}
+          <li><a href="{{ site.basehref }}/muziek-sounddesign{{ site.urlext }}">Muziek / Sounddesign</a></li>
+          {% endif %}
+
+          {% if page.language == 'English' %}
+          <li><a href="{{ site.basehref }}/en/voice-overs{{ site.urlext }}">Voice-overs</a></li>
+          {% elsif page.language == 'German' %}
+          <li><a href="{{ site.basehref }}/de/voice-overs{{ site.urlext }}">Voice-overs</a></li>
+          {% else %}
+          <li><a href="{{ site.basehref }}/voice-overs{{ site.urlext }}">Voice-overs</a></li>
+          {% endif %}
+
+          {% if page.language == 'English' %}
+          <li><a href="{{ site.basehref }}/en/studio{{ site.urlext }}">Studio</a></li>
+          {% elsif page.language == 'German' %}
+          <li><a href="{{ site.basehref }}/de/musikstudio{{ site.urlext }}">Musikstudio</a></li>
+          {% else %}
+          <li><a href="{{ site.basehref }}/studio{{ site.urlext }}">Studio</a></li>
+          {% endif %}
+        </ul>
+        <ul>
+          {% if page.language == 'English' %}
+          <li><a href="{{ site.basehref }}/en/about-us{{ site.urlext }}">About Us</a></li>
+          {% elsif page.language == 'German' %}
+          <li><a href="{{ site.basehref }}/de/uber-uns{{ site.urlext }}">Über Uns</a></li>
+          {% else %}
+          <li><a href="{{ site.basehref }}/over-ons{{ site.urlext }}">Over ons</a></li>
+          {% endif %}
+
+          {% if page.language == 'English' %}
+          <li><a onclick="showContact()">Contact</a></li>
+          {% elsif page.language == 'German' %}
+          <li><a onclick="showContact()">Kontakt</a></li>
+          {% else %}
+          <li><a onclick="showContact()">Contact</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+    <div class='nav-right-section'>
+      <a class='current-track'>
+        <svg class='music-bar' onclick='openPortfolio()' viewBox='0 0 20 20'>
+          <defs><rect id='def-rect' y='10' width='2' height='20' /></defs>
+          <use class='bar' xlink:href='#def-rect' x='0' />
+          <use class='bar' xlink:href='#def-rect' x='9' />
+          <use class='bar' xlink:href='#def-rect' x='18' />
+        </svg>
+        <span class='audio-player-title music sound_logos' onclick="openPortfolio()"></span>
+      </a>
+      <a class="no-barba language-switch nl">NL</a>
+      <a class="no-barba language-switch en">EN</a>
+      <a class="no-barba language-switch de">DE</a>
+    </div>
   </nav>
-
-  <nav class='lower'>
-
-    {% if page.language == 'English' %}
-    <ul>
-      <li><a href="/en">Home</a></li>
-    </ul>
-    <ul>
-      <li><a href="/en/production{{ site.urlext }}">Production</a></li>
-      <li><a href="/en/voice-overs{{ site.urlext }}">Voice-overs</a></li>
-      <li><a href="/en/studio{{ site.urlext }}">Studio</a></li>
-    </ul>
-    <ul>
-      <li><a href="/en/about-us{{ site.urlext }}">About us</a></li>
-      <li><a onclick="showContact()">Contact</a></li>
-    </ul>
-    {% elsif page.language == 'German' %}
-    <ul>
-      <li><a href="/de">Startseite</a></li>
-    </ul>
-    <ul>
-      <li><a href="/de/musikproduktion{{ site.urlext }}">Musikproduktion</a></li>
-      <li><a href="/de/voice-overs{{ site.urlext }}">Voice-overs</a></li>
-      <li><a href="/de/musikstudio{{ site.urlext }}">Musikstudio</a></li>
-    </ul>
-    <ul>
-      <li><a href="/de/uber-uns{{ site.urlext }}">Über Uns</a></li>
-      <li><a onclick="showContact()">Kontakt</a></li>
-    </ul>
-    {% else %}
-    <ul>
-      <li><a href="/">Home</a></li>
-    </ul>
-    <ul>
-      <li><a href="/muziekproductie{{ site.urlext }}">Muziekproductie</a></li>
-      <li><a href="/voice-overs{{ site.urlext }}">Voice-overs</a></li>
-      <li><a href="/studio{{ site.urlext }}">Studio</a></li>
-    </ul>
-    <ul>
-      <li><a href="/over-ons{{ site.urlext }}">Over ons</a></li>
-      <li><a onclick="showContact()">Contact</a></li>
-    </ul>
-    {% endif %}
-    <ul>
-      <li><a class="no-barba language-switch en">English</a></li>
-      <li><a class="no-barba language-switch de">Deutsch</a></li>
-      <li><a class="no-barba language-switch nl">Nederlands</a></li>
-    </ul>
-
-  </nav>
-
 </header>

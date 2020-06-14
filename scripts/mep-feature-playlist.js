@@ -269,8 +269,8 @@
       t.play();
       track.addClass('current').siblings().removeClass('current');
       $('.audio-player-title.music').html($('.mediawrapper.music .current').text());
-      $('.audio-player-title.voice-overs').html($('.mediawrapper.voice-overs .current').text());
-      $('.audio-player-title.music.voice-overs').html(track.text());
+      $('.audio-player-title.sound_logos').html($('.mediawrapper.sound_logos .current').text());
+      $('.audio-player-title.music.sound_logos').html(track.text());
     },
     playTrackURL: function(url) {
       var t = this;
