@@ -8,9 +8,9 @@ page:
     für  Radio-TV-Spots, Filme, Spiele und weiteres. Ein Einblick in unser Portfolio.
   og_title: Fine Tune Music
   og_description: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten.
-    Wir bieten Musik, Sound Design und Voice-Over für Filme, Animationen, Games und
-    Werbung an. Rufen Sie uns an oder mailen Sie uns und Finden Sie heraus, was wir
-    für Sie tun können.
+    Wir sind eine Full-Service-Audio-Postproduktionsfirma. Wir bieten Musik, Sound
+    Design und Voice-Over für Filme, Animationen, Games und Werbung an. Rufen Sie
+    uns an oder mailen Sie uns und Finden Sie heraus, was wir für Sie tun können.
 introduction:
 - |-
   Wir sind das erste Vogelzwitschern am Morgen.
@@ -31,9 +31,10 @@ image:
   image: "/uploads/FTM-34255.jpg"
 information:
   title: Wir sind Fine Tune Music
-  text: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. Wir bieten
-    Musik, Sound Design und Voice-Over für Filme, Animationen, Games und Werbung an.
-    [Rufen](tel:0031202440477) Sie uns an oder [mailen](mailto:info@finetunemusic.nl)
+  text: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. Wir sind
+    eine Full-Service-Audio-Postproduktionsfirma. Wir bieten Musik, Sound Design und
+    [Voice-Over](https://finetunevoices.nl/) für Filme, Animationen, Games und Werbung
+    an. [Rufen](tel:0031202440477) Sie uns an oder [mailen](mailto:info@finetunemusic.nl)
     Sie uns und Finden Sie heraus, was wir für Sie tun können.
 contact:
   text:
