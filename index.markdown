@@ -9,8 +9,9 @@ page:
     portfolio.
   og_title: Fine Tune Music
   og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
-    leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
-    Bel of mail ons om de mogelijkheden te bespreken.
+    zijn een full-service audio post-productie bedrijf. Wij leveren muziek, sounddesign
+    en voice-overs voor film, animaties, games en reclames. Bel of mail ons om de
+    mogelijkheden te bespreken.
 introduction:
 - |-
   Wij zijn de eerste zangvogel als je opstaat.
