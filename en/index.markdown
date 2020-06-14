@@ -8,8 +8,9 @@ page:
     voice-over for radio and TV-commercials, films and games. Listen to our portfolio.
   og_title: Fine Tune Music
   og_description: Our music productions are custom-made for all kinds of projects.
-    We offer music, sound design and voice-overs for film, animation, games and commercials.
-    Call or email us and find out what we can do for you.
+    We are a full service audio post production company. We offer music, sound design
+    and voice-overs for film, animation, games and commercials. Call or email us and
+    find out what we can do for you.
 introduction:
 - |-
   We’re the first songbird in the morning.
