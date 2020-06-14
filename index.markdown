@@ -31,9 +31,10 @@ image:
   image: "/uploads/FTM-34255.jpg"
 information:
   title: Wij zijn Fine Tune Music
-  text: Onze producties zijn maatwerk voor uiteenlopende projecten.  Wij leveren muziek,
-    sounddesign en voice-overs voor film, animaties, games en reclames. [Bel](tel:0031202440477)
-    of [mail](mailto:info@finetunemusic.nl) ons om de mogelijkheden te bespreken.
+  text: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij zijn een full-service
+    audio post-productie bedrijf. Wij leveren muziek, sounddesign en [voice-overs](https://finetunevoices.nl/)
+    voor film, animaties, games en reclames. [Bel](tel:0031202440477) of [mail](mailto:info@finetunemusic.nl)
+    ons om de mogelijkheden te bespreken.
 contact:
   text:
   - |
