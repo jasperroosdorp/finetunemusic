@@ -15,7 +15,7 @@ text1: |-
 
   We are a collective of talented musicians. Diversity is in our DNA, as you can hear from our portfolio. Our team consists of committed professionals. Our job is to create something unique, using our knowledge to comply with your wishes.
 image:
-  image: "/uploads/David1.jpg"
+  image: "/uploads/FTM-34241-2%20(5).jpg"
 text2: |-
   ## David Marcel de Jong
 
