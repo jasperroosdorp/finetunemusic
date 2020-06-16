@@ -28,7 +28,7 @@ mobile:
   Melodie, die dir nicht aus dem Kopf geht, ebenso wie dieses eine Lied, dessen Namen
   du nicht mehr weißt.
 image:
-  image: "/uploads/FTM-34255.jpg"
+  image: "/uploads/David2.jpg"
 information:
   title: Wir sind Fine Tune Music
   text: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. Wir sind
