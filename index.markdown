@@ -14,16 +14,16 @@ page:
     mogelijkheden te bespreken.
 introduction:
 - "Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht
-  van muziek, stem en geluid. \nWij geven bedrijven en merken een duidelijke, hoorbare
-  identiteit.\nMuziek is emotie. "
-- "Wij leveren unieke en hoogwaardige muziek, voice-overs en sounddesign, waarbij
-  we letten op elk detail. \nWij zijn Fine Tune Music, een full-service audio post-production
+  van muziek, stem en geluid. \nMet onze audio geven wij bedrijven en merken een duidelijke,
+  hoorbare identiteit.\nWij zijn Fine Tune Music, een full-service audio post-production
   bedrijf uit Nederland."
-- "We kunnen je laten schrikken, laten lachen en laten huilen.\nWij zijn die melodie
-  die maar niet uit je hoofd gaat, \nmaar ook dat ene liedje waar je de naam niet
-  meer van weet."
-- "Waar het gebruik van stock-content steeds groter wordt, \nwijken wij juist af van
-  de standaard.\nWij maken unieke audio-producten die authentiek en exclusief zijn. "
+- "Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
+  de standaard.\nWij maken unieke audio-producten die authentiek en exclusief zijn.
+  \nWij leveren hoogwaardige muziek, voice-overs en sounddesign, waarbij we letten
+  op elk detail. \n"
+- "Muziek is emotie. We kunnen je laten schrikken, laten lachen en laten huilen.\nWij
+  zijn die melodie die maar niet uit je hoofd gaat, \nmaar ook dat ene liedje waar
+  je de naam niet meer van weet."
 mobile:
 - "Muziek is emotie. \nHet is onze missie om filmmakers en merkenbouwers te helpen
   hun boodschap te versterken met de kracht van muziek en geluid. \nWij geven bedrijven
