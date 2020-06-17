@@ -13,17 +13,17 @@ page:
     en voice-overs voor film, animaties, games en reclames. Bel of mail ons om de
     mogelijkheden te bespreken.
 introduction:
-- Het is onze missie om filmmakers en merkenbouwers te helpen hun boodschap te versterken
-  met de kracht van muziek en geluid. Wij geven bedrijven en merken een duidelijke,
-  hoorbare identiteit.
-- 'Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
-  de standaard en maken wij unieke producten die authentiek en exclusief zijn. Wij
-  leveren unieke en hoogwaardige muziek, voice-overs en sounddesign, waarbij we letten
-  op elk detail. Wij zijn Fine Tune Music, een full-service audio post-production
+- "Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, \nmet de
+  kracht van muziek en geluid. \nWij geven bedrijven en merken een duidelijke, hoorbare
+  identiteit."
+- 'Wij leveren unieke en hoogwaardige muziek, voice-overs en sounddesign, waarbij
+  we letten op elk detail. Wij zijn Fine Tune Music, een full-service audio post-production
   bedrijf uit Nederland. '
 - |-
   Muziek is emotie. "We kunnen je laten schrikken, laten lachen en laten huilen".
   Wij zijn die melodie die maar niet uit je hoofd gaat, maar ook dat ene liedje waar je de naam niet meer van weet.
+- 'Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
+  de standaard en maken wij unieke producten die authentiek en exclusief zijn. '
 mobile:
 - Het is onze missie om filmmakers en merkenbouwers te helpen hun boodschap te versterken
   met de kracht van muziek en geluid. Wij geven bedrijven en merken een duidelijke,
