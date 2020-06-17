@@ -28,7 +28,7 @@ mobile:
   that will just not leave your mind, but also that one song you no longer remember
   the name to.
 image:
-  image: "/uploads/David2.jpg"
+  image: "/uploads/Ontwerp%20zonder%20titel.png"
 information:
   title: We are Fine Tune Music
   text: Our music productions are custom-made for all kinds of projects. We are a
