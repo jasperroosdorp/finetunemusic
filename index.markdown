@@ -14,8 +14,8 @@ page:
     mogelijkheden te bespreken.
 introduction:
 - "Muziek is emotie. \nWij helpen filmmakers en merkenbouwers om hun boodschap te
-  versterken, met de kracht van muziek en geluid. Wij geven bedrijven en merken een
-  duidelijke, hoorbare identiteit."
+  versterken, met de kracht van muziek, stem en geluid. \nWij geven bedrijven en merken
+  een duidelijke, hoorbare identiteit."
 - "Wij leveren unieke en hoogwaardige muziek, voice-overs en sounddesign, waarbij
   we letten op elk detail. \nWij zijn Fine Tune Music, een full-service audio post-production
   bedrijf uit Nederland. "
