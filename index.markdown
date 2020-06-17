@@ -25,9 +25,9 @@ introduction:
 - 'Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
   de standaard en maken wij unieke producten die authentiek en exclusief zijn. '
 mobile:
-- Het is onze missie om filmmakers en merkenbouwers te helpen hun boodschap te versterken
-  met de kracht van muziek en geluid. Wij geven bedrijven en merken een duidelijke,
-  hoorbare identiteit.
+- "Muziek is emotie. \nHet is onze missie om filmmakers en merkenbouwers te helpen
+  hun boodschap te versterken met de kracht van muziek en geluid. \nWij geven bedrijven
+  en merken een duidelijke, hoorbare identiteit."
 image:
   image: "/uploads/Ontwerp%20zonder%20titel.png"
 information:
