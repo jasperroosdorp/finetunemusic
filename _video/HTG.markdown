@@ -8,7 +8,8 @@ image: "/uploads/HTG%201.jpg"
 description: |-
   ## Project
 
-  Muziek, sounddesign en voice-over door Fine Tune Music.
+  Muziek, sounddesign door Fine Tune Music.
+  Voice-over door Fine Tune Voices [www.finetunevoices.nl](https://finetunevoices.nl/)
 
   ## Audio
 page:
