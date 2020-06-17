@@ -29,7 +29,7 @@ mobile:
   melodie die maar niet uit je hoofd gaat, maar ook dat ene liedje waar je de naam
   niet meer van weet.
 image:
-  image: "/uploads/David2.jpg"
+  image: "/uploads/Ontwerp%20zonder%20titel.png"
 information:
   title: Wij zijn Fine Tune Music
   text: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij zijn een full-service
