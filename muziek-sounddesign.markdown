@@ -22,7 +22,7 @@ text: "# Muziek / Sounddesign\n\nVerklanken van identiteit is onze passie. Onze 
   een selectie van [onze muziek](javascript:openPortfolio('tab-2a')), en [onze audio
   voor video](javascript:openPortfolio('tab-1'))."
 image:
-  image: "/uploads/Korg_FTM-34267%20(3200px).jpg"
+  image: "/uploads/Korg_FTM-34267%20(2600px).jpg"
 button:
   title: Beluister ons portfolio
   action: onclick="openPortfolio()"
