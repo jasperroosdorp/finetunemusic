@@ -19,7 +19,7 @@ text: |-
 
   Listen to a selection of [our music](javascript:openPortfolio('tab-2a')), and [our audio for video](javascript:openPortfolio('tab-1')).
 image:
-  image: "/uploads/FTM-34257-crop%2016-9%203200px.jpg"
+  image: "/uploads/Korg_FTM-34267%20(2600px).jpg"
 button:
   title: Listen to our portfolio
   action: onclick="openPortfolio()"
