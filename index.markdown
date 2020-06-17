@@ -23,7 +23,7 @@ introduction:
   die maar niet uit je hoofd gaat, \nmaar ook dat ene liedje waar je de naam niet
   meer van weet."
 - "Waar het gebruik van stock-content steeds groter wordt, \nwijken wij juist af van
-  de standaard \nen maken wij unieke producten die authentiek en exclusief zijn. "
+  de standaard.\nWij maken unieke audio-producten die authentiek en exclusief zijn. "
 mobile:
 - "Muziek is emotie. \nHet is onze missie om filmmakers en merkenbouwers te helpen
   hun boodschap te versterken met de kracht van muziek en geluid. \nWij geven bedrijven
