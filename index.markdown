@@ -22,8 +22,8 @@ introduction:
 - "We kunnen je laten schrikken, laten lachen en laten huilen.\nWij zijn die melodie
   die maar niet uit je hoofd gaat, \nmaar ook dat ene liedje waar je de naam niet
   meer van weet."
-- 'Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
-  de standaard en maken wij unieke producten die authentiek en exclusief zijn. '
+- "Waar het gebruik van stock-content steeds groter wordt, \nwijken wij juist af van
+  de standaard en maken wij unieke producten die authentiek en exclusief zijn. "
 mobile:
 - "Muziek is emotie. \nHet is onze missie om filmmakers en merkenbouwers te helpen
   hun boodschap te versterken met de kracht van muziek en geluid. \nWij geven bedrijven
