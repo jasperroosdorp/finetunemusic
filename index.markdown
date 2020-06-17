@@ -19,9 +19,9 @@ introduction:
 - "Wij leveren unieke en hoogwaardige muziek, voice-overs en sounddesign, waarbij
   we letten op elk detail. \nWij zijn Fine Tune Music, een full-service audio post-production
   bedrijf uit Nederland. "
-- |-
-  We kunnen je laten schrikken, laten lachen en laten huilen.
-  Wij zijn die melodie die maar niet uit je hoofd gaat, maar ook dat ene liedje waar je de naam niet meer van weet.
+- "We kunnen je laten schrikken, laten lachen en laten huilen.\nWij zijn die melodie
+  die maar niet uit je hoofd gaat, \nmaar ook dat ene liedje waar je de naam niet
+  meer van weet."
 - 'Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
   de standaard en maken wij unieke producten die authentiek en exclusief zijn. '
 mobile:
