@@ -20,7 +20,7 @@ text: |-
 
   Hören Sie sich eine Auswahl [unserer Musik](javascript:openPortfolio('tab-2a')), und [unsere Audioproduktionen für Video](javascript:openPortfolio('tab-1'))&nbsp;an.
 image:
-  image: "/uploads/FTM-34257-crop%2016-9%203200px.jpg"
+  image: "/uploads/Korg_FTM-34267%20(2600px).jpg"
 button:
   title: Ein Einblick in unser Portfolio
   action: onclick="openPortfolio()"
