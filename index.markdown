@@ -25,9 +25,9 @@ introduction:
   zijn die melodie die maar niet uit je hoofd gaat, \nmaar ook dat ene liedje waar
   je de naam niet meer van weet."
 mobile:
-- |-
-  Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht van muziek, stem en geluid. Met onze audio geven wij bedrijven en merken een duidelijke, hoorbare identiteit.
-  Wij zijn Fine Tune Music, een full-service audio post-production bedrijf uit Nederland.
+- Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht
+  van muziek, stem en geluid. Met onze audio geven wij bedrijven en merken een duidelijke,
+  hoorbare identiteit.
 image:
   image: "/uploads/Ontwerp%20zonder%20titel.png"
 information:
