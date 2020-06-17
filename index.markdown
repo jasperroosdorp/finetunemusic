@@ -13,21 +13,21 @@ page:
     en voice-overs voor film, animaties, games en reclames. Bel of mail ons om de
     mogelijkheden te bespreken.
 introduction:
+- Het is onze missie om filmmakers en merkenbouwers te helpen hun boodschap te versterken
+  met de kracht van muziek en geluid. Wij geven bedrijven en merken een duidelijke,
+  hoorbare identiteit.
+- 'Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
+  de standaard en maken wij unieke producten die authentiek en exclusief zijn. Wij
+  leveren unieke en hoogwaardige muziek, voice-overs en sounddesign, waarbij we letten
+  op elk detail. Wij zijn Fine Tune Music, een full-service audio post-production
+  bedrijf uit Nederland. '
 - |-
-  Wij zijn de eerste zangvogel als je opstaat.
-  Het geluid van regen na droogte.
-  De echo in de bergen.
-- |-
-  Je vindt ons overal, maar toch zijn we altijd onzichtbaar.
-  We verplaatsen ons met enorme snelheid.
-- |-
-  We kunnen je laten schrikken, laten lachen en laten huilen.
-  Wij zijn die melodie die maar niet uit je hoofd gaat,
-  maar ook dat ene liedje waar je de naam niet meer van weet.
+  Muziek is emotie. "We kunnen je laten schrikken, laten lachen en laten huilen".
+  Wij zijn die melodie die maar niet uit je hoofd gaat, maar ook dat ene liedje waar je de naam niet meer van weet.
 mobile:
-- Wij zijn de eerste zangvogel als je opstaat. De echo in de bergen. Wij zijn die
-  melodie die maar niet uit je hoofd gaat, maar ook dat ene liedje waar je de naam
-  niet meer van weet.
+- Het is onze missie om filmmakers en merkenbouwers te helpen hun boodschap te versterken
+  met de kracht van muziek en geluid. Wij geven bedrijven en merken een duidelijke,
+  hoorbare identiteit.
 image:
   image: "/uploads/Ontwerp%20zonder%20titel.png"
 information:
