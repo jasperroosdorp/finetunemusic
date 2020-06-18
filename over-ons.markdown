@@ -4,9 +4,10 @@ position: 1
 language: Dutch
 page:
   title: Over Ons | Fine Tune Music
-  description: Muziekproductiebedrijf Fine Tune Music maakt Muziek, Sounds en Voice
-    overs en bestaat o.a. uit producers/componisten David de Jong, Eelke Zuidhoek
-    en Hidde Kramer.
+  description: |
+    Muziekproductiebedrijf Fine Tune Music maakt Muziek, Sounds en Voice overs voor films, animaties en reclames.
+
+    Fine Tune Music helpt filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht van muziek, stem en geluid.
   og_title: Over Ons | Fine Tune Music
   og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
     leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
