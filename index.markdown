@@ -40,7 +40,7 @@ contact:
   text:
   - |
     **Bereik ons**
-    Kerklaan 30D
+    Kerklaan 30 D
     9751NN Haren
     The Netherlands
 
