@@ -17,7 +17,7 @@ text1: |-
 
   We zijn een collectief van getalenteerde musici die zij aan zij werken. Ons team bestaat uit David Marcel de Jong, Hidde Kramer en Eelke Zuidhoek en Tristan Meinsma. Wij zijn vakgekken en zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw wensen.
 image:
-  image: "/uploads/Studiofoto's_FineTune-14_team.jpg"
+  image: "/uploads/Studiofoto's_FineTune-14_teamly.jpg"
 text2: |-
   ## David Marcel de Jong
 
