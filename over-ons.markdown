@@ -19,6 +19,10 @@ text1: |-
 image:
   image: "/uploads/Studiofoto's_FineTune-14_teamly09.jpg"
 text2: |-
+  ## Geschiedenis
+
+  Begin 2013 richtte David Marcel de Jong Fine Tune Music op. In de jaren ervoor, tijdens zijn studie aan het Prins Claus Conservatorium bedacht hij het concept voor zijn bedrijf.
+
   ## David Marcel de Jong
 
   Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is. Oor voor detail hoor je terug in zijn muziek; onder andere in de bedrevenheid waarmee hij rijke, gedetailleerde mixes maakt voor diverse muziekstijlen.
