@@ -25,8 +25,7 @@ text2: |+
 
   Het team waarmee Fine Tune Music werkt bestaat uit een vaste pool van experts op het gebied van; compositie, muziekproductie en sounddesign. Als geen ander weten David en zijn team emoties in muziek en sounddesign uit te drukken. Dit zetten zij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar.
 
-
-  ### David Marcel de Jong
+  ## David Marcel de Jong
 
   Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is. Oor voor detail hoor je terug in zijn muziek; onder andere in de bedrevenheid waarmee hij rijke, gedetailleerde mixes maakt voor diverse muziekstijlen. David's <a href="https://www.linkedin.com/in/finetunemusic/" target="_blank">LinkedIn</a>
 
