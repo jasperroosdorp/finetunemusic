@@ -15,7 +15,7 @@ page:
 text1: |-
   # Over ons
 
-  We zijn een collectief van getalenteerde musici die zij aan zij werken. Ons team bestaat uit David Marcel de Jong, Hidde Kramer en Eelke Zuidhoek en Tristan Meinsma. Diversiteit zit in ons DNA, en dat hoor je terug in ons portfolio. Ons team bestaat uit vakgekken. We zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw wensen.
+  We zijn een collectief van getalenteerde musici die zij aan zij werken. Ons team bestaat uit David Marcel de Jong, Hidde Kramer en Eelke Zuidhoek en Tristan Meinsma. Ons team bestaat uit vakgekken. We zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw wensen.
 image:
   image: "/uploads/FTM-34241-2%20(5).jpg"
 text2: |-
