@@ -18,18 +18,19 @@ text1: |-
   We zijn een collectief van getalenteerde musici die zij aan zij werken. Ons team bestaat uit David Marcel de Jong, Hidde Kramer en Eelke Zuidhoek en Tristan Meinsma. Wij zijn vakgekken en zetten ons graag in om iets unieks te creëren, met onze kennis en naar jouw wensen.
 image:
   image: "/uploads/Studiofoto's_FineTune-14_teamly09.jpg"
-text2: |-
-  ## Geschiedenis
-
-  Begin 2013 richtte David Marcel de Jong Fine Tune Music op. In de jaren ervoor, tijdens zijn studie aan het Prins Claus Conservatorium bedacht hij het concept voor Fine Tune Music. Maatwerk, ambacht en vakmanschap moeten staan centraal in alle producties vond hij.
-
-  Van jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij zijn achtergrond als klassiek pianist van grote waarde is. Oor voor detail hoor je terug in zijn muziek; onder andere in de bedrevenheid waarmee hij rijke, gedetailleerde mixes maakt voor diverse muziekstijlen.
-
-  David is een ondernemend visionair en houdt van uitdagingen, uiteenlopend van grote commerciële projecten tot experimentele samenwerkingen met andere kunstenaars. Als muzikale duizendpoot brengt hij naast Fine Tune Music onder verschillende alter ego’s muziek uit: van harde elektronica en donkere soul tot dynamische klassieke muziek.
-
-  Als geen ander weet David emoties in muziek en sound design uit te drukken. Dit zet hij doeltreffend in als communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van de luisteraar.
-
-  David's <a href="https://www.linkedin.com/in/finetunemusic/" target="_blank">LinkedIn</a>
+text2: "## Geschiedenis\n\nBegin 2013 richtte David Marcel de Jong Fine Tune Music
+  op. In de jaren ervoor, tijdens zijn studie aan het Prins Claus Conservatorium,
+  bedacht hij het concept voor Fine Tune Music. Maatwerk, ambacht en vakmanschap moeten
+  staan centraal in alle producties die gerealiseerd zouden worden vond hij. \n\nVan
+  jongs af aan heeft David een ongekende fascinatie voor muziek en geluid. Nieuwsgierigheid
+  is een van zijn grootste drijfveren in het creëren van bijzondere composities, waarbij
+  zijn achtergrond als klassiek pianist van grote waarde is. Oor voor detail hoor
+  je terug in zijn muziek; onder andere in de bedrevenheid waarmee hij rijke, gedetailleerde
+  mixes maakt voor diverse muziekstijlen.\n\nAls geen ander weten David en zijn team
+  emoties in muziek en sounddesign uit te drukken. Dit zet hij doeltreffend in als
+  communicatiemiddel bij het verklanken van een identiteit en bij het meevoeren van
+  de luisteraar.\n\nDavid's <a href=\"https://www.linkedin.com/in/finetunemusic/\"
+  target=\"_blank\">LinkedIn</a>"
 button:
   title: Beluister ons portfolio
   action: onclick="openPortfolio()"
