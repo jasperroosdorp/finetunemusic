@@ -11,6 +11,7 @@ page:
   og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
     leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
     Bel of mail ons om de mogelijkheden te bespreken.
+  og_image: "/uploads/og_img_studio.jpg"
 text: "# Muziek / Sounddesign\n\nVerklanken van identiteit is onze passie. Onze muziekproducties
   zijn maatwerk voor uiteenlopende projecten. Van radio- en tv-commercials tot filmmuziek,
   van interactief sounddesign voor games tot theatervoorstellingen. We houden van
