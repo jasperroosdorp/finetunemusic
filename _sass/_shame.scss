@@ -1,3 +1,12 @@
+$audio-bar-height: 30px;
+
+html {
+  background-color: #fff;
+  &.viewport-bottom {
+    background-color: #000;
+  }
+}
+
 .project-video {
   position: relative;
   &::after {

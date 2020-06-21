@@ -27,10 +27,14 @@
     transition: transform 0.4s ease-in;
     transform: translateY(0);
     will-change: transform;
+    // min-height: 100vh;
+    @include for-tablet-landscape-up { min-height: 56rem; }
+    @include for-big-desktop-up { min-height: 65rem; }
     &::after {
       position: fixed;
-      bottom: -50vh;
-      height: 50vh;
+      // FIX
+      // bottom: -50vh;
+      // height: 50vh;
       width: 100%;
       display: block;
       content: '';
@@ -117,7 +121,8 @@ html.portfolio-open {
   @include container;
   @include gutters();
   padding-top: 4rem;
-  .mejs { padding-bottom: 4rem; }
+  padding-bottom: 8rem;
+  // .mejs { padding-bottom: 6rem; }
 }
 
 html.portfolio-tab-2a,
@@ -125,18 +130,25 @@ html.portfolio-tab-2b {
   .portfolio {
     // height: 56rem; max-height: 56rem;
     // height: 100vh;
+    height: auto !important;
     @include for-tablet-portrait-up {
+      // background-color: green !important;
       // overflow: hidden;
-      height: 70rem;
-      max-height: 70rem;
+      // height: 90rem;
+      // max-height: 90rem;
     }
     @include for-tablet-landscape-up {
-      height: 56rem;
-      max-height: 56rem;
+      // height: 56rem;
+      // max-height: 56rem;
+      // background-color: orange !important;
+      // height: auto !important;
+      // height: 75rem;
+      // max-height: 75rem;
     }
     @include for-big-desktop-up {
-      height: 65rem;
-      max-height: 65rem;
+      // background-color: pink !important;
+      // height: 65rem;
+      // max-height: 65rem;
     }
   }
 }

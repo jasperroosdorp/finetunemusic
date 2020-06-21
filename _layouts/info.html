@@ -78,6 +78,15 @@ pageid: info
   <script type="text/javascript" src="{{ site.basehref }}/body.min.js"></script>
 
   <script type="text/javascript">
+    $(window).scroll(function() {
+      $("html").removeClass("viewport-bottom");
+      if($(window).scrollTop() + $(window).height() > ($(document).height() - 100) ) {
+          $("html").addClass("viewport-bottom");
+      }
+    });
+  </script>
+
+  <script type="text/javascript">
   var cl = cloudinary.Cloudinary.new({cloud_name: "roosdorp"});
   cl.responsive();
   </script>
