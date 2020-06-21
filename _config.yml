@@ -97,8 +97,8 @@ defaults:
   values:
     file: 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 cdn: https://res.cloudinary.com/roosdorp/image/fetch
 host: https://finetunemusic.nl/
 basehref: https://finetunemusic.nl
