@@ -3,7 +3,6 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-node_modules
 other
 *backup*
 .DS_Store
