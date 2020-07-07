@@ -4,8 +4,8 @@ position: 3
 language: Dutch
 page:
   title: Voice-overs | Fine Tune Music
-  description: Voice overs voor o.a. radio en tv commercials en luisterboeken. Fine
-    Tune Music levert in 24 uur de allerhoogste kwaliteit. Beluister ons Portfolio.
+  description: Fine Tune Music levert voice overs voor films, radio en tv commercials.
+    Snelle levering en de allerhoogste kwaliteit. Beluister ons Portfolio.
   og_title: Voice-overs | Fine Tune Music
   og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
     leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
