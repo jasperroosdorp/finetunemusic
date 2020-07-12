@@ -1,5 +1,5 @@
 ---
-title: Lieve Horeca (Covid-19)
+title: Lieve Horeca
 date: 2020-07-13 01:32:00 +02:00
 language: Dutch
 embed: |-
