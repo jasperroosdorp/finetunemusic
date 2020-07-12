@@ -1,5 +1,5 @@
 ---
-title: Dates Camp (Winner 48HFP 2019 Leeuwarden)
+title: Dates Camp (award-winning)
 date: 2020-07-13 01:11:00 +02:00
 language: Dutch
 embed: |-
