@@ -9,7 +9,8 @@ embed: |-
 image: "/uploads/Screenshot%202020-07-13%20at%2001.34.23.jpg"
 description: "## Project\nDoor de uitbraak van het coronavirus begin 2019 werd onder
   andere de horeca zwaar getroffen. Samen met Trenchcoat Film en vele andere professionals
-  realiseerden we deze productie voor [debuik.nl ](http://debuik.nl). \n\n## Audio\nSounddesign
-  en voice-over door Fine Tune Music & [Fine Tune Voices](https://finetunevoices.nl/)"
+  realiseerden we deze productie gratis voor [debuik.nl ](http://debuik.nl), om de
+  horeca een hart onder de riem te steken. \n\n## Audio\nSounddesign en voice-over
+  door Fine Tune Music & [Fine Tune Voices](https://finetunevoices.nl/)"
 ---
 
