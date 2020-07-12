@@ -5,7 +5,7 @@ language: Dutch
 embed: |-
   <iframe src="https://player.vimeo.com/video/370688946?color=56b2f9&title=0&byline=0&portrait=0" width="640" height="262" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   <p><a href="https://vimeo.com/370688946">Dates Camp (Winner 48HFP 2019 Leeuwarden)</a> from <a href="https://vimeo.com/user20599272">smartcase.tv</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-image: "/uploads/SC4_SH1_T4.18_12_12_02.Still001.jpg"
+image: "/uploads/SC4_SH1_T4.18_12_12_02.Still001-26e327.jpg"
 description: |-
   ## Project
 
