@@ -1,7 +1,7 @@
 ---
 title: 50 jaar Lauwersmeer (FRYSLAN DOK)
 date: 2020-07-13 01:27:00 +02:00
-position: 6
+position: 5
 language: Dutch
 embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/eGZSKkhbs_Q"
   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
