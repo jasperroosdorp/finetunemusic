@@ -1,7 +1,7 @@
 ---
 title: INDI
 date: 2017-08-30 12:41:00 +02:00
-position: 13
+position: 10
 language: Dutch
 client: INDI
 embed: <iframe src="https://player.vimeo.com/video/205011232?color=ffffff&title=0&byline=0&portrait=0"
