@@ -40,7 +40,7 @@ information:
 contact:
   text:
   - |
-    **Bereik ons**
+    **Kantoor regio Groningen**
     Kerklaan 30D
     9751NN Haren
     The Netherlands
