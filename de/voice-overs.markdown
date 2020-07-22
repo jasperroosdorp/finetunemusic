@@ -15,9 +15,9 @@ page:
 text: |-
   # Voice-overs
 
-  Buchen Sie und hören Sie Sprecher an auf unserer [Fine Tune Voices-Website](https://finetunevoices.nl/). Wir haben für jede Produktion die richtige Stimme.
-
   Wir alle wissen, die richtige Stimme ist ein zentraler Bestandteil jeder Jingle, Radio- oder Fernsehwerbung. Unser Coaching sowie die fachmännische Auswahl der am besten geeigneten Stimme aus unserem Pool von Synchronsprechern ermöglichen die effektive Weitergabe Ihrer Botschaft an Zuschauer und Zuhörer. Wir arbeiten mit mehr als 150 professionellen Synchronsprechern/innen aus verschiedenen Ländern - jede/r einzelne mit individuellem Charakter und Persönlichkeit. Ob frische kommerzielle Stimme oder warme Erzählstimme - wir bieten für jedes Projekt die perfekte Stimme.
+
+  Buchen Sie und hören Sie Sprecher an auf unserer [Fine Tune Voices-Website](https://finetunevoices.nl/). Wir haben für jede Produktion die richtige Stimme.
 
   Neben Sprachaufnahmen bieten wir Postproduktion für Voice-Over, Editing und Mixing an. Wir bieten die passende Overvoice Lösung für Ihre Audiovisuelle Produktion. Auf Wunsch komponieren wir passende Musik und fertigen Produktionen durch Sounddesign an. Von der Aufnahme zum fertigen Mix - alles aus einer Hand.
 image:
