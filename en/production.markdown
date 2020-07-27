@@ -10,7 +10,7 @@ page:
   og_description: Our music productions are custom-made for all kinds of projects.
     We offer music, sound design and voice-overs for film, animation, games and commercials.
     Call or email us and find out what we can do for you.
-  og_image: "/uploads/og_img_studio.jpg"
+  og_image: "/uploads/Korg_FTM-34267%20(2600px).jpg"
 text: |-
   # Music / Sound design
 

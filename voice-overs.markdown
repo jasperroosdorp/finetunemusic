@@ -10,7 +10,7 @@ page:
   og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
     leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
     Bel of mail ons om de mogelijkheden te bespreken.
-  og_image: "/uploads/og_img_voiceovers.jpg"
+  og_image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 text: |-
   # Voice-overs
 

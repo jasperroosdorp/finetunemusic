@@ -11,7 +11,7 @@ page:
     Wir bieten Musik, Sound Design und Voice-Over für Filme, Animationen, Games und
     Werbung an. Rufen Sie uns an oder mailen Sie uns und Finden Sie heraus, was wir
     für Sie tun können.
-  og_image: "/uploads/og_img_voiceovers.jpg"
+  og_image: "/uploads/FTM-34374-crop%2016-9%203200px.jpg"
 text: |-
   # Voice-overs
 

@@ -12,7 +12,7 @@ page:
     zijn een full-service audio post-productie bedrijf. Wij leveren muziek, sounddesign
     en voice-overs voor film, animaties, games en reclames. Bel of mail ons om de
     mogelijkheden te bespreken.
-  og_image: "/uploads/og_img_studio.jpg"
+  og_image: "/uploads/Ontwerp%20zonder%20titel.png"
 introduction:
 - "Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht
   van muziek, stem en geluid. \nMet onze audio geven wij bedrijven en merken een duidelijke,

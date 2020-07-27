@@ -11,7 +11,7 @@ page:
     We are a full service audio post production company. We offer music, sound design
     and voice-overs for film, animation, games and commercials. Call or email us and
     find out what we can do for you.
-  og_image: "/uploads/og_img_studio.jpg"
+  og_image: "/uploads/Ontwerp%20zonder%20titel.png"
 introduction:
 - |-
   We’re the first songbird in the morning.
