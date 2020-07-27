@@ -20,11 +20,14 @@ h1, h2, .heading {
 }
 
 h1, span {
-  .index-intro-h1 {
-    color: rgba(0, 0, 0, 0.8);
-    // font-size: 2.2rem;
-    font-weight: 300;
-    // line-height: 4.3rem;
+  &.index-intro-h1 {
+    // color: rgba(0, 0, 0, 0.8);
+    // font-weight: 300;
+    color: #000;
+    font-size: 2.3rem;
+    font-weight: 300 !important;
+    letter-spacing: -0.01rem;
+    line-height: 3.7rem;
     @include for-tablet-landscape-up {
       font-size: 2.6rem;
       line-height: 4.2rem;
