@@ -14,3 +14,10 @@ description: "Mediaxplain* gaf ons de uitdaging om de muziekproductie te doen vo
   \U0001F3B9\nClient: Worldstream \U0001F30E\U0001F4E1"
 ---
 
+Mediaxplain* gaf ons de uitdaging om de muziekproductie te doen voor deze bedrijfsfilm van Worldstream. 
+
+Worldstream focust zich op het configureren van eigen dedicated servers, die zowel snel als veilig zijn. Samen met Mediaxplain* hebben we gezocht naar een sound die past bij Worldstream en bij deze productie. Een zoektocht die uiteindelijk een prachtig resultaat teweeg heeft gebracht en waar we heel blij mee zijn.
+
+Visuals: Mediaxplain* 🎥
+Music: Fine Tune Music 🎹
+Client: Worldstream 🌎📡
