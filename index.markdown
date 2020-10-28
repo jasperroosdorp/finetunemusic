@@ -14,10 +14,9 @@ page:
     mogelijkheden te bespreken.
   og_image: "/uploads/Ontwerp%20zonder%20titel.png"
 introduction:
-- "Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht
-  van muziek, stem en geluid. \nMet onze audio geven wij bedrijven en merken een duidelijke,
-  hoorbare identiteit.\nWij zijn Fine Tune Music, een full-service audio post-production
-  bedrijf uit Nederland."
+- Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht
+  van muziek, stem en geluid. Wij zijn Fine Tune Music, een full-service audio post-production
+  bedrijf uit Nederland.
 - "Waar het gebruik van stock-content steeds groter wordt, wijken wij juist af van
   de standaard.\nWij maken unieke audio-producten die authentiek en exclusief zijn.
   \nWij leveren hoogwaardige muziek, voice-overs en sounddesign, waarbij we letten
