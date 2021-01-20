@@ -19,7 +19,7 @@
     "barba.js": "^1.0.0",
     "cloudinary-core": "^2.3.0",
     "fluidvids.js": "github:toddmotto/fluidvids",
-    "gsap": "^1.19.1",
+    "gsap": "^3.6.0",
     "jquery": "^3.5.1",
     "mediaelement": "^3.2.4",
     "moveto": "^1.6.1"
