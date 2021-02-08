@@ -12,7 +12,7 @@ page:
     zijn een full-service audio post-productie bedrijf. Wij leveren muziek, sounddesign
     en voice-overs voor film, animaties, games en reclames. Bel of mail ons om de
     mogelijkheden te bespreken.
-  og_image: "/uploads/Ontwerp%20zonder%20titel.png"
+  og_image: "/uploads/Ontwerp%20zonder%20titel%20(1).jpg"
 introduction:
 - Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht
   van muziek, stem en geluid. Wij zijn Fine Tune Music, een full-service audio post-production
