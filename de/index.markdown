@@ -11,7 +11,7 @@ page:
     Wir sind eine Full-Service-Audio-Postproduktionsfirma. Wir bieten Musik, Sound
     Design und Voice-Over für Filme, Animationen, Games und Werbung an. Rufen Sie
     uns an oder mailen Sie uns und Finden Sie heraus, was wir für Sie tun können.
-  og_image: "/uploads/Ontwerp%20zonder%20titel.png"
+  og_image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
 introduction:
 - |-
   Wir sind das erste Vogelzwitschern am Morgen.
@@ -29,7 +29,7 @@ mobile:
   Melodie, die dir nicht aus dem Kopf geht, ebenso wie dieses eine Lied, dessen Namen
   du nicht mehr weißt.
 image:
-  image: "/uploads/Ontwerp%20zonder%20titel.png"
+  image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
 information:
   title: Wir sind Fine Tune Music
   text: Unsere Musik ist maßgeschneidert für eine Vielzahl von Projekten. Wir sind
