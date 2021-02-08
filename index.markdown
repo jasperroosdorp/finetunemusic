@@ -59,7 +59,7 @@ contact:
     <a href="https://www.instagram.com/fine_tune_music/" target="_blank">Instagram</a>
     <a href="https://twitter.com/FineTune_Music" target="_blank">Twitter</a>
   - |-
-    **Zakelijk**
+    **Zakelijke informatie**
     KvK 58025057
     BTW NL205095999B01
     <a href="https://finetunemusic.nl/uploads/algemene_voorwaarden.pdf" target="_blank">Algemene Voorwaarden</a>
