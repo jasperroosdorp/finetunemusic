@@ -40,8 +40,13 @@ contact:
   text:
   - |
     **Kantoor regio Groningen**
-    Kerklaan 30D
+    Kerklaan 30A
     9751NN Haren
+    The Netherlands
+
+    **Kantoor regio Den Haag**
+    Saturnusstraat 9
+    2516 AD Den Haag
     The Netherlands
 
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
