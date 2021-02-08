@@ -12,7 +12,7 @@ page:
     zijn een full-service audio post-productie bedrijf. Wij leveren muziek, sounddesign
     en voice-overs voor film, animaties, games en reclames. Bel of mail ons om de
     mogelijkheden te bespreken.
-  og_image: "/uploads/Ontwerp%20zonder%20titel%20(1).jpg"
+  og_image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
 introduction:
 - Wij helpen filmmakers en merkenbouwers om hun boodschap te versterken, met de kracht
   van muziek, stem en geluid. Wij zijn Fine Tune Music, een full-service audio post-production
@@ -29,7 +29,7 @@ mobile:
   van muziek, stem en geluid. Met onze audio geven wij bedrijven en merken een duidelijke,
   hoorbare identiteit.
 image:
-  image: "/uploads/Ontwerp%20zonder%20titel%20(1).jpg"
+  image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
 information:
   title: Wij zijn Fine Tune Music
   text: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij zijn een full-service
@@ -52,7 +52,7 @@ contact:
     [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
     Amsterdam: [+31 (0)20 244 04 77](tel:0031202440477)
     Groningen: [+31 (0)50 211 36 80](tel:0031502113680)
-    Den Haag:[+31 (0)70 221 00 49](tel:0031702110049)
+    Den Haag:[+31 (0)70 221 00 49 (tel:0031702110049)
   - |-
     **Volg ons**
     <a href="https://www.Facebook.com/Finetunemusic.nl/" target="_blank">Facebook</a>
@@ -63,11 +63,6 @@ contact:
     KvK 58025057
     BTW NL205095999B01
     <a href="https://finetunemusic.nl/uploads/algemene_voorwaarden.pdf" target="_blank">Algemene Voorwaarden</a>
-
-    [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
-    Amsterdam: [+31 (0)20 244 04 77](tel:0031202440477)
-    Groningen: [+31 (0)50 211 36 80](tel:0031502113680)
-    Den Haag:[+31 (0)70 221 00 49](tel:0031702110049)
 layout: index
 ---
 
