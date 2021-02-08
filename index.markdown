@@ -63,6 +63,11 @@ contact:
     KvK 58025057
     BTW NL205095999B01
     <a href="https://finetunemusic.nl/uploads/algemene_voorwaarden.pdf" target="_blank">Algemene Voorwaarden</a>
+
+    [info@finetunemusic.nl](mailto:info@finetunemusic.nl)
+    Amsterdam: [+31 (0)20 244 04 77](tel:0031202440477)
+    Groningen: [+31 (0)50 211 36 80](tel:0031502113680)
+    Den Haag:[+31 (0)70 221 00 49](tel:0031702110049)
 layout: index
 ---
 
