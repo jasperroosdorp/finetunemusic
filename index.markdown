@@ -32,7 +32,7 @@ image:
   image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
 information:
   title: Wij zijn Fine Tune Music
-  text: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij zijn een full-service
+  text: Onze producties zijn maatwerk voor verschillende projecten. Wij zijn een full-service
     audio post-productie bedrijf. Wij leveren muziek, sounddesign en [voice-overs](https://finetunevoices.nl/)
     voor film, animaties, games en reclames. [Bel](tel:0031202440477) of [mail](mailto:info@finetunemusic.nl)
     ons om de mogelijkheden te bespreken.
@@ -59,7 +59,7 @@ contact:
     <a href="https://www.instagram.com/fine_tune_music/" target="_blank">Instagram</a>
     <a href="https://twitter.com/FineTune_Music" target="_blank">Twitter</a>
   - |-
-    **Zakelijke informatie**
+    **Zakelijk**
     KvK 58025057
     BTW NL205095999B01
     <a href="https://finetunemusic.nl/uploads/algemene_voorwaarden.pdf" target="_blank">Algemene Voorwaarden</a>
