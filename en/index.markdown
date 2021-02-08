@@ -11,7 +11,7 @@ page:
     We are a full service audio post production company. We offer music, sound design
     and voice-overs for film, animation, games and commercials. Call or email us and
     find out what we can do for you.
-  og_image: "/uploads/Ontwerp%20zonder%20titel.png"
+  og_image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
 introduction:
 - |-
   We’re the first songbird in the morning.
@@ -29,7 +29,7 @@ mobile:
   that will just not leave your mind, but also that one song you no longer remember
   the name to.
 image:
-  image: "/uploads/Ontwerp%20zonder%20titel.png"
+  image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
 information:
   title: We are Fine Tune Music
   text: Our music productions are custom-made for all kinds of projects. We are a
