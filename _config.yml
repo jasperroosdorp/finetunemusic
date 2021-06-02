@@ -101,7 +101,7 @@ sass:
   style: compressed
 cdn: https://res.cloudinary.com/roosdorp/image/fetch
 host: https://finetunemusic.nl/
-basehref: https://jasperroosdorp.github.io/finetunemusic/
+basehref: https://finetunemusic.nl/
 urlext: 
 exclude:
 - node_modules
