@@ -10,7 +10,7 @@ page:
   og_description: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij
     leveren muziek, sounddesign en voice-overs voor film, animaties, games en reclames.
     Bel of mail ons om de mogelijkheden te bespreken.
-  og_image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
+  og_image: "/uploads/MartijnScholtens_Fullsize-406283.jpg"
 text: |-
   # Studio
 
@@ -18,7 +18,7 @@ text: |-
 
   [Beluister](javascript:openPortfolio('tab-2a'))&nbsp;een selectie van onze muziek.
 image:
-  image: "/uploads/FTM-34284-3-crop%2016-9%203200px.jpg"
+  image: "/uploads/MartijnScholtens_Fullsize-406283-cd33b0.jpg"
 button:
   title: Beluister ons portfolio
   action: onclick="openPortfolio()"
