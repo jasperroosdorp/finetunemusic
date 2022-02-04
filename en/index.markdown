@@ -29,7 +29,7 @@ mobile:
   that will just not leave your mind, but also that one song you no longer remember
   the name to.
 image:
-  image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
+  image: "/uploads/Ontwerp%20zonder%20titel-5d2e41.png"
 information:
   title: We are Fine Tune Music
   text: Our music productions are custom-made for all kinds of projects. We are a
