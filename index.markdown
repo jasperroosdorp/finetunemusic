@@ -29,7 +29,7 @@ mobile:
   van muziek, stem en geluid. Met onze audio geven wij bedrijven en merken een duidelijke,
   hoorbare identiteit.
 image:
-  image: "/uploads/Ontwerp%20zonder%20titel%20(8).png"
+  image: "/uploads/Ontwerp%20zonder%20titel-5d2e41.png"
 information:
   title: Wij zijn Fine Tune Music
   text: Onze producties zijn maatwerk voor uiteenlopende projecten. Wij zijn een full-service
